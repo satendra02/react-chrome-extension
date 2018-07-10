@@ -1,0 +1,20 @@
+{
+  "short_name": "My Extension",
+  "name": "My Extension",
+  "version": "1.0",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["app/background.js"]
+  },
+  "browser_action": {},
+  "content_scripts" : [
+    {
+      "matches": [ "<all_urls>" ],
+      "css": ["/static/css/app.css"],
+      "js": ["/static/js/content.js"]
+    }
+  ],
+  "web_accessible_resources":[
+    "/static/css/content.css"
+  ]
+}
