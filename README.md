@@ -1,6 +1,6 @@
 # React Chrome Extension
 
-chrome extension boilerplate with ReactJs using inject page strategy.
+chrome extension boilerplate with ReactJs using inject page strategy. You can read [this blog](https://medium.com/@satendra02/create-chrome-extension-with-reactjs-using-inject-page-strategy-137650de1f39) for details
 
 ## Features
 
@@ -24,7 +24,7 @@ Now build the extension using
 ```
 yarn build
 ```
-You will see a `build` folder genrated inside `[PROJECT_HOME]`
+You will see a `build` folder generated inside `[PROJECT_HOME]`
 
 ## Adding React app extension to Chrome
 
