@@ -8,7 +8,6 @@ chrome extension boilerplate with ReactJs using inject page strategy. You can r
 - Injecting extension to host page as content script
 - Utilized the Chrome messaging API
 - Isolated extension CSS using Iframe
-- Routing inside react extension
 
 ## Installation
 
