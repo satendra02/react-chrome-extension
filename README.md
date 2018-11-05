@@ -1,8 +1,9 @@
 # React Chrome Extension
+We have open sourced the boilerplate which we used to create the [Recast Studio's](https://recast.studio) chrome extension.
 
-Chrome extension boilerplate with ReactJs using inject page strategy. You can read [this blog](https://medium.com/@satendra02/create-chrome-extension-with-reactjs-using-inject-page-strategy-137650de1f39) for details
+<img src="https://recasts.s3.amazonaws.com/static/images/favicons/favicon.png" />
 
-<img src="https://cdn-images-1.medium.com/max/1200/1*KU3fbOND7FpocUFE0mLGLA.png" />
+>Chrome extension boilerplate with ReactJs using inject page strategy. You can read [this blog](https://medium.com/@satendra02/create-chrome-extension-with-reactjs-using-inject-page-strategy-137650de1f39) for details
 
 The boilerplate is to quickly create a chrome extension using ReactJs, The motivation behind creating a boilerplate was:
 1. Instead of chrome's ready-made popup, We wanted our own page injected into DOM as a sidebar for better UX.
