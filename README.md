@@ -1,5 +1,5 @@
 # React Chrome Extension
-We have open sourced the boilerplate which we used to create the [Recast Studio's](https://recast.studio) chrome extension.
+We have open sourced the boilerplate, which we have used to create the [Recast Studio's](https://recast.studio) chrome extension.
 
 <img src="https://recasts.s3.amazonaws.com/static/images/favicons/favicon.png" />
 
