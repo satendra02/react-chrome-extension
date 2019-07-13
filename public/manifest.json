@@ -6,7 +6,6 @@
     "browser_action": {},
     "content_scripts": [{
         "matches": ["https://github.com/*"],
-        "css": ["/static/css/app.css"],
         "js": ["/static/js/content.js"]
     }],
     "web_accessible_resources": [
