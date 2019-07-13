@@ -7,9 +7,8 @@ import "./content.css";
 
 const GIPHY_KEY = "BbjXTpBIYN0GwoBCRpPLUCF08EPJ6PUp";
 
-const Giphys = () => {
+const Giphys = ({ target }) => {
     const [search, setSearch] = useState("");
-    const [giph, setGiph] = useState(null);
 
     async function findGiphy() {
         const results = await giphyAPI({
@@ -17,23 +16,26 @@ const Giphys = () => {
             https: true
         }).search(search);
 
-        setGiph(results.data.filter(d => d.type === "gif")[0]);
+        const giph = results.data.filter(d => d.type === "gif")[0];
+        target.value += `![${giph.slug}](${giph.images.downsized_medium.url})`;
+
+        target.dispatchEvent(new Event("change"));
+
+        setSearch("");
     }
 
     function onSubmit(event) {
-        findGiphy();
         event.preventDefault();
+        findGiphy();
     }
 
     return (
         <form onSubmit={onSubmit}>
+            Add a Giph 👉
             <input
                 value={search}
                 onChange={event => setSearch(event.target.value)}
             />
-            {giph ? (
-                <img src={giph.images.downsized_medium.url} alt={giph.slug} />
-            ) : null}
         </form>
     );
 };
@@ -42,5 +44,5 @@ for (const node of document.getElementsByTagName("textarea")) {
     const div = document.createElement("div");
     node.parentNode.insertBefore(div, node);
 
-    ReactDOM.render(<Giphys />, div);
+    ReactDOM.render(<Giphys target={node} />, div);
 }
