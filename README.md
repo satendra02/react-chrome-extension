@@ -10,7 +10,7 @@ The boilerplate is to quickly create a chrome extension using ReactJs, The motiv
 
 2. We wanted to use ReactJs for the Component-based approach, Routing, and its build mechanism.
 
-3. Extension CSS should not conflict with the host page styles in any case.
+3. We need to make sure that the extension CSS should not conflict with the host page styles in any case.
 
 
 ## Features
