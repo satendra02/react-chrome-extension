@@ -3,6 +3,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Frame, { FrameContextConsumer }from 'react-frame-component';
+import App from "./App";
 import "./content.css";
 
 class Main extends React.Component {
@@ -14,11 +15,13 @@ class Main extends React.Component {
                // Callback is invoked with iframe's window and document instances
                    ({document, window}) => {
                       // Render Children
-                        return (
-                           <div className={'my-extension'}>
-                               <h1>Hello world - My first Extension</h1>
-                           </div>
-                        )
+                       
+                      //  return (
+                      //     <div className={'my-extension'}>
+                      //          <h1>Hello world - My first Extension</h1>
+                      //     </div>
+                      //  )
+                      return <App document={document} window={window}/> 
                     }
                 }
                 </FrameContextConsumer>
