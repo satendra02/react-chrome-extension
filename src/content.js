@@ -21,7 +21,7 @@ class Main extends React.Component {
                       //          <h1>Hello world - My first Extension</h1>
                       //     </div>
                       //  )
-                      return <App document={document} window={window}/> 
+                      return <App document={document} window={window} isExt={true}/> 
                     }
                 }
                 </FrameContextConsumer>

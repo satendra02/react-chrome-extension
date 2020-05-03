@@ -1,7 +1,7 @@
 {
   "short_name": "My Extension",
   "name": "My Extension",
-  "version": "1.0",
+  "version": "1.1",
   "manifest_version": 2,
   "background": {
     "scripts": ["app/background.js"]
@@ -15,7 +15,7 @@
     }
   ],
   "web_accessible_resources":[
-    "/static/css/content.css"
+    "/static/css/content.css", "/static/media/*"
   ],
   "content_security_policy": "script-src 'self' 'sha256-GgRxrVOKNdB4LrRsVPDSbzvfdV4UqglmviH9GoBJ5jk='; object-src 'self'"
 }
