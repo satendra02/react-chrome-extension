@@ -36,6 +36,14 @@ yarn build
 ```
 You will see a `build` folder generated inside `[PROJECT_HOME]`
 
+To avoid running `yarn build` after updating any file, you can run
+
+```
+yarn watch
+```
+
+which listens to any local file changes, and rebuilds automatically.
+
 ## Adding React app extension to Chrome
 
 In Chrome browser, go to chrome://extensions page and switch on developer mode. This enables the ability to locally install a Chrome extension.
