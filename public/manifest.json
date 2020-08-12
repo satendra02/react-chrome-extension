@@ -6,7 +6,16 @@
   "background": {
     "scripts": ["app/background.js"]
   },
-  "browser_action": {},
+  "icons": {
+    "16": "yutang_logo.png",
+    "48": "yutang_logo.png",
+    "128": "yutang_logo.png"
+  },
+  "browser_action": {
+    "default_icon": "yutang_logo.png",
+    "default_title": "Google Mail",
+    "default_popup": "popup.html"
+  },
   "content_scripts" : [
     {
       "matches": [ "<all_urls>" ],
