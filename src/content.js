@@ -4,14 +4,22 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Frame, { FrameContextConsumer }from 'react-frame-component';
 import App from "./App";
+
 class Main extends React.Component {
+    componentDidMount() {
+        var link = window.parent.document.createElement('link');
+        link.rel = 'stylesheet';
+        link.href = 'chrome-extension://bpbpdgidcngfdpjlehmbcmmhnhkojidd/static/css/content.css'
+        window.parent.document.getElementsByTagName('head')[0].appendChild(link);
+    }
+
     render() {
         return (
-            <Frame head={[<link type="text/css" rel="stylesheet" href={chrome.runtime.getURL("/static/css/content.css")} ></link>]}> 
+            <Frame head={[<link type="text/css" rel="stylesheet" href={chrome.runtime.getURL("/static/css/content.css")} ></link>]}>
                <FrameContextConsumer>
                {
                   ({document, window}) => {
-                    return <App document={document} window={window} isExt={true}/> 
+                    return <App document={document} window={window} isExt={true}/>
                   }
                 }
                 </FrameContextConsumer>
@@ -27,6 +35,7 @@ document.body.appendChild(app);
 ReactDOM.render(<Main />, app);
 
 app.style.display = "none";
+
 
 chrome.runtime.onMessage.addListener(
    function(request, sender, sendResponse) {
