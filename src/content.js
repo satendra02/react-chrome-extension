@@ -6,16 +6,11 @@ import Frame, { FrameContextConsumer }from 'react-frame-component';
 import App from "./App";
 
 class Main extends React.Component {
-    componentDidMount() {
-        var link = window.parent.document.createElement('link');
-        link.rel = 'stylesheet';
-        link.href = 'chrome-extension://bpbpdgidcngfdpjlehmbcmmhnhkojidd/static/css/content.css'
-        window.parent.document.getElementsByTagName('head')[0].appendChild(link);
-    }
-
     render() {
         return (
-            <Frame head={[<link type="text/css" rel="stylesheet" href={chrome.runtime.getURL("/static/css/content.css")} ></link>]}>
+            <Frame
+                head={[<link type="text/css" rel="stylesheet" href={chrome.runtime.getURL("/static/css/content.css")} ></link>]}
+                style={{ zIndex: 500 }}>
                <FrameContextConsumer>
                {
                   ({document, window}) => {

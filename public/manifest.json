@@ -3,6 +3,7 @@
   "name": "My Extension",
   "version": "1.1",
   "manifest_version": 2,
+  "description": "xxx",
   "background": {
     "scripts": ["app/background.js"]
   },
@@ -18,7 +19,7 @@
   },
   "content_scripts" : [
     {
-      "matches": [ "<all_urls>" ],
+      "matches": [ "http://www.engineering.org.cn/en/journal/eng" ],
       "css": ["/css/root.css"],
       "js": ["/static/js/content.js"]
     }
