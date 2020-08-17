@@ -1,26 +1,132 @@
 <html>
 <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <style>
         * {
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
         }
 
         body {
-            width: 200px;
-            height: 100px;
+            padding: 20px;
+            width: 300px;
+            height: 150px;
         }
-
-        div {
-            line-height: 100px;
-            font-size: 42px;
+        .ant-input{
+            box-sizing: border-box;
+            margin: 0;
+            font-variant: tabular-nums;
+            list-style: none;
+            position: relative;
+            display: inline-block;
+            width: 100%;
+            min-width: 0;
+            padding: 4px 11px;
+            color: rgba(0,0,0,.65);
+            font-size: 14px;
+            line-height: 1.5715;
+            background-color: #fff;
+            background-image: none;
+            border: 1px solid #d9d9d9;
+            border-radius: 2px;
+            -webkit-transition: all .3s;
+            transition: all .3s;
+        }
+        .ant-input:hover{
+            border-color: #40a9ff;
+            border-right-width: 1px!important;
+        }
+        .ant-input:focus{
+            border-color: #40a9ff;
+            border-right-width: 1px!important;
+            outline: 0;
+            box-shadow: 0 0 0 2px rgba(24,144,255,.2);
+        }
+        .item{
+            display: flex;
+        }
+        .label{
+            display: inline-flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            height: 32px;
+            color: rgba(0,0,0,.85);
+            font-size: 14px;
+            width: 50px;
+            font-weight: 500;
+        }
+        .button{
+            color: #fff;
+            background: #1890ff;
+            text-shadow: 0 -1px 0 rgba(0,0,0,.12);
+            -webkit-box-shadow: 0 2px 0 rgba(0,0,0,.045);
+            box-shadow: 0 2px 0 rgba(0,0,0,.045);
+            line-height: 1.5715;
+            position: relative;
+            display: inline-block;
+            font-weight: 400;
+            white-space: nowrap;
             text-align: center;
+            cursor: pointer;
+            -webkit-transition: all .3s cubic-bezier(.645,.045,.355,1);
+            transition: all .3s cubic-bezier(.645,.045,.355,1);
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            -ms-touch-action: manipulation;
+            touch-action: manipulation;
+            height: 32px;
+            padding: 4px 15px;
+            font-size: 14px;
+            border-radius: 2px;
+            color: rgba(0,0,0,.65);
+            border: 1px solid #1890ff;
+            outline: none;
+            color: #fff;
+            margin-left: 100px;
+            width: 100px;
+        }
+        .button:hover{
+            color: #fff;
+            background: #40a9ff;
+            border-color: #40a9ff;
+        }
+        .button:active{
+            outline: 0;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+        }
+        .error{
+            margin-left: 42px;
+            color: #ff4d4f;
+            height: 22px;
+            padding-top: 0;
+            font-size: 14px;
+            line-height: 1.5715;
+        }
+        .button:disabled{
+            background: #40a9ff;
+            border-color: #40a9ff;
         }
     </style>
 </head>
 <body>
-<div id="clock_div">
-    333
+<div id="content">
+    <div class="item" style="margin-bottom: 20px">
+        <label for="username" class="label">账号</label>
+        <input placeholder="账号" type="text" class="ant-input" value="" id="username">
+    </div>
+    <div class="item">
+        <label for="password" class="label">密码</label>
+        <input placeholder="密码" type="password" class="ant-input" value="" id="password">
+    </div>
+    <div class="error" id="error">
+
+    </div>
+    <button class="button" id="button">登录</button>
 </div>
 <script src="app/popup.js"></script>
 </body>

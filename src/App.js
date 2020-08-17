@@ -10,7 +10,6 @@ export default function App (props) {
 
     const handleClick = useCallback((e) => {
         e.stopPropagation()
-        console.log(23123)
         setShow(!show)
         if (!show) {
             var link = window.parent.document.createElement('link');
@@ -68,3 +67,4 @@ export default function App (props) {
         </p>
     </div>
 }
+
