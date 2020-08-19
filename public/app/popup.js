@@ -27,25 +27,21 @@ function loading (isLoading) {
         button.disabled = false
         button.innerText = '登录'
     }
-
 }
 document.getElementById("username").addEventListener("focus", clearError)
 document.getElementById("password").addEventListener("focus", clearError)
-var token = localStorage.getItem("token");
-if (token) {
-    chrome.tabs.query({active: true, currentWindow:true},function(tabs) {
-        var activeTab = tabs[0];
-        chrome.tabs.sendMessage(activeTab.id, {"message": "clicked_browser_action"});
+
+chrome.tabs.query({active: true, currentWindow:true},function(tabs) {
+    var activeTab = tabs[0];
+    chrome.tabs.sendMessage(activeTab.id, {"message": "clicked_browser_action"}, function (response) {
+        if (response.token || !response.show) {
+            window.close()
+        } else if (response.show) {
+            setTimeout(function () {
+                chrome.tabs.sendMessage(activeTab.id, {"token": "123"});
+                window.close()
+            }, 3000)
+        }
     });
-    window.close()
-} else {
-    setTimeout(function () {
-        localStorage.setItem("token", "Smith");
-        chrome.tabs.query({active: true, currentWindow:true},function(tabs) {
-            var activeTab = tabs[0];
-            chrome.tabs.sendMessage(activeTab.id, {"message": "clicked_browser_action"});
-        });
-        window.close()
-    }, 3000)
-}
+});
 

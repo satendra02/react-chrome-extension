@@ -17,9 +17,12 @@
     "default_title": "Google Mail",
     "default_popup": "popup.html"
   },
+  "permissions": [
+    "tabs"
+  ],
   "content_scripts" : [
     {
-      "matches": [ "http://www.engineering.org.cn/en/journal/eng" ],
+      "matches": ["<all_urls>"],
       "css": ["/css/root.css"],
       "js": ["/static/js/content.js"]
     }
