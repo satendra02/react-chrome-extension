@@ -53,3 +53,26 @@
   padding: 16px;
   color: #666;
 }
+.app-header{
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+.app-header>span{
+  color: #999 !important;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+.app-header>span:hover{
+  color: #666 !important;
+  cursor: pointer;
+}
+.ant-tabs-nav-list > div{
+  margin-right: 0px !important;
+}
+.app-header-title{
+  color: rgba(0,0,0,.85);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}

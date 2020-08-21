@@ -31,7 +31,7 @@ function loading (isLoading) {
 document.getElementById("username").addEventListener("focus", clearError)
 document.getElementById("password").addEventListener("focus", clearError)
 
-chrome.tabs.query({active: true, currentWindow:true},function(tabs) {
+chrome.tabs.query({active: true, currentWindow:true}, function(tabs) {
     var activeTab = tabs[0];
     chrome.tabs.sendMessage(activeTab.id, {"message": "clicked_browser_action"}, function (response) {
         if (response.token || !response.show) {

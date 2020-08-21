@@ -6,6 +6,7 @@ import {Button, Collapse, Tabs, Input, ConfigProvider } from "antd";
 import CheckList from './checkList'
 import FullText from './FullText'
 import Article from "./Article";
+import { CloseOutlined } from '@ant-design/icons';
 const { TabPane } = Tabs;
 const { Panel } = Collapse;
 const { TextArea } = Input;
@@ -50,15 +51,25 @@ export default function App (props) {
     const handleOpinionClick = () => {
         window.open('https://www.wjx.cn/jq/86212803.aspx')
     }
-    console.log(props.document, 222)
+
+    const handleClose = () => {
+        window.parent.document.getElementById('my-extension-root').style.display = "none"
+    }
+
     return  <ConfigProvider>
         <div className="App">
+            <div className={'app-header'}>
+                <div className={'app-header-title'}>
+                    谷歌插件
+                </div>
+                <CloseOutlined onClick={handleClose} />
+            </div>
             <Tabs type="card" activeKey={activeKey}>
                 <TabPane tab="单篇推送" key="1" disabled={activeKey === '2'}>
                     <Article setValues={setValues} values={values} document={props.document}></Article>
                 </TabPane>
                 <TabPane tab="多篇推送" key="2" disabled={activeKey === '1'}>
-                    <Collapse defaultActiveKey={['2']} accordion bordered={false}>
+                    <Collapse defaultActiveKey={['1']} accordion bordered={false}>
                         <Panel header="选择论文" key="1">
                             <div className={'topInput'}>
                                 <div className={'topInputName'}>

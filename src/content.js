@@ -14,7 +14,7 @@ class Main extends React.Component {
                <FrameContextConsumer>
                {
                   ({document, window}) => {
-                    return <App document={document} window={window} isExt={true} token={this.props.token} />
+                    return <App document={document} window={window} isExt={true} token={this.props.token} app={app} />
                   }
                 }
                 </FrameContextConsumer>
