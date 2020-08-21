@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .textBox {
+        height: 300px;
+        width: 500px;
+        display: block;
+        resize: none;
+    }
+    .convertBtn {
+        padding: 10px;
+    }
+    .btnCase {
+        margin-top: 5px;
+    }
+
+</style>
+<body>
+<div class="container">
+    <p>Select Convert Option</p>
+    <select id="selection">
+        <option value="cssToObj">css to react style object</option>
+        <option value="objToCss">react style object to css</option>
+    </select>
+    <p>Input: </p>
+    <textarea id="input" class="textBox"></textarea>
+    <div class="btnCase">
+        <button id="convert" class="convertBtn">Convert</button>
+    </div>
+    <p>Output: </p>
+    <textarea id="output" class="textBox"></textarea>
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jsonlint/1.6.0/jsonlint.js"></script>
+<script>
+    $("#convert").on('click', function () {
+        var $selection = $("#selection option:selected").val();
+        var $input = $('#input').val();
+        var out;
+        if($selection == "cssToObj") {
+            out = $input.replace(/: ?/g, ": '")
+                .replace(/;/g, "',")
+                .replace(/-[^0-9]/g, function (v) {
+                    return v.charAt(1).toUpperCase()
+                });
+            console.log(out);
+            $("#output").val(out);
+        } else {
+            out = $input.replace(/: ?'/g, ": ")
+                .replace(/',/g, ";")
+                .replace(/[A-Z]/g, function (v) {
+                    return '-' + v.charAt(0).toLowerCase()
+                });
+            console.log(out);
+            $("#output").val(out);
+        }
+    });
+</script>
+</body>
+</html>

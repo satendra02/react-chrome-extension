@@ -1,11 +1,10 @@
-/*global chrome*/
-
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import './App.css';
-import {Button, Collapse, Tabs, Input, ConfigProvider } from "antd";
+import { Button, Collapse, Tabs, Input, ConfigProvider, Modal } from "antd";
 import CheckList from './checkList'
 import FullText from './FullText'
 import Article from "./Article";
+import Preview from './preview'
 import { CloseOutlined } from '@ant-design/icons';
 const { TabPane } = Tabs;
 const { Panel } = Collapse;
@@ -15,6 +14,7 @@ export default function App (props) {
     const [ activeKey, setActiveKey ] = useState('')
     const [ title, setTitle ] = useState('')
     const [ message, setMessage ] = useState('')
+    const [ show, setShow ] = useState(false)
     useEffect(() => {
         if (document.getElementById('journalDetails')) {
             setActiveKey('1')
@@ -30,23 +30,15 @@ export default function App (props) {
 
     // const [ show, setShow ] = useState(false)
 
-    // const handleClick = useCallback((e) => {
-    //     e.stopPropagation()
-    //     setShow(!show)
-    //     if (!show) {
-    //         var link = window.parent.document.createElement('link');
-    //         link.rel = 'stylesheet';
-    //         link.href = chrome.runtime.getURL("/static/css/content.css")
-    //         const target = window.parent.document.getElementsByTagName('link')[0]
-    //         if (target) {
-    //             window.parent.document.getElementsByTagName('head')[0].insertBefore(link, target)
-    //         } else {
-    //             window.parent.document.getElementsByTagName('head')[0].appendChild(link);
-    //         }
-    //     } else {
-    //         window.parent.document.getElementsByTagName('link')[0].remove()
-    //     }
-    // }, [show])
+    const handleClick = useCallback((e) => {
+        e.stopPropagation()
+        setShow(!show)
+        if (!show) {
+            props.createCss()
+        } else {
+            window.parent.document.getElementsByTagName('link')[0].remove()
+        }
+    }, [show])
 
     const handleOpinionClick = () => {
         window.open('https://www.wjx.cn/jq/86212803.aspx')
@@ -58,6 +50,16 @@ export default function App (props) {
 
     return  <ConfigProvider>
         <div className="App">
+            <Modal
+                title="Basic Modal"
+                visible={show}
+                width={728}
+                onOk={() => setShow(false)}
+                onCancel={() => setShow(false)}
+                footer={null}
+            >
+                <Preview></Preview>
+            </Modal>
             <div className={'app-header'}>
                 <div className={'app-header-title'}>
                     谷歌插件
@@ -92,7 +94,7 @@ export default function App (props) {
                           onChange={(e) => setMessage(e.target.value)} />
             </div>
             <div className={'b-box'}>
-                <Button>预览</Button>
+                <Button onClick={handleClick}>预览</Button>
                 <Button type="primary">推送</Button>
             </div>
             <div className={'links'}>

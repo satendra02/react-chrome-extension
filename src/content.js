@@ -14,7 +14,8 @@ class Main extends React.Component {
                <FrameContextConsumer>
                {
                   ({document, window}) => {
-                    return <App document={document} window={window} isExt={true} token={this.props.token} app={app} />
+                    return <App document={document} window={window} isExt={true} token={this.props.token} app={app}
+                             createCss={createCss} />
                   }
                 }
                 </FrameContextConsumer>
@@ -72,4 +73,15 @@ function toggle(){
    }else{
      app.style.display = "none";
    }
+}
+function createCss() {
+    var link = window.parent.document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = chrome.runtime.getURL("/static/css/content.css")
+    const target = window.parent.document.getElementsByTagName('link')[0]
+    if (target) {
+        window.parent.document.getElementsByTagName('head')[0].insertBefore(link, target)
+    } else {
+        window.parent.document.getElementsByTagName('head')[0].appendChild(link);
+    }
 }

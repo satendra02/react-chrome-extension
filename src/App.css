@@ -76,3 +76,6 @@
   font-size: 16px;
   line-height: 22px;
 }
+.ant-modal-body{
+ padding: 0px !important;
+}
