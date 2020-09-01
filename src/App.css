@@ -79,3 +79,10 @@
 .ant-modal-body{
  padding: 0px !important;
 }
+.loading-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100%;
+}

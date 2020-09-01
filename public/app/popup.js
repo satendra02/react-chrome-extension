@@ -4,13 +4,46 @@
 document.getElementById("button").addEventListener("click",function getValues(){
     var username = document.getElementById('username').value
     var password = document.getElementById('password').value
-    loading(true)
-    console.log(username, password)
     if (!username.trim() || !password.trim()) {
         return document.getElementById('error').innerText = '请输入用户名或密码'
     }
     if (username.trim() && password.trim()) {
-        return document.getElementById('error').innerText = '用户名或密码有误，请重新输入'
+        loading(true)
+        fetch("https://apiv2-beta.aminer.cn/magic", {
+            method: "POST",
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify([
+                {
+                    "action": "user.SignIn",
+                    "parameters": {
+                        "email": username,
+                        "pass": password,
+                        "src":"reco"
+                    }
+                }
+            ])
+        }).then(function(response) {
+            if (response.status === 200) {
+                return response.text()
+            }
+        }).then(function (response) {
+            var body = JSON.parse(response)
+            if (body.data && body.data[0]) {
+                var keyValues = body.data[0]['keyValues']
+                if (!keyValues.status) {
+                    return document.getElementById('error').innerText = '用户名或密码有误，请重新输入'
+                } else if (keyValues.token) {
+                    chrome.tabs.query({active: true, currentWindow:true}, function(tabs) {
+                        var activeTab = tabs[0];
+                        chrome.tabs.sendMessage(activeTab.id, {"token": keyValues.token });
+                        window.close()
+                    });
+                }
+            }
+        })
+
     }
 })
 function clearError () {
@@ -36,11 +69,6 @@ chrome.tabs.query({active: true, currentWindow:true}, function(tabs) {
     chrome.tabs.sendMessage(activeTab.id, {"message": "clicked_browser_action"}, function (response) {
         if (response.token || !response.show) {
             window.close()
-        } else if (response.show) {
-            setTimeout(function () {
-                chrome.tabs.sendMessage(activeTab.id, {"token": "123"});
-                window.close()
-            }, 3000)
         }
     });
 });

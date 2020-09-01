@@ -7,16 +7,13 @@ const layout = {
     wrapperCol: { span: 10 }
 };
 const { TextArea } = Input;
-export default function  Article ({ setValues, values, document }) {
-    useEffect(() => {
-        message.config({
-            duration: 2,
-            maxCount: 3,
-            rtl: true,
-            getContainer: () => document.body,
-        })
-    }, [])
+export default function  Article ({ initValues, onFinish: appOnFinish, num, setCustomValue, setIntro, setImgUrl }) {
     const [fileList, updateFileList] = useState([]);
+    const [form] = Form.useForm();
+    useEffect(() => {
+        num && form.submit()
+    }, [num])
+
     function beforeUpload(file) {
         const isJpgOrPng = file.type === 'image/jpeg' || file.type === 'image/png';
         if (!isJpgOrPng) {
@@ -31,16 +28,29 @@ export default function  Article ({ setValues, values, document }) {
 
     const upLoadProps = {
         fileList,
-        name: 'file',
-        action: 'https://www.mocky.io/v2/5cc8019d300000980a055e76',
+        data: (file) => {
+            return {
+                "action": "reviewer.UploadPDF",
+                parameters: "{\"ids\": [],\"files\": [\"file1\"]}",
+            }
+        },
+        name: 'file1',
+        action: 'https://apiv2.aminer.cn/magic',
         headers: {
-            authorization: 'authorization-text',
+            'Authorization': localStorage.getItem('token')
         },
         onChange(info) {
+            let url = ''
+            if (info.file.response && info.file.response.data && info.file.response.data[0]) {
+                if (info.file.response.data[0].items) {
+                    url = info.file.response.data[0].items[0].url
+                }
+            }
             if (info.file.status !== 'uploading') {
                 console.log(info.file, info.fileList);
             }
-            if (info.file.status === 'done') {
+            if (info.file.status === 'done' && url) {
+                setImgUrl(url)
                 message.success(`${info.file.name} file uploaded successfully`);
             } else if (info.file.status === 'error') {
                 message.error(`${info.file.name} file upload failed.`);
@@ -59,32 +69,54 @@ export default function  Article ({ setValues, values, document }) {
     };
 
     const handleChange = (value) => {
-        const newValues = Object.assign(values, { customValue: value })
-        setValues(newValues)
+        setCustomValue(value)
     }
 
-    const onFieldsChange = (changedFields, allFields) => {
-        let newValues = {}
-        allFields.forEach((item) => {
-            newValues[item['name']] = item.value
-        })
-        console.log(newValues)
-        setValues(newValues)
+    const onFinishFailed = ({values}) => {
+        let url = ''
+        let info = values.img && values.img[0]
+        if (info && info.response && info.response.data && info.response.data[0]) {
+            if (info.response.data[0].items) {
+                url = info.response.data[0].items[0].url
+            }
+        }
+        const fields = {
+            subject: '推送主题',
+            submittor: '推送人',
+            nations: '推送范围',
+            size: '目标推送人数',
+            img: '作者头像',
+            intro: '作者简介'
+        }
+        const fieldsArr = Object.keys(fields)
+        for (let i=0; i< fieldsArr.length; i++) {
+            if (fieldsArr[i] === 'img') {
+                if (!url) return message.error('请填写作者头像')
+            } else if (!values[fieldsArr[i]]) {
+                if (values.size === 'custom' && !values.customValue) {
+                    return message.error('请填写自定义数量')
+                }
+                return message.error(`请填写${fields[fieldsArr[i]]}`)
+            }
+        }
     }
 
     return <div className={'article'}>
-        <Form {...layout} name="text-messages" onFieldsChange={onFieldsChange}>
-            <Form.Item name={'theme'} label="推送主题" >
+        <Form {...layout} form={form} onFinish={appOnFinish} onFinishFailed={onFinishFailed}
+              name="text-messages" initialValues={{
+            ...initValues
+        }}>
+            <Form.Item name={'subject'} label="推送主题" >
                 <Input placeholder={'推送主题'} />
             </Form.Item>
-            <Form.Item name={'ff'} label="推送文章">
-                <TextArea placeholder={'推送文章'} defaultValue={'dada'} disabled />
+            <Form.Item name={'title'} label="推送文章">
+                <TextArea placeholder={'推送文章'} disabled />
             </Form.Item>
-            <Form.Item name={'keywords'} label="添加更多关键词" >
-                <TextArea placeholder={'支持填写多个关键词，请以“；”隔开，例：deposits；tectonics'}/>
+            <Form.Item name={'keys'} label="添加更多关键词" >
+                <TextArea placeholder={'支持填写多个关键词，请以“;”隔开，例：deposits;tectonics'}/>
             </Form.Item>
             <Form.Item name={'intro'} label="添加作者简介" rules={[{ required: true }]} >
-                <TextArea placeholder={'例：张三老师，XX大学XX学院……'} />
+                <TextArea placeholder={'例：张三老师，XX大学XX学院……'} onChange={(e) => setIntro(e.target.value)}/>
             </Form.Item>
             <Form.Item name={'img'} label="上传作者头像" valuePropName="fileList"
                        getValueFromEvent={normFile} rules={[{ required: true }]}>
@@ -94,40 +126,45 @@ export default function  Article ({ setValues, values, document }) {
                     </Button>
                 </Upload>
             </Form.Item>
-            <Form.Item name={'ff'} label="推送范围" rules={[{ required: true }]}>
+            <Form.Item name={'nations'} label="推送范围" rules={[{ required: true }]}>
                 <Radio.Group>
-                    <Radio value={1}>国内</Radio>
-                    <Radio value={2}>国外</Radio>
-                    <Radio value={3}>全球</Radio>
+                    <Radio value={'China'}>国内</Radio>
+                    <Radio value={'foreign'}>国外</Radio>
+                    <Radio value={'all'}>全球</Radio>
                 </Radio.Group>
             </Form.Item>
-            <Form.Item name={'ff1'} label="选择模板" rules={[{ required: true }]}>
+            <Form.Item name={'template_type'} label="选择模板" rules={[{ required: true }]}>
                 <Radio.Group>
                     <Radio value={1}>模板1</Radio>
-                    <Radio value={2}>模板2</Radio>
                 </Radio.Group>
             </Form.Item>
-            <Form.Item name={'ff2'} label="目标推送人数" rules={[{ required: true }]}>
+            <Form.Item name={'size'} label="目标推送人数" rules={[{ required: true }]}>
                 <Radio.Group>
-                    <Radio value={1}>100</Radio>
-                    <Radio value={2}>200</Radio>
-                    <Radio value={3}>500</Radio>
-                    <Radio value={4}>1000</Radio>
-                    <Radio value={5} style={{ marginTop: 10 }}>
+                    <Radio value={100.0}>100</Radio>
+                    <Radio value={200.0}>200</Radio>
+                    <Radio value={500.0}>500</Radio>
+                    <Radio value={1000.0}>1000</Radio>
+                    <Radio value={'custom'} style={{ marginTop: 10 }}>
                         自定义
-                        <InputNumber onChange={handleChange} className={'from-input'} style={{ marginLeft: 5 }} min={1} />
+                        <InputNumber onChange={handleChange}
+                                     className={'from-input'}
+                                     style={{ marginLeft: 5 }}
+                                     defaultValue={initValues.customValue}
+                                     min={1} />
                     </Radio>
                 </Radio.Group>
             </Form.Item>
-            <Form.Item name={'email'} label="添加抄送人信息" >
-                <TextArea placeholder={'支持填写多个邮箱，请以“；”隔开，例：345@163.com；123@163.com'}/>
+            <Form.Item name={'white_list'} label="添加白名单">
+                <TextArea placeholder={'支持填写多个邮箱，请以“；”隔开例：345@163.com；123@163.com'}/>
             </Form.Item>
-            <Form.Item name={'email1'} label="添加回避人信息" >
-                <TextArea placeholder={'支持填写多个邮箱，请以“；”隔开，例：345@163.com；123@163.com'}/>
+            <Form.Item name={'cc_list'} label="添加抄送人信息">
+                <TextArea placeholder={'支持填写多个邮箱，请以“；”隔开，数量不得超过10个，例：345@163.com；123@163.com'}/>
             </Form.Item>
-            <a href="" className={'a-upload'}>上传白名单</a>
-            <Form.Item name={'man'} label="推送人" rules={[{ required: true }]}>
-                <Input placeholder={'请填写推送人'} />
+            <Form.Item name={'exclude_list'} label="添加回避人信息">
+                <TextArea placeholder={'支持填写多个邮箱，请以“；”隔开，数量不得超过10个，例：345@163.com；123@163.com'}/>
+            </Form.Item>
+            <Form.Item name={'submittor'} label="内部操作人" rules={[{ required: true }]}>
+                <Input placeholder={'请填写内部操作人'} />
             </Form.Item>
         </Form>
     </div>

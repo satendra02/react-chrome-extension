@@ -1,10 +1,11 @@
 import React from 'react'
-export default function  Preview () {
+export default function  Preview ({ imgUrl, intro, article }) {
+    const { abstract, authors, title } = article
     return  <div>
         <div id="head" align="right">
             <a href="https://reco.aminer.cn/reco/introduce?lang=en"> <font
                 style={{
-                    "font-family":'SimHei' ,'color':'#6C9FBE',fontSize:'16px',width:'200px',height:'30px'
+                    "fontFamily":'SimHei' ,'color':'#6C9FBE',fontSize:'16px',width:'200px',height:'30px'
                 }}> <strong>
                 <button style={{ "width": 200, height:25 ,borderRadius:8,background:'#041B74'}}><font
                     color="#FFFFFF">Journal / Conference Spread</font></button>
@@ -44,7 +45,7 @@ export default function  Preview () {
                                                 <tr>
                                                     <td bgcolor="#FFFFFF" style={{ "marginRight": "20px" }}><img
                                                         id="limg"
-                                                        src="http://originalstatic.Aminer.cn/misc//recomail/meeting/Bonnie/Tsinghua/wujie.jpg"
+                                                        src={imgUrl}
                                                         style={{ "display": 'block', position:"relative", marginTop:10}}
                                                         width="180"></img></td>
                                                 </tr>
@@ -59,25 +60,7 @@ export default function  Preview () {
                                                     <td bgcolor="#FFFFFF" valign="top">
                                                         <p id="vdesc"
                                                            style={{marginBottom:'1em',lineHeight:'20px',fontSize:'14px',fontFamily:'helvetica, arial, sans-serif', color:'#041121',textAlign:'justify'}}>
-                                                            Jie Wu is a Laura H. Carnell Professor
-                                                            in the Department of Computer and
-                                                            Information Sciences at Temple
-                                                            University. Prior to joining Temple
-                                                            University, USA, he was a program
-                                                            director at the National Science
-                                                            Foundation and a distinguished professor
-                                                            at Florida Atlantic University. He
-                                                            received the PhD degree from Florida Atlantic
-                                                            University in
-                                                            1989. His current research interests include mobile
-                                                            computing
-                                                            and wireless networks, routing protocols, cloud and
-                                                            green
-                                                            computing, network trust and security, and social
-                                                            network
-                                                            applications. He is a CCF Distinguished Speaker and
-                                                            a fellow
-                                                            of the IEEE.
+                                                            {intro}
                                                         </p></td>
                                                 </tr>
                                                 </tbody>
@@ -110,16 +93,16 @@ export default function  Preview () {
                                         <td style={{fontFamily:'helvetica, arial, sans-serif',fontSize:13, lineHeight: '200%',color:'#000000', padding: '10px' }}>
 
                                             <a className="turl"
-                                               href="https://ieeexplore.ieee.org/document/8620950"
+                                               href={window.location.href}
                                                target="_blank" style={{ textDecoration: 'none' }}><span
                                                 className="title"
-                                                style={{ color:'#007A8F', fontWeight: '700',fontSize: 15 }}>Trajectory big data processing based on frequent activity</span></a>
+                                                style={{ color:'#007A8F', fontWeight: '700',fontSize: 15 }}>{title}</span></a>
                                             <br />
-                                            <span className="author">Amina Belhassena ; Hongzhi Wang</span>
+                                            <span className="author">{authors}</span>
                                             <br />
                                             <strong> Abstract:</strong><br  />
                                             <span className="abstract" style={{ display: 'block',textAlign: 'justify' }}>
-                  With the rapid development and wide use of Global Positioning System in technology tools, such as smart phones and touch pads, many people share their personal experience through their trajectories while visiting places of interest. Therefore, trajectory query processing has emerged in recent years to help users find their best trajectories. However, with the huge amount of trajectory points and text descriptions, such as the activities practiced by users at these points, organizing these data in the index becomes tedious. Therefore, the parallel method becomes indispensable. In this paper, we have investigated the problem of distributed trajectory query processing based on the distance and frequent activities. The query is specified by start and final points in the trajectory, the distance threshold, and a set of frequent activities involved in the point of interest of the trajectory. As a result, the query returns the shortest trajectory including the most frequent activities with high support and high confidence. To simplify the query processing, we have implemented the Distributed Mining Trajectory R-Tree index (DMTR-Tree). For this method, we initially managed the large trajectory dataset in distributed R-Tree indexes. Then, for each index, we applied the frequent itemset Apriori algorithm for each point to select the frequent activity set. For the faster computation of the above algorithms, we utilized the cluster computing framework of Apache Spark with MapReduce as the programing model. The experimental results show that the DMTR-Tree index and the query-processing algorithm are efficient and can achieve the scalability.
+                                                {abstract}
                 </span>
 
                                         </td>

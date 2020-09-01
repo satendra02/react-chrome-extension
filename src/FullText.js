@@ -1,65 +1,94 @@
-import React from 'react'
-import { Form, Input, InputNumber, Radio } from 'antd';
+import './Article.css'
+import React, { useEffect } from 'react'
+import { Form, Input, InputNumber, Radio, message } from 'antd';
+const layout = {
+    labelCol: { span: 8 },
+    wrapperCol: { span: 10 }
+};
 const { TextArea } = Input;
-export default function  FullText (props) {
-    const { setValues, values } = props
-    const layout = {
-        labelCol: { span: 8 },
-        wrapperCol: { span: 10 },
-    };
+export default function  Article ({ initValues, onFinish: appOnFinish, num, setCustomValue }) {
+    const [form] = Form.useForm();
+    useEffect(() => {
+        num && form.submit()
+    }, [num])
 
     const handleChange = (value) => {
-        const newValues = Object.assign(values, { customValue: value })
-        setValues(newValues)
+        setCustomValue(value)
     }
 
-    const onFieldsChange = (changedFields, allFields) => {
-        let newValues = {}
-        allFields.forEach((item) => {
-            newValues[item['name']] = item.value
-        })
-        setValues(newValues)
+    const onFinishFailed = ({values, ac}) => {
+        let url = ''
+        let info = values.img && values.img[0]
+        if (info && info.response && info.response.data && info.response.data[0]) {
+            if (info.response.data[0].items) {
+                url = info.response.data[0].items[0].url
+            }
+        }
+        const fields = {
+            submittor: '推送人',
+            nations: '推送范围',
+            size: '目标推送人数',
+        }
+        const fieldsArr = Object.keys(fields)
+        for (let i=0; i< fieldsArr.length; i++) {
+            if (fieldsArr[i] === 'img') {
+                if (!url) return message.error('请填写作者头像')
+            } else if (!values[fieldsArr[i]]) {
+                if (values.size === 'custom' && !values.customValue) {
+                    return message.error('请填写自定义数量')
+                }
+                return message.error(`请填写${fields[fieldsArr[i]]}`)
+            }
+        }
     }
 
-    return <div>
-        <Form {...layout} name="text-messages" onFieldsChange={onFieldsChange}>
-            <Form.Item name={'keywords'} label="添加更多关键词" >
-                <TextArea placeholder={'支持填写多个关键词，请以“；”隔开，例：deposits；tectonics'}/>
+    return <div className={'article'}>
+        <Form {...layout} form={form} onFinish={appOnFinish} onFinishFailed={onFinishFailed}
+              name="fullText-messages" initialValues={{
+            ...initValues
+        }}>
+            <Form.Item name={'keys'} label="添加更多关键词" >
+                <TextArea placeholder={'支持填写多个关键词，请以“;”隔开，例：deposits;tectonics'}/>
             </Form.Item>
-            <Form.Item name={'ff'} label="推送范围" rules={[{ required: true }]}>
+            <Form.Item name={'nations'} label="推送范围" rules={[{ required: true }]}>
                 <Radio.Group>
-                    <Radio value={1}>国内</Radio>
-                    <Radio value={2}>国外</Radio>
-                    <Radio value={3}>全球</Radio>
+                    <Radio value={'China'}>国内</Radio>
+                    <Radio value={'foreign'}>国外</Radio>
+                    <Radio value={'all'}>全球</Radio>
                 </Radio.Group>
             </Form.Item>
-            <Form.Item name={'ff1'} label="选择模板" rules={[{ required: true }]}>
+            <Form.Item name={'template_type'} label="选择模板" rules={[{ required: true }]}>
                 <Radio.Group>
                     <Radio value={1}>模板1</Radio>
-                    <Radio value={2}>模板2</Radio>
                 </Radio.Group>
             </Form.Item>
-            <Form.Item name={'ff2'} label="目标推送人数" rules={[{ required: true }]}>
+            <Form.Item name={'size'} label="目标推送人数" rules={[{ required: true }]}>
                 <Radio.Group>
-                    <Radio value={1}>100</Radio>
-                    <Radio value={2}>200</Radio>
-                    <Radio value={3}>500</Radio>
-                    <Radio value={4}>1000</Radio>
-                    <Radio value={5} style={{ marginTop: 10 }}>
+                    <Radio value={100.0}>100</Radio>
+                    <Radio value={200.0}>200</Radio>
+                    <Radio value={500.0}>500</Radio>
+                    <Radio value={1000.0}>1000</Radio>
+                    <Radio value={'custom'} style={{ marginTop: 10 }}>
                         自定义
-                        <InputNumber onChange={handleChange} className={'from-input'} style={{ marginLeft: 5 }} min={1} />
+                        <InputNumber onChange={handleChange}
+                                     className={'from-input'}
+                                     style={{ marginLeft: 5 }}
+                                     defaultValue={initValues.customValue}
+                                     min={1} />
                     </Radio>
                 </Radio.Group>
             </Form.Item>
-            <Form.Item name={'email'} label="添加抄送人信息" >
-                <TextArea placeholder={'支持填写多个邮箱，请以“；”隔开，例：345@163.com；123@163.com'}/>
+            <Form.Item name={'white_list'} label="添加白名单">
+                <TextArea placeholder={'支持填写多个邮箱，请以“；”隔开例：345@163.com；123@163.com'}/>
             </Form.Item>
-            <Form.Item name={'email1'} label="添加回避人信息" >
-                <TextArea placeholder={'支持填写多个邮箱，请以“；”隔开，例：345@163.com；123@163.com'}/>
+            <Form.Item name={'cc_list'} label="添加抄送人信息">
+                <TextArea placeholder={'支持填写多个邮箱，请以“；”隔开，数量不得超过10个，例：345@163.com；123@163.com'}/>
             </Form.Item>
-            <a href="" className={'a-upload'}>上传白名单</a>
-            <Form.Item name={'user'} label="推送人" rules={[{ required: true }]}>
-                <Input />
+            <Form.Item name={'exclude_list'} label="添加回避人信息">
+                <TextArea placeholder={'支持填写多个邮箱，请以“；”隔开，数量不得超过10个，例：345@163.com；123@163.com'}/>
+            </Form.Item>
+            <Form.Item name={'submittor'} label="内部操作人" rules={[{ required: true }]}>
+                <Input placeholder={'请填写内部操作人'} />
             </Form.Item>
         </Form>
     </div>

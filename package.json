@@ -6,6 +6,7 @@
     "@babel/runtime": "^7.10.4",
     "antd": "^4.5.3",
     "autoprefixer": "^9.8.5",
+    "axios": "^0.20.0",
     "case-sensitive-paths-webpack-plugin": "^2.3.0",
     "chalk": "^4.1.0",
     "css-loader": "^3.6.0",

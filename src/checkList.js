@@ -2,39 +2,17 @@ import React, { useState, useEffect } from 'react';
 import './checkList.css';
 import { Button, Checkbox, Radio } from "antd";
 const CheckboxGroup = Checkbox.Group;
-export default function CheckList  (props) {
-    const [ list, setList ] = useState([
-        {
-            label: 'Progress of Air Pollution Control in China and Its Challenges and Opportunities in the Ecological ',
-            value: 1
-        },
-        {
-            label: 'Fully Flexible Loads in Distributed Energy Management: PV, Batteries, Loads and Value Stacking in Virtual Power Plants',
-            value: 2
-        },
-        {
-            label: 'What Will 5G Bring?',
-            value: 3
-        }
-    ])
-    const [ allList, setAllList ] = useState([
-        {
-            label: 'Progress of Air Pollution Control in China and Its Challenges and Opportunities in the Ecological ',
-            value: 1
-        },
-        {
-            label: 'Fully Flexible Loads in Distributed Energy Management: PV, Batteries, Loads and Value Stacking in Virtual Power Plants',
-            value: 2
-        },
-        {
-            label: 'What Will 5G Bring?',
-            value: 3
-        }
-    ])
+
+const volumeId = window.location.href.split('/')[5]
+
+export default function CheckList  ({ items: initItems }) {
+    const [ list, setList ] = useState(initItems)
     const [ checkedList, setCheckedList ] = useState([])
     const [ indeterminate, setIndeterminate ] = useState(true)
     const [ checkAll, setCheckAll ] = useState(false)
-    const [ checkListCon, setCheckListCon ] = useState(JSON.parse(localStorage.getItem('checkedList')) || [])
+    const [ checkListCon, setCheckListCon ] =
+        useState(JSON.parse(
+            localStorage.getItem(`${volumeId || 'test'}-checkedList`)) || [])
     const [ type, setType ] = useState('1')
 
     // useEffect(() => {
@@ -50,14 +28,14 @@ export default function CheckList  (props) {
 
     useEffect(() => {
         setInterval(() => {
-            const data = JSON.parse(localStorage.getItem('checkedList')) || []
+            const data = JSON.parse(localStorage.getItem(`${volumeId || 'test'}-checkedList`)) || []
             setCheckListCon(data)
         }, 5000)
     }, [])
 
     const handleAdd = () => {
         if (checkedList.length && type === '1') {
-            let newCheckList = allList.filter((item) => {
+            let newCheckList = initItems.filter((item) => {
                 return checkedList.includes(item.value)
             })
             // 去重
@@ -69,7 +47,7 @@ export default function CheckList  (props) {
             })
             const newData = checkListCon.concat(newCheckList)
             setCheckListCon(newData)
-            localStorage.setItem('checkedList', JSON.stringify(newData))
+            localStorage.setItem(`${volumeId || 'test'}-checkedList`, JSON.stringify(newData))
             const newList = list.filter((item) => {
                 return !checkedList.includes(item.value)
             })
@@ -80,7 +58,7 @@ export default function CheckList  (props) {
                 return !checkedList.includes(item.value)
             })
             setCheckListCon(newCheckList)
-            localStorage.setItem('checkedList', JSON.stringify(newCheckList))
+            localStorage.setItem(`${volumeId || 'test'}-checkedList`, JSON.stringify(newCheckList))
         }
     }
 
@@ -133,8 +111,14 @@ export default function CheckList  (props) {
                 <Radio.Button value="2" type={'primary'}>已选文章</Radio.Button>
             </Radio.Group>
         </div>
-        <div className={'join'}>
-            <Button type={type === '1' ?'primary' : ''} danger={type === '2'} style={{ marginBottom: 10 }} onClick={handleAdd}>
+        <div className={'join'} style={{ marginBottom: 20 }}>
+            <div style={{ color: '#c41d7f', marginRight: 40 }}>
+                当前页文章选中后，请先点"加入"，可跨期选择后聚类推送
+            </div>
+            <Button type={type === '1' ?'primary' : ''}
+                    danger={type === '2'}
+                    style={{ marginBottom: 10 }}
+                    onClick={handleAdd}>
                 {type === '1' ? '加入' : '移除'}
             </Button>
         </div>
@@ -143,6 +127,9 @@ export default function CheckList  (props) {
             value={checkedList}
             onChange={onChange}
         />
+        <div style={{ color: '#c41d7f', marginTop: 10 }}>
+            作者，摘要，关键词等文章信息已读取
+        </div>
     </div>
 }
 
