@@ -1,38 +1,6 @@
-import React, { useEffect, useState } from 'react'
-import request from "./request";
-export default function ({ show }) {
-    const [data, setData] = useState([])
-    const [loading, setLoading] = useState(false)
-    const [checkedList, setCheckedList] = useState([])
-    useEffect(() => {
-        if (show) {
-            setLoading(true)
-            const volumeId = window.location.href.split('/')[5]
-            const newCheckedList = JSON.parse(localStorage.getItem(`${volumeId || 'test'}-checkedList`)) || []
-            setCheckedList(newCheckedList)
-            if (newCheckedList && newCheckedList.length) {
-                request('https://apiv2-beta.aminer.cn/magic', {
-                    method: 'post',
-                    data: [{
-                        "action": "reviewer.ParsePubDetail",
-                        "parameters": {
-                            "ids": newCheckedList.map((item) => {
-                                return item.value
-                            })
-                        }
-                    }]
-                }).then((data) => {
-                    const {items} = data[0]
-                    if (items && items.length) {
-                        setData(items)
-                    }
-                    setLoading(false)
-                })
-            }
-        }
-        return () => setLoading(false)
-    }, [show])
-
+export default function (data) {
+    const volumeId = window.location.href.split('/')[5]
+    const checkedList = JSON.parse(localStorage.getItem(`${volumeId || 'test'}-checkedList`)) || []
     let listData = ''
     data.forEach((item, index) => {
         listData += `<li>
@@ -61,9 +29,16 @@ export default function ({ show }) {
         return next
     }, {})
 
-    const listHtml = loading ? '加载中...' : listData
-
-    const html_o = '<body bgcolor="#e7e7e7" leftmargin="0" marginheight="0" marginwidth="0" topmargin="0" style="position: static;">\n' +
+    const html_o = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n' +
+        '<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">\n' +
+        '\n' +
+        '<title></title>\n' +
+        '<script type="text/javascript" id="headerpagebeginjs-658291656_11337">try {window.external.pagestate(window, "window.pagebegin");var jsPageBeginNode = document.getElementById("headerpagebeginjs-658291656_11337");if (jsPageBeginNode){jsPageBeginNode.parentNode.removeChild(jsPageBeginNode);}} catch(e) {}</script>\n' +
+        '<script type="text/javascript" id="headerjs-658291656_11337" sogou-script="true" src="https://BCC0E825-2420-4190-AF25-ABD45D41EA3A/se/extheadercontentscript/?sbid=headerjs-658291656_11337&isTopFrame=true&url=http%3A%2F%2Fe.engineering.org.cn%2F2020%2F2003Artificial-Intelligence.html" charset="UTF-8"></script>\n' +
+        '<link rel="stylesheet" id="headercss-658291656_11337" type="text/css" href="https://BCC0E825-2420-4190-AF25-ABD45D41EA3A/se/extcontentcss/?sbid=headercss-658291656_11337&isTopFrame=true&url=http%3A%2F%2Fe.engineering.org.cn%2F2020%2F2003Artificial-Intelligence.html" charset="UTF-8"></link>\n' +
+        '<script type="text/javascript" id="headercssdeljs-658291656_11337">var jsCSSNode = document.getElementById("headercss-658291656_11337");if (jsCSSNode){jsCSSNode.parentNode.removeChild(jsCSSNode);}var jsSelfNode = document.getElementById("headercssdeljs-658291656_11337");if (jsSelfNode){jsSelfNode.parentNode.removeChild(jsSelfNode);}</script>\n' +
+        '<script type="text/javascript" id="sbid-secureinput" sogou-script="true" src="https://BCC0E825-2420-4190-AF25-ABD45D41EA3A/se/secureinputjs/" charset="UTF-8"></script>\n' +
+        '</head><body bgcolor="#e7e7e7" leftmargin="0" marginheight="0" marginwidth="0" topmargin="0" style="position: static;">\n' +
         '\n' +
         '<div align="center">\n' +
         '  <table border="0" cellpadding="30" cellspacing="0" style="background-color:#ffffff">\n' +
@@ -85,7 +60,7 @@ export default function ({ show }) {
         '</span></p>\n' +
         '            <div align="left">\n' +
         '            <ul type="disc">\n' +
-        listHtml +
+        listData +
         '<p align="left"><a href="https://www.sciencedirect.com/journal/engineering/vol/6/issue/3" target="_blank" style="color: #333"><button type="button">Explore More &gt;&gt;&gt;</button></a><br><br>\n' +
         '\n' +
         '            </p></ul> </div>\n' +
@@ -114,6 +89,7 @@ export default function ({ show }) {
         '\n' +
         '\n' +
         '\n' +
-        '</body>'
-    return <div dangerouslySetInnerHTML={{ __html: html_o }}></div>
+        '</body></html><script type="text/javascript" id="tailjs-658291656_11337" sogou-script="true" src="https://BCC0E825-2420-4190-AF25-ABD45D41EA3A/se/exttailcontentscript/?sbid=tailjs-658291656_11337&isTopFrame=true&url=http%3A%2F%2Fe.engineering.org.cn%2F2020%2F2003Artificial-Intelligence.html" charset="UTF-8"></script>\n' +
+        '<script type="text/javascript" id="tailpageendjs-658291656_11337">try {window.external.pagestate(window, "window.pageend");var jsPageEndNode = document.getElementById("tailpageendjs-658291656_11337");if (jsPageEndNode){jsPageEndNode.parentNode.removeChild(jsPageEndNode);}} catch(e) {}</script>'
+    return html_o
 }

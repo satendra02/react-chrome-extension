@@ -7,12 +7,16 @@ import Article from "./Article"
 import Preview from './preview'
 import List from './list'
 import request from "./request";
-import HtmlT from './newlist.html'
 import { CloseOutlined } from '@ant-design/icons';
+import getTemplate from "./getTemplate";
 const { TabPane } = Tabs;
 const { Panel } = Collapse;
 const { TextArea } = Input;
 const volumeId = window.location.href.split('/')[5]
+const volumeNm = process.env.NODE_ENV === 'production' ? document.getElementById('volumeNm').innerText : '1'
+const issueNm = process.env.NODE_ENV === 'production' ? document.getElementById('issueNm').innerText : '1'
+const imgSrc = process.env.NODE_ENV === 'production' ? document.getElementById('volumeCover').src : 'http://e.engineering.org.cn/2020/img/2003.jpg';
+
 function strSplit (str, type, max, emails) {
     if (!str || !str.trim()) return []
     let typeA = str.split(';')
@@ -45,14 +49,13 @@ function strSplit (str, type, max, emails) {
     return target
 }
 export default function App (props) {
-    const [ checkData, setCheckData ] = useState([])
     const [ customValue, setCustomValue ] = useState('')
     const [ num, setNum ] = useState(0)
     const [ article, setArticle ] = useState({})
     const [ imgUrl, setImgUrl ] = useState('')
     const [ intro, setIntro ] = useState('')
     const [ values, setValues ] = useState({})
-    const [ activeKey, setActiveKey ] = useState('')
+    const [ activeKey, setActiveKey ] = useState('2')
     const [ title, setTitle ] = useState('')
     const [ messages, setMessages ] = useState('')
     const [ show, setShow ] = useState(false)
@@ -64,6 +67,7 @@ export default function App (props) {
     const [ checkList, setCheckList ] = useState([])
     const [ emails, setEmails ] = useState([])
     const couterRef = useRef()
+
     useEffect(() => {
         if (document.getElementById('journalDetails')) {
             setActiveKey('1')
@@ -116,8 +120,8 @@ export default function App (props) {
                         "action": activeKey === '1' ? "reviewer.ParsePubDetail" : "reviewer.ParsePubList",
                         "parameters": {
                             "ids": [
-                              window.location.href
-                                // 'http://www.engineering.org.cn/en/journal/eng/archive?volumeId=1124&pageIndex=12'
+                              // window.location.href
+                                'http://www.engineering.org.cn/en/journal/eng/archive?volumeId=1124&pageIndex=12'
                             ]
                         }
                     }
@@ -141,7 +145,10 @@ export default function App (props) {
                                 arr.push({
                                     value: item.url,
                                     label: item.title,
-                                    key: item.url
+                                    key: item.url,
+                                    issueNm,
+                                    volumeNm,
+                                    imgSrc
                                 })
                             }
                             return arr
@@ -231,7 +238,7 @@ export default function App (props) {
                                 },
                                 {
                                     "field": "template",
-                                    "value": `<html>
+                                    "value": activeKey === '2' ? getTemplate(checkedList) : `<html>
         <head>
             <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
             <title></title>
@@ -245,9 +252,8 @@ export default function App (props) {
                 }
             }
         ]
-        console.log(couterRef.current.innerHTML)
-
-        setTimeout(request('https://apiv2-beta.aminer.cn/magic', {
+        console.log(getTemplate(checkedList))
+        request('https://apiv2-beta.aminer.cn/magic', {
             method: 'post',
             data
         }).then((data) => {
@@ -271,7 +277,7 @@ export default function App (props) {
                 message.error('推送失败')
             }
             setButtonLoading(false)
-        }), 500)
+        })
     }
     const onFinish = values => {
         console.log(values, 'app');
@@ -295,7 +301,6 @@ export default function App (props) {
                 }).then((data) => {
                     const { items } = data[0]
                     if (items && items.length) {
-                        setCheckData(items)
                         requestAction(values,checkedList)
                     }
                 })
@@ -312,7 +317,7 @@ export default function App (props) {
         e.stopPropagation()
         setShow(!show)
         if (!show) {
-            props.createCss()
+            // props.createCss()
         } else {
             window.parent.document.getElementsByTagName('link')[0].remove()
         }
@@ -331,7 +336,7 @@ export default function App (props) {
             <Modal
                 title='模板预览'
                 visible={show}
-                width={728}
+                width={activeKey === '1' ? 728 : 860}
                 onOk={() => setShow(false)}
                 onCancel={() => setShow(false)}
                 footer={null}
@@ -413,7 +418,7 @@ export default function App (props) {
             </div>
             <div style={{ display: 'none' }} ref={couterRef}>
                 {activeKey === '1' && <Preview imgUrl={imgUrl} intro={intro} article={article} />}
-                {activeKey === '2' && <List checkData={checkData} />}
+                {activeKey === '2' && <List />}
             </div>
 
         </div>
