@@ -108,7 +108,7 @@ export default function CheckList  ({ items: initItems }) {
             </Checkbox>
             <Radio.Group value={type} onChange={handleTypeChange}>
                 <Radio.Button value="1" type={'primary'}>当前文章</Radio.Button>
-                <Radio.Button value="2" type={'primary'}>已选文章</Radio.Button>
+                <Radio.Button value="2" type={'primary'}>{checkListCon.length ? `已选文章(${checkListCon.length})` : '已选文章'}</Radio.Button>
             </Radio.Group>
         </div>
         <div className={'join'} style={{ marginBottom: 20 }}>

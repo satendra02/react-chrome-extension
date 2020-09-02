@@ -41,7 +41,7 @@ export default function ({ checkData, show }) {
            setCheckedList(newCheckedList)
        }
     }, [checkData])
-
+    console.log(checkedList, checkData)
     return <div>
         <div>
             <div>
@@ -92,7 +92,7 @@ export default function ({ checkData, show }) {
 
                             </div>
                         })}
-                        {!show && checkedList.length && checkData.map((item, index) => {
+                        {!show && checkedList.length && checkedList.length === checkData.length && checkData.map((item, index) => {
                             return  <div className="pub" key={item.title}
                                          style={{ marginBottom: '1em',fontFamily: 'helvetica, arial,sansSerif',fontSize: '13px',lineHeight: '200%',color: '#000000',textAlign: 'justify' }}>
                                 <a target="_blank" className="turl" style={{ textDecoration: 'none' }}

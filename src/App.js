@@ -7,12 +7,13 @@ import Article from "./Article"
 import Preview from './preview'
 import List from './list'
 import request from "./request";
+import HtmlT from './newlist.html'
 import { CloseOutlined } from '@ant-design/icons';
 const { TabPane } = Tabs;
 const { Panel } = Collapse;
 const { TextArea } = Input;
 const volumeId = window.location.href.split('/')[5]
-function strSplit (str, type) {
+function strSplit (str, type, max, emails) {
     if (!str || !str.trim()) return []
     let typeA = str.split(';')
     let typeB = str.split("\t")
@@ -25,11 +26,18 @@ function strSplit (str, type) {
             return arr
         }
     }, [])
+    if (max) {
+        target = target.slice(0, max)
+    }
+    if (emails) {
+        const emailsArr = emails.split(';')
+        target.concat(emailsArr)
+    }
     if (type) {
         target = target.map((item) => {
             const data = item.split('@')
             return {
-                expert_name: data[0],
+                expert_name: data[0] || '',
                 email: item
             }
         })
@@ -54,6 +62,7 @@ export default function App (props) {
     const [ buttonLoading, setButtonLoading] = useState(false)
     const [ initValues, setInitValues ] = useState({})
     const [ checkList, setCheckList ] = useState([])
+    const [ emails, setEmails ] = useState([])
     const couterRef = useRef()
     useEffect(() => {
         if (document.getElementById('journalDetails')) {
@@ -75,8 +84,9 @@ export default function App (props) {
         const data = localStorage.getItem('ex-values')
         const initialValues = data ? JSON.parse(data) : {}
         if (activeKey === '1') {
-            const { title } = items[0]
-            setInitValues(Object.assign({}, { title: title, subject: title, template_type: 1, ...initialValues }))
+            const { title, emails } = items[0]
+            setEmails(emails.split(';'))
+            setInitValues(Object.assign({}, { title: title, 'title-disabled': title, template_type: 1, ...initialValues }))
         } else {
             setInitValues(Object.assign({}, { template_type: 1, ...initialValues }))
         }
@@ -106,7 +116,8 @@ export default function App (props) {
                         "action": activeKey === '1' ? "reviewer.ParsePubDetail" : "reviewer.ParsePubList",
                         "parameters": {
                             "ids": [
-                                window.location.href
+                              window.location.href
+                                // 'http://www.engineering.org.cn/en/journal/eng/archive?volumeId=1124&pageIndex=12'
                             ]
                         }
                     }
@@ -204,7 +215,7 @@ export default function App (props) {
                                 },
                                 {
                                     "field": "cc_list",
-                                    "value": strSplit(values.cc_list, true)
+                                    "value": strSplit(values.cc_list, true, 20, emails)
                                 },
                                 {
                                     "field": "white_list",
@@ -234,7 +245,9 @@ export default function App (props) {
                 }
             }
         ]
-        request('https://apiv2-beta.aminer.cn/magic', {
+        console.log(couterRef.current.innerHTML)
+
+        setTimeout(request('https://apiv2-beta.aminer.cn/magic', {
             method: 'post',
             data
         }).then((data) => {
@@ -247,7 +260,7 @@ export default function App (props) {
                     nations: values.nations,
                     submittor: values.submittor,
                     exclude_list: values.exclude_list,
-                    cc_list: values.cc_list,
+                    cc_list: '',
                     messages,
                     customValue
                 }))
@@ -258,16 +271,16 @@ export default function App (props) {
                 message.error('推送失败')
             }
             setButtonLoading(false)
-        })
+        }), 500)
     }
     const onFinish = values => {
         console.log(values, 'app');
-        setButtonLoading(true)
         const checkedList = JSON.parse(localStorage.getItem(`${volumeId || 'test'}-checkedList`)) || []
         if (activeKey === '2') {
             if (!title.trim()) return message.error('请填写推送名称')
             if (!subject.trim()) return message.error('请填写推送主题')
             if (!checkedList.length) return message.error('请选择要推送的文章')
+            setButtonLoading(true)
             if (checkedList && checkedList.length) {
                 request('https://apiv2-beta.aminer.cn/magic', {
                     method: 'post',
@@ -288,6 +301,7 @@ export default function App (props) {
                 })
             }
         } else {
+            setButtonLoading(true)
             requestAction(values)
         }
     };
@@ -401,6 +415,7 @@ export default function App (props) {
                 {activeKey === '1' && <Preview imgUrl={imgUrl} intro={intro} article={article} />}
                 {activeKey === '2' && <List checkData={checkData} />}
             </div>
+
         </div>
     </ConfigProvider>
 }

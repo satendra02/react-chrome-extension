@@ -25,7 +25,7 @@ export default function  Article ({ initValues, onFinish: appOnFinish, num, setC
             }
         }
         const fields = {
-            submittor: '推送人',
+            submittor: '内部操作人',
             nations: '推送范围',
             size: '目标推送人数',
         }
@@ -50,19 +50,19 @@ export default function  Article ({ initValues, onFinish: appOnFinish, num, setC
             <Form.Item name={'keys'} label="添加更多关键词" >
                 <TextArea placeholder={'支持填写多个关键词，请以“;”隔开，例：deposits;tectonics'}/>
             </Form.Item>
-            <Form.Item name={'nations'} label="推送范围" rules={[{ required: true }]}>
+            <Form.Item name={'nations'} label="推送范围" rules={[{ required: true, message: '请选择推送范围' }]}>
                 <Radio.Group>
                     <Radio value={'China'}>国内</Radio>
                     <Radio value={'foreign'}>国外</Radio>
                     <Radio value={'all'}>全球</Radio>
                 </Radio.Group>
             </Form.Item>
-            <Form.Item name={'template_type'} label="选择模板" rules={[{ required: true }]}>
+            <Form.Item name={'template_type'} label="选择模板" rules={[{ required: true, message: '请选择模板' }]}>
                 <Radio.Group>
                     <Radio value={1}>模板1</Radio>
                 </Radio.Group>
             </Form.Item>
-            <Form.Item name={'size'} label="目标推送人数" rules={[{ required: true }]}>
+            <Form.Item name={'size'} label="目标推送人数" rules={[{ required: true, message: '请填写目标推送人数' }]}>
                 <Radio.Group>
                     <Radio value={100.0}>100</Radio>
                     <Radio value={200.0}>200</Radio>
@@ -79,15 +79,15 @@ export default function  Article ({ initValues, onFinish: appOnFinish, num, setC
                 </Radio.Group>
             </Form.Item>
             <Form.Item name={'white_list'} label="添加白名单">
-                <TextArea placeholder={'支持填写多个邮箱，请以“；”隔开例：345@163.com；123@163.com'}/>
+                <TextArea placeholder={'支持填写多个邮箱，请以“；”隔开例：345@163.com；123@163.com'} />
             </Form.Item>
             <Form.Item name={'cc_list'} label="添加抄送人信息">
                 <TextArea placeholder={'支持填写多个邮箱，请以“；”隔开，数量不得超过10个，例：345@163.com；123@163.com'}/>
             </Form.Item>
             <Form.Item name={'exclude_list'} label="添加回避人信息">
-                <TextArea placeholder={'支持填写多个邮箱，请以“；”隔开，数量不得超过10个，例：345@163.com；123@163.com'}/>
+                <TextArea placeholder={'支持填写多个邮箱，请以“；”隔开，例：345@163.com；123@163.com'}/>
             </Form.Item>
-            <Form.Item name={'submittor'} label="内部操作人" rules={[{ required: true }]}>
+            <Form.Item name={'submittor'} label="内部操作人" rules={[{ required: true, message: '请填写内部操作人' }]}>
                 <Input placeholder={'请填写内部操作人'} />
             </Form.Item>
         </Form>

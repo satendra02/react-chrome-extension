@@ -51,9 +51,9 @@ export default function  Article ({ initValues, onFinish: appOnFinish, num, setC
             }
             if (info.file.status === 'done' && url) {
                 setImgUrl(url)
-                message.success(`${info.file.name} file uploaded successfully`);
+                message.success(`${info.file.name} 图片上传成功`);
             } else if (info.file.status === 'error') {
-                message.error(`${info.file.name} file upload failed.`);
+                message.error(`${info.file.name} 图片上传失败`);
             }
             updateFileList(info.fileList.filter(file => !!file.status))
         },
@@ -81,17 +81,18 @@ export default function  Article ({ initValues, onFinish: appOnFinish, num, setC
             }
         }
         const fields = {
-            subject: '推送主题',
-            submittor: '推送人',
+            subject: '邮件主题',
+            submittor: '内部操作人',
             nations: '推送范围',
             size: '目标推送人数',
             img: '作者头像',
-            intro: '作者简介'
+            intro: '作者简介',
+            title: '推送名称'
         }
         const fieldsArr = Object.keys(fields)
         for (let i=0; i< fieldsArr.length; i++) {
             if (fieldsArr[i] === 'img') {
-                if (!url) return message.error('请填写作者头像')
+                if (!url) return message.error('请上传作者头像')
             } else if (!values[fieldsArr[i]]) {
                 if (values.size === 'custom' && !values.customValue) {
                     return message.error('请填写自定义数量')
@@ -106,39 +107,42 @@ export default function  Article ({ initValues, onFinish: appOnFinish, num, setC
               name="text-messages" initialValues={{
             ...initValues
         }}>
-            <Form.Item name={'subject'} label="推送主题" >
-                <Input placeholder={'推送主题'} />
+            <Form.Item name={'title'} label="推送名称" rules={[{ required: true, message: '请填写推送名称' }]}>
+                <Input placeholder={'例：本次内容主题或专题名称'} />
             </Form.Item>
-            <Form.Item name={'title'} label="推送文章">
+            <Form.Item name={'subject'} label="邮件主题" rules={[{ required: true,  message: '请填写邮件主题' }]}>
+                <Input placeholder={'例：XX专题-论文精选'} />
+            </Form.Item>
+            <Form.Item name={'title-disabled'} label="推送文章">
                 <TextArea placeholder={'推送文章'} disabled />
             </Form.Item>
             <Form.Item name={'keys'} label="添加更多关键词" >
                 <TextArea placeholder={'支持填写多个关键词，请以“;”隔开，例：deposits;tectonics'}/>
             </Form.Item>
-            <Form.Item name={'intro'} label="添加作者简介" rules={[{ required: true }]} >
+            <Form.Item name={'intro'} label="添加作者简介" rules={[{ required: true, message: '请填写作者简介' }]} >
                 <TextArea placeholder={'例：张三老师，XX大学XX学院……'} onChange={(e) => setIntro(e.target.value)}/>
             </Form.Item>
             <Form.Item name={'img'} label="上传作者头像" valuePropName="fileList"
-                       getValueFromEvent={normFile} rules={[{ required: true }]}>
+                       getValueFromEvent={normFile} rules={[{ required: true,  message: '请填写作者简介' }]}>
                 <Upload {...upLoadProps}>
                     <Button>
                         <UploadOutlined /> 点击上传
                     </Button>
                 </Upload>
             </Form.Item>
-            <Form.Item name={'nations'} label="推送范围" rules={[{ required: true }]}>
+            <Form.Item name={'nations'} label="推送范围" rules={[{ required: true, message: '请选择推送范围' }]}>
                 <Radio.Group>
                     <Radio value={'China'}>国内</Radio>
                     <Radio value={'foreign'}>国外</Radio>
                     <Radio value={'all'}>全球</Radio>
                 </Radio.Group>
             </Form.Item>
-            <Form.Item name={'template_type'} label="选择模板" rules={[{ required: true }]}>
+            <Form.Item name={'template_type'} label="选择模板" rules={[{ required: true,  message: '请选择模板' }]}>
                 <Radio.Group>
                     <Radio value={1}>模板1</Radio>
                 </Radio.Group>
             </Form.Item>
-            <Form.Item name={'size'} label="目标推送人数" rules={[{ required: true }]}>
+            <Form.Item name={'size'} label="目标推送人数" rules={[{ required: true,  message: '请选择目标推送人数' }]}>
                 <Radio.Group>
                     <Radio value={100.0}>100</Radio>
                     <Radio value={200.0}>200</Radio>
@@ -161,9 +165,9 @@ export default function  Article ({ initValues, onFinish: appOnFinish, num, setC
                 <TextArea placeholder={'支持填写多个邮箱，请以“；”隔开，数量不得超过10个，例：345@163.com；123@163.com'}/>
             </Form.Item>
             <Form.Item name={'exclude_list'} label="添加回避人信息">
-                <TextArea placeholder={'支持填写多个邮箱，请以“；”隔开，数量不得超过10个，例：345@163.com；123@163.com'}/>
+                <TextArea placeholder={'支持填写多个邮箱，请以“；”隔开，例：345@163.com；123@163.com'}/>
             </Form.Item>
-            <Form.Item name={'submittor'} label="内部操作人" rules={[{ required: true }]}>
+            <Form.Item name={'submittor'} label="内部操作人" rules={[{ required: true, message: '请填写内部操作人' }]}>
                 <Input placeholder={'请填写内部操作人'} />
             </Form.Item>
         </Form>
