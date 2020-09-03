@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import './App.css';
-import {Button, Collapse, Tabs, Input, ConfigProvider, Modal, message, Spin } from "antd";
+import { Button, Collapse, Tabs, Input, ConfigProvider, Modal, message, Spin } from "antd";
 import CheckList from './checkList'
 import FullText from './FullText'
 import Article from "./Article"
@@ -182,6 +182,10 @@ export default function App (props) {
                         {
                             "operator": "create",
                             "fields": [
+                                {
+                                    "field": "type",
+                                    "value": 1
+                                },
                                 {
                                     "field": "title",
                                     "value": activeKey === '1' ? values.title : title
