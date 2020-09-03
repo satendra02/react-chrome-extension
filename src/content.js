@@ -15,7 +15,7 @@ class Main extends React.Component {
                {
                   ({document, window}) => {
                     return <App document={document} window={window} isExt={true} token={this.props.token} app={app}
-                             createCss={createCss} />
+                             createCss={createCss} chrome={chrome} />
                   }
                 }
                 </FrameContextConsumer>
@@ -31,7 +31,7 @@ document.body.appendChild(app);
 ReactDOM.render(<Main />, app);
 
 app.style.display = "none";
-var token = localStorage.getItem('token')
+var token = localStorage.getItem('ex-token')
 chrome.runtime.onMessage.addListener(
    function(request, sender, sendResponse) {
       if(request.message === "clicked_browser_action") {
@@ -54,7 +54,7 @@ chrome.runtime.onMessage.addListener(
         }
       }
        if(request.token) {
-           localStorage.setItem('token', request.token)
+           localStorage.setItem('ex-token', request.token)
            ReactDOM.render(<Main token={request.token}/>, app);
            app.style.display = "block";
        }

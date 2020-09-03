@@ -9,16 +9,17 @@ import List from './list'
 import request from "./request";
 import { CloseOutlined } from '@ant-design/icons';
 import getTemplate from "./getTemplate";
+import IMG from './header.png'
 const { TabPane } = Tabs;
 const { Panel } = Collapse;
 const { TextArea } = Input;
+
 const volumeId = window.location.href.split('/')[5]
-const volumeNm = process.env.NODE_ENV === 'production' ? document.getElementById('volumeNm').innerText : '1'
-const issueNm = process.env.NODE_ENV === 'production' ? document.getElementById('issueNm').innerText : '1'
-const imgSrc = process.env.NODE_ENV === 'production' ? document.getElementById('volumeCover').src : 'http://e.engineering.org.cn/2020/img/2003.jpg';
+
 
 function strSplit (str, type, max, emails) {
-    if (!str || !str.trim()) return []
+    if ((!str || !str.trim()) && !emails) return []
+    str = str.trim()
     let typeA = str.split(';')
     let typeB = str.split("\t")
     let typeC = str.split("\n")
@@ -33,10 +34,11 @@ function strSplit (str, type, max, emails) {
     if (max) {
         target = target.slice(0, max)
     }
+
     if (emails) {
-        const emailsArr = emails.split(';')
-        target.concat(emailsArr)
+        target = target.concat(emails.split(';'))
     }
+    target = target.filter(item => !!item)
     if (type) {
         target = target.map((item) => {
             const data = item.split('@')
@@ -49,13 +51,14 @@ function strSplit (str, type, max, emails) {
     return target
 }
 export default function App (props) {
+    const [ templateType, setTemplateType ] = useState(1)
     const [ customValue, setCustomValue ] = useState('')
     const [ num, setNum ] = useState(0)
     const [ article, setArticle ] = useState({})
     const [ imgUrl, setImgUrl ] = useState('')
     const [ intro, setIntro ] = useState('')
     const [ values, setValues ] = useState({})
-    const [ activeKey, setActiveKey ] = useState('2')
+    const [ activeKey, setActiveKey ] = useState('')
     const [ title, setTitle ] = useState('')
     const [ messages, setMessages ] = useState('')
     const [ show, setShow ] = useState(false)
@@ -65,7 +68,7 @@ export default function App (props) {
     const [ buttonLoading, setButtonLoading] = useState(false)
     const [ initValues, setInitValues ] = useState({})
     const [ checkList, setCheckList ] = useState([])
-    const [ emails, setEmails ] = useState([])
+    const [ emails, setEmails ] = useState('')
     const couterRef = useRef()
 
     useEffect(() => {
@@ -83,13 +86,12 @@ export default function App (props) {
             getContainer: () => props.document ? props.document.body : window.document.body,
         })
     }, [])
-
     const getInitValues = (items) => {
         const data = localStorage.getItem('ex-values')
         const initialValues = data ? JSON.parse(data) : {}
         if (activeKey === '1') {
-            const { title, emails } = items[0]
-            setEmails(emails.split(';'))
+            const { title, emails = '' } = items[0]
+            setEmails(emails)
             setInitValues(Object.assign({}, { title: title, 'title-disabled': title, template_type: 1, ...initialValues }))
         } else {
             setInitValues(Object.assign({}, { template_type: 1, ...initialValues }))
@@ -99,7 +101,7 @@ export default function App (props) {
     }
     // 用户期刊列表 取第一个
     useEffect(() => {
-        request('https://apiv2-beta.aminer.cn/magic', {
+        request('/magic', {
             method: 'post',
             data: [{
                 "action": "reviewer.ListVenue",
@@ -113,15 +115,16 @@ export default function App (props) {
             }
         })
         if (activeKey) {
-            request('https://apiv2-beta.aminer.cn/magic', {
+            request('/magic', {
                 method: 'post',
                 data:[
                     {
                         "action": activeKey === '1' ? "reviewer.ParsePubDetail" : "reviewer.ParsePubList",
                         "parameters": {
                             "ids": [
-                              // window.location.href
-                                'http://www.engineering.org.cn/en/journal/eng/archive?volumeId=1124&pageIndex=12'
+                              window.location.href
+                              //   'http://www.engineering.org.cn//en/10.1016/j.eng.2019.12.002'
+                              //   'http://www.engineering.org.cn/en/journal/eng/archive?volumeId=1189'
                             ]
                         }
                     }
@@ -137,6 +140,7 @@ export default function App (props) {
                     }
                 } else {
                     const { items, succeed } = data[0]
+                    const imgSrc = process.env.NODE_ENV === 'production' ? document.getElementById('volumeCover').src : 'http://e.engineering.org.cn/2020/img/2003.jpg';
                     if (succeed && items) {
                         let obj = {}
                         const newItems = items.reduce((arr, item) => {
@@ -146,9 +150,10 @@ export default function App (props) {
                                     value: item.url,
                                     label: item.title,
                                     key: item.url,
-                                    issueNm,
-                                    volumeNm,
-                                    imgSrc
+                                    issueNm: item.issue,
+                                    volumeNm: item.volume,
+                                    year: item.year,
+                                    imgSrc: imgSrc
                                 })
                             }
                             return arr
@@ -238,13 +243,7 @@ export default function App (props) {
                                 },
                                 {
                                     "field": "template",
-                                    "value": activeKey === '2' ? getTemplate(checkedList) : `<html>
-        <head>
-            <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-            <title></title>
-        </head>
-            ${couterRef.current.innerHTML}
-        </html>`
+                                    "value": activeKey === '2' ? getTemplate(checkedList) : '<html><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"> <title></title> </head>' +couterRef.current.innerHTML+ '</html>'
                                 }
                             ]
                         }
@@ -252,8 +251,8 @@ export default function App (props) {
                 }
             }
         ]
-        console.log(getTemplate(checkedList))
-        request('https://apiv2-beta.aminer.cn/magic', {
+        console.log(activeKey === '2' && getTemplate(checkedList))
+        request('/magic', {
             method: 'post',
             data
         }).then((data) => {
@@ -266,7 +265,7 @@ export default function App (props) {
                     nations: values.nations,
                     submittor: values.submittor,
                     exclude_list: values.exclude_list,
-                    cc_list: '',
+                    cc_list: values.cc_list,
                     messages,
                     customValue
                 }))
@@ -288,7 +287,7 @@ export default function App (props) {
             if (!checkedList.length) return message.error('请选择要推送的文章')
             setButtonLoading(true)
             if (checkedList && checkedList.length) {
-                request('https://apiv2-beta.aminer.cn/magic', {
+                request('/magic', {
                     method: 'post',
                     data: [{
                         "action": "reviewer.ParsePubDetail",
@@ -301,13 +300,13 @@ export default function App (props) {
                 }).then((data) => {
                     const { items } = data[0]
                     if (items && items.length) {
-                        requestAction(values,checkedList)
+                        requestAction(values, items)
                     }
                 })
             }
         } else {
             setButtonLoading(true)
-            requestAction(values)
+            requestAction(values, [], emails)
         }
     };
     const handleSubmit = () => {
@@ -317,7 +316,7 @@ export default function App (props) {
         e.stopPropagation()
         setShow(!show)
         if (!show) {
-            // props.createCss()
+            props.createCss()
         } else {
             window.parent.document.getElementsByTagName('link')[0].remove()
         }
@@ -331,6 +330,9 @@ export default function App (props) {
         window.parent.document.getElementById('my-extension-root').style.display = "none"
     }
 
+    const handelOpenOther = () => {
+        window.open('https://reco.aminer.cn/reco/list')
+    }
     return  <ConfigProvider>
         <div className="App">
             <Modal
@@ -342,12 +344,12 @@ export default function App (props) {
                 footer={null}
                 destroyOnClose={true}
             >
-                {activeKey === '1' && <Preview imgUrl={imgUrl} intro={intro} article={article} />}
+                {activeKey === '1' && <Preview imgUrl={imgUrl} intro={intro} article={article} type={templateType} />}
                 {activeKey === '2' && <List show={show} />}
             </Modal>
             <div className={'app-header'}>
                 <div className={'app-header-title'}>
-                    谷歌插件
+                    <img src={props.chrome ? props.chrome.runtime.getURL("static/media/header.png") : IMG} alt="" style={{ height: 22 }} />
                 </div>
                 <CloseOutlined onClick={handleClose} />
             </div>
@@ -363,6 +365,8 @@ export default function App (props) {
                                           setCustomValue={setCustomValue}
                                           setImgUrl={setImgUrl}
                                           setIntro={setIntro}
+                                          type={templateType}
+                                          setType={setTemplateType}
                                           num={num} />}
                 </TabPane>
                 <TabPane tab="多篇推送" key="2" disabled={activeKey === '1'}>
@@ -410,15 +414,14 @@ export default function App (props) {
                 <Button type="primary" onClick={handleSubmit} loading={buttonLoading}>推送</Button>
             </div>
             <div className={'links'}>
-                <Button type="link">查看历史推送结果</Button>
+                <Button type="link" onClick={handelOpenOther}>查看历史推送结果</Button>
                 <Button type="link" onClick={handleOpinionClick}>意见反馈</Button>
             </div>
             <div className={'bottom-text'}>
                 {activeKey === '1' ? '了解参考文献作者1对1推送、智能约稿、审稿人推荐等，请联系：13901207032' : '了解智能约稿、审稿人推荐等，请联系：13901207032'}
             </div>
             <div style={{ display: 'none' }} ref={couterRef}>
-                {activeKey === '1' && <Preview imgUrl={imgUrl} intro={intro} article={article} />}
-                {activeKey === '2' && <List />}
+                {activeKey === '1' && <Preview imgUrl={imgUrl} intro={intro} article={article} type={templateType} />}
             </div>
 
         </div>

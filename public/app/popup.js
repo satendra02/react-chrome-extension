@@ -9,7 +9,9 @@ document.getElementById("button").addEventListener("click",function getValues(){
     }
     if (username.trim() && password.trim()) {
         loading(true)
-        fetch("https://apiv2-beta.aminer.cn/magic", {
+        // https://apiv2.aminer.cn/magic
+        // https://apiv2-beta.aminer.cn/magic
+        fetch("https://apiv2.aminer.cn/magic", {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json'

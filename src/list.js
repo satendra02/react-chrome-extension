@@ -11,7 +11,7 @@ export default function ({ show }) {
             const newCheckedList = JSON.parse(localStorage.getItem(`${volumeId || 'test'}-checkedList`)) || []
             setCheckedList(newCheckedList)
             if (newCheckedList && newCheckedList.length) {
-                request('https://apiv2-beta.aminer.cn/magic', {
+                request('/magic', {
                     method: 'post',
                     data: [{
                         "action": "reviewer.ParsePubDetail",
@@ -36,7 +36,7 @@ export default function ({ show }) {
     let listData = ''
     data.forEach((item, index) => {
         listData += `<li>
-                    <a href=${checkedList[index].value}}>
+                    <a href=${checkedList[index].value} target="_blank">
                         <strong>
                             <font color="#007a77" face="arial" size="3">
                                 ${item.title}
@@ -48,14 +48,18 @@ export default function ({ show }) {
     })
 
     const lastItem = checkedList.reduce((item, next) => {
-        const { volumeNm, issueNm } = item
-        if (volumeNm > next.volumeNm) {
+        const { volumeNm, issueNm, year } = item
+        if (year > next.year) {
             return item
-        } else if (volumeNm == next.volumeNm)  {
-            if (issueNm >= next.issueNm) {
+        } else if (year === next.year) {
+            if (volumeNm > next.volumeNm) {
                 return item
-            } else {
-                return next
+            } else if (volumeNm == next.volumeNm)  {
+                if (issueNm >= next.issueNm) {
+                    return item
+                } else {
+                    return next
+                }
             }
         }
         return next
