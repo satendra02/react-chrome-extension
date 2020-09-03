@@ -173,6 +173,7 @@ export default function App (props) {
         setTitle(e.target.value)
     }
     const requestAction = (values, checkedList) => {
+        const newCheckedList = JSON.parse(localStorage.getItem(`${volumeId || 'test'}-checkedList`)) || []
         const data = [
             {
                 "action": "reviewer.CreateProject",
@@ -211,7 +212,7 @@ export default function App (props) {
                                                     window.location.href
                                                 ]
                                             }
-                                        ] : checkedList.map((item) => {
+                                        ] : newCheckedList.map((item) => {
                                             return {
                                                 title: item.label,
                                                 "urls": [
@@ -251,27 +252,46 @@ export default function App (props) {
                 }
             }
         ]
-        console.log(activeKey === '2' && getTemplate(checkedList))
         request('/magic', {
             method: 'post',
             data
         }).then((data) => {
-            const { succeed } = data[0]
+            const { succeed, items } = data[0]
             if (succeed) {
-                message.success('您的推送请求已发送成功')
-                // 推送范围、选择模板、目标推送人数、添加抄送人信息、添加回避人信息、推送人、给技术支持留言
-                localStorage.setItem('ex-values', JSON.stringify( {
-                    size: values.size,
-                    nations: values.nations,
-                    submittor: values.submittor,
-                    exclude_list: values.exclude_list,
-                    cc_list: values.cc_list,
-                    messages,
-                    customValue
-                }))
-                if (activeKey === '2') {
-                    localStorage.setItem(`${volumeId || 'test'}-checkedList`, JSON.stringify([]))
-                }
+                request('/magic', {
+                    method: 'post',
+                    data: [
+                        {
+                            "action": "reviewer.RequestVerifyProject",
+                            "parameters": {
+                                "ids": [
+                                    items[0].id
+                                ]
+                            }
+                        }
+                    ]
+                }).then((data) => {
+                    const { succeed: succeedProject } = data[0]
+                    if (succeedProject) {
+                        message.success('您的推送请求已发送成功')
+                        // 推送范围、选择模板、目标推送人数、添加抄送人信息、添加回避人信息、推送人、给技术支持留言
+                        localStorage.setItem('ex-values', JSON.stringify( {
+                            size: values.size,
+                            nations: values.nations,
+                            submittor: values.submittor,
+                            exclude_list: values.exclude_list,
+                            cc_list: values.cc_list,
+                            messages,
+                            customValue
+                        }))
+                        if (activeKey === '2') {
+                            localStorage.setItem(`${volumeId || 'test'}-checkedList`, JSON.stringify([]))
+                        }
+                    } else {
+                        message.error('更改推送状态失败')
+                    }
+                })
+
             } else {
                 message.error('推送失败')
             }
@@ -283,7 +303,7 @@ export default function App (props) {
         const checkedList = JSON.parse(localStorage.getItem(`${volumeId || 'test'}-checkedList`)) || []
         if (activeKey === '2') {
             if (!title.trim()) return message.error('请填写推送名称')
-            if (!subject.trim()) return message.error('请填写推送主题')
+            if (!subject.trim()) return message.error('请填写邮件主题')
             if (!checkedList.length) return message.error('请选择要推送的文章')
             setButtonLoading(true)
             if (checkedList && checkedList.length) {

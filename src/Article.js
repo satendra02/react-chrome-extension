@@ -137,7 +137,7 @@ export default function  Article ({
                 <TextArea placeholder={'例：张三老师，XX大学XX学院……'} onChange={(e) => setIntro(e.target.value)}/>
             </Form.Item>
             <Form.Item name={'img'} label="上传作者头像" valuePropName="fileList"
-                       getValueFromEvent={normFile} rules={[{ required: type === 1 ? true : false,  message: '请填写作者简介' }]}>
+                       getValueFromEvent={normFile} rules={[{ required: type === 1 ? true : false,  message: '请上传作者头像' }]}>
                 <Upload {...upLoadProps}>
                     <Button>
                         <UploadOutlined /> 点击上传
