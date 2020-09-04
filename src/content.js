@@ -4,7 +4,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Frame, { FrameContextConsumer } from 'react-frame-component';
 import App from "./App";
-
+const tokenName = process.env.NODE_ENV === 'production' ? 'ex-token' : 'token'
 class Main extends React.Component {
     render() {
         return (
@@ -31,7 +31,7 @@ document.body.appendChild(app);
 ReactDOM.render(<Main />, app);
 
 app.style.display = "none";
-var token = localStorage.getItem('ex-token')
+var token = localStorage.getItem(tokenName)
 chrome.runtime.onMessage.addListener(
    function(request, sender, sendResponse) {
       if(request.message === "clicked_browser_action") {
@@ -54,7 +54,7 @@ chrome.runtime.onMessage.addListener(
         }
       }
        if(request.token) {
-           localStorage.setItem('ex-token', request.token)
+           localStorage.setItem(tokenName, request.token)
            ReactDOM.render(<Main token={request.token}/>, app);
            app.style.display = "block";
        }

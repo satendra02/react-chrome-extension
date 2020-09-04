@@ -1,11 +1,12 @@
 import axios from 'axios'
 console.log('API_ENV',process.env.NODE_ENV)
 const baseURL = process.env.NODE_ENV === 'production' ? 'https://apiv2.aminer.cn/' : 'https://apiv2-beta.aminer.cn/'
+const tokenName = process.env.NODE_ENV === 'production' ? 'ex-token' : 'token'
 axios.defaults.timeout = 1000000;
 axios.defaults.baseURL = baseURL;
 
 export default function request(url, options) {
-    const token = localStorage.getItem('ex-token')
+    const token = localStorage.getItem(tokenName)
     let obj = {
         baseURL: baseURL
     }

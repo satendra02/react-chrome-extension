@@ -2,6 +2,7 @@ import './Article.css'
 import React, { useState, useEffect } from 'react'
 import { Form, Input, InputNumber, Radio, Button, Upload, message } from 'antd';
 import { UploadOutlined } from '@ant-design/icons';
+const tokenName = process.env.NODE_ENV === 'production' ? 'ex-token' : 'token'
 const layout = {
     labelCol: { span: 8 },
     wrapperCol: { span: 10 }
@@ -38,7 +39,7 @@ export default function  Article ({
         name: 'file1',
         action: 'https://apiv2.aminer.cn/magic',
         headers: {
-            'Authorization': localStorage.getItem('ex-token')
+            'Authorization': localStorage.getItem(tokenName)
         },
         onChange(info) {
             let url = ''

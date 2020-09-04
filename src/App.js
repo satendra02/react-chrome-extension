@@ -13,7 +13,6 @@ import IMG from './header.png'
 const { TabPane } = Tabs;
 const { Panel } = Collapse;
 const { TextArea } = Input;
-
 const volumeId = window.location.href.split('/')[5]
 
 function getKeys (activeKey, article, checkedList) {
@@ -61,7 +60,7 @@ function strSplit (str = '', type, max, emails) {
             const data = item.split('@')
             return {
                 expert_name: data[0] || '',
-                email: item
+                email: item.trim()
             }
         })
     }
@@ -191,6 +190,13 @@ export default function App (props) {
     }
     const requestAction = (values, checkedList) => {
         const newCheckedList = JSON.parse(localStorage.getItem(`${volumeId || 'test'}-checkedList`)) || []
+        let allEmails = activeKey === '1' ? emails : checkedList.reduce((next, item) => {
+            if (item.emails) {
+                return next + item.emails + ','
+            } else {
+                return next
+            }
+        }, '')
         const data = [
             {
                 "action": "reviewer.CreateProject",
@@ -248,8 +254,12 @@ export default function App (props) {
                                     "value": values.exclude_list && values.exclude_list.split(';') || []
                                 },
                                 {
+                                    "field": "author_list",
+                                    "value": strSplit('', true, false, allEmails)
+                                },
+                                {
                                     "field": "cc_list",
-                                    "value": strSplit(values.cc_list, true, 20, emails)
+                                    "value": strSplit(values.cc_list, true, 20, allEmails)
                                 },
                                 {
                                     "field": "white_list",
