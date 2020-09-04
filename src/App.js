@@ -16,8 +16,25 @@ const { TextArea } = Input;
 
 const volumeId = window.location.href.split('/')[5]
 
+function getKeys (activeKey, article, checkedList) {
+    let data = []
+    if (activeKey === '1') {
+        if (article && article.keywords) {
+            data = article.keywords.split(';')
+        }
+    } else if (activeKey === '2') {
+        data = checkedList.reduce((next, item) => {
+            if (item.keywords) {
+                return next.concat(item.keywords.split(';'))
+            } else {
+                return next
+            }
+        }, [])
+    }
+    return data
+}
 
-function strSplit (str, type, max, emails) {
+function strSplit (str = '', type, max, emails) {
     if ((!str || !str.trim()) && !emails) return []
     str = str.trim()
     let typeA = str.split(';')
@@ -36,7 +53,7 @@ function strSplit (str, type, max, emails) {
     }
 
     if (emails) {
-        target = target.concat(emails.split(';'))
+        target = target.concat(emails.split(','))
     }
     target = target.filter(item => !!item)
     if (type) {
@@ -123,8 +140,8 @@ export default function App (props) {
                         "parameters": {
                             "ids": [
                               window.location.href
-                              //   'http://www.engineering.org.cn//en/10.1016/j.eng.2019.12.002'
-                              //   'http://www.engineering.org.cn/en/journal/eng/archive?volumeId=1189'
+                              //   'http://www.engineering.org.cn/en/10.1016/J.ENG.2017.03.006'
+                              //   'http://www.engineering.org.cn/en/journal/eng/archive?volumeId=173'
                             ]
                         }
                     }
@@ -197,7 +214,7 @@ export default function App (props) {
                                 {
                                     "field": "search",
                                     "value": {
-                                        "keys": values.keys && values.keys.split(';') || [],
+                                        "keys": getKeys(activeKey, article, checkedList),
                                         "nations":  values.nations !== 'all' ? [values.nations] : [], //推送范围 国内 "nations": ["China"]、国外"nations": ["foreign"]、全球 "nations": []
                                         "size": values.size === 'custom' ? customValue : values.size  //目标推送人数
                                     }

@@ -47,9 +47,6 @@ export default function  Article ({ initValues, onFinish: appOnFinish, num, setC
               name="fullText-messages" initialValues={{
             ...initValues
         }}>
-            <Form.Item name={'keys'} label="添加更多关键词" >
-                <TextArea placeholder={'支持填写多个关键词，请以“;”隔开，例：deposits;tectonics'}/>
-            </Form.Item>
             <Form.Item name={'nations'} label="推送范围" rules={[{ required: true, message: '请选择推送范围' }]}>
                 <Radio.Group>
                     <Radio value={'China'}>国内</Radio>

@@ -89,3 +89,10 @@
 .ant-tabs-nav-operations{
   display: none !important;
 }
+.ant-input-number{
+  border-color: #d9d9d9 !important;
+}
+.ant-input-number:focus{
+  border-color: #40a9ff !important;
+  box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2) !important;
+}

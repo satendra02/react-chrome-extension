@@ -38,7 +38,7 @@ export default function  Article ({
         name: 'file1',
         action: 'https://apiv2.aminer.cn/magic',
         headers: {
-            'Authorization': localStorage.getItem('token')
+            'Authorization': localStorage.getItem('ex-token')
         },
         onChange(info) {
             let url = ''
@@ -47,16 +47,22 @@ export default function  Article ({
                     url = info.file.response.data[0].items[0].url
                 }
             }
-            if (info.file.status !== 'uploading') {
+            if (info.file.status === 'uploading') {
+                updateFileList(info.fileList.filter(file => !!file.status))
                 console.log(info.file, info.fileList);
             }
             if (info.file.status === 'done' && url) {
+                updateFileList(info.fileList.filter(file => !!file.status))
                 setImgUrl(url)
                 message.success(`${info.file.name} 图片上传成功`);
             } else if (info.file.status === 'error') {
                 message.error(`${info.file.name} 图片上传失败`);
             }
-            updateFileList(info.fileList.filter(file => !!file.status))
+
+            if (info.file.status === 'done' && !url) {
+                message.error(`${info.file.name} 图片上传失败`);
+            }
+
         },
         beforeUpload: beforeUpload
     };
@@ -66,7 +72,22 @@ export default function  Article ({
             return newArray.length ? [newArray[newArray.length - 1]] : []
         }
         const newArray = e && e.fileList.filter(item => !!item.status)
-        return newArray.length ? [ newArray[newArray.length - 1]] : []
+        const imgArr =  newArray.length ? [ newArray[newArray.length - 1]] : []
+        const info = {
+            file: imgArr.length ? imgArr[0] : {}
+        }
+        let url = ''
+        if (info.file.response && info.file.response.data && info.file.response.data[0]) {
+            if (info.file.response.data[0].items) {
+                url = info.file.response.data[0].items[0].url
+            }
+        }
+        if (info.file.status === 'done' && !url) {
+            return []
+        } else {
+            return newArray.length ? [ newArray[newArray.length - 1]] : []
+        }
+
     };
 
     const handleChange = (value) => {
@@ -129,9 +150,6 @@ export default function  Article ({
             </Form.Item>
             <Form.Item name={'title-disabled'} label="推送文章">
                 <TextArea placeholder={'推送文章'} disabled />
-            </Form.Item>
-            <Form.Item name={'keys'} label="添加更多关键词" >
-                <TextArea placeholder={'支持填写多个关键词，请以“;”隔开，例：deposits;tectonics'}/>
             </Form.Item>
             <Form.Item name={'intro'} label="添加作者简介" rules={[{ required: type === 1 ? true : false, message: '请填写作者简介' }]} >
                 <TextArea placeholder={'例：张三老师，XX大学XX学院……'} onChange={(e) => setIntro(e.target.value)}/>
