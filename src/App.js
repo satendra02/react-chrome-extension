@@ -139,8 +139,8 @@ export default function App (props) {
                         "parameters": {
                             "ids": [
                               window.location.href
-                              //   'http://www.engineering.org.cn/en/10.1016/J.ENG.2017.03.006'
-                              //   'http://www.engineering.org.cn/en/journal/eng/archive?volumeId=173'
+                              //   'http://www.engineering.org.cn/en/10.1016/j.eng.2019.11.011'
+                                // 'http://www.engineering.org.cn/en/journal/eng/archive?volumeId=173'
                             ]
                         }
                     }
@@ -188,7 +188,7 @@ export default function App (props) {
     const handleTitleChange = (e) => {
         setTitle(e.target.value)
     }
-    const requestAction = (values, checkedList) => {
+    const requestAction = (values, checkedList, keys) => {
         const newCheckedList = JSON.parse(localStorage.getItem(`${volumeId || 'test'}-checkedList`)) || []
         let allEmails = activeKey === '1' ? emails : checkedList.reduce((next, item) => {
             if (item.emails) {
@@ -227,7 +227,7 @@ export default function App (props) {
                                 {
                                     "field": "search",
                                     "value": {
-                                        "keys": getKeys(activeKey, article, checkedList),
+                                        "keys": keys,
                                         "nations":  nations,
                                         "size": values.size === 'custom' ? customValue : values.size  //目标推送人数
                                     }
@@ -339,6 +339,7 @@ export default function App (props) {
     }
     const onFinish = values => {
         console.log(values, 'app');
+        const inputKeys = values.keys ? values.keys.split(';') : []
         const checkedList = JSON.parse(localStorage.getItem(`${volumeId || 'test'}-checkedList`)) || []
         if (activeKey === '2') {
             if (!title.trim()) return message.error('请填写推送名称')
@@ -359,7 +360,18 @@ export default function App (props) {
                 }).then((data) => {
                     const { items } = data[0]
                     if (items && items.length) {
-                        requestAction(values, items)
+                        const authorkeys =  getKeys(activeKey, article, items)
+                        const allKeys = authorkeys.length + inputKeys.length
+                        if (checkedList.length >= 2 && allKeys < 10) {
+                            setButtonLoading(false)
+                            return message.error(`请填写至少${10 - allKeys}个关键词`)
+                        }
+                        if (checkedList.length === 1 && allKeys < 5) {
+                            setButtonLoading(false)
+                            return message.error(`请填写至少${5 - allKeys}个关键词`)
+                        }
+                        const keys = inputKeys.concat(authorkeys)
+                        requestAction(values, items,keys)
                     }
                 })
             }
@@ -367,8 +379,14 @@ export default function App (props) {
             if (values.size === 'custom' && !customValue) {
                 return message.error('请填写自定义数量')
             }
+            const authorkeys =  getKeys(activeKey, article)
+            const allKeys = authorkeys.length + inputKeys.length
+            if (allKeys < 5) {
+                return message.error(`请填写至少${5 - allKeys}个关键词`)
+            }
             setButtonLoading(true)
-            requestAction(values, [], emails)
+            const keys = inputKeys.concat(authorkeys)
+            requestAction(values, [], keys)
         }
     };
     const handleSubmit = () => {

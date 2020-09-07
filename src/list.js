@@ -54,7 +54,7 @@ export default function ({ show }) {
         } else if (year === next.year) {
             if (volumeNm > next.volumeNm) {
                 return item
-            } else if (volumeNm == next.volumeNm)  {
+            } else if (volumeNm === next.volumeNm)  {
                 if (issueNm >= next.issueNm) {
                     return item
                 } else {

@@ -192,6 +192,9 @@ export default function  Article ({
                     </Radio>
                 </Radio.Group>
             </Form.Item>
+            <Form.Item name={'keys'} label="添加更多关键词" >
+                <TextArea placeholder={'支持填写多个关键词，请以“;”隔开，例：deposits;tectonics'}/>
+            </Form.Item>
             <Form.Item name={'white_list'} label="添加白名单">
                 <TextArea placeholder={'支持填写多个邮箱，请以“；”隔开例：345@163.com；123@163.com'}/>
             </Form.Item>
