@@ -197,6 +197,13 @@ export default function App (props) {
                 return next
             }
         }, '')
+        let nations = []
+        if (values.nations === 'China') {
+            nations = ['china']
+        } else if (values.nations === 'foreign') {
+            nations = ['']
+        }
+
         const data = [
             {
                 "action": "reviewer.CreateProject",
@@ -221,7 +228,7 @@ export default function App (props) {
                                     "field": "search",
                                     "value": {
                                         "keys": getKeys(activeKey, article, checkedList),
-                                        "nations":  values.nations !== 'all' ? [values.nations] : [], //推送范围 国内 "nations": ["China"]、国外"nations": ["foreign"]、全球 "nations": []
+                                        "nations":  nations,
                                         "size": values.size === 'custom' ? customValue : values.size  //目标推送人数
                                     }
                                 },
@@ -283,6 +290,7 @@ export default function App (props) {
                 }
             }
         ]
+
         request('/magic', {
             method: 'post',
             data
@@ -356,6 +364,9 @@ export default function App (props) {
                 })
             }
         } else {
+            if (values.size === 'custom' && !customValue) {
+                return message.error('请填写自定义数量')
+            }
             setButtonLoading(true)
             requestAction(values, [], emails)
         }
@@ -417,6 +428,7 @@ export default function App (props) {
                                           setImgUrl={setImgUrl}
                                           setIntro={setIntro}
                                           type={templateType}
+                                          customValue={customValue}
                                           setType={setTemplateType}
                                           num={num} />}
                 </TabPane>
@@ -448,6 +460,7 @@ export default function App (props) {
                                       onFinish={onFinish}
                                       initValues={initValues}
                                       setCustomValue={setCustomValue}
+                                      customValue={customValue}
                                       setIntro={setIntro}
                                       num={num} />
                         </Panel>

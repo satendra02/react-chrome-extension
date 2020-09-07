@@ -6,7 +6,7 @@ const layout = {
     wrapperCol: { span: 10 }
 };
 const { TextArea } = Input;
-export default function  Article ({ initValues, onFinish: appOnFinish, num, setCustomValue }) {
+export default function  Article ({ initValues, onFinish: appOnFinish, num, setCustomValue, customValue }) {
     const [form] = Form.useForm();
     useEffect(() => {
         num && form.submit()
@@ -34,7 +34,7 @@ export default function  Article ({ initValues, onFinish: appOnFinish, num, setC
             if (fieldsArr[i] === 'img') {
                 if (!url) return message.error('请填写作者头像')
             } else if (!values[fieldsArr[i]]) {
-                if (values.size === 'custom' && !values.customValue) {
+                if (values.size === 'custom' && !customValue) {
                     return message.error('请填写自定义数量')
                 }
                 return message.error(`请填写${fields[fieldsArr[i]]}`)

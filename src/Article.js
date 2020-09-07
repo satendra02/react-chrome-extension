@@ -9,7 +9,7 @@ const layout = {
 };
 const { TextArea } = Input;
 export default function  Article ({
-    initValues, onFinish: appOnFinish, num, setCustomValue, setIntro, setImgUrl, setType, type }) {
+    initValues, onFinish: appOnFinish, num, setCustomValue, setIntro, setImgUrl, setType, type, customValue }) {
     const [fileList, updateFileList] = useState([]);
     const [form] = Form.useForm();
     useEffect(() => {
@@ -55,13 +55,13 @@ export default function  Article ({
             if (info.file.status === 'done' && url) {
                 updateFileList(info.fileList.filter(file => !!file.status))
                 setImgUrl(url)
-                message.success(`${info.file.name} 图片上传成功`);
+                message.success('图片上传成功');
             } else if (info.file.status === 'error') {
-                message.error(`${info.file.name} 图片上传失败`);
+                message.error('图片上传失败');
             }
 
             if (info.file.status === 'done' && !url) {
-                message.error(`${info.file.name} 图片上传失败`);
+                message.error('图片上传失败');
             }
 
         },
@@ -117,7 +117,7 @@ export default function  Article ({
             if (fieldsArr[i] === 'img') {
                 if (!url && type === 1) return message.error('请上传作者头像')
             } else if (!values[fieldsArr[i]]) {
-                if (values.size === 'custom' && !values.customValue) {
+                if (values.size === 'custom' && !customValue) {
                     return message.error('请填写自定义数量')
                 }
                 if (!values.intro && values.template_type === 2) return false

@@ -1,9 +1,9 @@
 {
-  "short_name": "My Extension",
-  "name": "My Extension",
+  "short_name": "Reco Extension",
+  "name": "Reco Extension",
   "version": "1.1",
   "manifest_version": 2,
-  "description": "xxx",
+  "description": "Reco Extension",
   "background": {
     "scripts": ["app/background.js"]
   },
@@ -14,7 +14,7 @@
   },
   "browser_action": {
     "default_icon": "yutang_logo.png",
-    "default_title": "Google Mail",
+    "default_title": "Reco Extension",
     "default_popup": "popup.html"
   },
   "permissions": [
