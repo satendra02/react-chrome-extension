@@ -196,13 +196,13 @@ export default function  Article ({
                 <TextArea placeholder={'支持填写多个关键词，请以“;”隔开，例：deposits;tectonics'}/>
             </Form.Item>
             <Form.Item name={'white_list'} label="添加白名单">
-                <TextArea placeholder={'支持填写多个邮箱，请以“；”隔开例：345@163.com；123@163.com'}/>
+                <TextArea placeholder={'支持填写多个邮箱，请以“;”隔开例：345@163.com;123@163.com'}/>
             </Form.Item>
             <Form.Item name={'cc_list'} label="添加抄送人信息">
-                <TextArea placeholder={'支持填写多个邮箱，请以“；”隔开，数量不得超过20个，例：345@163.com；123@163.com'}/>
+                <TextArea placeholder={'支持填写多个邮箱，请以“;”隔开，数量不得超过20个，例：345@163.com;123@163.com'}/>
             </Form.Item>
-            <Form.Item name={'exclude_list'} label="添加回避人信息">
-                <TextArea placeholder={'支持填写多个邮箱，请以“；”隔开，例：345@163.com；123@163.com'}/>
+            <Form.Item name={'exclude_list'} label="添加规避人信息">
+                <TextArea placeholder={'支持填写多个邮箱，请以“;”隔开，例：345@163.com;123@163.com'}/>
             </Form.Item>
             <Form.Item name={'submittor'} label="内部操作人" rules={[{ required: true, message: '请填写内部操作人' }]}>
                 <Input placeholder={'请填写内部操作人'} />

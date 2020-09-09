@@ -96,3 +96,11 @@
   border-color: #40a9ff !important;
   box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2) !important;
 }
+.ex-radio{
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+.ex-radio > label{
+  margin-bottom: 5px;
+}

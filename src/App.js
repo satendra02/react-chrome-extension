@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import './App.css';
-import { Button, Collapse, Tabs, Input, ConfigProvider, Modal, message, Spin } from "antd";
+import {Button, Collapse, Tabs, Input, ConfigProvider, Modal, message, Spin, Radio, InputNumber} from "antd";
 import CheckList from './checkList'
 import FullText from './FullText'
 import Article from "./Article"
@@ -67,6 +67,7 @@ function strSplit (str = '', type, max, emails) {
     return target
 }
 export default function App (props) {
+    const [ radioValue, setRadioValue ] = useState(true)
     const [ templateType, setTemplateType ] = useState(1)
     const [ customValue, setCustomValue ] = useState('')
     const [ num, setNum ] = useState(0)
@@ -277,6 +278,10 @@ export default function App (props) {
                                     "value": activeKey === '1' ? values.subject : subject
                                 },
                                 {
+                                    "field": "is_confirm",
+                                    "value": radioValue
+                                },
+                                {
                                     "field": "g_comment",
                                     "value": messages
                                 },
@@ -413,6 +418,11 @@ export default function App (props) {
     const handelOpenOther = () => {
         window.open('https://reco.aminer.cn/reco/list')
     }
+
+    const handleRadioChange = (e) => {
+        setRadioValue(e.target.value)
+    }
+
     return  <ConfigProvider>
         <div className="App">
             <Modal
@@ -490,6 +500,12 @@ export default function App (props) {
                 <TextArea placeholder={'例：本次推送内容的对标期刊'}
                           value={messages}
                           onChange={(e) => setMessages(e.target.value)} />
+            </div>
+            <div>
+                <Radio.Group onChange={handleRadioChange} className={'ex-radio'} value={radioValue}>
+                    <Radio value={false}>可以直接推送，不用联系我</Radio>
+                    <Radio value={true}>推送前再次联系我确认</Radio>
+                </Radio.Group>
             </div>
             <div className={'b-box'}>
                 <Button onClick={handleClick}>预览</Button>
