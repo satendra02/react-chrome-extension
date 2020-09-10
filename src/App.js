@@ -118,73 +118,76 @@ export default function App (props) {
     }
     // 用户期刊列表 取第一个
     useEffect(() => {
-        request('/magic', {
-            method: 'post',
-            data: [{
-                "action": "reviewer.ListVenue",
-                "parameters": {
-                }
-            }]
-        }).then((data) => {
-            const { items } = data[0]
-            if (items && items.length) {
-                setVenue(items[0])
-            }
-        })
-        if (activeKey) {
+        if (props.token) {
             request('/magic', {
                 method: 'post',
-                data:[
-                    {
-                        "action": activeKey === '1' ? "reviewer.ParsePubDetail" : "reviewer.ParsePubList",
-                        "parameters": {
-                            "ids": [
-                              window.location.href
-                              //   'http://www.engineering.org.cn/en/10.1016/j.eng.2019.11.011'
-                                // 'http://www.engineering.org.cn/en/journal/eng/archive?volumeId=173'
-                            ]
+                data: [{
+                    "action": "reviewer.ListVenue",
+                    "parameters": {
+                    }
+                }]
+            }).then((data) => {
+                const { items } = data[0]
+                if (items && items.length) {
+                    setVenue(items[0])
+                }
+            })
+            if (activeKey) {
+                request('/magic', {
+                    method: 'post',
+                    data:[
+                        {
+                            "action": activeKey === '1' ? "reviewer.ParsePubDetail" : "reviewer.ParsePubList",
+                            "parameters": {
+                                "ids": [
+                                    window.location.href
+                                    //   'http://www.engineering.org.cn/en/10.1016/j.eng.2019.11.011'
+                                    // 'http://www.engineering.org.cn/en/journal/eng/archive?volumeId=173'
+                                ]
+                            }
+                        }
+                    ]
+                }).then((data) => {
+                    if (activeKey === '1') {
+                        const { items } = data[0]
+                        if (items && items.length) {
+                            setArticle(items[0])
+                            getInitValues(items)
+                        } else {
+                            message.error('获取文章详情失败',10000)
+                        }
+                    } else {
+                        const { items, succeed } = data[0]
+                        const imgSrc = process.env.NODE_ENV === 'production' ? document.getElementById('volumeCover').src : 'http://e.engineering.org.cn/2020/img/2003.jpg';
+                        if (succeed && items) {
+                            let obj = {}
+                            const newItems = items.reduce((arr, item) => {
+                                if (!obj[item.url] && !item.url.includes('loadPageIndex')) {
+                                    obj[item.url] = true
+                                    arr.push({
+                                        value: item.url,
+                                        label: item.title,
+                                        key: item.url,
+                                        issueNm: item.issue,
+                                        volumeNm: item.volume,
+                                        year: item.year,
+                                        imgSrc: imgSrc
+                                    })
+                                }
+                                return arr
+                            }, [])
+                            obj = null
+                            setCheckList(newItems)
+                        } else {
+                            message.error('获取文章列表失败',10000)
                         }
                     }
-                ]
-            }).then((data) => {
-                if (activeKey === '1') {
-                    const { items } = data[0]
-                    if (items && items.length) {
-                        setArticle(items[0])
-                        getInitValues(items)
-                    } else {
-                        message.error('获取文章详情失败',10000)
-                    }
-                } else {
-                    const { items, succeed } = data[0]
-                    const imgSrc = process.env.NODE_ENV === 'production' ? document.getElementById('volumeCover').src : 'http://e.engineering.org.cn/2020/img/2003.jpg';
-                    if (succeed && items) {
-                        let obj = {}
-                        const newItems = items.reduce((arr, item) => {
-                            if (!obj[item.url] && !item.url.includes('loadPageIndex')) {
-                                obj[item.url] = true
-                                arr.push({
-                                    value: item.url,
-                                    label: item.title,
-                                    key: item.url,
-                                    issueNm: item.issue,
-                                    volumeNm: item.volume,
-                                    year: item.year,
-                                    imgSrc: imgSrc
-                                })
-                            }
-                            return arr
-                        }, [])
-                        obj = null
-                        setCheckList(newItems)
-                    } else {
-                        message.error('获取文章列表失败',10000)
-                    }
-                }
-                setLoading(false)
-            })
+                    setLoading(false)
+                })
+            }
         }
-    }, [activeKey])
+
+    }, [activeKey, props.token])
 
     const handleTitleChange = (e) => {
         setTitle(e.target.value)

@@ -22,7 +22,7 @@
   ],
   "content_scripts" : [
     {
-      "matches": ["http://www.engineering.org.cn/*/*"],
+      "matches": ["http://www.engineering.org.cn/*/*/*", "https://www.engineering.org.cn/*/*/*","https://www.engineering.org.cn/*/*/*/*"],
       "css": ["/css/root.css"],
       "js": ["/static/js/content.js"]
     }
