@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import './App.css';
-import {Button, Collapse, Tabs, Input, ConfigProvider, Modal, message, Spin, Radio, InputNumber} from "antd";
+import {Button, Collapse, Tabs, Input, ConfigProvider, Modal, message, Spin, Radio} from "antd";
 import CheckList from './checkList'
 import FullText from './FullText'
 import Article from "./Article"
@@ -118,7 +118,7 @@ export default function App (props) {
     }
     // 用户期刊列表 取第一个
     useEffect(() => {
-        if (props.token) {
+        if (props.token || localStorage.getItem('token')) {
             request('/magic', {
                 method: 'post',
                 data: [{
@@ -141,7 +141,7 @@ export default function App (props) {
                             "parameters": {
                                 "ids": [
                                     window.location.href
-                                    //   'http://www.engineering.org.cn/en/10.1016/j.eng.2019.11.011'
+                                      // 'http://www.engineering.org.cn/en/10.1016/j.eng.2020.08.004'
                                     // 'http://www.engineering.org.cn/en/journal/eng/archive?volumeId=173'
                                 ]
                             }
@@ -290,7 +290,7 @@ export default function App (props) {
                                 },
                                 {
                                     "field": "template",
-                                    "value": activeKey === '2' ? getTemplate(checkedList) : '<html><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"> <title></title> </head>' +couterRef.current.innerHTML+ '</html>'
+                                    "value": activeKey === '2' ? getTemplate(checkedList) : document.getElementById('s_html').innerHTML
                                 }
                             ]
                         }
@@ -431,7 +431,7 @@ export default function App (props) {
             <Modal
                 title='模板预览'
                 visible={show}
-                width={activeKey === '1' ? 728 : 860}
+                width={activeKey === 860}
                 onOk={() => setShow(false)}
                 onCancel={() => setShow(false)}
                 footer={null}

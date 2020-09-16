@@ -28,10 +28,13 @@ const app = document.createElement('div');
 app.id = "my-extension-root";
 
 document.body.appendChild(app);
-ReactDOM.render(<Main />, app);
+
+var token = localStorage.getItem(tokenName)
+
+ReactDOM.render(<Main token={token} />, app);
 
 app.style.display = "none";
-var token = localStorage.getItem(tokenName)
+
 chrome.runtime.onMessage.addListener(
    function(request, sender, sendResponse) {
       if(request.message === "clicked_browser_action") {

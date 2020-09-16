@@ -61,10 +61,10 @@ export default function  Article ({ initValues, onFinish: appOnFinish, num, setC
             </Form.Item>
             <Form.Item name={'size'} label="目标推送人数" rules={[{ required: true, message: '请填写目标推送人数' }]}>
                 <Radio.Group>
-                    <Radio value={100.0}>100</Radio>
-                    <Radio value={200.0}>200</Radio>
                     <Radio value={500.0}>500</Radio>
                     <Radio value={1000.0}>1000</Radio>
+                    <Radio value={2000.0}>2000</Radio>
+                    <Radio value={5000.0}>5000</Radio>
                     <Radio value={'custom'} style={{ marginTop: 10 }}>
                         自定义
                         <InputNumber onChange={handleChange}
