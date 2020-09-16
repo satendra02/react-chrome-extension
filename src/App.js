@@ -431,7 +431,7 @@ export default function App (props) {
             <Modal
                 title='模板预览'
                 visible={show}
-                width={activeKey === 860}
+                width={860}
                 onOk={() => setShow(false)}
                 onCancel={() => setShow(false)}
                 footer={null}
