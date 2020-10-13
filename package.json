@@ -29,11 +29,11 @@
   },
   "watch": {
     "build": {
-        "patterns": [
-            "src",
-            "public"
-        ],
-        "extensions": "js,html,css,json,svg"
+      "patterns": [
+        "src",
+        "public"
+      ],
+      "extensions": "js,html,css,json,svg"
     }
   },
   "jest": {
