@@ -56,6 +56,13 @@ When you go to any website and click on extension icon, injected page will toggl
 
 <img src="https://cdn-images-1.medium.com/max/1600/1*bXJYfvrcHDWKwUZCrPI-8w.png" />
 
+## Using SASS
+
+Boilerplate contains [sass-loader](https://github.com/webpack-contrib/sass-loader), so you can use SASS instead of pure CSS in your project. To do so:
+1. Rename ```src/App.css``` file to ```src/App.scss``` 
+2. Change import line in ```src/app.js``` from 
+ ```import './App.css';```  to ```import './App.scss';```
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/satendra02/react-chrome-extension/. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
