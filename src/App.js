@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import './App.css';
+import Frame, { FrameContextConsumer } from 'react-frame-component';
 import {Button, Collapse, Tabs, Input, ConfigProvider, Modal, message, Spin, Radio} from "antd";
 import CheckList from './checkList'
 import FullText from './FullText'
@@ -441,9 +442,23 @@ export default function App (props) {
                 onCancel={() => setShow(false)}
                 footer={null}
                 destroyOnClose={true}
-            >
-                {activeKey === '1' && <Preview imgUrl={imgUrl} intro={intro} article={article} type={templateType} />}
-                {activeKey === '2' && <List show={show} type={templateType} />}
+                id={'modal-ex'}
+            >    <Frame
+                width={860}
+                height={Math.floor(window.innerHeight * 0.8)}
+                head={[<link type="text/css" rel="stylesheet" href={props.chrome && props.chrome.runtime.getURL("/static/css/content.css")}></link>]}
+                style={{ zIndex: 500 }}>
+                <FrameContextConsumer>
+                    {
+                        ({document, window}) => {
+                            return <>
+                                {activeKey === '1' && <Preview imgUrl={imgUrl} intro={intro} article={article} type={templateType} />}
+                                {activeKey === '2' && <List show={show} type={templateType} />}
+                            </>
+                        }
+                    }
+                </FrameContextConsumer>
+            </Frame>
             </Modal>
             <div className={'app-header'}>
                 <div className={'app-header-title'}>
