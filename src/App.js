@@ -89,12 +89,14 @@ export default function App (props) {
     const couterRef = useRef()
 
     useEffect(() => {
-        if (document.getElementById('journalDetails')) {
-            setActiveKey('1')
-        }
-        if (document.getElementById('onlineNowList')) {
-            getInitValues()
-            setActiveKey('2')
+        if (window.location.hostname.includes('engineering')) {
+            if (document.getElementById('journalDetails')) {
+                setActiveKey('1')
+            }
+            if (document.getElementById('onlineNowList')) {
+                getInitValues()
+                setActiveKey('2')
+            }
         }
         message.config({
             duration: 2,
@@ -106,13 +108,15 @@ export default function App (props) {
     const getInitValues = (items) => {
         const data = localStorage.getItem('ex-values')
         const initialValues = data ? JSON.parse(data) : {}
+        if (!initialValues.template_type) initialValues.template_type = 1
         if (activeKey === '1') {
             const { title, emails = '' } = items[0]
             setEmails(emails)
-            setInitValues(Object.assign({}, { title: title, 'title-disabled': title, template_type: 1, ...initialValues }))
+            setInitValues(Object.assign({}, { title: title, 'title-disabled': title, ...initialValues }))
         } else {
-            setInitValues(Object.assign({}, { template_type: 1, ...initialValues }))
+            setInitValues(Object.assign({}, { ...initialValues }))
         }
+        setTemplateType(initialValues.template_type || 1)
         setMessages(initialValues.messages || '')
         setCustomValue(initialValues.customValue)
     }
@@ -141,7 +145,8 @@ export default function App (props) {
                             "parameters": {
                                 "ids": [
                                     window.location.href
-                                      // 'http://www.engineering.org.cn/en/10.1016/j.eng.2020.08.004'
+                                    // 'https://www.engineering.org.cn/ch/10.1016/j.eng.2019.11.011'
+                                    //   'http://www.engineering.org.cn/en/10.1016/j.eng.2020.08.004'
                                     // 'http://www.engineering.org.cn/en/journal/eng/archive?volumeId=173'
                                 ]
                             }
@@ -290,7 +295,7 @@ export default function App (props) {
                                 },
                                 {
                                     "field": "template",
-                                    "value": activeKey === '2' ? getTemplate(checkedList) : document.getElementById('s_html').innerHTML
+                                    "value": activeKey === '2' ? getTemplate(checkedList, templateType) : document.getElementById('s_html').innerHTML
                                 }
                             ]
                         }
@@ -298,7 +303,6 @@ export default function App (props) {
                 }
             }
         ]
-
         request('/magic', {
             method: 'post',
             data
@@ -329,7 +333,8 @@ export default function App (props) {
                             exclude_list: values.exclude_list,
                             cc_list: values.cc_list,
                             messages,
-                            customValue
+                            customValue,
+                            template_type: templateType
                         }))
                         if (activeKey === '2') {
                             localStorage.setItem(`${volumeId || 'test'}-checkedList`, JSON.stringify([]))
@@ -438,7 +443,7 @@ export default function App (props) {
                 destroyOnClose={true}
             >
                 {activeKey === '1' && <Preview imgUrl={imgUrl} intro={intro} article={article} type={templateType} />}
-                {activeKey === '2' && <List show={show} />}
+                {activeKey === '2' && <List show={show} type={templateType} />}
             </Modal>
             <div className={'app-header'}>
                 <div className={'app-header-title'}>
@@ -493,6 +498,7 @@ export default function App (props) {
                                       setCustomValue={setCustomValue}
                                       customValue={customValue}
                                       setIntro={setIntro}
+                                      setType={setTemplateType}
                                       num={num} />
                         </Panel>
                     </Collapse>

@@ -66,10 +66,10 @@ chrome.runtime.onMessage.addListener(
        }
    }
 );
-if (token && (document.getElementById('journalDetails') || document.getElementById('onlineNowList'))) {
-    ReactDOM.render(<Main token={token} />, app);
-    app.style.display = "block";
-}
+// if (token && (document.getElementById('journalDetails') || document.getElementById('onlineNowList'))) {
+//     ReactDOM.render(<Main token={token} />, app);
+//     app.style.display = "block";
+// }
 function toggle(){
    if(app.style.display === "none"){
      app.style.display = "block";

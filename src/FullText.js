@@ -6,7 +6,7 @@ const layout = {
     wrapperCol: { span: 10 }
 };
 const { TextArea } = Input;
-export default function  Article ({ initValues, onFinish: appOnFinish, num, setCustomValue, customValue }) {
+export default function  Article ({ initValues, onFinish: appOnFinish, num, setCustomValue, customValue, setType }) {
     const [form] = Form.useForm();
     useEffect(() => {
         num && form.submit()
@@ -41,9 +41,17 @@ export default function  Article ({ initValues, onFinish: appOnFinish, num, setC
             }
         }
     }
-
+    const onFieldsChange = (changedFields, allFields) => {
+        allFields.forEach((item) => {
+            if (item['name'][0] === 'template_type') {
+                setType(item.value)
+            }
+        })
+    }
     return <div className={'article'}>
-        <Form {...layout} form={form} onFinish={appOnFinish} onFinishFailed={onFinishFailed}
+        <Form {...layout} form={form} onFinish={appOnFinish}
+              onFieldsChange={onFieldsChange}
+              onFinishFailed={onFinishFailed}
               name="fullText-messages" initialValues={{
             ...initValues
         }}>
@@ -56,7 +64,8 @@ export default function  Article ({ initValues, onFinish: appOnFinish, num, setC
             </Form.Item>
             <Form.Item name={'template_type'} label="选择模板" rules={[{ required: true, message: '请选择模板' }]}>
                 <Radio.Group>
-                    <Radio value={1}>模板1</Radio>
+                    <Radio value={1}>英文模板</Radio>
+                    <Radio value={2}>中文模板</Radio>
                 </Radio.Group>
             </Form.Item>
             <Form.Item name={'size'} label="目标推送人数" rules={[{ required: true, message: '请填写目标推送人数' }]}>
