@@ -1,6 +1,7 @@
 import React from 'react'
+import Springer from './template/Springer'
 export default function  Preview ({ article, type }) {
-    const { abstract, authors, title, keywords } = article
+    const { abstract, authors, title, keywords, orgs } = article
     const journal = document.getElementById('journal')
     const imgSrc =journal ? journal.getElementsByTagName('img')[0].src : 'http://originalstatic.Aminer.cn/misc//recomail/meeting/Bonnie/Tsinghua/Tsinghua.jpg'
 
@@ -255,6 +256,8 @@ export default function  Preview ({ article, type }) {
         '</div>' +
         '</body>' +
         '</html>'
-
+    if (window.location.hostname === 'link.springer.com' || true) {
+        return  <Springer data={{ abstract, authors, title, keywords, orgs }} article={article}></Springer>
+    }
     return <div dangerouslySetInnerHTML={{ __html: type === 2 ? html_ch : html_s }} id={'s_html'}></div>
 }

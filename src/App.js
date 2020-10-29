@@ -5,12 +5,10 @@ import {Button, Collapse, Tabs, Input, ConfigProvider, Modal, message, Spin, Rad
 import CheckList from './checkList'
 import FullText from './FullText'
 import Article from "./Article"
-import Preview from './preview'
-import List from './list'
 import request from "./request";
 import { CloseOutlined } from '@ant-design/icons';
-import getTemplate from "./getTemplate";
 import IMG from './header.png'
+import { getActiveKey, getOpts } from "./getActiveKey";
 const { TabPane } = Tabs;
 const { Panel } = Collapse;
 const { TextArea } = Input;
@@ -87,18 +85,21 @@ export default function App (props) {
     const [ initValues, setInitValues ] = useState({})
     const [ checkList, setCheckList ] = useState([])
     const [ emails, setEmails ] = useState('')
-    const couterRef = useRef()
-
+    const [ htmlTemplate, setHtmlTemplate ] = useState('')
+    const [ buttonDisable, setButtonDisable ] = useState(true)
+    const [ htmlLoading, setHtmlLoading ] = useState(false)
     useEffect(() => {
         if (window.location.hostname.includes('engineering')) {
-            if (document.getElementById('journalDetails')) {
-                setActiveKey('1')
-            }
-            if (document.getElementById('onlineNowList')) {
-                getInitValues()
+            if (window.location.href.includes('journal')) {
                 setActiveKey('2')
             }
+            if (window.location.href.includes('j.eng.')) {
+                setActiveKey('1')
+            }
+        } else {
+            getActiveKey(setActiveKey)
         }
+
         message.config({
             duration: 2,
             maxCount: 3,
@@ -135,6 +136,9 @@ export default function App (props) {
                 const { items } = data[0]
                 if (items && items.length) {
                     setVenue(items[0])
+                } else {
+                    message.error('获取期刊失败',10000)
+                    console.log('获取期刊失败')
                 }
             })
             if (activeKey) {
@@ -145,6 +149,9 @@ export default function App (props) {
                             "action": activeKey === '1' ? "reviewer.ParsePubDetail" : "reviewer.ParsePubList",
                             "parameters": {
                                 "ids": [
+                                    // 'https://www.engineering.org.cn/en/journal/eng/archive?volumeId=1228&pageIndex=2'
+                                    // 'https://www.engineering.org.cn/en/10.1016/j.eng.2020.07.005'
+                                    // 'https://link.springer.com/journal/12274/volumes-and-issues/13-12'
                                     window.location.href
                                     // 'https://www.engineering.org.cn/ch/10.1016/j.eng.2019.11.011'
                                     //   'http://www.engineering.org.cn/en/10.1016/j.eng.2020.08.004'
@@ -164,7 +171,6 @@ export default function App (props) {
                         }
                     } else {
                         const { items, succeed } = data[0]
-                        const imgSrc = process.env.NODE_ENV === 'production' ? document.getElementById('volumeCover').src : 'http://e.engineering.org.cn/2020/img/2003.jpg';
                         if (succeed && items) {
                             let obj = {}
                             const newItems = items.reduce((arr, item) => {
@@ -176,8 +182,7 @@ export default function App (props) {
                                         key: item.url,
                                         issueNm: item.issue,
                                         volumeNm: item.volume,
-                                        year: item.year,
-                                        imgSrc: imgSrc
+                                        year: item.year
                                     })
                                 }
                                 return arr
@@ -194,6 +199,18 @@ export default function App (props) {
         }
 
     }, [activeKey, props.token])
+
+    useEffect(() => {
+        if (activeKey === '1' && article && venue.id && Object.keys(article).length) {
+            setButtonDisable(false)
+        }
+    }, [activeKey, article, venue])
+
+    useEffect(() => {
+        if (activeKey === '2' && venue.id ) {
+            setButtonDisable(false)
+        }
+    }, [activeKey, venue])
 
     const handleTitleChange = (e) => {
         setTitle(e.target.value)
@@ -293,11 +310,11 @@ export default function App (props) {
                                 {
                                     "field": "g_comment",
                                     "value": messages
-                                },
-                                {
-                                    "field": "template",
-                                    "value": activeKey === '2' ? getTemplate(checkedList, templateType) : document.getElementById('s_html').innerHTML
                                 }
+                                // {
+                                //     "field": "template",
+                                //     "value": activeKey === '2' ? getTemplate(checkedList, templateType) : document.getElementById('s_html').innerHTML
+                                // }
                             ]
                         }
                     ]
@@ -334,8 +351,7 @@ export default function App (props) {
                             exclude_list: values.exclude_list,
                             cc_list: values.cc_list,
                             messages,
-                            customValue,
-                            template_type: templateType
+                            customValue
                         }))
                         if (activeKey === '2') {
                             localStorage.setItem(`${volumeId || 'test'}-checkedList`, JSON.stringify([]))
@@ -406,16 +422,17 @@ export default function App (props) {
     const handleSubmit = () => {
         return setNum(num + 1)
     }
-    const handleClick = useCallback((e) => {
-        e.stopPropagation()
-        setShow(!show)
+    const handleClick = useCallback(() => {
         if (!show) {
             props.createCss()
         } else {
             window.parent.document.getElementsByTagName('link')[0].remove()
         }
+        setShow(!show)
     }, [show])
-
+    const handleClickHtml = () => {
+        getOpts(activeKey, venue, article, setHtmlTemplate, setHtmlLoading, handleClick)
+    }
     const handleOpinionClick = () => {
         window.open('https://www.wjx.cn/jq/86212803.aspx')
     }
@@ -451,10 +468,7 @@ export default function App (props) {
                 <FrameContextConsumer>
                     {
                         ({document, window}) => {
-                            return <>
-                                {activeKey === '1' && <Preview imgUrl={imgUrl} intro={intro} article={article} type={templateType} />}
-                                {activeKey === '2' && <List show={show} type={templateType} />}
-                            </>
+                            return <div dangerouslySetInnerHTML={{ __html: htmlTemplate ? htmlTemplate : ''}}></div>
                         }
                     }
                 </FrameContextConsumer>
@@ -532,7 +546,7 @@ export default function App (props) {
                 </Radio.Group>
             </div>
             <div className={'b-box'}>
-                <Button onClick={handleClick}>预览</Button>
+                <Button onClick={handleClickHtml} disabled={buttonDisable} loading={htmlLoading}>预览</Button>
                 <Button type="primary" onClick={handleSubmit} loading={buttonLoading}>推送</Button>
             </div>
             <div className={'links'}>
@@ -542,9 +556,9 @@ export default function App (props) {
             <div className={'bottom-text'}>
                 {activeKey === '1' ? '了解参考文献作者1对1推送、智能约稿、审稿人推荐等，请联系：13901207032' : '了解智能约稿、审稿人推荐等，请联系：13901207032'}
             </div>
-            <div style={{ display: 'none' }} ref={couterRef}>
-                {activeKey === '1' && <Preview imgUrl={imgUrl} intro={intro} article={article} type={templateType} />}
-            </div>
+            {/*<div style={{ display: 'none' }} ref={couterRef}>*/}
+            {/*    {activeKey === '1' && <Preview imgUrl={imgUrl} intro={intro} article={article} type={templateType} />}*/}
+            {/*</div>*/}
 
         </div>
     </ConfigProvider>

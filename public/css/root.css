@@ -10,7 +10,7 @@ body {
     position: fixed;
     top: 0px;
     right: 0px;
-    z-index: 500;
+    z-index: 99999;
     background-color: white;
     box-shadow: 0px 0px 5px #0000009e;
 }

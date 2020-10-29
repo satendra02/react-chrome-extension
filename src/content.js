@@ -38,23 +38,13 @@ app.style.display = "none";
 chrome.runtime.onMessage.addListener(
    function(request, sender, sendResponse) {
       if(request.message === "clicked_browser_action") {
-        var show = false
-        if (document.getElementById('journalDetails') || document.getElementById('onlineNowList')) {
-            show = true
-            sendResponse({
-                show,
-                token
-            })
-            if (token) {
-                toggle();
-            }
-        } else {
-            sendResponse({
-                show,
-                token
-            })
-            app.style.display = "none";
-        }
+          sendResponse({
+              show: true,
+              token
+          })
+          if (token) {
+              toggle();
+          }
       }
        if(request.token) {
            localStorage.setItem(tokenName, request.token)
