@@ -13,7 +13,10 @@ const { TabPane } = Tabs;
 const { Panel } = Collapse;
 const { TextArea } = Input;
 const volumeId = window.location.href.split('/')[5]
-
+function deleteHtmlTag(str){
+    str = str.replace(/<[^>]+>|&[^>]+;/g,"").trim();//去掉所有的html标签和&nbsp;之类的特殊符合
+    return str;
+}
 function getKeys (activeKey, article, checkedList) {
     let data = []
     if (activeKey === '1') {
@@ -112,7 +115,8 @@ export default function App (props) {
         const initialValues = data ? JSON.parse(data) : {}
         if (!initialValues.template_type) initialValues.template_type = 1
         if (activeKey === '1') {
-            const { title, emails = '' } = items[0]
+            let { title, emails = '' } = items[0]
+            title = deleteHtmlTag(title)
             setEmails(emails)
             setInitValues(Object.assign({}, { title: title, 'title-disabled': title, ...initialValues }))
         } else {
@@ -149,6 +153,7 @@ export default function App (props) {
                             "action": activeKey === '1' ? "reviewer.ParsePubDetail" : "reviewer.ParsePubList",
                             "parameters": {
                                 "ids": [
+                                    // 'http://www.geojournals.cn/georev/ch/reader/issue_list.aspx?year_id=2020&quarter_id=2'
                                     // 'https://www.engineering.org.cn/en/journal/eng/archive?volumeId=1228&pageIndex=2'
                                     // 'https://www.engineering.org.cn/en/10.1016/j.eng.2020.07.005'
                                     // 'https://link.springer.com/journal/12274/volumes-and-issues/13-12'
@@ -173,12 +178,13 @@ export default function App (props) {
                         const { items, succeed } = data[0]
                         if (succeed && items) {
                             let obj = {}
+
                             const newItems = items.reduce((arr, item) => {
                                 if (!obj[item.url] && !item.url.includes('loadPageIndex')) {
                                     obj[item.url] = true
                                     arr.push({
                                         value: item.url,
-                                        label: item.title,
+                                        label: deleteHtmlTag(item.title),
                                         key: item.url,
                                         issueNm: item.issue,
                                         volumeNm: item.volume,
