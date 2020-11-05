@@ -104,3 +104,6 @@
 .ex-radio > label{
   margin-bottom: 5px;
 }
+.ant-modal-wrap{
+ z-index: 99999999;
+}

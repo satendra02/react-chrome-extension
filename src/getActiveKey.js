@@ -10,6 +10,8 @@ export function getActiveKey (setKey) {
         setKey('1')
     } else if (href.includes('tocresult.jsp')) {
         setKey('2')
+    } else if (href.includes('mostRecentIssue.jsp')) {
+        setKey('2')
     } else if (href.includes('document')) {
         setKey('1')
     } else if (href.includes('issue_list.aspx')) {
