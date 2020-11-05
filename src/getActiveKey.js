@@ -134,8 +134,7 @@ export function getOpts (activeKey, venue, article = {}, cb, setHtmlLoading, sho
                                 "action": "reviewer.GetVenueTemplateWithPageInfo",
                                 "parameters": {
                                     "ids": [
-                                        '5cc01f4b6558b90bfae38bef'
-                                        // venue.id
+                                        venue.id
                                     ],
                                     "opts": [
                                         {
