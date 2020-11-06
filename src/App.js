@@ -466,6 +466,7 @@ export default function App (props) {
                 footer={null}
                 destroyOnClose={true}
                 id={'modal-ex'}
+                centered
             >    <Frame
                 width={860}
                 height={Math.floor(window.innerHeight * 0.8)}

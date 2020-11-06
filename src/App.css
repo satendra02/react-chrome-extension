@@ -107,3 +107,8 @@
 .ant-modal-wrap{
  z-index: 99999999;
 }
+.ant-modal-close-x{
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
