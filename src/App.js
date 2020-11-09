@@ -6,9 +6,11 @@ import CheckList from './checkList'
 import FullText from './FullText'
 import Article from "./Article"
 import request from "./request";
+import Preview from './preview'
+import getTemplate from "./getTemplate";
+import List from './list'
 import { CloseOutlined } from '@ant-design/icons';
 import IMG from './header.png'
-import { getActiveKey, getOpts } from "./getActiveKey";
 const { TabPane } = Tabs;
 const { Panel } = Collapse;
 const { TextArea } = Input;
@@ -88,19 +90,15 @@ export default function App (props) {
     const [ initValues, setInitValues ] = useState({})
     const [ checkList, setCheckList ] = useState([])
     const [ emails, setEmails ] = useState('')
-    const [ htmlTemplate, setHtmlTemplate ] = useState('')
-    const [ buttonDisable, setButtonDisable ] = useState(true)
-    const [ htmlLoading, setHtmlLoading ] = useState(false)
+
+    const couterRef = useRef()
     useEffect(() => {
-        if (window.location.hostname.includes('engineering')) {
-            if (window.location.href.includes('journal')) {
-                setActiveKey('2')
-            }
-            if (window.location.href.includes('j.eng.')) {
-                setActiveKey('1')
-            }
-        } else {
-            getActiveKey(setActiveKey)
+        if (window.location.href.includes('journal')) {
+            setActiveKey('2')
+            getInitValues()
+        }
+        if (window.location.href.includes('j.eng.')) {
+            setActiveKey('1')
         }
 
         message.config({
@@ -158,7 +156,7 @@ export default function App (props) {
                                     // 'https://www.engineering.org.cn/en/10.1016/j.eng.2020.07.005'
                                     // 'https://link.springer.com/journal/12274/volumes-and-issues/13-12'
                                     window.location.href
-                                    // 'https://www.engineering.org.cn/ch/10.1016/j.eng.2019.11.011'
+                                    // 'https://www.engineering.org.cn/en/10.1016/j.eng.2020.09.006'
                                     //   'http://www.engineering.org.cn/en/10.1016/j.eng.2020.08.004'
                                     // 'http://www.engineering.org.cn/en/journal/eng/archive?volumeId=173'
                                 ]
@@ -178,7 +176,7 @@ export default function App (props) {
                         const { items, succeed } = data[0]
                         if (succeed && items) {
                             let obj = {}
-
+                            const imgSrc = process.env.NODE_ENV === 'production' ? document.getElementById('volumeCover').src : 'http://e.engineering.org.cn/2020/img/2003.jpg';
                             const newItems = items.reduce((arr, item) => {
                                 if (!obj[item.url] && !item.url.includes('loadPageIndex')) {
                                     obj[item.url] = true
@@ -188,7 +186,8 @@ export default function App (props) {
                                         key: item.url,
                                         issueNm: item.issue,
                                         volumeNm: item.volume,
-                                        year: item.year
+                                        year: item.year,
+                                        imgSrc: imgSrc
                                     })
                                 }
                                 return arr
@@ -205,18 +204,6 @@ export default function App (props) {
         }
 
     }, [activeKey, props.token])
-
-    useEffect(() => {
-        if (activeKey === '1' && article && venue.id && Object.keys(article).length) {
-            setButtonDisable(false)
-        }
-    }, [activeKey, article, venue])
-
-    useEffect(() => {
-        if (activeKey === '2' && venue.id ) {
-            setButtonDisable(false)
-        }
-    }, [activeKey, venue])
 
     const handleTitleChange = (e) => {
         setTitle(e.target.value)
@@ -316,11 +303,11 @@ export default function App (props) {
                                 {
                                     "field": "g_comment",
                                     "value": messages
+                                },
+                                {
+                                    "field": "template",
+                                    "value": activeKey === '2' ? getTemplate(checkedList, templateType) : props.document.getElementById('s_html').innerHTML
                                 }
-                                // {
-                                //     "field": "template",
-                                //     "value": activeKey === '2' ? getTemplate(checkedList, templateType) : document.getElementById('s_html').innerHTML
-                                // }
                             ]
                         }
                     ]
@@ -436,9 +423,7 @@ export default function App (props) {
         }
         setShow(!show)
     }, [show])
-    const handleClickHtml = () => {
-        getOpts(activeKey, venue, article, setHtmlTemplate, setHtmlLoading, handleClick)
-    }
+
     const handleOpinionClick = () => {
         window.open('https://www.wjx.cn/jq/86212803.aspx')
     }
@@ -475,7 +460,10 @@ export default function App (props) {
                 <FrameContextConsumer>
                     {
                         ({document, window}) => {
-                            return <div dangerouslySetInnerHTML={{ __html: htmlTemplate ? htmlTemplate : ''}}></div>
+                            return <>
+                                {activeKey === '1' && <Preview imgUrl={imgUrl} intro={intro} article={article} type={templateType} />}
+                                {activeKey === '2' && <List show={show} type={templateType} />}
+                            </>
                         }
                     }
                 </FrameContextConsumer>
@@ -553,7 +541,7 @@ export default function App (props) {
                 </Radio.Group>
             </div>
             <div className={'b-box'}>
-                <Button onClick={handleClickHtml} disabled={buttonDisable} loading={htmlLoading}>预览</Button>
+                <Button onClick={handleClick}>预览</Button>
                 <Button type="primary" onClick={handleSubmit} loading={buttonLoading}>推送</Button>
             </div>
             <div className={'links'}>
@@ -563,9 +551,9 @@ export default function App (props) {
             <div className={'bottom-text'}>
                 {activeKey === '1' ? '了解参考文献作者1对1推送、智能约稿、审稿人推荐等，请联系：13901207032' : '了解智能约稿、审稿人推荐等，请联系：13901207032'}
             </div>
-            {/*<div style={{ display: 'none' }} ref={couterRef}>*/}
-            {/*    {activeKey === '1' && <Preview imgUrl={imgUrl} intro={intro} article={article} type={templateType} />}*/}
-            {/*</div>*/}
+            <div style={{ display: 'none' }} ref={couterRef}>
+                {activeKey === '1' && <Preview imgUrl={imgUrl} intro={intro} article={article} type={templateType} />}
+            </div>
 
         </div>
     </ConfigProvider>

@@ -3,16 +3,18 @@ export default function (data, templateType) {
     const checkedList = JSON.parse(localStorage.getItem(`${volumeId || 'test'}-checkedList`)) || []
     let listData = ''
     {templateType === 1 && data.forEach((item, index) => {
-        listData += '<li><a href="'+checkedList[index].value+'" target="_blank"><strong><font color="#007a77" face="arial" size="3">'+item.title+'</font></strong></a> <br><font color="gray" face="Times New Roman" size="3">'+item.authors+'</font></li><br>'
+        const authorsHtml = item.authors ? item.authors.split(';').join('，') : ''
+        listData += '<li><a href="'+checkedList[index].value+'" target="_blank"><strong><font color="#007a77" face="arial" size="3">'+item.title+'</font></strong></a> <br><font color="gray" face="Times New Roman" size="3">'+authorsHtml+'</font></li><br>'
     })}
     {templateType === 2 && data.forEach((item, index) => {
+        const authorsHtml = item.authors ? item.authors.split(';').join('，') : ''
         listData += '<table class="ke-zeroborder" width="100%" cellspacing="0" cellpadding="8" border="0">' +
             '<tbody>' +
             '<tr>' +
             '<td style="font-family:微软雅黑,黑体, arial, sans-serif;font-size:13px;line-height: 200%;color:#000000;">' +
             '<p style="text-align:justify;"><a href="'+checkedList[index].value+'" target="_blank" style="text-decoration:none;color:#000000;" data-hs-link-id="0"><font style="color:#144E98;"><strong style="font-weight:700;font-size:15px;text-align:justify;">'+ item.title +
             '</strong></font></a><br/>' +
-            item.authors +
+            authorsHtml +
             '</p>' +
             '</td>' +
             '</tr>' +

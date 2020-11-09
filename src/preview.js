@@ -1,10 +1,9 @@
 import React from 'react'
-import Springer from './template/Springer'
 export default function  Preview ({ article, type }) {
     const { abstract, authors, title, keywords, orgs } = article
     const journal = document.getElementById('journal')
     const imgSrc =journal ? journal.getElementsByTagName('img')[0].src : 'http://originalstatic.Aminer.cn/misc//recomail/meeting/Bonnie/Tsinghua/Tsinghua.jpg'
-
+    const authorsHtml = authors ? authors.split(';').join('，') : ''
     const html_s = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">' +
         '<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">' +
         '</head>' +
@@ -21,7 +20,7 @@ export default function  Preview ({ article, type }) {
         '</span></p>' +
         '            <div align="left">' +
         '            <ul type="disc">' +
-        '<li><a href="'+ window.location.href+'" target="_blank"><strong><font color="#007a77" face="arial" size="3">'+ title +'</font></strong></a> <br><font color="gray" face="Times New Roman" size="3">' + authors +
+        '<li><a href="'+ window.location.href+'" target="_blank"><strong><font color="#007a77" face="arial" size="3">'+ title +'</font></strong></a> <br><font color="gray" face="Times New Roman" size="3">' + authorsHtml +
         '</font>' +
         '<p style="line-height: 200%; font-family:Times New Roman;color: black" >' +
         '<b style="margin-right: 5px;font-weight: bold;color: black">Abstract</b>' +  abstract +
@@ -256,8 +255,5 @@ export default function  Preview ({ article, type }) {
         '</div>' +
         '</body>' +
         '</html>'
-    if (window.location.hostname === 'link.springer.com' || true) {
-        return  <Springer data={{ abstract, authors, title, keywords, orgs }} article={article}></Springer>
-    }
     return <div dangerouslySetInnerHTML={{ __html: type === 2 ? html_ch : html_s }} id={'s_html'}></div>
 }

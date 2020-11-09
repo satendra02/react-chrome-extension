@@ -37,18 +37,19 @@ export default function  Article ({
         }
     }
 
-    // const onFieldsChange = (changedFields, allFields) => {
-    //     allFields.forEach((item) => {
-    //         if (item['name'][0] === 'template_type') {
-    //             setType(item.value)
-    //         }
-    //     })
-    // }
+    const onFieldsChange = (changedFields, allFields) => {
+        allFields.forEach((item) => {
+            if (item['name'][0] === 'template_type') {
+                setType(item.value)
+            }
+        })
+    }
 
     return <div className={'article'}>
         <Form {...layout} form={form}
               onFinish={appOnFinish}
               onFinishFailed={onFinishFailed}
+              onFieldsChange={onFieldsChange}
               name="text-messages"
               initialValues={{
             ...initValues,
@@ -72,7 +73,8 @@ export default function  Article ({
             </Form.Item>
             <Form.Item name={'template_type'} label="选择模板" rules={[{ required: true,  message: '请选择模板' }]}>
                 <Radio.Group>
-                    <Radio value={1}>模板1</Radio>
+                    <Radio value={1}>Engineering</Radio>
+                    <Radio value={2}>中国工程科学</Radio>
                 </Radio.Group>
             </Form.Item>
             <Form.Item name={'size'} label="目标推送人数" rules={[{ required: true,  message: '请选择目标推送人数' }]}>
