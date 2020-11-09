@@ -1,0 +1,35 @@
+.ant-checkbox-group-item > span:nth-child(2){
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    max-width: 300px;
+    display: inline-block;
+}
+.ant-checkbox-group-item{
+    display: flex;
+    align-items: center;
+}
+.buttons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.join{
+    display: flex;
+    justify-content: flex-end;
+}
+.ant-form-item-label > label{
+    color: #1890ff !important;
+}
+.ant-form-item-label{
+    padding-bottom: 0px !important;
+}
+.ant-form-item{
+    margin-bottom: 5px !important;
+}
+.from-input{
+    margin-left: 5px;
+}
+

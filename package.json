@@ -4,7 +4,9 @@
   "private": true,
   "dependencies": {
     "@babel/runtime": "^7.10.4",
+    "antd": "^4.5.3",
     "autoprefixer": "^9.8.5",
+    "axios": "^0.20.0",
     "case-sensitive-paths-webpack-plugin": "^2.3.0",
     "chalk": "^4.1.0",
     "css-loader": "^3.6.0",
@@ -33,7 +35,7 @@
         "src",
         "public"
       ],
-      "extensions": "js,html,scss,css,json,svg"
+      "extensions": "js,html,css,json,svg"
     }
   },
   "jest": {
@@ -75,6 +77,16 @@
       "react-app",
       "@babel/preset-env",
       "@babel/preset-react"
+    ],
+    "plugins": [
+      [
+        "import",
+        {
+          "libraryName": "antd",
+          "libraryDirectory": "es",
+          "style": "css"
+        }
+      ]
     ]
   },
   "eslintConfig": {
@@ -90,6 +102,7 @@
     "babel-eslint": "^10.1.0",
     "babel-jest": "^26.1.0",
     "babel-loader": "^8.1.0",
+    "babel-plugin-import": "^1.13.0",
     "babel-preset-react-app": "^9.1.2",
     "eslint": "^7.4.0",
     "eslint-config-react-app": "^5.2.1",
@@ -106,8 +119,8 @@
     "node-sass": "^4.14.1",
     "npm-watch": "^0.6.0",
     "postcss-loader": "^3.0.0",
-    "react-dev-utils": "^10.2.1",
     "sass-loader": "^10.0.3",
+    "react-dev-utils": "^9.1.0",
     "style-loader": "^1.2.1",
     "sw-precache-webpack-plugin": "^1.0.0",
     "url-loader": "^4.1.0",

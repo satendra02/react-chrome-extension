@@ -1,28 +1,114 @@
-.App {
+.ant-tabs-nav-list{
+  width: 100% !important;
+}
+.ant-tabs-tab{
+  width: 50% !important;
+}
+.ant-tabs-tab-btn{
   text-align: center;
+  width: 100% !important;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.ant-collapse-content-box{
+  background: #fff;
 }
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.ant-collapse-item{
+  border: none !important;
 }
-
-.App-title {
-  font-size: 1.5em;
+.topInput{
+  display: flex;
+  flex-direction: column;
 }
-
-.App-intro {
-  font-size: large;
+.topInputName{
+  color: #1890ff;
+  margin-bottom: 5px;
+  width: 70px;
 }
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.a-upload{
+  display: inline-block;
+  margin: 5px 0px;
+  text-decoration: underline !important;
+}
+.b-text{
+  color: #1890ff;
+  margin-bottom: 5px;
+}
+.b-box{
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+.b-box > button{
+  width: 45%;
+}
+.links{
+  padding: 16px;
+  display: flex;
+}
+.links > button{
+  padding: 0px !important;
+  margin-right: 30px;
+  text-decoration: underline;
+}
+.bottom-text{
+  padding: 16px;
+  color: #666;
+}
+.app-header{
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+.app-header>span{
+  color: #999 !important;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+.app-header>span:hover{
+  color: #666 !important;
+  cursor: pointer;
+}
+.ant-tabs-nav-list > div{
+  margin-right: 0px !important;
+}
+.app-header-title{
+  color: rgba(0,0,0,.85);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}
+.ant-modal-body{
+ padding: 0px !important;
+}
+.loading-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100%;
+}
+.ant-tabs-nav-operations{
+  display: none !important;
+}
+.ant-input-number{
+  border-color: #d9d9d9 !important;
+}
+.ant-input-number:focus{
+  border-color: #40a9ff !important;
+  box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2) !important;
+}
+.ex-radio{
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+.ex-radio > label{
+  margin-bottom: 5px;
+}
+.ant-modal-wrap{
+ z-index: 99999999;
+}
+.ant-modal-close-x{
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
 }

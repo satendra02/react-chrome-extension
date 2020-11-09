@@ -1,15 +1,33 @@
 {
-  "short_name": "My Extension",
-  "name": "My Extension",
+  "short_name": "Reco Extension",
+  "name": "Reco Extension",
   "version": "1.1",
   "manifest_version": 2,
+  "description": "Reco Extension",
   "background": {
     "scripts": ["app/background.js"]
   },
-  "browser_action": {},
+  "icons": {
+    "16": "yutang_logo.png",
+    "48": "yutang_logo.png",
+    "128": "yutang_logo.png"
+  },
+  "browser_action": {
+    "default_icon": "yutang_logo.png",
+    "default_title": "Reco Extension",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs"
+  ],
   "content_scripts" : [
     {
-      "matches": [ "<all_urls>" ],
+      "matches": ["http://www.engineering.org.cn/*/*/*", "https://www.engineering.org.cn/*/*/*","https://www.engineering.org.cn/*/*/*/*",
+      "http://jst.tsinghuajournals.com/CN/*/*","http://jst.tsinghuajournals.com/CN/*/*",
+      "http://www.geojournals.cn/dzxb/ch/*/*", "http://www.geojournals.cn/dzxb/ch/*/*",  "http://www.geojournals.cn/georev/ch/*/*",
+      "https://ieeexplore.ieee.org/xpl/*", "https://ieeexplore.ieee.org/document/*", "https://www.sciencedirect.com/journal/*/*/*/*/*","https://www.sciencedirect.com/science/article/*/*/*",
+      "https://link.springer.com/article/*/*", "https://link.springer.com/journal/*/*", "https://www.sciencedirect.com/science/article/*/*"
+      ],
       "css": ["/css/root.css"],
       "js": ["/static/js/content.js"]
     }
