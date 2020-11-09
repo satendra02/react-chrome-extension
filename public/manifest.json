@@ -8,12 +8,12 @@
     "scripts": ["app/background.js"]
   },
   "icons": {
-    "16": "yutang_logo.png",
-    "48": "yutang_logo.png",
-    "128": "yutang_logo.png"
+    "16": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
   },
   "browser_action": {
-    "default_icon": "yutang_logo.png",
+    "default_icon": "logo.png",
     "default_title": "Reco Extension",
     "default_popup": "popup.html"
   },
@@ -22,12 +22,7 @@
   ],
   "content_scripts" : [
     {
-      "matches": ["http://www.engineering.org.cn/*/*/*", "https://www.engineering.org.cn/*/*/*","https://www.engineering.org.cn/*/*/*/*",
-      "http://jst.tsinghuajournals.com/CN/*/*","http://jst.tsinghuajournals.com/CN/*/*",
-      "http://www.geojournals.cn/dzxb/ch/*/*", "http://www.geojournals.cn/dzxb/ch/*/*",  "http://www.geojournals.cn/georev/ch/*/*",
-      "https://ieeexplore.ieee.org/xpl/*", "https://ieeexplore.ieee.org/document/*", "https://www.sciencedirect.com/journal/*/*/*/*/*","https://www.sciencedirect.com/science/article/*/*/*",
-      "https://link.springer.com/article/*/*", "https://link.springer.com/journal/*/*", "https://www.sciencedirect.com/science/article/*/*"
-      ],
+      "matches": ["http://www.engineering.org.cn/*/*/*", "https://www.engineering.org.cn/*/*/*","https://www.engineering.org.cn/*/*/*/*"],
       "css": ["/css/root.css"],
       "js": ["/static/js/content.js"]
     }
