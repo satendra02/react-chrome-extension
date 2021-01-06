@@ -1933,6 +1933,14 @@ address@1.1.2, address@^1.0.1:
   resolved "https://registry.yarnpkg.com/address/-/address-1.1.2.tgz#bf1116c9c758c51b7a933d296b72c221ed9428b6"
   integrity sha512-aT6camzM4xEA54YVJYSqxz1kv4IHnQZRtThJJHhUMRExaU5spC7jX5ugSwTaTgJliIgs4VhZOk7htClvQ/LmRA==
 
+affirm-assets@^2.7.1:
+  version "2.7.1"
+  resolved "https://registry.affirm-stage.com/artifactory/api/npm/npm/affirm-assets/-/affirm-assets-2.7.1.tgz#3a2d2dfd1998660d25996cbe8d62fa8505b377ad"
+  integrity sha1-Oi0t/RmYZg0lmWy+jWL6hQWzd60=
+  dependencies:
+    bourbon "~4.2.4"
+    susy "~2.2.5"
+
 ajv-errors@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/ajv-errors/-/ajv-errors-1.0.1.tgz#f35986aceb91afadec4102fbd85014950cefa64d"
@@ -2526,6 +2534,11 @@ boolbase@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
   integrity sha1-aN/1++YMUes3cl6p4+0xDcwed24=
+
+bourbon@~4.2.4:
+  version "4.2.7"
+  resolved "https://registry.affirm-stage.com/artifactory/api/npm/npm/bourbon/-/bourbon-4.2.7.tgz?dl=https://registry.yarnpkg.com/bourbon/-/bourbon-4.2.7.tgz#48a805dff475fbf61e002a64e1e4db68d2f82fba"
+  integrity sha1-SKgF3/R1+/YeACpk4eTbaNL4L7o=
 
 boxen@^1.2.1:
   version "1.3.0"
@@ -8786,6 +8799,11 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
     hash-base "^3.0.0"
     inherits "^2.0.1"
 
+route-lite@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.affirm-stage.com/artifactory/api/npm/npm/route-lite/-/route-lite-0.3.0.tgz?dl=https://registry.yarnpkg.com/route-lite/-/route-lite-0.3.0.tgz#90b9a528c44a9baa3ecf9619804df4b0b56ba338"
+  integrity sha1-kLmlKMRKm6o+z5YZgE30sLVrozg=
+
 rsvp@^4.8.4:
   version "4.8.5"
   resolved "https://registry.yarnpkg.com/rsvp/-/rsvp-4.8.5.tgz#c8f155311d167f68f21e168df71ec5b083113734"
@@ -9612,6 +9630,11 @@ supports-hyperlinks@^2.0.0:
   dependencies:
     has-flag "^4.0.0"
     supports-color "^7.0.0"
+
+susy@~2.2.5:
+  version "2.2.14"
+  resolved "https://registry.affirm-stage.com/artifactory/api/npm/npm/susy/-/susy-2.2.14.tgz?dl=https://registry.yarnpkg.com/susy/-/susy-2.2.14.tgz#4551690ff063dd2049197dd8885bae5341a969f8"
+  integrity sha1-RVFpD/Bj3SBJGX3YiFuuU0Gpafg=
 
 sw-precache-webpack-plugin@^1.0.0:
   version "1.0.0"
