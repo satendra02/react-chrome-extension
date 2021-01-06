@@ -11,7 +11,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.rollbicycles.com"
+    "domain": "rollbicycles.com"
   },
   {
     "product_type": "Ecommerce",
@@ -25,7 +25,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.crossrope.com"
+    "domain": "crossrope.com"
   },
   {
     "product_type": "Ecommerce",
@@ -51,7 +51,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.sfracing-usa.com"
+    "domain": "sfracing-usa.com"
   },
   {
     "product_type": "Ecommerce",
@@ -65,7 +65,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.caliberhair.com"
+    "domain": "caliberhair.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -77,7 +77,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.dog.com"
+    "domain": "dog.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -89,7 +89,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.biblio.com"
+    "domain": "biblio.com"
   },
   {
     "product_type": "Ecommerce",
@@ -103,7 +103,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.all3sports.com"
+    "domain": "all3sports.com"
   },
   {
     "product_type": "Ecommerce",
@@ -131,7 +131,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.honest.com"
+    "domain": "honest.com"
   },
   {
     "product_type": "Ecommerce",
@@ -145,7 +145,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.lensabl.com"
+    "domain": "lensabl.com"
   },
   {
     "product_type": "Ecommerce",
@@ -157,7 +157,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "accessories",
     "categories": null,
-    "domain": "www.certifiedwatchstore.com"
+    "domain": "certifiedwatchstore.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -169,7 +169,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.123stores.com"
+    "domain": "123stores.com"
   },
   {
     "product_type": "Ecommerce",
@@ -183,7 +183,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.ricmotech.com"
+    "domain": "ricmotech.com"
   },
   {
     "product_type": "Ecommerce",
@@ -211,7 +211,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.wholesalemarine.com"
+    "domain": "wholesalemarine.com"
   },
   {
     "product_type": "Ecommerce",
@@ -234,7 +234,7 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=http%3A%2F%2Fwww.dpbolvw.net%2Fclick-8191141-10924987&merchant_ari=05FD57Y4YZZ11VE0",
     "icon_url": "http://cdn-assets.affirm.com/vcn_buy/v1/merchants/05FD57Y4YZZ11VE0/logo20200312/logo_offer.png",
     "ari": "05FD57Y4YZZ11VE0",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "home_and_furniture",
     "categories": [
       "accessories",
@@ -242,7 +242,7 @@ const merchantData = [
       "luxury",
       "shoes"
     ],
-    "domain": "www.overstock.com"
+    "domain": "overstock.com"
   },
   {
     "product_type": "Ecommerce",
@@ -256,7 +256,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.esrwheels.com"
+    "domain": "esrwheels.com"
   },
   {
     "product_type": "Ecommerce",
@@ -270,7 +270,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.timex.com"
+    "domain": "timex.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -312,7 +312,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.thejewelrymaster.com"
+    "domain": "thejewelrymaster.com"
   },
   {
     "product_type": "Ecommerce",
@@ -326,7 +326,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.pfadventure.com"
+    "domain": "pfadventure.com"
   },
   {
     "product_type": "Ecommerce",
@@ -340,7 +340,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.tensortire.com"
+    "domain": "tensortire.com"
   },
   {
     "product_type": "Ecommerce",
@@ -366,7 +366,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.shopworn.com"
+    "domain": "shopworn.com"
   },
   {
     "product_type": "Ecommerce",
@@ -392,7 +392,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.genuine-people.com"
+    "domain": "genuine-people.com"
   },
   {
     "product_type": "Ecommerce",
@@ -407,7 +407,7 @@ const merchantData = [
       "accessories",
       "apparel"
     ],
-    "domain": "www.movado.com"
+    "domain": "movado.com"
   },
   {
     "product_type": "Ecommerce",
@@ -421,7 +421,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.lifefitness.com"
+    "domain": "lifefitness.com"
   },
   {
     "product_type": "Ecommerce",
@@ -433,7 +433,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.getgooddrums.com"
+    "domain": "getgooddrums.com"
   },
   {
     "product_type": "Ecommerce",
@@ -447,7 +447,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.methodracewheels.com"
+    "domain": "methodracewheels.com"
   },
   {
     "product_type": "Ecommerce",
@@ -461,7 +461,7 @@ const merchantData = [
     "categories": [
       "travel_and_events"
     ],
-    "domain": "www.adrenaline.com"
+    "domain": "adrenaline.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -475,7 +475,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.bootbay.com"
+    "domain": "bootbay.com"
   },
   {
     "product_type": "Ecommerce",
@@ -489,7 +489,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.ridecake.com"
+    "domain": "ridecake.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -501,7 +501,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.uscutter.com"
+    "domain": "uscutter.com"
   },
   {
     "product_type": "Ecommerce",
@@ -539,7 +539,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "montecci.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -553,7 +553,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.ktperformance.net"
+    "domain": "ktperformance.net"
   },
   {
     "product_type": "Ecommerce",
@@ -565,7 +565,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "blingadvisor.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -591,7 +591,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.antonline.com"
+    "domain": "antonline.com"
   },
   {
     "product_type": "Ecommerce",
@@ -605,7 +605,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "/"
+    "domain": "backyardhomeoasis.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -619,7 +619,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.GDFstudio.com"
+    "domain": "GDFstudio.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -631,7 +631,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.christmascentral.com"
+    "domain": "christmascentral.com"
   },
   {
     "product_type": "Ecommerce",
@@ -645,7 +645,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.olgalorencinskincare.com"
+    "domain": "olgalorencinskincare.com"
   },
   {
     "product_type": "Ecommerce",
@@ -673,7 +673,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "/"
+    "domain": "keilajewelry.com/"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -682,12 +682,12 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fwww.thenorthface.com%2F&merchant_ari=0EL3BHNSU2KZI81H",
     "icon_url": "https://cdn-assets.affirm.com/vcn_buy/v1/merchants/0EL3BHNSU2KZI81H/logo_20190712181318/logo.png",
     "ari": "0EL3BHNSU2KZI81H",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "apparel",
     "categories": [
       "apparel"
     ],
-    "domain": "www.thenorthface.com"
+    "domain": "thenorthface.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -715,7 +715,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.racycles.com"
+    "domain": "racycles.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -729,7 +729,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.lollywollydoodle.com"
+    "domain": "lollywollydoodle.com"
   },
   {
     "product_type": "Ecommerce",
@@ -753,7 +753,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.libertysafe.com"
+    "domain": "libertysafe.com"
   },
   {
     "product_type": "Ecommerce",
@@ -781,7 +781,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.nordictrack.com"
+    "domain": "nordictrack.com"
   },
   {
     "product_type": "Ecommerce",
@@ -793,7 +793,7 @@ const merchantData = [
     "zero_apr": true,
     "primary_category": null,
     "categories": null,
-    "domain": "www.cricut.com"
+    "domain": "cricut.com"
   },
   {
     "product_type": "Ecommerce",
@@ -807,7 +807,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.UltimateEarthBed.com"
+    "domain": "UltimateEarthBed.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -835,7 +835,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.getremarkable.com"
+    "domain": "getremarkable.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -873,7 +873,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "auto",
     "categories": null,
-    "domain": "www.steamspeed.com"
+    "domain": "steamspeed.com"
   },
   {
     "product_type": "Ecommerce",
@@ -899,7 +899,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.nepaudio.com"
+    "domain": "nepaudio.com"
   },
   {
     "product_type": "Ecommerce",
@@ -911,7 +911,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "gearworldzretail.com/"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -925,7 +925,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.hardwarestore.com"
+    "domain": "hardwarestore.com"
   },
   {
     "product_type": "Ecommerce",
@@ -939,7 +939,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.ergotron.com"
+    "domain": "ergotron.com"
   },
   {
     "product_type": "Ecommerce",
@@ -953,7 +953,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.nacrewatches.com"
+    "domain": "nacrewatches.com"
   },
   {
     "product_type": "Ecommerce",
@@ -981,7 +981,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.pintoranch.com"
+    "domain": "pintoranch.com"
   },
   {
     "product_type": "Ecommerce",
@@ -995,7 +995,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.bashfordjewelry.com"
+    "domain": "bashfordjewelry.com"
   },
   {
     "product_type": "Ecommerce",
@@ -1007,7 +1007,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.keepitfvn.com"
+    "domain": "keepitfvn.com"
   },
   {
     "product_type": "Ecommerce",
@@ -1035,7 +1035,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.acitydiscount.com"
+    "domain": "acitydiscount.com"
   },
   {
     "product_type": "Ecommerce",
@@ -1059,7 +1059,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.Www.spaturbousa.com"
+    "domain": "Www.spaturbousa.com"
   },
   {
     "product_type": "Ecommerce",
@@ -1073,7 +1073,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.marine-products.com"
+    "domain": "marine-products.com"
   },
   {
     "product_type": "Ecommerce",
@@ -1085,7 +1085,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.aapc.com"
+    "domain": "aapc.com"
   },
   {
     "product_type": "Ecommerce",
@@ -1097,7 +1097,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.fiddlershop.com"
+    "domain": "fiddlershop.com"
   },
   {
     "product_type": "Ecommerce",
@@ -1125,7 +1125,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.tonneaucoversworld.com"
+    "domain": "tonneaucoversworld.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -1139,7 +1139,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.restockit.com"
+    "domain": "restockit.com"
   },
   {
     "product_type": "Ecommerce",
@@ -1165,7 +1165,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "m"
+    "domain": "zuliahuipa.com"
   },
   {
     "product_type": "Ecommerce",
@@ -1179,7 +1179,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.seagerco.com"
+    "domain": "seagerco.com"
   },
   {
     "product_type": "Ecommerce",
@@ -1207,7 +1207,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.purehockey.com"
+    "domain": "purehockey.com"
   },
   {
     "product_type": "Ecommerce",
@@ -1231,7 +1231,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "m"
+    "domain": "ettienemarket.com"
   },
   {
     "product_type": "Ecommerce",
@@ -1245,7 +1245,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.southconefurniture.com"
+    "domain": "southconefurniture.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -1302,7 +1302,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.allergybuyersclub.com"
+    "domain": "allergybuyersclub.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -1316,7 +1316,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.shopjimmy.com"
+    "domain": "shopjimmy.com"
   },
   {
     "product_type": "Ecommerce",
@@ -1328,7 +1328,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "electronics",
     "categories": null,
-    "domain": "www.powersoundaudio.com"
+    "domain": "powersoundaudio.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -1342,7 +1342,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.lensdirect.com"
+    "domain": "lensdirect.com"
   },
   {
     "product_type": "Ecommerce",
@@ -1356,7 +1356,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.urbanstems.com"
+    "domain": "urbanstems.com"
   },
   {
     "product_type": "Ecommerce",
@@ -1368,7 +1368,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "auto",
     "categories": null,
-    "domain": "www.rimzoneonline.com"
+    "domain": "rimzoneonline.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -1395,7 +1395,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.surgentcpareview.com"
+    "domain": "surgentcpareview.com"
   },
   {
     "product_type": "Ecommerce",
@@ -1421,7 +1421,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.signatureautoparts.com"
+    "domain": "signatureautoparts.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -1435,7 +1435,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.factorybunkbeds.com"
+    "domain": "factorybunkbeds.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -1449,7 +1449,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.wickercentral.com"
+    "domain": "wickercentral.com"
   },
   {
     "product_type": "Ecommerce",
@@ -1463,7 +1463,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "m"
+    "domain": "auteldrones.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -1477,7 +1477,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.westmarine.com"
+    "domain": "westmarine.com"
   },
   {
     "product_type": "Ecommerce",
@@ -1492,7 +1492,7 @@ const merchantData = [
       "accessories",
       "luxury"
     ],
-    "domain": "www.lunaskye.com"
+    "domain": "lunaskye.com"
   },
   {
     "product_type": "Ecommerce",
@@ -1506,7 +1506,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.oakgem.com"
+    "domain": "oakgem.com"
   },
   {
     "product_type": "Ecommerce",
@@ -1520,7 +1520,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.wheelsnparts.com"
+    "domain": "wheelsnparts.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -1532,7 +1532,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.shop.nationalgeographic.com"
+    "domain": "shop.nationalgeographic.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -1546,7 +1546,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.juicedhybrid.com"
+    "domain": "juicedhybrid.com"
   },
   {
     "product_type": "Ecommerce",
@@ -1558,7 +1558,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "electronics",
     "categories": null,
-    "domain": "www.PedometersUSA.com"
+    "domain": "PedometersUSA.com"
   },
   {
     "product_type": "Ecommerce",
@@ -1570,7 +1570,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "itouchwearables.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -1582,7 +1582,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "electronics",
     "categories": null,
-    "domain": "www.getgate.com"
+    "domain": "getgate.com"
   },
   {
     "product_type": "Ecommerce",
@@ -1596,7 +1596,7 @@ const merchantData = [
     "categories": [
       "luxury"
     ],
-    "domain": "www.modaoperandi.com"
+    "domain": "modaoperandi.com"
   },
   {
     "product_type": "Ecommerce",
@@ -1622,7 +1622,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.diesel.com"
+    "domain": "diesel.com"
   },
   {
     "product_type": "Ecommerce",
@@ -1648,7 +1648,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.absolutehobbyz.com"
+    "domain": "absolutehobbyz.com"
   },
   {
     "product_type": "Ecommerce",
@@ -1662,7 +1662,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.bedinabox.com"
+    "domain": "bedinabox.com"
   },
   {
     "product_type": "Ecommerce",
@@ -1690,7 +1690,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.restorationhardware.com"
+    "domain": "restorationhardware.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -1704,7 +1704,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.sidebysidestuff.com"
+    "domain": "sidebysidestuff.com"
   },
   {
     "product_type": "Ecommerce",
@@ -1718,7 +1718,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.zadok.com"
+    "domain": "zadok.com"
   },
   {
     "product_type": "Ecommerce",
@@ -1744,7 +1744,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.coffeeforless.com"
+    "domain": "coffeeforless.com"
   },
   {
     "product_type": "Ecommerce",
@@ -1758,7 +1758,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.saayarose.com"
+    "domain": "saayarose.com"
   },
   {
     "product_type": "Ecommerce",
@@ -1772,7 +1772,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.harley-davidsonfootwear.com"
+    "domain": "harley-davidsonfootwear.com"
   },
   {
     "product_type": "Ecommerce",
@@ -1784,7 +1784,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.usa.daysy.me"
+    "domain": "usa.daysy.me"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -1798,7 +1798,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.dexclusive.com"
+    "domain": "dexclusive.com"
   },
   {
     "product_type": "Ecommerce",
@@ -1810,7 +1810,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.outerlimitsupply.com"
+    "domain": "outerlimitsupply.com"
   },
   {
     "product_type": "Ecommerce",
@@ -1850,7 +1850,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.WWW.BACKFIREBOARDSUSA.COM"
+    "domain": "WWW.BACKFIREBOARDSUSA.COM"
   },
   {
     "product_type": "Ecommerce",
@@ -1864,7 +1864,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.divers-supply.com"
+    "domain": "divers-supply.com"
   },
   {
     "product_type": "Ecommerce",
@@ -1878,7 +1878,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.joyjewelers.com"
+    "domain": "joyjewelers.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -1892,7 +1892,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.poppin.com"
+    "domain": "poppin.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -1906,7 +1906,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.donaldjpliner.com"
+    "domain": "donaldjpliner.com"
   },
   {
     "product_type": "Ecommerce",
@@ -1918,7 +1918,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "fitness_and_gear",
     "categories": null,
-    "domain": "www.shop.boltabout.com"
+    "domain": "shop.boltabout.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -1932,7 +1932,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.ties.com"
+    "domain": "ties.com"
   },
   {
     "product_type": "Ecommerce",
@@ -1958,7 +1958,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.enjukuracing.com"
+    "domain": "enjukuracing.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -1970,7 +1970,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.buydbest.com"
+    "domain": "buydbest.com"
   },
   {
     "product_type": "Ecommerce",
@@ -2010,7 +2010,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.sleepfreshbed.com"
+    "domain": "sleepfreshbed.com"
   },
   {
     "product_type": "Ecommerce",
@@ -2024,7 +2024,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.vividracing.com"
+    "domain": "vividracing.com"
   },
   {
     "product_type": "Ecommerce",
@@ -2038,7 +2038,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.axiomaudio.com"
+    "domain": "axiomaudio.com"
   },
   {
     "product_type": "Ecommerce",
@@ -2053,7 +2053,7 @@ const merchantData = [
       "accessories",
       "electronics"
     ],
-    "domain": "www.peakdesign.com"
+    "domain": "peakdesign.com"
   },
   {
     "product_type": "Ecommerce",
@@ -2065,7 +2065,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.vargasturbo.com"
+    "domain": "vargasturbo.com"
   },
   {
     "product_type": "Ecommerce",
@@ -2077,7 +2077,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.longevity-inc.com"
+    "domain": "longevity-inc.com"
   },
   {
     "product_type": "Ecommerce",
@@ -2103,7 +2103,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.maidenhome.com"
+    "domain": "maidenhome.com"
   },
   {
     "product_type": "Ecommerce",
@@ -2117,7 +2117,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.vaerwatches.com"
+    "domain": "vaerwatches.com"
   },
   {
     "product_type": "Ecommerce",
@@ -2159,7 +2159,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.bulbs.com"
+    "domain": "bulbs.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -2185,7 +2185,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.igourmet.com"
+    "domain": "igourmet.com"
   },
   {
     "product_type": "Ecommerce",
@@ -2197,7 +2197,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.mentalhealthmap.genomind.com"
+    "domain": "mentalhealthmap.genomind.com"
   },
   {
     "product_type": "Ecommerce",
@@ -2211,7 +2211,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.acdirect.com"
+    "domain": "acdirect.com"
   },
   {
     "product_type": "Ecommerce",
@@ -2225,7 +2225,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.thefutonshop.com"
+    "domain": "thefutonshop.com"
   },
   {
     "product_type": "Ecommerce",
@@ -2239,7 +2239,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.mwcustoms.net"
+    "domain": "mwcustoms.net"
   },
   {
     "product_type": "Ecommerce",
@@ -2253,7 +2253,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.diamond-smfg.com"
+    "domain": "diamond-smfg.com"
   },
   {
     "product_type": "Ecommerce",
@@ -2267,7 +2267,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.grayandsons.com"
+    "domain": "grayandsons.com"
   },
   {
     "product_type": "Ecommerce",
@@ -2307,7 +2307,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "m"
+    "domain": "tuccipolo.com"
   },
   {
     "product_type": "Ecommerce",
@@ -2335,7 +2335,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.gearup2go.com"
+    "domain": "gearup2go.com"
   },
   {
     "product_type": "Ecommerce",
@@ -2359,7 +2359,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.directhomemedical.com"
+    "domain": "directhomemedical.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -2373,7 +2373,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.lulus.com"
+    "domain": "lulus.com"
   },
   {
     "product_type": "Ecommerce",
@@ -2387,7 +2387,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.southbeachswimsuits.com"
+    "domain": "southbeachswimsuits.com"
   },
   {
     "product_type": "Ecommerce",
@@ -2411,7 +2411,7 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fclick.linksynergy.com%2Ffs-bin%2Fclick%3Fid%3DbFeuiaEZizw%26offerid%3D707267.2434%26type%3D3%26subid%3D0&merchant_ari=1BKVRXF3YJT6IZ7C",
     "icon_url": "http://cdn-assets.affirm.com/vcn_buy/v1/merchants/1BKVRXF3YJT6IZ7C/logo20191016/logo_offer.png",
     "ari": "1BKVRXF3YJT6IZ7C",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "apparel",
     "categories": [
       "apparel"
@@ -2430,7 +2430,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.velocio.cc"
+    "domain": "velocio.cc"
   },
   {
     "product_type": "Ecommerce",
@@ -2458,7 +2458,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.spacecitydrones.com"
+    "domain": "spacecitydrones.com"
   },
   {
     "product_type": "Ecommerce",
@@ -2470,7 +2470,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.voomisupply.com"
+    "domain": "voomisupply.com"
   },
   {
     "product_type": "Ecommerce",
@@ -2510,7 +2510,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.shop.namelessperformance.com"
+    "domain": "shop.namelessperformance.com"
   },
   {
     "product_type": "Ecommerce",
@@ -2522,7 +2522,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.saigondrugs.com"
+    "domain": "saigondrugs.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -2534,7 +2534,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.freshdirect.com"
+    "domain": "freshdirect.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -2546,7 +2546,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.store.starbucks.com"
+    "domain": "store.starbucks.com"
   },
   {
     "product_type": "Ecommerce",
@@ -2560,7 +2560,7 @@ const merchantData = [
     "categories": [
       "travel_and_events"
     ],
-    "domain": "www.kaaboodelmar.com"
+    "domain": "kaaboodelmar.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -2574,7 +2574,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.batesfootwear.com"
+    "domain": "batesfootwear.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -2588,7 +2588,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.ullapopken.com"
+    "domain": "ullapopken.com"
   },
   {
     "product_type": "Ecommerce",
@@ -2602,7 +2602,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.tuffstuff4x4.com"
+    "domain": "tuffstuff4x4.com"
   },
   {
     "product_type": "Ecommerce",
@@ -2630,7 +2630,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.uspoloassn.com"
+    "domain": "uspoloassn.com"
   },
   {
     "product_type": "Ecommerce",
@@ -2656,7 +2656,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.naturebox.com"
+    "domain": "naturebox.com"
   },
   {
     "product_type": "Ecommerce",
@@ -2668,7 +2668,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "baddogtools.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -2696,7 +2696,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.winecoolersusa.com"
+    "domain": "winecoolersusa.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -2710,7 +2710,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.thetiebar.com"
+    "domain": "thetiebar.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -2722,7 +2722,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.chefsplate.com"
+    "domain": "chefsplate.com"
   },
   {
     "product_type": "Ecommerce",
@@ -2734,7 +2734,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.powerscore.com"
+    "domain": "powerscore.com"
   },
   {
     "product_type": "Ecommerce",
@@ -2762,7 +2762,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.corsaperformance.com"
+    "domain": "corsaperformance.com"
   },
   {
     "product_type": "Ecommerce",
@@ -2790,7 +2790,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.petestirestore.com"
+    "domain": "petestirestore.com"
   },
   {
     "product_type": "Ecommerce",
@@ -2804,7 +2804,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.bellacor.com"
+    "domain": "bellacor.com"
   },
   {
     "product_type": "Ecommerce",
@@ -2854,7 +2854,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.runningboardwarehouse.com"
+    "domain": "runningboardwarehouse.com"
   },
   {
     "product_type": "Ecommerce",
@@ -2868,7 +2868,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.coravin.com"
+    "domain": "coravin.com"
   },
   {
     "product_type": "Ecommerce",
@@ -2882,7 +2882,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "m"
+    "domain": "speedpeople.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -2896,7 +2896,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.aeropostale.com"
+    "domain": "aeropostale.com"
   },
   {
     "product_type": "Ecommerce",
@@ -2910,7 +2910,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.ruggedradios.com"
+    "domain": "ruggedradios.com"
   },
   {
     "product_type": "Ecommerce",
@@ -2958,7 +2958,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.4mdmedical.com"
+    "domain": "4mdmedical.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -2970,7 +2970,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.dillards.com"
+    "domain": "dillards.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -2998,7 +2998,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.localeclectic.com"
+    "domain": "localeclectic.com"
   },
   {
     "product_type": "Ecommerce",
@@ -3012,7 +3012,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.seikousa.com"
+    "domain": "seikousa.com"
   },
   {
     "product_type": "Ecommerce",
@@ -3027,7 +3027,7 @@ const merchantData = [
       "accessories",
       "fitness_and_gear"
     ],
-    "domain": "www.recoveryforathletes.com"
+    "domain": "recoveryforathletes.com"
   },
   {
     "product_type": "Ecommerce",
@@ -3055,7 +3055,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.buyonlinenow.com"
+    "domain": "buyonlinenow.com"
   },
   {
     "product_type": "Ecommerce",
@@ -3069,7 +3069,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.arcadiasalvage.com"
+    "domain": "arcadiasalvage.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -3083,7 +3083,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.teamexpress.com"
+    "domain": "teamexpress.com"
   },
   {
     "product_type": "Ecommerce",
@@ -3111,7 +3111,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.kermatdi.com"
+    "domain": "kermatdi.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -3125,7 +3125,7 @@ const merchantData = [
     "categories": [
       "travel_and_events"
     ],
-    "domain": "www.groupon.com"
+    "domain": "groupon.com"
   },
   {
     "product_type": "Ecommerce",
@@ -3149,7 +3149,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.netgear.com"
+    "domain": "netgear.com"
   },
   {
     "product_type": "Ecommerce",
@@ -3163,7 +3163,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.ppei.com"
+    "domain": "ppei.com"
   },
   {
     "product_type": "Ecommerce",
@@ -3192,7 +3192,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.flexshopper.com"
+    "domain": "flexshopper.com"
   },
   {
     "product_type": "Ecommerce",
@@ -3206,7 +3206,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.massagechairdeals.com"
+    "domain": "massagechairdeals.com"
   },
   {
     "product_type": "Ecommerce",
@@ -3220,7 +3220,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.pillowguy.com"
+    "domain": "pillowguy.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -3232,7 +3232,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.americangreetings.com"
+    "domain": "americangreetings.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -3246,7 +3246,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.frsafety.com"
+    "domain": "frsafety.com"
   },
   {
     "product_type": "Ecommerce",
@@ -3260,7 +3260,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.genracer.com"
+    "domain": "genracer.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -3272,7 +3272,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.jimmybeanswool.com"
+    "domain": "jimmybeanswool.com"
   },
   {
     "product_type": "Ecommerce",
@@ -3287,7 +3287,7 @@ const merchantData = [
       "accessories",
       "apparel"
     ],
-    "domain": "m"
+    "domain": "groovemanmusic.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -3296,12 +3296,12 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fmenards.com&merchant_ari=1XPESDROXE1LMRJN",
     "icon_url": "https://cdn-assets.affirm.com/vcn_buy/v1/merchants/1XPESDROXE1LMRJN/logo_20190709184234/logo.png",
     "ari": "1XPESDROXE1LMRJN",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": null,
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.menards.com"
+    "domain": "menards.com"
   },
   {
     "product_type": "Ecommerce",
@@ -3315,7 +3315,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.winnoby.com"
+    "domain": "winnoby.com"
   },
   {
     "product_type": "Ecommerce",
@@ -3327,7 +3327,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.cavitationmachine.com"
+    "domain": "cavitationmachine.com"
   },
   {
     "product_type": "Ecommerce",
@@ -3353,7 +3353,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.boats.net"
+    "domain": "boats.net"
   },
   {
     "product_type": "Ecommerce",
@@ -3408,7 +3408,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.otrperformance.com"
+    "domain": "otrperformance.com"
   },
   {
     "product_type": "Ecommerce",
@@ -3420,7 +3420,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.precisionretrofits.com"
+    "domain": "precisionretrofits.com"
   },
   {
     "product_type": "Ecommerce",
@@ -3460,7 +3460,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.levi.com"
+    "domain": "levi.com"
   },
   {
     "product_type": "Ecommerce",
@@ -3472,7 +3472,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.garagetoolsstorage.com"
+    "domain": "garagetoolsstorage.com"
   },
   {
     "product_type": "Ecommerce",
@@ -3487,7 +3487,7 @@ const merchantData = [
       "accessories",
       "home_and_furniture"
     ],
-    "domain": "www.barclaybutera.com"
+    "domain": "barclaybutera.com"
   },
   {
     "product_type": "Ecommerce",
@@ -3501,7 +3501,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.agencypower.com"
+    "domain": "agencypower.com"
   },
   {
     "product_type": "Ecommerce",
@@ -3515,7 +3515,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.simplehuman.com"
+    "domain": "simplehuman.com"
   },
   {
     "product_type": "Ecommerce",
@@ -3557,7 +3557,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.holdersdiesel.com"
+    "domain": "holdersdiesel.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -3571,7 +3571,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.lumberliquidators.com"
+    "domain": "lumberliquidators.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -3601,7 +3601,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.hairmax.com"
+    "domain": "hairmax.com"
   },
   {
     "product_type": "Ecommerce",
@@ -3615,7 +3615,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.subimods.com"
+    "domain": "subimods.com"
   },
   {
     "product_type": "Ecommerce",
@@ -3639,7 +3639,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.evine.com"
+    "domain": "evine.com"
   },
   {
     "product_type": "Ecommerce",
@@ -3653,7 +3653,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.excaliburdehydrator.com"
+    "domain": "excaliburdehydrator.com"
   },
   {
     "product_type": "Ecommerce",
@@ -3679,7 +3679,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.helmboots.com"
+    "domain": "helmboots.com"
   },
   {
     "product_type": "Ecommerce",
@@ -3693,7 +3693,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.rebeloffroad.com"
+    "domain": "rebeloffroad.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -3705,7 +3705,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.commercialbargains.com"
+    "domain": "commercialbargains.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -3717,7 +3717,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.danielsmith.com"
+    "domain": "danielsmith.com"
   },
   {
     "product_type": "Ecommerce",
@@ -3757,7 +3757,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.uniquedieselperformance.com"
+    "domain": "uniquedieselperformance.com"
   },
   {
     "product_type": "Ecommerce",
@@ -3771,7 +3771,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.sashkaco.com"
+    "domain": "sashkaco.com"
   },
   {
     "product_type": "Ecommerce",
@@ -3783,7 +3783,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "fitness_and_gear",
     "categories": null,
-    "domain": "www.trxtraining.com"
+    "domain": "trxtraining.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -3823,7 +3823,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.kamikoto.com"
+    "domain": "kamikoto.com"
   },
   {
     "product_type": "Ecommerce",
@@ -3835,7 +3835,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.livingroomsplus.com"
+    "domain": "livingroomsplus.com"
   },
   {
     "product_type": "Ecommerce",
@@ -3849,7 +3849,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.plutopillow.com"
+    "domain": "plutopillow.com"
   },
   {
     "product_type": "Ecommerce",
@@ -3915,7 +3915,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.paripassushop.com"
+    "domain": "paripassushop.com"
   },
   {
     "product_type": "Ecommerce",
@@ -3929,7 +3929,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.WWW.TheRefurbishedAppleStore.Com"
+    "domain": "WWW.TheRefurbishedAppleStore.Com"
   },
   {
     "product_type": "Ecommerce",
@@ -3943,7 +3943,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.proformance-diesel.com"
+    "domain": "proformance-diesel.com"
   },
   {
     "product_type": "Ecommerce",
@@ -3957,7 +3957,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.worldclassbrilliance.com"
+    "domain": "worldclassbrilliance.com"
   },
   {
     "product_type": "Ecommerce",
@@ -3971,7 +3971,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.bikinicrushswim.com"
+    "domain": "bikinicrushswim.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -3985,7 +3985,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.sfplanet.com"
+    "domain": "sfplanet.com"
   },
   {
     "product_type": "Ecommerce",
@@ -4011,7 +4011,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.juststrings.com"
+    "domain": "juststrings.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -4025,7 +4025,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.customink.com"
+    "domain": "customink.com"
   },
   {
     "product_type": "Ecommerce",
@@ -4053,7 +4053,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.wcfab.com"
+    "domain": "wcfab.com"
   },
   {
     "product_type": "Ecommerce",
@@ -4081,7 +4081,7 @@ const merchantData = [
     "categories": [
       "luxury"
     ],
-    "domain": "www.illaraofficial.com"
+    "domain": "illaraofficial.com"
   },
   {
     "product_type": "Ecommerce",
@@ -4149,7 +4149,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.shop.skooza.com"
+    "domain": "shop.skooza.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -4175,7 +4175,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.greatjonesgoods.com"
+    "domain": "greatjonesgoods.com"
   },
   {
     "product_type": "Ecommerce",
@@ -4201,7 +4201,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.adelediamond.com"
+    "domain": "adelediamond.com"
   },
   {
     "product_type": "Ecommerce",
@@ -4213,7 +4213,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.danielleb.com"
+    "domain": "danielleb.com"
   },
   {
     "product_type": "Ecommerce",
@@ -4239,7 +4239,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.reebonz.com"
+    "domain": "reebonz.com"
   },
   {
     "product_type": "Ecommerce",
@@ -4253,7 +4253,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.headlightrevolution.com"
+    "domain": "headlightrevolution.com"
   },
   {
     "product_type": "Ecommerce",
@@ -4267,7 +4267,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.smartestdesk.com"
+    "domain": "smartestdesk.com"
   },
   {
     "product_type": "Ecommerce",
@@ -4279,7 +4279,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.quimbee.com"
+    "domain": "quimbee.com"
   },
   {
     "product_type": "Ecommerce",
@@ -4317,7 +4317,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "halomoonhair.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -4367,7 +4367,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.tillys.com"
+    "domain": "tillys.com"
   },
   {
     "product_type": "Ecommerce",
@@ -4381,7 +4381,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.aiwa.co"
+    "domain": "aiwa.co"
   },
   {
     "product_type": "Ecommerce",
@@ -4393,7 +4393,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "fitness_and_gear",
     "categories": null,
-    "domain": "www.ternbicycles.com"
+    "domain": "ternbicycles.com"
   },
   {
     "product_type": "Ecommerce",
@@ -4421,7 +4421,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.tintworld.com"
+    "domain": "tintworld.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -4435,7 +4435,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.eileenfisher.com"
+    "domain": "eileenfisher.com"
   },
   {
     "product_type": "Ecommerce",
@@ -4461,7 +4461,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.catholiccompany.com"
+    "domain": "catholiccompany.com"
   },
   {
     "product_type": "Ecommerce",
@@ -4475,7 +4475,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.heatpressnation.com"
+    "domain": "heatpressnation.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -4487,7 +4487,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.aedsuperstore.com"
+    "domain": "aedsuperstore.com"
   },
   {
     "product_type": "Ecommerce",
@@ -4501,7 +4501,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.localfurnitureoutlet.com"
+    "domain": "localfurnitureoutlet.com"
   },
   {
     "product_type": "Ecommerce",
@@ -4515,7 +4515,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.martonecycling.com"
+    "domain": "martonecycling.com"
   },
   {
     "product_type": "Ecommerce",
@@ -4541,7 +4541,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "m"
+    "domain": "homesweethomestore.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -4555,7 +4555,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.puremodern.com"
+    "domain": "puremodern.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -4567,7 +4567,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.shopbecker.com"
+    "domain": "shopbecker.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -4579,7 +4579,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.nutrisystem.com"
+    "domain": "nutrisystem.com"
   },
   {
     "product_type": "Ecommerce",
@@ -4651,7 +4651,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.paulfredrick.com"
+    "domain": "paulfredrick.com"
   },
   {
     "product_type": "Ecommerce",
@@ -4665,7 +4665,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.haverhillcollection.com"
+    "domain": "haverhillcollection.com"
   },
   {
     "product_type": "Ecommerce",
@@ -4677,7 +4677,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.fast-growing-trees.com"
+    "domain": "fast-growing-trees.com"
   },
   {
     "product_type": "Ecommerce",
@@ -4691,7 +4691,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.seismicaudiospeakers.com"
+    "domain": "seismicaudiospeakers.com"
   },
   {
     "product_type": "Ecommerce",
@@ -4705,7 +4705,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.thuma.co"
+    "domain": "thuma.co"
   },
   {
     "product_type": "Ecommerce",
@@ -4731,7 +4731,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.Ghostbed.com"
+    "domain": "Ghostbed.com"
   },
   {
     "product_type": "Ecommerce",
@@ -4743,7 +4743,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.batelle.com"
+    "domain": "batelle.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -4757,7 +4757,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.petdoors.com"
+    "domain": "petdoors.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -4766,7 +4766,7 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fclick.linksynergy.com%2Ffs-bin%2Fclick%3Fid%3DbFeuiaEZizw%26offerid%3D539906.96%26subid%3D0%26type%3D4&merchant_ari=2VKDVWRGCM6QZ1BF",
     "icon_url": "http://cdn-assets.affirm.com/vcn_buy/v1/merchants/2VKDVWRGCM6QZ1BF/logo20191212/logo_offer.png",
     "ari": "2VKDVWRGCM6QZ1BF",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "home_and_furniture",
     "categories": [
       "home_and_furniture"
@@ -4785,7 +4785,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.getorro.com"
+    "domain": "getorro.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -4800,7 +4800,7 @@ const merchantData = [
       "apparel",
       "fitness_and_gear"
     ],
-    "domain": "www.store.nba.com"
+    "domain": "store.nba.com"
   },
   {
     "product_type": "Ecommerce",
@@ -4814,7 +4814,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.tkees.com"
+    "domain": "tkees.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -4826,7 +4826,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.paperstyle.com"
+    "domain": "paperstyle.com"
   },
   {
     "product_type": "Ecommerce",
@@ -4838,7 +4838,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.csrcollectibles.com"
+    "domain": "csrcollectibles.com"
   },
   {
     "product_type": "Ecommerce",
@@ -4853,7 +4853,7 @@ const merchantData = [
       "accessories",
       "luxury"
     ],
-    "domain": "www.lunaandstella.com"
+    "domain": "lunaandstella.com"
   },
   {
     "product_type": "Ecommerce",
@@ -4893,7 +4893,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.afastores.com"
+    "domain": "afastores.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -4902,12 +4902,12 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fwww.crutchfield.com%2F&merchant_ari=2YWMHITT8Y4ED2KZ",
     "icon_url": "https://cdn-assets.affirm.com/vcn_buy/v1/merchants/2YWMHITT8Y4ED2KZ/logo_20190711223928/logo.png",
     "ari": "2YWMHITT8Y4ED2KZ",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "electronics",
     "categories": [
       "electronics"
     ],
-    "domain": "www.crutchfield.com"
+    "domain": "crutchfield.com"
   },
   {
     "product_type": "Ecommerce",
@@ -4936,7 +4936,7 @@ const merchantData = [
       "accessories",
       "luxury"
     ],
-    "domain": "m"
+    "domain": "aewatches.com"
   },
   {
     "product_type": "Ecommerce",
@@ -4978,7 +4978,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.propartsusa.com"
+    "domain": "propartsusa.com"
   },
   {
     "product_type": "Ecommerce",
@@ -5006,7 +5006,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.furniturecart.com"
+    "domain": "furniturecart.com"
   },
   {
     "product_type": "Ecommerce",
@@ -5034,7 +5034,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.wiredguitarist.com"
+    "domain": "wiredguitarist.com"
   },
   {
     "product_type": "Ecommerce",
@@ -5048,7 +5048,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.cleanorigin.com"
+    "domain": "cleanorigin.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -5062,7 +5062,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.paper-source.com"
+    "domain": "paper-source.com"
   },
   {
     "product_type": "Ecommerce",
@@ -5088,7 +5088,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.clarifymed.com"
+    "domain": "clarifymed.com"
   },
   {
     "product_type": "Ecommerce",
@@ -5102,7 +5102,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.monicaandandy.com"
+    "domain": "monicaandandy.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -5130,7 +5130,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.www1.roomstogo.com"
+    "domain": "www1.roomstogo.com"
   },
   {
     "product_type": "Ecommerce",
@@ -5144,7 +5144,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.dalessuperstore.com"
+    "domain": "dalessuperstore.com"
   },
   {
     "product_type": "Ecommerce",
@@ -5156,7 +5156,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.kellycodetectors.com"
+    "domain": "kellycodetectors.com"
   },
   {
     "product_type": "Ecommerce",
@@ -5184,7 +5184,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.trumanboot.com"
+    "domain": "trumanboot.com"
   },
   {
     "product_type": "Ecommerce",
@@ -5198,7 +5198,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.cognitomotorsports.com"
+    "domain": "cognitomotorsports.com"
   },
   {
     "product_type": "Ecommerce",
@@ -5252,7 +5252,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.flightscopemevo.com"
+    "domain": "flightscopemevo.com"
   },
   {
     "product_type": "Ecommerce",
@@ -5280,7 +5280,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "/"
+    "domain": "dv8dz9.com/"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -5289,13 +5289,13 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fkohls.sjv.io%2Fz91Rm&merchant_ari=38IFAPKYEC4FS00V",
     "icon_url": "http://cdn-assets.affirm.com/vcn_buy/v1/merchants/38IFAPKYEC4FS00V/logo20200220/logo_offer.png",
     "ari": "38IFAPKYEC4FS00V",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "apparel",
     "categories": [
       "apparel",
       "home_and_furniture"
     ],
-    "domain": "www.kohls.com"
+    "domain": "kohls.com"
   },
   {
     "product_type": "Ecommerce",
@@ -5309,7 +5309,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.sarkisiansjewelry.com"
+    "domain": "sarkisiansjewelry.com"
   },
   {
     "product_type": "Ecommerce",
@@ -5323,7 +5323,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.ebikeshopny.com"
+    "domain": "ebikeshopny.com"
   },
   {
     "product_type": "Ecommerce",
@@ -5335,7 +5335,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.mygekks.com"
+    "domain": "mygekks.com"
   },
   {
     "product_type": "Ecommerce",
@@ -5363,7 +5363,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.landice-folding-treadmill.com"
+    "domain": "landice-folding-treadmill.com"
   },
   {
     "product_type": "Ecommerce",
@@ -5392,7 +5392,7 @@ const merchantData = [
       "accessories",
       "luxury"
     ],
-    "domain": "m"
+    "domain": "pareure.com"
   },
   {
     "product_type": "Ecommerce",
@@ -5406,7 +5406,7 @@ const merchantData = [
     "categories": [
       "travel_and_events"
     ],
-    "domain": "www.expedia.com"
+    "domain": "expedia.com"
   },
   {
     "product_type": "Ecommerce",
@@ -5458,7 +5458,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.eforcity.com"
+    "domain": "eforcity.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -5472,7 +5472,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.btosports.com"
+    "domain": "btosports.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -5486,7 +5486,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.bulbamerica.com"
+    "domain": "bulbamerica.com"
   },
   {
     "product_type": "Ecommerce",
@@ -5498,7 +5498,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.fastway.zone"
+    "domain": "fastway.zone"
   },
   {
     "product_type": "Ecommerce",
@@ -5550,7 +5550,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.airforcesuspension.com"
+    "domain": "airforcesuspension.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -5562,7 +5562,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.buildabear.com"
+    "domain": "buildabear.com"
   },
   {
     "product_type": "Ecommerce",
@@ -5574,7 +5574,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.rondomusic.com"
+    "domain": "rondomusic.com"
   },
   {
     "product_type": "Ecommerce",
@@ -5600,7 +5600,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.betterworldbooks.com"
+    "domain": "betterworldbooks.com"
   },
   {
     "product_type": "Ecommerce",
@@ -5629,7 +5629,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.identitydiamonds.com"
+    "domain": "identitydiamonds.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -5638,7 +5638,7 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fadorama.rfvk.net%2Fj0rLv&merchant_ari=3H1T4Q4V4URQDDZW",
     "icon_url": "http://cdn-assets.affirm.com/vcn_buy/v1/merchants/3H1T4Q4V4URQDDZW/logo20200116/logo_offer.png",
     "ari": "3H1T4Q4V4URQDDZW",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "electronics",
     "categories": [
       "electronics"
@@ -5657,7 +5657,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.brickhousesecurity.com"
+    "domain": "brickhousesecurity.com"
   },
   {
     "product_type": "Ecommerce",
@@ -5671,7 +5671,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "m"
+    "domain": "tepui.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -5683,7 +5683,7 @@ const merchantData = [
     "zero_apr": true,
     "primary_category": "electronics",
     "categories": null,
-    "domain": "www.zagg.com"
+    "domain": "zagg.com"
   },
   {
     "product_type": "Ecommerce",
@@ -5697,7 +5697,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.vegamour.com"
+    "domain": "vegamour.com"
   },
   {
     "product_type": "Ecommerce",
@@ -5709,7 +5709,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "marylandperfdiesel.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -5730,12 +5730,12 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Ffashionphile.com&merchant_ari=3IVN0L8SV9IQ5ZNG",
     "icon_url": "https://cdn-assets.affirm.com/vcn_buy/v1/merchants/3IVN0L8SV9IQ5ZNG/logo_20200121/logo.png",
     "ari": "3IVN0L8SV9IQ5ZNG",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "apparel",
     "categories": [
       "apparel"
     ],
-    "domain": "www.fashionphile.com"
+    "domain": "fashionphile.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -5749,7 +5749,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.dungarees.net"
+    "domain": "dungarees.net"
   },
   {
     "product_type": "Ecommerce",
@@ -5785,7 +5785,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.auntiesbeads.com"
+    "domain": "auntiesbeads.com"
   },
   {
     "product_type": "Ecommerce",
@@ -5811,7 +5811,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.gembreakfast.com"
+    "domain": "gembreakfast.com"
   },
   {
     "product_type": "Ecommerce",
@@ -5863,7 +5863,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.mac-warehouse.com"
+    "domain": "mac-warehouse.com"
   },
   {
     "product_type": "Ecommerce",
@@ -5877,7 +5877,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.newageproducts.com"
+    "domain": "newageproducts.com"
   },
   {
     "product_type": "Ecommerce",
@@ -5891,7 +5891,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.lettucegrow.com"
+    "domain": "lettucegrow.com"
   },
   {
     "product_type": "Ecommerce",
@@ -5905,7 +5905,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.ultra.me"
+    "domain": "ultra.me"
   },
   {
     "product_type": "Ecommerce",
@@ -5933,7 +5933,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.officedesigns.com"
+    "domain": "officedesigns.com"
   },
   {
     "product_type": "Ecommerce",
@@ -5947,7 +5947,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.gafurnituremart.com"
+    "domain": "gafurnituremart.com"
   },
   {
     "product_type": "Ecommerce",
@@ -5961,7 +5961,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.vanmoof.com"
+    "domain": "vanmoof.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -5975,7 +5975,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.goldaskitchen.com"
+    "domain": "goldaskitchen.com"
   },
   {
     "product_type": "Ecommerce",
@@ -6001,7 +6001,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.shop.assurancewireless.com"
+    "domain": "shop.assurancewireless.com"
   },
   {
     "product_type": "Ecommerce",
@@ -6015,7 +6015,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.evolveskateboardsusa.com"
+    "domain": "evolveskateboardsusa.com"
   },
   {
     "product_type": "Ecommerce",
@@ -6039,7 +6039,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.spiceology.com"
+    "domain": "spiceology.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -6051,7 +6051,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.nyandcompany.com"
+    "domain": "nyandcompany.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -6078,7 +6078,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.mypatriotsupply.com"
+    "domain": "mypatriotsupply.com"
   },
   {
     "product_type": "Ecommerce",
@@ -6090,7 +6090,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.goldleafhydroponics.com"
+    "domain": "goldleafhydroponics.com"
   },
   {
     "product_type": "Ecommerce",
@@ -6102,7 +6102,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.smilebrilliant.com"
+    "domain": "smilebrilliant.com"
   },
   {
     "product_type": "Ecommerce",
@@ -6144,7 +6144,7 @@ const merchantData = [
     "categories": [
       "travel_and_events"
     ],
-    "domain": "www.allinclusiveoutlet.com"
+    "domain": "allinclusiveoutlet.com"
   },
   {
     "product_type": "Ecommerce",
@@ -6185,7 +6185,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.glowforge.com"
+    "domain": "glowforge.com"
   },
   {
     "product_type": "Ecommerce",
@@ -6211,7 +6211,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.rubitrux.com"
+    "domain": "rubitrux.com"
   },
   {
     "product_type": "Ecommerce",
@@ -6223,7 +6223,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "auto",
     "categories": null,
-    "domain": "www.holley.com"
+    "domain": "holley.com"
   },
   {
     "product_type": "Ecommerce",
@@ -6237,7 +6237,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.waihana.com"
+    "domain": "waihana.com"
   },
   {
     "product_type": "Ecommerce",
@@ -6249,7 +6249,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.zipscanners.com"
+    "domain": "zipscanners.com"
   },
   {
     "product_type": "Ecommerce",
@@ -6261,7 +6261,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "home_and_furniture",
     "categories": null,
-    "domain": "www.simplicitysofas.com"
+    "domain": "simplicitysofas.com"
   },
   {
     "product_type": "Ecommerce",
@@ -6275,7 +6275,7 @@ const merchantData = [
     "categories": [
       "shoes"
     ],
-    "domain": "www.piffmpls.com"
+    "domain": "piffmpls.com"
   },
   {
     "product_type": "Ecommerce",
@@ -6299,7 +6299,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "auto",
     "categories": null,
-    "domain": "www.rickscamaros.com"
+    "domain": "rickscamaros.com"
   },
   {
     "product_type": "Ecommerce",
@@ -6363,7 +6363,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.shop.sportchrome.com"
+    "domain": "shop.sportchrome.com"
   },
   {
     "product_type": "Ecommerce",
@@ -6377,7 +6377,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.nebia.com"
+    "domain": "nebia.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -6389,7 +6389,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.hobbytron.com"
+    "domain": "hobbytron.com"
   },
   {
     "product_type": "Ecommerce",
@@ -6403,7 +6403,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.pjssleep.com"
+    "domain": "pjssleep.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -6417,7 +6417,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.kellycodetectors.com"
+    "domain": "kellycodetectors.com"
   },
   {
     "product_type": "Ecommerce",
@@ -6431,7 +6431,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.annsfabulousfinds.com"
+    "domain": "annsfabulousfinds.com"
   },
   {
     "product_type": "Ecommerce",
@@ -6457,7 +6457,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.stephaniegottlieb.com"
+    "domain": "stephaniegottlieb.com"
   },
   {
     "product_type": "Ecommerce",
@@ -6469,7 +6469,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.chromadrum.com"
+    "domain": "chromadrum.com"
   },
   {
     "product_type": "Ecommerce",
@@ -6483,7 +6483,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.universalstandard.com"
+    "domain": "universalstandard.com"
   },
   {
     "product_type": "Ecommerce",
@@ -6497,7 +6497,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.hobbyking.com"
+    "domain": "hobbyking.com"
   },
   {
     "product_type": "Ecommerce",
@@ -6523,7 +6523,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.tonewoodamp.com"
+    "domain": "tonewoodamp.com"
   },
   {
     "product_type": "Ecommerce",
@@ -6535,7 +6535,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.delarkin.com"
+    "domain": "delarkin.com"
   },
   {
     "product_type": "Ecommerce",
@@ -6563,7 +6563,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.westelm.com"
+    "domain": "westelm.com"
   },
   {
     "product_type": "Ecommerce",
@@ -6577,7 +6577,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.buggiesunlimited.com"
+    "domain": "buggiesunlimited.com"
   },
   {
     "product_type": "Ecommerce",
@@ -6591,7 +6591,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.helloaxis.com"
+    "domain": "helloaxis.com"
   },
   {
     "product_type": "Ecommerce",
@@ -6605,7 +6605,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.Andarecycling.com"
+    "domain": "Andarecycling.com"
   },
   {
     "product_type": "Ecommerce",
@@ -6631,7 +6631,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.kegco.com"
+    "domain": "kegco.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -6640,13 +6640,13 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fwww.kqzyfj.com%2Fclick-100011847-10428550&merchant_ari=427EDRT2PBHQEGHJ",
     "icon_url": "https://cdn-assets.affirm.com/vcn_buy/v1/merchants/427EDRT2PBHQEGHJ/logo2020050843/logo1.png",
     "ari": "427EDRT2PBHQEGHJ",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "electronics",
     "categories": [
       "electronics",
       "home_and_furniture"
     ],
-    "domain": "www.staples.com"
+    "domain": "staples.com"
   },
   {
     "product_type": "Ecommerce",
@@ -6660,7 +6660,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "m"
+    "domain": "sothebyshome.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -6674,7 +6674,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.bikesdirect.com"
+    "domain": "bikesdirect.com"
   },
   {
     "product_type": "Ecommerce",
@@ -6716,7 +6716,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.yubabikes.com"
+    "domain": "yubabikes.com"
   },
   {
     "product_type": "Ecommerce",
@@ -6730,7 +6730,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.moddedeuros.com"
+    "domain": "moddedeuros.com"
   },
   {
     "product_type": "Ecommerce",
@@ -6742,7 +6742,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "phantomdynamics.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -6756,7 +6756,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "/"
+    "domain": "leprix.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -6768,7 +6768,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "richandclear.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -6782,7 +6782,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.bumpboxx.com"
+    "domain": "bumpboxx.com"
   },
   {
     "product_type": "Ecommerce",
@@ -6823,7 +6823,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.sportique.com"
+    "domain": "sportique.com"
   },
   {
     "product_type": "Ecommerce",
@@ -6849,7 +6849,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.wheelsasap.com"
+    "domain": "wheelsasap.com"
   },
   {
     "product_type": "Ecommerce",
@@ -6863,7 +6863,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.RoughCountry.com"
+    "domain": "RoughCountry.com"
   },
   {
     "product_type": "Ecommerce",
@@ -6877,7 +6877,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.smartnora.com"
+    "domain": "smartnora.com"
   },
   {
     "product_type": "Ecommerce",
@@ -6891,7 +6891,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.thehelm.com"
+    "domain": "thehelm.com"
   },
   {
     "product_type": "Ecommerce",
@@ -6933,7 +6933,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.GoldenNile.com"
+    "domain": "GoldenNile.com"
   },
   {
     "product_type": "Ecommerce",
@@ -6961,7 +6961,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.evil-bikes.com"
+    "domain": "evil-bikes.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -6973,7 +6973,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.universitycoop.com"
+    "domain": "universitycoop.com"
   },
   {
     "product_type": "Ecommerce",
@@ -6999,7 +6999,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.kooksheaders.com"
+    "domain": "kooksheaders.com"
   },
   {
     "product_type": "Ecommerce",
@@ -7013,7 +7013,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.dieselpowerproducts.com"
+    "domain": "dieselpowerproducts.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -7027,7 +7027,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.promgirl.com"
+    "domain": "promgirl.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -7068,7 +7068,7 @@ const merchantData = [
       "electronics",
       "home_and_furniture"
     ],
-    "domain": "www.iRobot.com"
+    "domain": "iRobot.com"
   },
   {
     "product_type": "Ecommerce",
@@ -7082,7 +7082,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.timemachineplus.com"
+    "domain": "timemachineplus.com"
   },
   {
     "product_type": "Ecommerce",
@@ -7096,7 +7096,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.opseat.com"
+    "domain": "opseat.com"
   },
   {
     "product_type": "Ecommerce",
@@ -7110,7 +7110,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.bandccamera.com"
+    "domain": "bandccamera.com"
   },
   {
     "product_type": "Ecommerce",
@@ -7138,7 +7138,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.powerdot.com"
+    "domain": "powerdot.com"
   },
   {
     "product_type": "Ecommerce",
@@ -7166,7 +7166,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.tusk.com"
+    "domain": "tusk.com"
   },
   {
     "product_type": "Ecommerce",
@@ -7192,7 +7192,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.zumiez.com"
+    "domain": "zumiez.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -7206,7 +7206,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.mscdirect.com"
+    "domain": "mscdirect.com"
   },
   {
     "product_type": "Ecommerce",
@@ -7218,7 +7218,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.thedevicedepot.com"
+    "domain": "thedevicedepot.com"
   },
   {
     "product_type": "Ecommerce",
@@ -7241,12 +7241,12 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fwww.anrdoezrs.net%2Fclick-100011847-13999398&merchant_ari=4F4N0KT6FYEDXQWD",
     "icon_url": "https://cdn-assets.affirm.com/vcn_buy/v1/merchants/4F4N0KT6FYEDXQWD/logo2020070853/logo1.png",
     "ari": "4F4N0KT6FYEDXQWD",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "electronics",
     "categories": [
       "electronics"
     ],
-    "domain": "www.dell.com"
+    "domain": "dell.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -7260,7 +7260,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.us-mattress.com"
+    "domain": "us-mattress.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -7274,7 +7274,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.supply.com"
+    "domain": "supply.com"
   },
   {
     "product_type": "Ecommerce",
@@ -7314,7 +7314,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.reverie.com"
+    "domain": "reverie.com"
   },
   {
     "product_type": "Ecommerce",
@@ -7326,7 +7326,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.comptia.org"
+    "domain": "comptia.org"
   },
   {
     "product_type": "Ecommerce",
@@ -7338,7 +7338,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "auto",
     "categories": null,
-    "domain": "www.modernmusclextreme.com"
+    "domain": "modernmusclextreme.com"
   },
   {
     "product_type": "Ecommerce",
@@ -7350,7 +7350,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.banjostudio.com"
+    "domain": "banjostudio.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -7364,7 +7364,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.radioshack.com"
+    "domain": "radioshack.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -7378,7 +7378,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.tools-plus.com"
+    "domain": "tools-plus.com"
   },
   {
     "product_type": "Ecommerce",
@@ -7390,7 +7390,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.frags2fishes.com"
+    "domain": "frags2fishes.com"
   },
   {
     "product_type": "Ecommerce",
@@ -7404,7 +7404,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.seawavediamonds.com"
+    "domain": "seawavediamonds.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -7418,7 +7418,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.magnets.com"
+    "domain": "magnets.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -7432,7 +7432,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.duluthtrading.com"
+    "domain": "duluthtrading.com"
   },
   {
     "product_type": "Ecommerce",
@@ -7446,7 +7446,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.soundiron.com"
+    "domain": "soundiron.com"
   },
   {
     "product_type": "Ecommerce",
@@ -7458,7 +7458,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.graysonluxury.com"
+    "domain": "graysonluxury.com"
   },
   {
     "product_type": "Ecommerce",
@@ -7472,7 +7472,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.q-see.com"
+    "domain": "q-see.com"
   },
   {
     "product_type": "Ecommerce",
@@ -7498,7 +7498,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.Sourcefitness.net"
+    "domain": "Sourcefitness.net"
   },
   {
     "product_type": "Ecommerce",
@@ -7512,7 +7512,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.keiser.com"
+    "domain": "keiser.com"
   },
   {
     "product_type": "Ecommerce",
@@ -7526,7 +7526,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.everysportforless.com"
+    "domain": "everysportforless.com"
   },
   {
     "product_type": "Ecommerce",
@@ -7538,7 +7538,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "auto",
     "categories": null,
-    "domain": "www.dynamiccarts.com"
+    "domain": "dynamiccarts.com"
   },
   {
     "product_type": "Ecommerce",
@@ -7552,7 +7552,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.us.her-line.com"
+    "domain": "us.her-line.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -7564,7 +7564,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.thrivemarket.com"
+    "domain": "thrivemarket.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -7578,7 +7578,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.sdwheel.com"
+    "domain": "sdwheel.com"
   },
   {
     "product_type": "Ecommerce",
@@ -7602,7 +7602,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.petchatz.com"
+    "domain": "petchatz.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -7611,12 +7611,12 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fadvanceautoparts.rt8x.net%2FaXRXR&merchant_ari=4NDP3MHOLSPV6OPD",
     "icon_url": "http://cdn-assets.affirm.com/vcn_buy/v1/merchants/4NDP3MHOLSPV6OPD/logo20201028/logo_offer.png",
     "ari": "4NDP3MHOLSPV6OPD",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "auto",
     "categories": [
       "auto"
     ],
-    "domain": "www.shop.advanceautoparts.com"
+    "domain": "shop.advanceautoparts.com"
   },
   {
     "product_type": "Ecommerce",
@@ -7630,7 +7630,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.ride1up.com"
+    "domain": "ride1up.com"
   },
   {
     "product_type": "Ecommerce",
@@ -7644,7 +7644,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.lewisbamboo.com"
+    "domain": "lewisbamboo.com"
   },
   {
     "product_type": "Ecommerce",
@@ -7656,7 +7656,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "accessories",
     "categories": null,
-    "domain": "www.savvywatch.com"
+    "domain": "savvywatch.com"
   },
   {
     "product_type": "Ecommerce",
@@ -7668,7 +7668,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.shop.forzaforni.com"
+    "domain": "shop.forzaforni.com"
   },
   {
     "product_type": "Ecommerce",
@@ -7680,7 +7680,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.lightboxjewelry.com"
+    "domain": "lightboxjewelry.com"
   },
   {
     "product_type": "Ecommerce",
@@ -7694,7 +7694,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.shop.accesswireless.com"
+    "domain": "shop.accesswireless.com"
   },
   {
     "product_type": "Ecommerce",
@@ -7708,7 +7708,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.gsimfab.com"
+    "domain": "gsimfab.com"
   },
   {
     "product_type": "Ecommerce",
@@ -7722,7 +7722,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.thewatchbox.com"
+    "domain": "thewatchbox.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -7737,7 +7737,7 @@ const merchantData = [
       "apparel",
       "fitness_and_gear"
     ],
-    "domain": "www.athleta.gap.com"
+    "domain": "athleta.gap.com"
   },
   {
     "product_type": "Ecommerce",
@@ -7765,7 +7765,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.eloquii.com"
+    "domain": "eloquii.com"
   },
   {
     "product_type": "Ecommerce",
@@ -7779,7 +7779,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.robotcleanerstore.com"
+    "domain": "robotcleanerstore.com"
   },
   {
     "product_type": "Ecommerce",
@@ -7793,7 +7793,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.davidor.com"
+    "domain": "davidor.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -7805,7 +7805,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.kirklands.com"
+    "domain": "kirklands.com"
   },
   {
     "product_type": "Ecommerce",
@@ -7819,7 +7819,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.hockeygiant.com"
+    "domain": "hockeygiant.com"
   },
   {
     "product_type": "Ecommerce",
@@ -7833,7 +7833,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.TheAmishHouse.com"
+    "domain": "TheAmishHouse.com"
   },
   {
     "product_type": "Ecommerce",
@@ -7847,7 +7847,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.printm3d.com"
+    "domain": "printm3d.com"
   },
   {
     "product_type": "Ecommerce",
@@ -7873,7 +7873,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.efaucets.com"
+    "domain": "efaucets.com"
   },
   {
     "product_type": "Ecommerce",
@@ -7887,7 +7887,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.aetrex.com"
+    "domain": "aetrex.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -7945,7 +7945,7 @@ const merchantData = [
     "categories": [
       "travel_and_events"
     ],
-    "domain": "www.meetup.orlandoinformer.com"
+    "domain": "meetup.orlandoinformer.com"
   },
   {
     "product_type": "Ecommerce",
@@ -7959,7 +7959,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.topnotchtruck.com"
+    "domain": "topnotchtruck.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -7973,7 +7973,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.ninelineapparel.com"
+    "domain": "ninelineapparel.com"
   },
   {
     "product_type": "Ecommerce",
@@ -7987,7 +7987,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.midwinter.co"
+    "domain": "midwinter.co"
   },
   {
     "product_type": "Ecommerce",
@@ -7999,7 +7999,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "auto",
     "categories": null,
-    "domain": "www.Extremeterrain.com"
+    "domain": "Extremeterrain.com"
   },
   {
     "product_type": "Ecommerce",
@@ -8011,7 +8011,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.troisthelabel.com"
+    "domain": "troisthelabel.com"
   },
   {
     "product_type": "Ecommerce",
@@ -8081,7 +8081,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.replacements.com"
+    "domain": "replacements.com"
   },
   {
     "product_type": "Ecommerce",
@@ -8095,7 +8095,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.HAPPYHOMEBARS.COM"
+    "domain": "HAPPYHOMEBARS.COM"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -8109,7 +8109,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.uspatriottactical.com"
+    "domain": "uspatriottactical.com"
   },
   {
     "product_type": "Ecommerce",
@@ -8121,7 +8121,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.ansea.co"
+    "domain": "ansea.co"
   },
   {
     "product_type": "Ecommerce",
@@ -8133,7 +8133,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "auto",
     "categories": null,
-    "domain": "www.allgermanmotorsports.com"
+    "domain": "allgermanmotorsports.com"
   },
   {
     "product_type": "Ecommerce",
@@ -8147,7 +8147,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.technogym.com"
+    "domain": "technogym.com"
   },
   {
     "product_type": "Ecommerce",
@@ -8161,7 +8161,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.us.yt-industries.com"
+    "domain": "us.yt-industries.com"
   },
   {
     "product_type": "Ecommerce",
@@ -8175,7 +8175,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.roamadventureco.com"
+    "domain": "roamadventureco.com"
   },
   {
     "product_type": "Ecommerce",
@@ -8189,7 +8189,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "m"
+    "domain": "the-royal-lash-academy.myshopify.com"
   },
   {
     "product_type": "Ecommerce",
@@ -8203,7 +8203,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.wolfandshepherd.com"
+    "domain": "wolfandshepherd.com"
   },
   {
     "product_type": "Ecommerce",
@@ -8215,7 +8215,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.singlestone.com"
+    "domain": "singlestone.com"
   },
   {
     "product_type": "Ecommerce",
@@ -8227,7 +8227,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.rdengineeringinc.net"
+    "domain": "rdengineeringinc.net"
   },
   {
     "product_type": "Ecommerce",
@@ -8241,7 +8241,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "m"
+    "domain": "seals-watches.com"
   },
   {
     "product_type": "Ecommerce",
@@ -8253,7 +8253,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "fitness_and_gear",
     "categories": null,
-    "domain": "www.soccerinnovations.com"
+    "domain": "soccerinnovations.com"
   },
   {
     "product_type": "Ecommerce",
@@ -8267,7 +8267,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.mmonroe.com"
+    "domain": "mmonroe.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -8276,7 +8276,7 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=http%3A%2F%2Fwww.jdoqocy.com%2Fclick-8191141-10866948&merchant_ari=51XNPI2MR8VO430S",
     "icon_url": "https://cdn-assets.affirm.com/vcn_buy/v1/merchants/51XNPI2MR8VO430S/logo_20190712165323/logo.png",
     "ari": "51XNPI2MR8VO430S",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "electronics",
     "categories": [
       "electronics"
@@ -8295,7 +8295,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.privatelabelnyc.com"
+    "domain": "privatelabelnyc.com"
   },
   {
     "product_type": "Ecommerce",
@@ -8309,7 +8309,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.oreck.com"
+    "domain": "oreck.com"
   },
   {
     "product_type": "Ecommerce",
@@ -8321,7 +8321,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "accessories",
     "categories": null,
-    "domain": "www.jewelrybydavid.com"
+    "domain": "jewelrybydavid.com"
   },
   {
     "product_type": "Ecommerce",
@@ -8335,7 +8335,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.piccolinobaby.com"
+    "domain": "piccolinobaby.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -8349,7 +8349,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.thegardengates.com"
+    "domain": "thegardengates.com"
   },
   {
     "product_type": "Ecommerce",
@@ -8363,7 +8363,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.tpsmotorsports.com"
+    "domain": "tpsmotorsports.com"
   },
   {
     "product_type": "Ecommerce",
@@ -8375,7 +8375,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "accessories",
     "categories": null,
-    "domain": "www.wpstandard.com"
+    "domain": "wpstandard.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -8389,7 +8389,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.talbots.com"
+    "domain": "talbots.com"
   },
   {
     "product_type": "Ecommerce",
@@ -8403,7 +8403,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.shop.ballwatch.ch/en/"
+    "domain": "shop.ballwatch.ch/en/"
   },
   {
     "product_type": "Ecommerce",
@@ -8427,7 +8427,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "accessories",
     "categories": null,
-    "domain": "www.Izola.com"
+    "domain": "Izola.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -8439,7 +8439,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.campsaver.com"
+    "domain": "campsaver.com"
   },
   {
     "product_type": "Ecommerce",
@@ -8467,7 +8467,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.torquefitness.com"
+    "domain": "torquefitness.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -8481,7 +8481,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.vitaminshoppe.com"
+    "domain": "vitaminshoppe.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -8490,10 +8490,10 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fwww.anrdoezrs.net%2Fclick-100011847-11252021&merchant_ari=58E2VH48YWT43XUF",
     "icon_url": "https://cdn1.affirm.com/platform/public/promos/assets/58E2VH48YWT43XUF/logo/logo1x.png",
     "ari": "58E2VH48YWT43XUF",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.garmin.com"
+    "domain": "garmin.com"
   },
   {
     "product_type": "Ecommerce",
@@ -8507,7 +8507,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.TunerRack.com"
+    "domain": "TunerRack.com"
   },
   {
     "product_type": "Ecommerce",
@@ -8533,7 +8533,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.heartstonefarm.me"
+    "domain": "heartstonefarm.me"
   },
   {
     "product_type": "Ecommerce",
@@ -8545,7 +8545,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "thesouthernhouseshop.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -8559,7 +8559,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.elephantstock.com"
+    "domain": "elephantstock.com"
   },
   {
     "product_type": "Ecommerce",
@@ -8599,7 +8599,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.hoover.com"
+    "domain": "hoover.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -8611,7 +8611,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.austinbazaar.com"
+    "domain": "austinbazaar.com"
   },
   {
     "product_type": "Ecommerce",
@@ -8651,7 +8651,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.burlingtoncoatfactory.com"
+    "domain": "burlingtoncoatfactory.com"
   },
   {
     "product_type": "Ecommerce",
@@ -8665,7 +8665,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.allavino.com"
+    "domain": "allavino.com"
   },
   {
     "product_type": "Ecommerce",
@@ -8693,7 +8693,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.ouidad.com"
+    "domain": "ouidad.com"
   },
   {
     "product_type": "Ecommerce",
@@ -8705,7 +8705,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.stagewheelsna.com"
+    "domain": "stagewheelsna.com"
   },
   {
     "product_type": "Ecommerce",
@@ -8719,7 +8719,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.RembrandtAudio.com"
+    "domain": "RembrandtAudio.com"
   },
   {
     "product_type": "Ecommerce",
@@ -8745,7 +8745,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.elianaeli.com"
+    "domain": "elianaeli.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -8759,7 +8759,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.golfballs.com"
+    "domain": "golfballs.com"
   },
   {
     "product_type": "Ecommerce",
@@ -8773,7 +8773,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.potterybarnteen.com"
+    "domain": "potterybarnteen.com"
   },
   {
     "product_type": "Ecommerce",
@@ -8794,12 +8794,12 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fkay.com&merchant_ari=5GMVC7FZYXQS7JFP",
     "icon_url": "https://cdn1.affirm.com/platform/public/promos/assets/5GMVC7FZYXQS7JFP/logo/logo1x.png",
     "ari": "5GMVC7FZYXQS7JFP",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "accessories",
     "categories": [
       "accessories"
     ],
-    "domain": "www.kay.com"
+    "domain": "kay.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -8813,7 +8813,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.thebay.com"
+    "domain": "thebay.com"
   },
   {
     "product_type": "Ecommerce",
@@ -8825,7 +8825,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "m"
+    "domain": "motorsportsla.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -8834,10 +8834,10 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fwww.pntrac.com%2Ft%2FSENJT0lPTUlDR09PSEZNQ0dLS0xHSg&merchant_ari=5IM7ZX1UHC5Y0URC",
     "icon_url": "http://cdn-assets.affirm.com/vcn_buy/v1/merchants/5IM7ZX1UHC5Y0URC/logo20200320/logo_offer.png",
     "ari": "5IM7ZX1UHC5Y0URC",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.awaytravel.com"
+    "domain": "awaytravel.com"
   },
   {
     "product_type": "Ecommerce",
@@ -8851,7 +8851,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.scotchporter.com"
+    "domain": "scotchporter.com"
   },
   {
     "product_type": "Ecommerce",
@@ -8865,7 +8865,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.solar-breeze.com"
+    "domain": "solar-breeze.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -8879,7 +8879,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.worldwidegolfshops.com"
+    "domain": "worldwidegolfshops.com"
   },
   {
     "product_type": "Ecommerce",
@@ -8893,7 +8893,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.sidewalkshield.com"
+    "domain": "sidewalkshield.com"
   },
   {
     "product_type": "Ecommerce",
@@ -8905,7 +8905,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "babyblendybottles.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -8919,7 +8919,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.shop.wheelwell.com"
+    "domain": "shop.wheelwell.com"
   },
   {
     "product_type": "Ecommerce",
@@ -8945,7 +8945,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.shop.theknot.com"
+    "domain": "shop.theknot.com"
   },
   {
     "product_type": "Ecommerce",
@@ -8959,7 +8959,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.clevertraining.com"
+    "domain": "clevertraining.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -8973,7 +8973,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.bootbarn.com"
+    "domain": "bootbarn.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -8985,7 +8985,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.bulkreefsupply.com"
+    "domain": "bulkreefsupply.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -8997,7 +8997,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.sixpackbags.com"
+    "domain": "sixpackbags.com"
   },
   {
     "product_type": "Ecommerce",
@@ -9011,7 +9011,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.myfreeupmobilephones.com"
+    "domain": "myfreeupmobilephones.com"
   },
   {
     "product_type": "Ecommerce",
@@ -9051,7 +9051,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "m"
+    "domain": "mrglitterati.com"
   },
   {
     "product_type": "Ecommerce",
@@ -9121,7 +9121,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.smyperformance.com"
+    "domain": "smyperformance.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -9150,7 +9150,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.hideflifestyle.com"
+    "domain": "hideflifestyle.com"
   },
   {
     "product_type": "Ecommerce",
@@ -9164,7 +9164,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.kodama.is"
+    "domain": "kodama.is"
   },
   {
     "product_type": "Ecommerce",
@@ -9178,7 +9178,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.mytriorings.com"
+    "domain": "mytriorings.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -9192,7 +9192,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.hanes.com"
+    "domain": "hanes.com"
   },
   {
     "product_type": "Ecommerce",
@@ -9206,7 +9206,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.allswellhome.com"
+    "domain": "allswellhome.com"
   },
   {
     "product_type": "Ecommerce",
@@ -9220,7 +9220,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.wright-equipment.com"
+    "domain": "wright-equipment.com"
   },
   {
     "product_type": "Ecommerce",
@@ -9232,7 +9232,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "m"
+    "domain": "mcc-alaska.com"
   },
   {
     "product_type": "Ecommerce",
@@ -9246,7 +9246,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.evga.com"
+    "domain": "evga.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -9258,7 +9258,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.cvs.com"
+    "domain": "cvs.com"
   },
   {
     "product_type": "Ecommerce",
@@ -9298,7 +9298,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "/"
+    "domain": "hydrow.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -9324,7 +9324,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.shopsatchel.com"
+    "domain": "shopsatchel.com"
   },
   {
     "product_type": "Ecommerce",
@@ -9338,7 +9338,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.buyqball.com"
+    "domain": "buyqball.com"
   },
   {
     "product_type": "Ecommerce",
@@ -9352,7 +9352,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.capsuljewelry.com"
+    "domain": "capsuljewelry.com"
   },
   {
     "product_type": "Ecommerce",
@@ -9378,7 +9378,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "o"
+    "domain": "heirlooms.co"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -9392,7 +9392,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.framesdirect.com"
+    "domain": "framesdirect.com"
   },
   {
     "product_type": "Ecommerce",
@@ -9406,7 +9406,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.olefloridaflyshop.com"
+    "domain": "olefloridaflyshop.com"
   },
   {
     "product_type": "Ecommerce",
@@ -9447,7 +9447,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.primestyle.com"
+    "domain": "primestyle.com"
   },
   {
     "product_type": "Ecommerce",
@@ -9459,7 +9459,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "fitness_and_gear",
     "categories": null,
-    "domain": "www.waterloousa.com"
+    "domain": "waterloousa.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -9473,7 +9473,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.coolibar.com"
+    "domain": "coolibar.com"
   },
   {
     "product_type": "Ecommerce",
@@ -9501,7 +9501,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.texasmoissanite.com"
+    "domain": "texasmoissanite.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -9515,7 +9515,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.positivepromotions.com"
+    "domain": "positivepromotions.com"
   },
   {
     "product_type": "Ecommerce",
@@ -9529,7 +9529,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.fastscions.com"
+    "domain": "fastscions.com"
   },
   {
     "product_type": "Ecommerce",
@@ -9543,7 +9543,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.heeltoeauto.com"
+    "domain": "heeltoeauto.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -9557,7 +9557,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.baublebar.com"
+    "domain": "baublebar.com"
   },
   {
     "product_type": "Ecommerce",
@@ -9571,7 +9571,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.olivercoen.com"
+    "domain": "olivercoen.com"
   },
   {
     "product_type": "Ecommerce",
@@ -9585,7 +9585,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.tipmrebuilders.com"
+    "domain": "tipmrebuilders.com"
   },
   {
     "product_type": "Ecommerce",
@@ -9599,7 +9599,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.jonathanadler.com"
+    "domain": "jonathanadler.com"
   },
   {
     "product_type": "Ecommerce",
@@ -9613,7 +9613,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.fasstmtb.com"
+    "domain": "fasstmtb.com"
   },
   {
     "product_type": "Ecommerce",
@@ -9627,7 +9627,7 @@ const merchantData = [
     "categories": [
       "travel_and_events"
     ],
-    "domain": "www.getaway.house"
+    "domain": "getaway.house"
   },
   {
     "product_type": "Ecommerce",
@@ -9655,7 +9655,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.stitchfix.com"
+    "domain": "stitchfix.com"
   },
   {
     "product_type": "Ecommerce",
@@ -9667,7 +9667,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.drivelinebaseball.com"
+    "domain": "drivelinebaseball.com"
   },
   {
     "product_type": "Ecommerce",
@@ -9705,7 +9705,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.allaylamp.com"
+    "domain": "allaylamp.com"
   },
   {
     "product_type": "Ecommerce",
@@ -9729,7 +9729,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "accessories",
     "categories": null,
-    "domain": "www.tucker-bloom.com"
+    "domain": "tucker-bloom.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -9738,7 +9738,7 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fclick.linksynergy.com%2Ffs-bin%2Fclick%3Fid%3DbFeuiaEZizw%26offerid%3D702795.18%26subid%3D0%26type%3D4&merchant_ari=62VUH23FLWP4SVOV",
     "icon_url": "https://cdn-assets.affirm.com/vcn_buy/v1/merchants/62VUH23FLWP4SVOV/logo_20190709183746/logo.png",
     "ari": "62VUH23FLWP4SVOV",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "electronics",
     "categories": [
       "electronics"
@@ -9757,7 +9757,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.auratenewyork.com"
+    "domain": "auratenewyork.com"
   },
   {
     "product_type": "Ecommerce",
@@ -9797,7 +9797,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.smartphones.truconnect.com"
+    "domain": "smartphones.truconnect.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -9811,7 +9811,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.domyownpestcontrol.com"
+    "domain": "domyownpestcontrol.com"
   },
   {
     "product_type": "Ecommerce",
@@ -9837,7 +9837,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.uscargocontrol.com"
+    "domain": "uscargocontrol.com"
   },
   {
     "product_type": "Ecommerce",
@@ -9863,7 +9863,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.rustysoffroad.com"
+    "domain": "rustysoffroad.com"
   },
   {
     "product_type": "Ecommerce",
@@ -9875,7 +9875,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.tushbaby.com"
+    "domain": "tushbaby.com"
   },
   {
     "product_type": "Ecommerce",
@@ -9889,7 +9889,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.vitavibe.com"
+    "domain": "vitavibe.com"
   },
   {
     "product_type": "Ecommerce",
@@ -9901,7 +9901,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "auto",
     "categories": null,
-    "domain": "www.ecklerscorvette.com"
+    "domain": "ecklerscorvette.com"
   },
   {
     "product_type": "Ecommerce",
@@ -9915,7 +9915,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.dallasgolf.com"
+    "domain": "dallasgolf.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -9929,7 +9929,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.essentialhardware.com"
+    "domain": "essentialhardware.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -9941,7 +9941,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.hollar.com"
+    "domain": "hollar.com"
   },
   {
     "product_type": "Ecommerce",
@@ -9965,7 +9965,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.suryaspa.com"
+    "domain": "suryaspa.com"
   },
   {
     "product_type": "Ecommerce",
@@ -9977,7 +9977,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.purchase.buzzybooth.com"
+    "domain": "purchase.buzzybooth.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -9989,7 +9989,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.petedge.com"
+    "domain": "petedge.com"
   },
   {
     "product_type": "Ecommerce",
@@ -10003,7 +10003,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.worldtraveler.com"
+    "domain": "worldtraveler.com"
   },
   {
     "product_type": "Ecommerce",
@@ -10017,7 +10017,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.ocwatchguy.com"
+    "domain": "ocwatchguy.com"
   },
   {
     "product_type": "Ecommerce",
@@ -10043,7 +10043,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.thomasjmusic.com"
+    "domain": "thomasjmusic.com"
   },
   {
     "product_type": "Ecommerce",
@@ -10085,7 +10085,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.bebe.com"
+    "domain": "bebe.com"
   },
   {
     "product_type": "Ecommerce",
@@ -10108,12 +10108,12 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fwww.abercrombie.com&merchant_ari=69EVX1MT359090RV",
     "icon_url": "https://cdn-assets.affirm.com/vcn_buy/v1/merchants/69EVX1MT359090RV/logo_20200121/logo.png",
     "ari": "69EVX1MT359090RV",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "apparel",
     "categories": [
       "apparel"
     ],
-    "domain": "www.abercrombie.com"
+    "domain": "abercrombie.com"
   },
   {
     "product_type": "Ecommerce",
@@ -10125,7 +10125,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.afpafitness.com"
+    "domain": "afpafitness.com"
   },
   {
     "product_type": "Ecommerce",
@@ -10139,7 +10139,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.ridetique.com"
+    "domain": "ridetique.com"
   },
   {
     "product_type": "Ecommerce",
@@ -10153,7 +10153,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.orientwatchusa.com"
+    "domain": "orientwatchusa.com"
   },
   {
     "product_type": "Ecommerce",
@@ -10167,7 +10167,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.dreamsruleme.com"
+    "domain": "dreamsruleme.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -10176,7 +10176,7 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fclick.linksynergy.com%2Ffs-bin%2Fclick%3Fid%3DbFeuiaEZizw%26offerid%3D726422.7%26type%3D3%26subid%3D0&merchant_ari=6A54MAG81P61EAPO",
     "icon_url": "https://cdn-assets.affirm.com/vcn_buy/v1/merchants/6A54MAG81P61EAPO/logo_20200121/logo.png",
     "ari": "6A54MAG81P61EAPO",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "electronics",
     "categories": [
       "electronics"
@@ -10207,7 +10207,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "m"
+    "domain": "usa.superqusa.com"
   },
   {
     "product_type": "Ecommerce",
@@ -10235,7 +10235,7 @@ const merchantData = [
     "categories": [
       "travel_and_events"
     ],
-    "domain": "www.citypass.com"
+    "domain": "citypass.com"
   },
   {
     "product_type": "Ecommerce",
@@ -10249,7 +10249,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.laresistancegroup.com"
+    "domain": "laresistancegroup.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -10261,7 +10261,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.hickoryfarms.com"
+    "domain": "hickoryfarms.com"
   },
   {
     "product_type": "Ecommerce",
@@ -10275,7 +10275,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.bollandbranch.com"
+    "domain": "bollandbranch.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -10289,7 +10289,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.fragrancenet.com"
+    "domain": "fragrancenet.com"
   },
   {
     "product_type": "Ecommerce",
@@ -10301,7 +10301,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.fastforwardacademy.com"
+    "domain": "fastforwardacademy.com"
   },
   {
     "product_type": "Ecommerce",
@@ -10313,7 +10313,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.rionmotors.com"
+    "domain": "rionmotors.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -10325,7 +10325,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.pharmaca.com"
+    "domain": "pharmaca.com"
   },
   {
     "product_type": "Ecommerce",
@@ -10363,7 +10363,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.diamondcandles.com"
+    "domain": "diamondcandles.com"
   },
   {
     "product_type": "Ecommerce",
@@ -10391,7 +10391,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.bassettbmx.com"
+    "domain": "bassettbmx.com"
   },
   {
     "product_type": "Ecommerce",
@@ -10403,7 +10403,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.dartdrones.com"
+    "domain": "dartdrones.com"
   },
   {
     "product_type": "Ecommerce",
@@ -10415,7 +10415,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.cuddleclones.com"
+    "domain": "cuddleclones.com"
   },
   {
     "product_type": "Ecommerce",
@@ -10429,7 +10429,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.electronicexpress.com"
+    "domain": "electronicexpress.com"
   },
   {
     "product_type": "Ecommerce",
@@ -10444,7 +10444,7 @@ const merchantData = [
       "accessories",
       "home_and_furniture"
     ],
-    "domain": "/"
+    "domain": "wanderlustrugs.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -10484,7 +10484,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.tacomabeast.com"
+    "domain": "tacomabeast.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -10498,7 +10498,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.inkedshop.com"
+    "domain": "inkedshop.com"
   },
   {
     "product_type": "Ecommerce",
@@ -10524,7 +10524,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.hiitaxle.com"
+    "domain": "hiitaxle.com"
   },
   {
     "product_type": "Ecommerce",
@@ -10536,7 +10536,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.lifeprofitness.com"
+    "domain": "lifeprofitness.com"
   },
   {
     "product_type": "Ecommerce",
@@ -10550,7 +10550,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.mrdogtreadmill.com"
+    "domain": "mrdogtreadmill.com"
   },
   {
     "product_type": "Ecommerce",
@@ -10562,7 +10562,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "apparel",
     "categories": null,
-    "domain": "www.luxurygaragesale.com"
+    "domain": "luxurygaragesale.com"
   },
   {
     "product_type": "Ecommerce",
@@ -10576,7 +10576,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.temptu.com"
+    "domain": "temptu.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -10590,7 +10590,7 @@ const merchantData = [
     "categories": [
       "travel_and_events"
     ],
-    "domain": "www.seaworld.com"
+    "domain": "seaworld.com"
   },
   {
     "product_type": "Ecommerce",
@@ -10604,7 +10604,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.uswalldecor.com"
+    "domain": "uswalldecor.com"
   },
   {
     "product_type": "Ecommerce",
@@ -10618,7 +10618,7 @@ const merchantData = [
     "categories": [
       "luxury"
     ],
-    "domain": "www.beverlydiamonds.com"
+    "domain": "beverlydiamonds.com"
   },
   {
     "product_type": "Ecommerce",
@@ -10642,7 +10642,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "trjkarting.com/"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -10654,7 +10654,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.swisscolony.com"
+    "domain": "swisscolony.com"
   },
   {
     "product_type": "Ecommerce",
@@ -10668,7 +10668,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.Roli.com"
+    "domain": "Roli.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -10680,7 +10680,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.weightwatchers.com"
+    "domain": "weightwatchers.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -10692,7 +10692,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.thingsremembered.com"
+    "domain": "thingsremembered.com"
   },
   {
     "product_type": "Ecommerce",
@@ -10720,7 +10720,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.glassskinz.com"
+    "domain": "glassskinz.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -10734,7 +10734,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.jamesallen.com"
+    "domain": "jamesallen.com"
   },
   {
     "product_type": "Ecommerce",
@@ -10776,7 +10776,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.chiefsupply.com"
+    "domain": "chiefsupply.com"
   },
   {
     "product_type": "Ecommerce",
@@ -10804,7 +10804,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.smarthome.com"
+    "domain": "smarthome.com"
   },
   {
     "product_type": "Ecommerce",
@@ -10818,7 +10818,7 @@ const merchantData = [
     "categories": [
       "luxury"
     ],
-    "domain": "www.worldofluxuryus.com"
+    "domain": "worldofluxuryus.com"
   },
   {
     "product_type": "Ecommerce",
@@ -10832,7 +10832,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.jkproaudio.com"
+    "domain": "jkproaudio.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -10841,7 +10841,7 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=http%3A%2F%2Fwww.kqzyfj.com%2Fclick-8191141-13857714&merchant_ari=6PHYN1232S35O6RI",
     "icon_url": "http://cdn-assets.affirm.com/vcn_buy/v1/merchants/6PHYN1232S35O6RI/logo20191002/logo_offer.png",
     "ari": "6PHYN1232S35O6RI",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "accessories",
     "categories": [
       "accessories"
@@ -10860,7 +10860,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.juicedbikes.com"
+    "domain": "juicedbikes.com"
   },
   {
     "product_type": "Ecommerce",
@@ -10874,7 +10874,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.stoneandstrand.com"
+    "domain": "stoneandstrand.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -10888,7 +10888,7 @@ const merchantData = [
     "categories": [
       "travel_and_events"
     ],
-    "domain": "www.seatgeek.com"
+    "domain": "seatgeek.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -10900,7 +10900,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.yarn.com"
+    "domain": "yarn.com"
   },
   {
     "product_type": "Ecommerce",
@@ -10914,7 +10914,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.aviandco.com"
+    "domain": "aviandco.com"
   },
   {
     "product_type": "Ecommerce",
@@ -10940,7 +10940,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.mignonfaget.com"
+    "domain": "mignonfaget.com"
   },
   {
     "product_type": "Ecommerce",
@@ -10952,7 +10952,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.chopsmfg.com"
+    "domain": "chopsmfg.com"
   },
   {
     "product_type": "Ecommerce",
@@ -10990,7 +10990,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.Gohardwood.com"
+    "domain": "Gohardwood.com"
   },
   {
     "product_type": "Ecommerce",
@@ -11002,7 +11002,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.ultraracing-usa.com"
+    "domain": "ultraracing-usa.com"
   },
   {
     "product_type": "Ecommerce",
@@ -11025,12 +11025,12 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fwww.ralphlauren.com%2F&merchant_ari=6TBHI1KSNSQGCLOU",
     "icon_url": "https://cdn1.affirm.com/platform/public/promos/assets/6TBHI1KSNSQGCLOU/logo/logo1x.png",
     "ari": "6TBHI1KSNSQGCLOU",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "apparel",
     "categories": [
       "apparel"
     ],
-    "domain": "www.ralphlauren.com"
+    "domain": "ralphlauren.com"
   },
   {
     "product_type": "Ecommerce",
@@ -11044,7 +11044,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.otsocycles.com"
+    "domain": "otsocycles.com"
   },
   {
     "product_type": "Ecommerce",
@@ -11058,7 +11058,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "/"
+    "domain": "silk-plants.myshopify.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -11070,7 +11070,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.bigceramicstore.com"
+    "domain": "bigceramicstore.com"
   },
   {
     "product_type": "Ecommerce",
@@ -11082,7 +11082,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "fitness_and_gear",
     "categories": null,
-    "domain": "www.thetuttrainer.com"
+    "domain": "thetuttrainer.com"
   },
   {
     "product_type": "Ecommerce",
@@ -11096,7 +11096,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.deviumusa.com"
+    "domain": "deviumusa.com"
   },
   {
     "product_type": "Ecommerce",
@@ -11110,7 +11110,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.maggperformance.com"
+    "domain": "maggperformance.com"
   },
   {
     "product_type": "Ecommerce",
@@ -11124,7 +11124,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.dozebeds.com"
+    "domain": "dozebeds.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -11138,7 +11138,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.tackledirect.com"
+    "domain": "tackledirect.com"
   },
   {
     "product_type": "Ecommerce",
@@ -11152,7 +11152,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.emerilairfryer360.com"
+    "domain": "emerilairfryer360.com"
   },
   {
     "product_type": "Ecommerce",
@@ -11166,7 +11166,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.rado.com"
+    "domain": "rado.com"
   },
   {
     "product_type": "Ecommerce",
@@ -11180,7 +11180,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.krahs.com"
+    "domain": "krahs.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -11208,7 +11208,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.botkier.com"
+    "domain": "botkier.com"
   },
   {
     "product_type": "Ecommerce",
@@ -11222,7 +11222,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.mypillow.com"
+    "domain": "mypillow.com"
   },
   {
     "product_type": "Ecommerce",
@@ -11250,7 +11250,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.printingforless.com"
+    "domain": "printingforless.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -11262,7 +11262,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.entertainmentearth.com"
+    "domain": "entertainmentearth.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -11276,7 +11276,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.artbeads.com"
+    "domain": "artbeads.com"
   },
   {
     "product_type": "Ecommerce",
@@ -11290,7 +11290,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.1010tires.com"
+    "domain": "1010tires.com"
   },
   {
     "product_type": "Ecommerce",
@@ -11314,7 +11314,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.mancrates.com"
+    "domain": "mancrates.com"
   },
   {
     "product_type": "Ecommerce",
@@ -11342,7 +11342,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.skincarerx.com"
+    "domain": "skincarerx.com"
   },
   {
     "product_type": "Ecommerce",
@@ -11356,7 +11356,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.bakerbuiltgarage.net"
+    "domain": "bakerbuiltgarage.net"
   },
   {
     "product_type": "Ecommerce",
@@ -11382,7 +11382,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.extremecustoms.com"
+    "domain": "extremecustoms.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -11396,7 +11396,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.royaldiscount.com"
+    "domain": "royaldiscount.com"
   },
   {
     "product_type": "Ecommerce",
@@ -11420,7 +11420,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.thriftbooks.com"
+    "domain": "thriftbooks.com"
   },
   {
     "product_type": "Ecommerce",
@@ -11434,7 +11434,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.dronenerds.com"
+    "domain": "dronenerds.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -11448,7 +11448,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.frenchtoast.com"
+    "domain": "frenchtoast.com"
   },
   {
     "product_type": "Ecommerce",
@@ -11462,7 +11462,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.performancetruckproducts.com"
+    "domain": "performancetruckproducts.com"
   },
   {
     "product_type": "Ecommerce",
@@ -11490,7 +11490,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.uturnaudio.com"
+    "domain": "uturnaudio.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -11499,10 +11499,10 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fwww.petsmart.com&merchant_ari=730MUGE95WPC50AE",
     "icon_url": "https://cdn1.affirm.com/platform/public/promos/assets/730MUGE95WPC50AE/logo/logo1x.png",
     "ari": "730MUGE95WPC50AE",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.petsmart.com"
+    "domain": "petsmart.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -11516,7 +11516,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.orthoticshop.com"
+    "domain": "orthoticshop.com"
   },
   {
     "product_type": "Ecommerce",
@@ -11530,7 +11530,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.secretlab.co"
+    "domain": "secretlab.co"
   },
   {
     "product_type": "Ecommerce",
@@ -11542,7 +11542,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.nextventuremotorsports.com"
+    "domain": "nextventuremotorsports.com"
   },
   {
     "product_type": "Ecommerce",
@@ -11556,7 +11556,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.homeelegancedesign.com"
+    "domain": "homeelegancedesign.com"
   },
   {
     "product_type": "Ecommerce",
@@ -11570,7 +11570,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.jhaudio.com"
+    "domain": "jhaudio.com"
   },
   {
     "product_type": "Ecommerce",
@@ -11598,7 +11598,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.bpmimports.com"
+    "domain": "bpmimports.com"
   },
   {
     "product_type": "Ecommerce",
@@ -11610,7 +11610,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "home_and_furniture",
     "categories": null,
-    "domain": "www.primarygoods.com"
+    "domain": "primarygoods.com"
   },
   {
     "product_type": "Ecommerce",
@@ -11624,7 +11624,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.theclearcut.co"
+    "domain": "theclearcut.co"
   },
   {
     "product_type": "Ecommerce",
@@ -11650,7 +11650,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.eugeniakim.com"
+    "domain": "eugeniakim.com"
   },
   {
     "product_type": "Ecommerce",
@@ -11662,7 +11662,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.oasistires.com"
+    "domain": "oasistires.com"
   },
   {
     "product_type": "Ecommerce",
@@ -11686,7 +11686,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "organnickbeauty.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -11717,7 +11717,7 @@ const merchantData = [
       "fitness_and_gear",
       "shoes"
     ],
-    "domain": "www.adidas.com"
+    "domain": "adidas.com"
   },
   {
     "product_type": "Ecommerce",
@@ -11731,7 +11731,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.theinside.com"
+    "domain": "theinside.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -11743,7 +11743,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.doversaddlery.com"
+    "domain": "doversaddlery.com"
   },
   {
     "product_type": "Ecommerce",
@@ -11771,7 +11771,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.workingperson.com"
+    "domain": "workingperson.com"
   },
   {
     "product_type": "Ecommerce",
@@ -11785,7 +11785,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.shabbychic.com"
+    "domain": "shabbychic.com"
   },
   {
     "product_type": "Ecommerce",
@@ -11799,7 +11799,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.powerdrivendiesel.com"
+    "domain": "powerdrivendiesel.com"
   },
   {
     "product_type": "Ecommerce",
@@ -11813,7 +11813,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.electrictrike.com"
+    "domain": "electrictrike.com"
   },
   {
     "product_type": "Ecommerce",
@@ -11839,7 +11839,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "auto",
     "categories": null,
-    "domain": "www.flyinmiata.com"
+    "domain": "flyinmiata.com"
   },
   {
     "product_type": "Ecommerce",
@@ -11853,7 +11853,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.jleavittsupplyco.com"
+    "domain": "jleavittsupplyco.com"
   },
   {
     "product_type": "Ecommerce",
@@ -11877,7 +11877,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.rehabmart.com"
+    "domain": "rehabmart.com"
   },
   {
     "product_type": "Ecommerce",
@@ -11889,7 +11889,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "auto",
     "categories": null,
-    "domain": "www.skunk2.com"
+    "domain": "skunk2.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -11903,7 +11903,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.rainbowshops.com"
+    "domain": "rainbowshops.com"
   },
   {
     "product_type": "Ecommerce",
@@ -11917,7 +11917,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.RECREATIONiD.com"
+    "domain": "RECREATIONiD.com"
   },
   {
     "product_type": "Ecommerce",
@@ -11959,7 +11959,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "apparel",
     "categories": null,
-    "domain": "www.34heritage.com"
+    "domain": "34heritage.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -11973,7 +11973,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.tanga.com"
+    "domain": "tanga.com"
   },
   {
     "product_type": "Ecommerce",
@@ -11999,7 +11999,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.megamotormadness.com"
+    "domain": "megamotormadness.com"
   },
   {
     "product_type": "Ecommerce",
@@ -12025,7 +12025,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.jampaper.com"
+    "domain": "jampaper.com"
   },
   {
     "product_type": "Ecommerce",
@@ -12054,7 +12054,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.ringwraps.com"
+    "domain": "ringwraps.com"
   },
   {
     "product_type": "Ecommerce",
@@ -12135,7 +12135,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.neuechair.com"
+    "domain": "neuechair.com"
   },
   {
     "product_type": "Ecommerce",
@@ -12147,7 +12147,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.hanacure.com"
+    "domain": "hanacure.com"
   },
   {
     "product_type": "Ecommerce",
@@ -12159,7 +12159,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.wakanicci.com"
+    "domain": "wakanicci.com"
   },
   {
     "product_type": "Ecommerce",
@@ -12171,7 +12171,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "m"
+    "domain": "allamericanfurniturelakeland.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -12183,7 +12183,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.alibris.com"
+    "domain": "alibris.com"
   },
   {
     "product_type": "Ecommerce",
@@ -12197,7 +12197,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.stubbsandwootton.com"
+    "domain": "stubbsandwootton.com"
   },
   {
     "product_type": "Ecommerce",
@@ -12223,7 +12223,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.biketiresdirect.com"
+    "domain": "biketiresdirect.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -12253,7 +12253,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.jesmaharry.com"
+    "domain": "jesmaharry.com"
   },
   {
     "product_type": "Ecommerce",
@@ -12279,7 +12279,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.2fast-performance.myshopify.com"
+    "domain": "2fast-performance.myshopify.com"
   },
   {
     "product_type": "Ecommerce",
@@ -12333,7 +12333,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.theacoutlet.com"
+    "domain": "theacoutlet.com"
   },
   {
     "product_type": "Ecommerce",
@@ -12368,7 +12368,7 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=http%3A%2F%2Fwww.kqzyfj.com%2Fclick-8191141-12001245&merchant_ari=7R7A7IAE22T8IJ2I",
     "icon_url": "http://cdn-assets.affirm.com/vcn_buy/v1/merchants/7R7A7IAE22T8IJ2I/logo20200220/logo_offer.png",
     "ari": "7R7A7IAE22T8IJ2I",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "electronics",
     "categories": [
       "electronics",
@@ -12388,7 +12388,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.getkeysmart.com"
+    "domain": "getkeysmart.com"
   },
   {
     "product_type": "Ecommerce",
@@ -12402,7 +12402,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.eastwood.com"
+    "domain": "eastwood.com"
   },
   {
     "product_type": "Ecommerce",
@@ -12428,7 +12428,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "m"
+    "domain": "themodgarage.com"
   },
   {
     "product_type": "Ecommerce",
@@ -12440,7 +12440,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "auto",
     "categories": null,
-    "domain": "www.lethalperformance.com"
+    "domain": "lethalperformance.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -12454,7 +12454,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.bambeco.com"
+    "domain": "bambeco.com"
   },
   {
     "product_type": "Ecommerce",
@@ -12495,7 +12495,7 @@ const merchantData = [
       "accessories",
       "luxury"
     ],
-    "domain": "www.brilliantearth.com"
+    "domain": "brilliantearth.com"
   },
   {
     "product_type": "Ecommerce",
@@ -12509,7 +12509,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.artspace.com"
+    "domain": "artspace.com"
   },
   {
     "product_type": "Ecommerce",
@@ -12537,7 +12537,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.customwheeloffset.com"
+    "domain": "customwheeloffset.com"
   },
   {
     "product_type": "Ecommerce",
@@ -12566,7 +12566,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.guardianbikes.com"
+    "domain": "guardianbikes.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -12575,7 +12575,7 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fwww.zales.com&merchant_ari=7UAZBJ3NEKLBGDJX",
     "icon_url": "https://cdn-assets.affirm.com/vcn_buy/v1/merchants/EAL4WS6NBFS7DZQL/logo2020062437/logo1.png",
     "ari": "7UAZBJ3NEKLBGDJX",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "accessories",
     "categories": [
       "accessories"
@@ -12594,7 +12594,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.michaelstars.com"
+    "domain": "michaelstars.com"
   },
   {
     "product_type": "Ecommerce",
@@ -12608,7 +12608,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "m"
+    "domain": "murphydoor.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -12620,7 +12620,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "accessories",
     "categories": null,
-    "domain": "www.us.louisvuitton.com"
+    "domain": "us.louisvuitton.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -12632,7 +12632,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.meijer.com"
+    "domain": "meijer.com"
   },
   {
     "product_type": "Ecommerce",
@@ -12646,7 +12646,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.subpac.com"
+    "domain": "subpac.com"
   },
   {
     "product_type": "Ecommerce",
@@ -12658,7 +12658,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.humless.com"
+    "domain": "humless.com"
   },
   {
     "product_type": "Ecommerce",
@@ -12686,7 +12686,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.cletile.com"
+    "domain": "cletile.com"
   },
   {
     "product_type": "Ecommerce",
@@ -12700,7 +12700,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.quoddy.com"
+    "domain": "quoddy.com"
   },
   {
     "product_type": "Ecommerce",
@@ -12714,7 +12714,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.sydneyevan.com"
+    "domain": "sydneyevan.com"
   },
   {
     "product_type": "Ecommerce",
@@ -12754,7 +12754,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.kingofchristmas.com"
+    "domain": "kingofchristmas.com"
   },
   {
     "product_type": "Ecommerce",
@@ -12768,7 +12768,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.cukusa.com"
+    "domain": "cukusa.com"
   },
   {
     "product_type": "Ecommerce",
@@ -12780,7 +12780,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "home_and_furniture",
     "categories": null,
-    "domain": "m"
+    "domain": "tribest.com"
   },
   {
     "product_type": "Ecommerce",
@@ -12804,7 +12804,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.honeybakedonline.com"
+    "domain": "honeybakedonline.com"
   },
   {
     "product_type": "Ecommerce",
@@ -12830,7 +12830,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.mygreenmattress.com"
+    "domain": "mygreenmattress.com"
   },
   {
     "product_type": "Ecommerce",
@@ -12842,7 +12842,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "fitness_and_gear",
     "categories": null,
-    "domain": "www.usasleddogs.com"
+    "domain": "usasleddogs.com"
   },
   {
     "product_type": "Ecommerce",
@@ -12856,7 +12856,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.upliftdesk.com"
+    "domain": "upliftdesk.com"
   },
   {
     "product_type": "Ecommerce",
@@ -12868,7 +12868,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.onlineoutboards.com"
+    "domain": "onlineoutboards.com"
   },
   {
     "product_type": "Ecommerce",
@@ -12882,7 +12882,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.asbydf.com"
+    "domain": "asbydf.com"
   },
   {
     "product_type": "Ecommerce",
@@ -12908,7 +12908,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.myupdesk.com"
+    "domain": "myupdesk.com"
   },
   {
     "product_type": "Ecommerce",
@@ -12922,7 +12922,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.maxtool.com"
+    "domain": "maxtool.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -12951,7 +12951,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.magnaflow.com"
+    "domain": "magnaflow.com"
   },
   {
     "product_type": "Ecommerce",
@@ -12990,7 +12990,7 @@ const merchantData = [
       "apparel",
       "beauty"
     ],
-    "domain": "/"
+    "domain": "luxereduxbridal.com/"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -13004,7 +13004,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.whatshebuys.com"
+    "domain": "whatshebuys.com"
   },
   {
     "product_type": "Ecommerce",
@@ -13018,7 +13018,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.biobidet.com"
+    "domain": "biobidet.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -13048,7 +13048,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.oneida.com"
+    "domain": "oneida.com"
   },
   {
     "product_type": "Ecommerce",
@@ -13062,7 +13062,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "m"
+    "domain": "spotbikes.com"
   },
   {
     "product_type": "Ecommerce",
@@ -13077,7 +13077,7 @@ const merchantData = [
       "accessories",
       "luxury"
     ],
-    "domain": "www.whatgoesaroundnyc.com"
+    "domain": "whatgoesaroundnyc.com"
   },
   {
     "product_type": "Ecommerce",
@@ -13091,7 +13091,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.tiresshipped2you.com"
+    "domain": "tiresshipped2you.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -13103,7 +13103,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.booksamillion.com"
+    "domain": "booksamillion.com"
   },
   {
     "product_type": "Ecommerce",
@@ -13141,7 +13141,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "auto",
     "categories": null,
-    "domain": "www.diyautotune.com"
+    "domain": "diyautotune.com"
   },
   {
     "product_type": "Ecommerce",
@@ -13153,7 +13153,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.bambooshield.com"
+    "domain": "bambooshield.com"
   },
   {
     "product_type": "Ecommerce",
@@ -13167,7 +13167,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.pitstopusa.com"
+    "domain": "pitstopusa.com"
   },
   {
     "product_type": "Ecommerce",
@@ -13191,7 +13191,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "home_and_furniture",
     "categories": null,
-    "domain": "www.beddys.com"
+    "domain": "beddys.com"
   },
   {
     "product_type": "Ecommerce",
@@ -13205,7 +13205,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.eshakti.com"
+    "domain": "eshakti.com"
   },
   {
     "product_type": "Ecommerce",
@@ -13217,7 +13217,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.abetterhomestore.com"
+    "domain": "abetterhomestore.com"
   },
   {
     "product_type": "Ecommerce",
@@ -13231,7 +13231,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.homegallerystores.com"
+    "domain": "homegallerystores.com"
   },
   {
     "product_type": "Ecommerce",
@@ -13281,7 +13281,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.airvoicewirelessphones.com"
+    "domain": "airvoicewirelessphones.com"
   },
   {
     "product_type": "Ecommerce",
@@ -13310,7 +13310,7 @@ const merchantData = [
       "luxury",
       "shoes"
     ],
-    "domain": "www.jimmychoo.com"
+    "domain": "jimmychoo.com"
   },
   {
     "product_type": "Ecommerce",
@@ -13324,7 +13324,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.springwellwater.com"
+    "domain": "springwellwater.com"
   },
   {
     "product_type": "Ecommerce",
@@ -13336,7 +13336,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "therollingstonesshop.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -13378,7 +13378,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.irestorelaser.com"
+    "domain": "irestorelaser.com"
   },
   {
     "product_type": "Ecommerce",
@@ -13390,7 +13390,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.aeroflowinc.com"
+    "domain": "aeroflowinc.com"
   },
   {
     "product_type": "Ecommerce",
@@ -13404,7 +13404,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.betteridge.com"
+    "domain": "betteridge.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -13418,7 +13418,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.garrettwade.com"
+    "domain": "garrettwade.com"
   },
   {
     "product_type": "Ecommerce",
@@ -13432,7 +13432,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.lagos.com"
+    "domain": "lagos.com"
   },
   {
     "product_type": "Ecommerce",
@@ -13446,7 +13446,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.gfgbuilt.com"
+    "domain": "gfgbuilt.com"
   },
   {
     "product_type": "Ecommerce",
@@ -13460,7 +13460,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.fringesport.com"
+    "domain": "fringesport.com"
   },
   {
     "product_type": "Ecommerce",
@@ -13474,7 +13474,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.3dprintersdepot.com"
+    "domain": "3dprintersdepot.com"
   },
   {
     "product_type": "Ecommerce",
@@ -13486,7 +13486,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "drippinchocolat.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -13498,7 +13498,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.ultimateoem.com"
+    "domain": "ultimateoem.com"
   },
   {
     "product_type": "Ecommerce",
@@ -13512,7 +13512,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.espinbikes.com"
+    "domain": "espinbikes.com"
   },
   {
     "product_type": "Ecommerce",
@@ -13526,7 +13526,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.2modern.com"
+    "domain": "2modern.com"
   },
   {
     "product_type": "Ecommerce",
@@ -13538,7 +13538,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.gemvara.com"
+    "domain": "gemvara.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -13552,7 +13552,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.fastoolnow.com"
+    "domain": "fastoolnow.com"
   },
   {
     "product_type": "Ecommerce",
@@ -13566,7 +13566,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.allurez.com"
+    "domain": "allurez.com"
   },
   {
     "product_type": "Ecommerce",
@@ -13578,7 +13578,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.avironactive.com"
+    "domain": "avironactive.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -13590,7 +13590,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.vermontteddybear.com"
+    "domain": "vermontteddybear.com"
   },
   {
     "product_type": "Ecommerce",
@@ -13616,7 +13616,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.meetflo.com"
+    "domain": "meetflo.com"
   },
   {
     "product_type": "Ecommerce",
@@ -13644,7 +13644,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.loopjewelry.com"
+    "domain": "loopjewelry.com"
   },
   {
     "product_type": "Ecommerce",
@@ -13658,7 +13658,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.satphonestore.com"
+    "domain": "satphonestore.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -13672,7 +13672,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.discounttwo-wayradio.com"
+    "domain": "discounttwo-wayradio.com"
   },
   {
     "product_type": "Ecommerce",
@@ -13686,7 +13686,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.shop.hamiltonwatch.com"
+    "domain": "shop.hamiltonwatch.com"
   },
   {
     "product_type": "Ecommerce",
@@ -13700,7 +13700,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.westendmotorsports.com"
+    "domain": "westendmotorsports.com"
   },
   {
     "product_type": "Ecommerce",
@@ -13712,7 +13712,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.thelandinghome.com"
+    "domain": "thelandinghome.com"
   },
   {
     "product_type": "Ecommerce",
@@ -13724,7 +13724,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.gorillaplaysets.com"
+    "domain": "gorillaplaysets.com"
   },
   {
     "product_type": "Ecommerce",
@@ -13752,7 +13752,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.seattlecoffeegear.com"
+    "domain": "seattlecoffeegear.com"
   },
   {
     "product_type": "Ecommerce",
@@ -13764,7 +13764,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.kennedymfg.com"
+    "domain": "kennedymfg.com"
   },
   {
     "product_type": "Ecommerce",
@@ -13778,7 +13778,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.bmptuning.com"
+    "domain": "bmptuning.com"
   },
   {
     "product_type": "Ecommerce",
@@ -13792,7 +13792,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "m"
+    "domain": "store.jaquishbiomedical.com"
   },
   {
     "product_type": "Ecommerce",
@@ -13830,7 +13830,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "m"
+    "domain": "fivesensorytoys.com"
   },
   {
     "product_type": "Ecommerce",
@@ -13870,7 +13870,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.pureformulas.com"
+    "domain": "pureformulas.com"
   },
   {
     "product_type": "Ecommerce",
@@ -13896,7 +13896,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.barebonesworkwear.com"
+    "domain": "barebonesworkwear.com"
   },
   {
     "product_type": "Ecommerce",
@@ -13910,7 +13910,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.shopolive.us"
+    "domain": "shopolive.us"
   },
   {
     "product_type": "Ecommerce",
@@ -13924,7 +13924,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.aspiremotoring.com"
+    "domain": "aspiremotoring.com"
   },
   {
     "product_type": "Ecommerce",
@@ -13936,7 +13936,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "giftswithart.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -13951,7 +13951,7 @@ const merchantData = [
       "accessories",
       "electronics"
     ],
-    "domain": "www.soundapproach.com"
+    "domain": "soundapproach.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -13965,7 +13965,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.sparkfun.com"
+    "domain": "sparkfun.com"
   },
   {
     "product_type": "Ecommerce",
@@ -14007,7 +14007,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.hiburrow.com"
+    "domain": "hiburrow.com"
   },
   {
     "product_type": "Ecommerce",
@@ -14035,7 +14035,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.freeflyapparel.com"
+    "domain": "freeflyapparel.com"
   },
   {
     "product_type": "Ecommerce",
@@ -14049,7 +14049,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.bedjet.com"
+    "domain": "bedjet.com"
   },
   {
     "product_type": "Ecommerce",
@@ -14063,7 +14063,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.beachbunnyswimwear.com"
+    "domain": "beachbunnyswimwear.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -14077,7 +14077,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.shopperschoice.com"
+    "domain": "shopperschoice.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -14086,10 +14086,10 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fwww.victoriassecret.com%2F&merchant_ari=8T366CNQRXLHP7XO",
     "icon_url": "https://cdn-assets.affirm.com/vcn_buy/v1/merchants/8T366CNQRXLHP7XO/logo_20190712201250/logo.png",
     "ari": "8T366CNQRXLHP7XO",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.victoriassecret.com"
+    "domain": "victoriassecret.com"
   },
   {
     "product_type": "Ecommerce",
@@ -14101,7 +14101,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "auto",
     "categories": null,
-    "domain": "www.macsautoparts.com"
+    "domain": "macsautoparts.com"
   },
   {
     "product_type": "Ecommerce",
@@ -14165,7 +14165,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.laurenjames.com"
+    "domain": "laurenjames.com"
   },
   {
     "product_type": "Ecommerce",
@@ -14193,7 +14193,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.sunplay.com"
+    "domain": "sunplay.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -14207,7 +14207,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.dutchcrafters.com"
+    "domain": "dutchcrafters.com"
   },
   {
     "product_type": "Ecommerce",
@@ -14219,7 +14219,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "home_and_furniture",
     "categories": null,
-    "domain": "m"
+    "domain": "capsulehome.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -14233,7 +14233,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.shop.wwe.com"
+    "domain": "shop.wwe.com"
   },
   {
     "product_type": "Ecommerce",
@@ -14287,7 +14287,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.northerntool.com"
+    "domain": "northerntool.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -14301,7 +14301,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.performancetruckproducts.com"
+    "domain": "performancetruckproducts.com"
   },
   {
     "product_type": "Ecommerce",
@@ -14329,7 +14329,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.swagtron.com"
+    "domain": "swagtron.com"
   },
   {
     "product_type": "Ecommerce",
@@ -14343,7 +14343,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.luxuryresale.net"
+    "domain": "luxuryresale.net"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -14357,7 +14357,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.cmp.callawaygolf.com"
+    "domain": "cmp.callawaygolf.com"
   },
   {
     "product_type": "Ecommerce",
@@ -14369,7 +14369,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "auto",
     "categories": null,
-    "domain": "www.Ecklersnova.com"
+    "domain": "Ecklersnova.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -14383,7 +14383,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.alexandani.com"
+    "domain": "alexandani.com"
   },
   {
     "product_type": "Ecommerce",
@@ -14409,7 +14409,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.sonicelectronix.com"
+    "domain": "sonicelectronix.com"
   },
   {
     "product_type": "Ecommerce",
@@ -14423,7 +14423,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.cotopaxi.com"
+    "domain": "cotopaxi.com"
   },
   {
     "product_type": "Ecommerce",
@@ -14437,7 +14437,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.woolfwithme.com"
+    "domain": "woolfwithme.com"
   },
   {
     "product_type": "Ecommerce",
@@ -14451,7 +14451,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.proclamationgoods.com"
+    "domain": "proclamationgoods.com"
   },
   {
     "product_type": "Ecommerce",
@@ -14465,7 +14465,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.theclassyhome.com"
+    "domain": "theclassyhome.com"
   },
   {
     "product_type": "Ecommerce",
@@ -14479,7 +14479,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "/"
+    "domain": "amethystgoddess.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -14503,7 +14503,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.TopInterview.com"
+    "domain": "TopInterview.com"
   },
   {
     "product_type": "Ecommerce",
@@ -14527,7 +14527,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.kingkracken.com"
+    "domain": "kingkracken.com"
   },
   {
     "product_type": "Ecommerce",
@@ -14553,7 +14553,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.militaryfares.com"
+    "domain": "militaryfares.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -14567,7 +14567,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.chicos.com"
+    "domain": "chicos.com"
   },
   {
     "product_type": "Ecommerce",
@@ -14595,7 +14595,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.avianneandco.com"
+    "domain": "avianneandco.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -14607,7 +14607,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.fabfitfun.com"
+    "domain": "fabfitfun.com"
   },
   {
     "product_type": "Ecommerce",
@@ -14673,7 +14673,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.baseballrampage.com"
+    "domain": "baseballrampage.com"
   },
   {
     "product_type": "Ecommerce",
@@ -14685,7 +14685,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.prestigiojewelers.com"
+    "domain": "prestigiojewelers.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -14709,7 +14709,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.pharmapacks.com"
+    "domain": "pharmapacks.com"
   },
   {
     "product_type": "Ecommerce",
@@ -14723,7 +14723,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.dieselogic.com"
+    "domain": "dieselogic.com"
   },
   {
     "product_type": "Ecommerce",
@@ -14764,7 +14764,7 @@ const merchantData = [
       "accessories",
       "luxury"
     ],
-    "domain": "/"
+    "domain": "moddlinc.com/"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -14778,7 +14778,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.accessorygeeks.com"
+    "domain": "accessorygeeks.com"
   },
   {
     "product_type": "Ecommerce",
@@ -14792,7 +14792,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.Roseark.com"
+    "domain": "Roseark.com"
   },
   {
     "product_type": "Ecommerce",
@@ -14835,7 +14835,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.webeyecare.com"
+    "domain": "webeyecare.com"
   },
   {
     "product_type": "Ecommerce",
@@ -14861,7 +14861,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.newair.com"
+    "domain": "newair.com"
   },
   {
     "product_type": "Ecommerce",
@@ -14899,7 +14899,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.distinctiveguitar.com"
+    "domain": "distinctiveguitar.com"
   },
   {
     "product_type": "Ecommerce",
@@ -14913,7 +14913,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.offroadpowerproducts.com"
+    "domain": "offroadpowerproducts.com"
   },
   {
     "product_type": "Ecommerce",
@@ -14967,7 +14967,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.cobbtuning.com"
+    "domain": "cobbtuning.com"
   },
   {
     "product_type": "Ecommerce",
@@ -14979,7 +14979,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.realjdmstore.com"
+    "domain": "realjdmstore.com"
   },
   {
     "product_type": "Ecommerce",
@@ -14993,7 +14993,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.fragmentario.co"
+    "domain": "fragmentario.co"
   },
   {
     "product_type": "Ecommerce",
@@ -15019,7 +15019,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.qacoustics.com"
+    "domain": "qacoustics.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -15033,7 +15033,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.ivoryella.com"
+    "domain": "ivoryella.com"
   },
   {
     "product_type": "Ecommerce",
@@ -15059,7 +15059,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.usedacdepot.com"
+    "domain": "usedacdepot.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -15073,7 +15073,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.emiliemshop.com"
+    "domain": "emiliemshop.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -15087,7 +15087,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.roots.com"
+    "domain": "roots.com"
   },
   {
     "product_type": "Ecommerce",
@@ -15101,7 +15101,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.discountfilters.com"
+    "domain": "discountfilters.com"
   },
   {
     "product_type": "Ecommerce",
@@ -15115,7 +15115,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.factoryauthorizedoutlet.com"
+    "domain": "factoryauthorizedoutlet.com"
   },
   {
     "product_type": "Ecommerce",
@@ -15127,7 +15127,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.liftware.com"
+    "domain": "liftware.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -15141,7 +15141,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.titlenine.com"
+    "domain": "titlenine.com"
   },
   {
     "product_type": "Ecommerce",
@@ -15153,7 +15153,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.littlegiantladder.com"
+    "domain": "littlegiantladder.com"
   },
   {
     "product_type": "Ecommerce",
@@ -15167,7 +15167,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.diamondfoundry.com"
+    "domain": "diamondfoundry.com"
   },
   {
     "product_type": "Ecommerce",
@@ -15179,7 +15179,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.benorloff.co"
+    "domain": "benorloff.co"
   },
   {
     "product_type": "Ecommerce",
@@ -15193,7 +15193,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.Nimb.com"
+    "domain": "Nimb.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -15205,7 +15205,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.shop.com"
+    "domain": "shop.com"
   },
   {
     "product_type": "Ecommerce",
@@ -15231,7 +15231,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "sisyphus-industries.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -15259,7 +15259,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.ofakind.com"
+    "domain": "ofakind.com"
   },
   {
     "product_type": "Ecommerce",
@@ -15285,7 +15285,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.eero.com"
+    "domain": "eero.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -15299,7 +15299,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.discountfilters.com"
+    "domain": "discountfilters.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -15308,7 +15308,7 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fwww.spirit.com&merchant_ari=9OBTWGS6TY396E3G",
     "icon_url": "https://cdn-assets.affirm.com/vcn_buy/v1/merchants/9OBTWGS6TY396E3G/logo_20190710124334/logo.png",
     "ari": "9OBTWGS6TY396E3G",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "travel_and_events",
     "categories": [
       "travel_and_events"
@@ -15327,7 +15327,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.tartecosmetics.com"
+    "domain": "tartecosmetics.com"
   },
   {
     "product_type": "Ecommerce",
@@ -15339,7 +15339,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.mytwofront.com"
+    "domain": "mytwofront.com"
   },
   {
     "product_type": "Ecommerce",
@@ -15353,7 +15353,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.yaasa.com"
+    "domain": "yaasa.com"
   },
   {
     "product_type": "Ecommerce",
@@ -15367,7 +15367,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.wheelbuilder.com"
+    "domain": "wheelbuilder.com"
   },
   {
     "product_type": "Ecommerce",
@@ -15393,7 +15393,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.plumewifi.com"
+    "domain": "plumewifi.com"
   },
   {
     "product_type": "Ecommerce",
@@ -15421,7 +15421,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.wristre.com"
+    "domain": "wristre.com"
   },
   {
     "product_type": "Ecommerce",
@@ -15449,7 +15449,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.rugsusa.com"
+    "domain": "rugsusa.com"
   },
   {
     "product_type": "Ecommerce",
@@ -15463,7 +15463,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.sunu.io"
+    "domain": "sunu.io"
   },
   {
     "product_type": "Ecommerce",
@@ -15477,7 +15477,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.marinedepot.com"
+    "domain": "marinedepot.com"
   },
   {
     "product_type": "Ecommerce",
@@ -15491,7 +15491,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.hubcap-tire-wheel.com"
+    "domain": "hubcap-tire-wheel.com"
   },
   {
     "product_type": "Ecommerce",
@@ -15505,7 +15505,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.importimageracing.com"
+    "domain": "importimageracing.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -15519,7 +15519,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.folica.com"
+    "domain": "folica.com"
   },
   {
     "product_type": "Ecommerce",
@@ -15531,7 +15531,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "accessories",
     "categories": null,
-    "domain": "www.rusticandmain.com"
+    "domain": "rusticandmain.com"
   },
   {
     "product_type": "Ecommerce",
@@ -15545,7 +15545,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.sinisterdiesel.com"
+    "domain": "sinisterdiesel.com"
   },
   {
     "product_type": "Ecommerce",
@@ -15557,7 +15557,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.dcsports.com"
+    "domain": "dcsports.com"
   },
   {
     "product_type": "Ecommerce",
@@ -15569,7 +15569,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.frenchpresscandleco.com"
+    "domain": "frenchpresscandleco.com"
   },
   {
     "product_type": "Ecommerce",
@@ -15583,7 +15583,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.TuffRoots.net"
+    "domain": "TuffRoots.net"
   },
   {
     "product_type": "Ecommerce",
@@ -15595,7 +15595,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "o"
+    "domain": "gracehill.com/products/#visto"
   },
   {
     "product_type": "Ecommerce",
@@ -15607,7 +15607,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "m"
+    "domain": "bluetechaudio.com"
   },
   {
     "product_type": "Ecommerce",
@@ -15619,7 +15619,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "electronics",
     "categories": null,
-    "domain": "www.lstnsound.co"
+    "domain": "lstnsound.co"
   },
   {
     "product_type": "Ecommerce",
@@ -15633,7 +15633,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.verowatches.com"
+    "domain": "verowatches.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -15645,7 +15645,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.magnetstreet.com"
+    "domain": "magnetstreet.com"
   },
   {
     "product_type": "Ecommerce",
@@ -15657,7 +15657,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "m"
+    "domain": "anjamolds.com"
   },
   {
     "product_type": "Ecommerce",
@@ -15671,21 +15671,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.monicarichkosann.com"
-  },
-  {
-    "product_type": "Affirm Anywhere",
-    "image_url": "https://cdn1.affirm.com/platform/public/promos/assets/9X1OH1SO4556PD6L/hero/hero2x.png",
-    "name": "Dick's Sporting Goods",
-    "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fwww.dickssportinggoods.com%2F&merchant_ari=9X1OH1SO4556PD6L",
-    "icon_url": "https://cdn1.affirm.com/platform/public/promos/assets/9X1OH1SO4556PD6L/logo/logo1x.png",
-    "ari": "9X1OH1SO4556PD6L",
-    "zero_apr": false,
-    "primary_category": "fitness_and_gear",
-    "categories": [
-      "fitness_and_gear"
-    ],
-    "domain": "www.dickssportinggoods.com"
+    "domain": "monicarichkosann.com"
   },
   {
     "product_type": "Ecommerce",
@@ -15724,7 +15710,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "auto",
     "categories": null,
-    "domain": "www.bvctrikes.com"
+    "domain": "bvctrikes.com"
   },
   {
     "product_type": "Ecommerce",
@@ -15738,7 +15724,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.rustysurfboards.com"
+    "domain": "rustysurfboards.com"
   },
   {
     "product_type": "Ecommerce",
@@ -15764,7 +15750,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.dvf.com"
+    "domain": "dvf.com"
   },
   {
     "product_type": "Ecommerce",
@@ -15776,7 +15762,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "marcorametti.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -15804,7 +15790,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.madnessautoworks.com"
+    "domain": "madnessautoworks.com"
   },
   {
     "product_type": "Ecommerce",
@@ -15818,7 +15804,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.raceland.com"
+    "domain": "raceland.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -15830,7 +15816,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.ctainc.com"
+    "domain": "ctainc.com"
   },
   {
     "product_type": "Ecommerce",
@@ -15856,7 +15842,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.qdm-hair.com"
+    "domain": "qdm-hair.com"
   },
   {
     "product_type": "Ecommerce",
@@ -15884,7 +15870,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.advexure.com"
+    "domain": "advexure.com"
   },
   {
     "product_type": "Ecommerce",
@@ -15898,7 +15884,7 @@ const merchantData = [
     "categories": [
       "shoes"
     ],
-    "domain": "www.batesfootwear.com"
+    "domain": "batesfootwear.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -15912,7 +15898,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.directron.com"
+    "domain": "directron.com"
   },
   {
     "product_type": "Ecommerce",
@@ -15938,7 +15924,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.claytonoffroad.com"
+    "domain": "claytonoffroad.com"
   },
   {
     "product_type": "Ecommerce",
@@ -15950,7 +15936,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "auto",
     "categories": null,
-    "domain": "www.ecklerschevelle.com"
+    "domain": "ecklerschevelle.com"
   },
   {
     "product_type": "Ecommerce",
@@ -15976,7 +15962,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.store.audionexx.com"
+    "domain": "store.audionexx.com"
   },
   {
     "product_type": "Ecommerce",
@@ -16004,7 +15990,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.uaudio.com"
+    "domain": "uaudio.com"
   },
   {
     "product_type": "Ecommerce",
@@ -16016,7 +16002,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.elderly.com"
+    "domain": "elderly.com"
   },
   {
     "product_type": "Ecommerce",
@@ -16030,7 +16016,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.dragonslayerind.com"
+    "domain": "dragonslayerind.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -16044,7 +16030,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.scanmyphotos.com"
+    "domain": "scanmyphotos.com"
   },
   {
     "product_type": "Ecommerce",
@@ -16056,7 +16042,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.trovatrip.com"
+    "domain": "trovatrip.com"
   },
   {
     "product_type": "Ecommerce",
@@ -16070,7 +16056,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.hugchairs.com"
+    "domain": "hugchairs.com"
   },
   {
     "product_type": "Ecommerce",
@@ -16088,7 +16074,7 @@ const merchantData = [
       "luxury",
       "shoes"
     ],
-    "domain": "www.shop.nordstrom.com"
+    "domain": "shop.nordstrom.com"
   },
   {
     "product_type": "Ecommerce",
@@ -16114,7 +16100,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.teamdreamrides.com"
+    "domain": "teamdreamrides.com"
   },
   {
     "product_type": "Ecommerce",
@@ -16126,7 +16112,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.upyourarsenal.com"
+    "domain": "upyourarsenal.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -16140,7 +16126,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.ylighting.com"
+    "domain": "ylighting.com"
   },
   {
     "product_type": "Ecommerce",
@@ -16164,7 +16150,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.unbeatablesale.com"
+    "domain": "unbeatablesale.com"
   },
   {
     "product_type": "Ecommerce",
@@ -16192,7 +16178,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.vertigodrones.com"
+    "domain": "vertigodrones.com"
   },
   {
     "product_type": "Ecommerce",
@@ -16204,7 +16190,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "m"
+    "domain": "tesbros.com"
   },
   {
     "product_type": "Ecommerce",
@@ -16230,7 +16216,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.perolanyc.com"
+    "domain": "perolanyc.com"
   },
   {
     "product_type": "Ecommerce",
@@ -16268,7 +16254,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.walshrc.com"
+    "domain": "walshrc.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -16282,7 +16268,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.pcconnection.com"
+    "domain": "pcconnection.com"
   },
   {
     "product_type": "Ecommerce",
@@ -16294,7 +16280,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.oliveunion.com"
+    "domain": "oliveunion.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -16308,7 +16294,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.dietdirect.com"
+    "domain": "dietdirect.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -16322,7 +16308,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.gumps.com"
+    "domain": "gumps.com"
   },
   {
     "product_type": "Ecommerce",
@@ -16348,7 +16334,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.autoplicity.com"
+    "domain": "autoplicity.com"
   },
   {
     "product_type": "Ecommerce",
@@ -16360,7 +16346,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.harriscomm.com"
+    "domain": "harriscomm.com"
   },
   {
     "product_type": "Ecommerce",
@@ -16424,7 +16410,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.shockwarehouse.com"
+    "domain": "shockwarehouse.com"
   },
   {
     "product_type": "Ecommerce",
@@ -16438,7 +16424,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.visible.com"
+    "domain": "visible.com"
   },
   {
     "product_type": "Ecommerce",
@@ -16450,7 +16436,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.expresshospitalbeds.com"
+    "domain": "expresshospitalbeds.com"
   },
   {
     "product_type": "Ecommerce",
@@ -16464,7 +16450,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.idjnow.com"
+    "domain": "idjnow.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -16564,7 +16550,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.WRENGLORY.COM"
+    "domain": "WRENGLORY.COM"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -16576,7 +16562,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.stamps.com"
+    "domain": "stamps.com"
   },
   {
     "product_type": "Ecommerce",
@@ -16630,7 +16616,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.saatvamattress.com"
+    "domain": "saatvamattress.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -16684,7 +16670,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.moosejaw.com"
+    "domain": "moosejaw.com"
   },
   {
     "product_type": "Ecommerce",
@@ -16748,7 +16734,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.allvirginhair.com"
+    "domain": "allvirginhair.com"
   },
   {
     "product_type": "Ecommerce",
@@ -16760,7 +16746,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.tmgguitarco.com"
+    "domain": "tmgguitarco.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -16774,7 +16760,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.bisonoffice.com"
+    "domain": "bisonoffice.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -16788,7 +16774,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.sportsworldchicago.com"
+    "domain": "sportsworldchicago.com"
   },
   {
     "product_type": "Ecommerce",
@@ -16802,7 +16788,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "/"
+    "domain": "tydalwear.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -16814,7 +16800,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.lik.com"
+    "domain": "lik.com"
   },
   {
     "product_type": "Ecommerce",
@@ -16828,7 +16814,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.havenly.com"
+    "domain": "havenly.com"
   },
   {
     "product_type": "Ecommerce",
@@ -16856,7 +16842,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.markenyc.com"
+    "domain": "markenyc.com"
   },
   {
     "product_type": "Ecommerce",
@@ -16870,7 +16856,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.towerpaddleboards.com"
+    "domain": "towerpaddleboards.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -16882,7 +16868,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.joann.com"
+    "domain": "joann.com"
   },
   {
     "product_type": "Ecommerce",
@@ -16896,7 +16882,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "/"
+    "domain": "hsdcatalog.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -16917,7 +16903,7 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=http%3A%2F%2Fwww.tkqlhce.com%2Fclick-8191141-11264261&merchant_ari=AK52EEQYDIYB2M5G",
     "icon_url": "https://cdn1.affirm.com/platform/public/promos/assets/AK52EEQYDIYB2M5G/logo/logo1x.png",
     "ari": "AK52EEQYDIYB2M5G",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "home_and_furniture",
     "categories": [
       "home_and_furniture"
@@ -16936,7 +16922,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.buckle.com"
+    "domain": "buckle.com"
   },
   {
     "product_type": "Ecommerce",
@@ -16974,7 +16960,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.oakstreetbootmakers.com"
+    "domain": "oakstreetbootmakers.com"
   },
   {
     "product_type": "Ecommerce",
@@ -17002,7 +16988,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.opgi.com"
+    "domain": "opgi.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -17016,7 +17002,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.carters.com"
+    "domain": "carters.com"
   },
   {
     "product_type": "Ecommerce",
@@ -17056,7 +17042,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.forever21.com"
+    "domain": "forever21.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -17070,7 +17056,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.net-a-porter.com"
+    "domain": "net-a-porter.com"
   },
   {
     "product_type": "Ecommerce",
@@ -17096,7 +17082,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.vxb.com"
+    "domain": "vxb.com"
   },
   {
     "product_type": "Ecommerce",
@@ -17110,7 +17096,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.ecowhides.com"
+    "domain": "ecowhides.com"
   },
   {
     "product_type": "Ecommerce",
@@ -17122,7 +17108,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "home_and_furniture",
     "categories": null,
-    "domain": "www.contemporaryfurniturewarehouse.com"
+    "domain": "contemporaryfurniturewarehouse.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -17136,7 +17122,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.l-r-g.com"
+    "domain": "l-r-g.com"
   },
   {
     "product_type": "Ecommerce",
@@ -17150,7 +17136,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.custommattressmakers.com"
+    "domain": "custommattressmakers.com"
   },
   {
     "product_type": "Ecommerce",
@@ -17174,7 +17160,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.nwsafe.com"
+    "domain": "nwsafe.com"
   },
   {
     "product_type": "Ecommerce",
@@ -17186,7 +17172,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.strollerstore.com"
+    "domain": "strollerstore.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -17198,7 +17184,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.hobbyexpress.com"
+    "domain": "hobbyexpress.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -17234,7 +17220,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.ceikaperformance.com"
+    "domain": "ceikaperformance.com"
   },
   {
     "product_type": "Ecommerce",
@@ -17248,7 +17234,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.lightsonline.com"
+    "domain": "lightsonline.com"
   },
   {
     "product_type": "Ecommerce",
@@ -17260,7 +17246,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "m"
+    "domain": "poshbin.com"
   },
   {
     "product_type": "Ecommerce",
@@ -17274,7 +17260,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.buyautoparts.com"
+    "domain": "buyautoparts.com"
   },
   {
     "product_type": "Ecommerce",
@@ -17286,7 +17272,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.shadesofhavana.com"
+    "domain": "shadesofhavana.com"
   },
   {
     "product_type": "Ecommerce",
@@ -17314,7 +17300,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.2wheel.com"
+    "domain": "2wheel.com"
   },
   {
     "product_type": "Ecommerce",
@@ -17328,7 +17314,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.mobi.com"
+    "domain": "mobi.com"
   },
   {
     "product_type": "Ecommerce",
@@ -17342,7 +17328,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.tuftandneedle.com"
+    "domain": "tuftandneedle.com"
   },
   {
     "product_type": "Ecommerce",
@@ -17354,7 +17340,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.orthly.com"
+    "domain": "orthly.com"
   },
   {
     "product_type": "Ecommerce",
@@ -17366,7 +17352,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.eyebobs.com"
+    "domain": "eyebobs.com"
   },
   {
     "product_type": "Ecommerce",
@@ -17392,7 +17378,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.hornblasters.com"
+    "domain": "hornblasters.com"
   },
   {
     "product_type": "Ecommerce",
@@ -17406,7 +17392,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.wwrarejewels.com"
+    "domain": "wwrarejewels.com"
   },
   {
     "product_type": "Ecommerce",
@@ -17448,7 +17434,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.afepower.com"
+    "domain": "afepower.com"
   },
   {
     "product_type": "Ecommerce",
@@ -17462,7 +17448,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.prpseats.com"
+    "domain": "prpseats.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -17471,7 +17457,7 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fwww.awin1.com%2Fcread.php%3Fawinmid%3D15431%26awinaffid%3D301841%26ued%3Dhttps%253A%252F%252Fwww.underarmour.com%252Fen-us%252F&merchant_ari=AVJPZRNL5POB8951",
     "icon_url": "http://cdn-assets.affirm.com/vcn_buy/v1/merchants/AVJPZRNL5POB8951/logo_20190712183828/logo_offer.png",
     "ari": "AVJPZRNL5POB8951",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "fitness_and_gear",
     "categories": [
       "fitness_and_gear"
@@ -17490,7 +17476,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.exquisitetimepieces.com"
+    "domain": "exquisitetimepieces.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -17518,7 +17504,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.cellularoutfitter.com"
+    "domain": "cellularoutfitter.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -17532,7 +17518,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.envelopes.com"
+    "domain": "envelopes.com"
   },
   {
     "product_type": "Ecommerce",
@@ -17572,7 +17558,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.conns.com"
+    "domain": "conns.com"
   },
   {
     "product_type": "Ecommerce",
@@ -17598,7 +17584,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.etienneaigner.com"
+    "domain": "etienneaigner.com"
   },
   {
     "product_type": "Ecommerce",
@@ -17612,7 +17598,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.shopweareiconic.com"
+    "domain": "shopweareiconic.com"
   },
   {
     "product_type": "Ecommerce",
@@ -17626,7 +17612,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.stikwood.com"
+    "domain": "stikwood.com"
   },
   {
     "product_type": "Ecommerce",
@@ -17640,7 +17626,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.bikebandit.com"
+    "domain": "bikebandit.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -17654,7 +17640,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.adoreme.com"
+    "domain": "adoreme.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -17668,7 +17654,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.sundancecatalog.com"
+    "domain": "sundancecatalog.com"
   },
   {
     "product_type": "Ecommerce",
@@ -17682,7 +17668,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.sewingpartsonline.com"
+    "domain": "sewingpartsonline.com"
   },
   {
     "product_type": "Ecommerce",
@@ -17710,7 +17696,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.dormco.com"
+    "domain": "dormco.com"
   },
   {
     "product_type": "Ecommerce",
@@ -17722,7 +17708,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.vinylren.com"
+    "domain": "vinylren.com"
   },
   {
     "product_type": "Ecommerce",
@@ -17788,7 +17774,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.theshrine.co"
+    "domain": "theshrine.co"
   },
   {
     "product_type": "Ecommerce",
@@ -17816,7 +17802,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.igigi.com"
+    "domain": "igigi.com"
   },
   {
     "product_type": "Ecommerce",
@@ -17828,7 +17814,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "home_and_furniture",
     "categories": null,
-    "domain": "www.seyberts.com"
+    "domain": "seyberts.com"
   },
   {
     "product_type": "Ecommerce",
@@ -17842,7 +17828,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.fcklightbars.com"
+    "domain": "fcklightbars.com"
   },
   {
     "product_type": "Ecommerce",
@@ -17856,7 +17842,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.fanatikbike.com"
+    "domain": "fanatikbike.com"
   },
   {
     "product_type": "Ecommerce",
@@ -17868,7 +17854,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "m"
+    "domain": "kristin-hayes-jewelry.myshopify.com"
   },
   {
     "product_type": "Ecommerce",
@@ -17882,7 +17868,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.sapphireboard.com"
+    "domain": "sapphireboard.com"
   },
   {
     "product_type": "Ecommerce",
@@ -17896,7 +17882,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.hellhorseperformance.com"
+    "domain": "hellhorseperformance.com"
   },
   {
     "product_type": "Ecommerce",
@@ -17946,7 +17932,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.humbuckermusic.com"
+    "domain": "humbuckermusic.com"
   },
   {
     "product_type": "Ecommerce",
@@ -17960,7 +17946,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.theartifox.com"
+    "domain": "theartifox.com"
   },
   {
     "product_type": "Ecommerce",
@@ -17974,7 +17960,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.diamondslabcreated.com"
+    "domain": "diamondslabcreated.com"
   },
   {
     "product_type": "Ecommerce",
@@ -17986,7 +17972,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.mackspw.com"
+    "domain": "mackspw.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -17998,7 +17984,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.hammacher.com"
+    "domain": "hammacher.com"
   },
   {
     "product_type": "Ecommerce",
@@ -18022,7 +18008,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.embracehearing.com"
+    "domain": "embracehearing.com"
   },
   {
     "product_type": "Ecommerce",
@@ -18062,7 +18048,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.angelalchemyjewelry.com"
+    "domain": "angelalchemyjewelry.com"
   },
   {
     "product_type": "Ecommerce",
@@ -18076,7 +18062,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.potterybarn.com"
+    "domain": "potterybarn.com"
   },
   {
     "product_type": "Ecommerce",
@@ -18090,7 +18076,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.4theoutdoors.com"
+    "domain": "4theoutdoors.com"
   },
   {
     "product_type": "Ecommerce",
@@ -18104,7 +18090,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.rapidreboot.com"
+    "domain": "rapidreboot.com"
   },
   {
     "product_type": "Ecommerce",
@@ -18118,7 +18104,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.evacuumstore.com"
+    "domain": "evacuumstore.com"
   },
   {
     "product_type": "Ecommerce",
@@ -18132,7 +18118,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.zroadz.com"
+    "domain": "zroadz.com"
   },
   {
     "product_type": "Ecommerce",
@@ -18146,7 +18132,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.xidax.com"
+    "domain": "xidax.com"
   },
   {
     "product_type": "Ecommerce",
@@ -18172,7 +18158,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "anjaysdesigns.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -18199,7 +18185,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.nuts.com"
+    "domain": "nuts.com"
   },
   {
     "product_type": "Ecommerce",
@@ -18237,7 +18223,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.calmediasolutions.com"
+    "domain": "calmediasolutions.com"
   },
   {
     "product_type": "Ecommerce",
@@ -18251,7 +18237,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.bikeberry.com"
+    "domain": "bikeberry.com"
   },
   {
     "product_type": "Ecommerce",
@@ -18263,7 +18249,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "maincokingdomwear.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -18275,7 +18261,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.uniformteeth.com"
+    "domain": "uniformteeth.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -18289,7 +18275,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.charlotterusse.com"
+    "domain": "charlotterusse.com"
   },
   {
     "product_type": "Ecommerce",
@@ -18319,7 +18305,7 @@ const merchantData = [
       "fitness_and_gear",
       "home_and_furniture"
     ],
-    "domain": "www.solostove.com"
+    "domain": "solostove.com"
   },
   {
     "product_type": "Ecommerce",
@@ -18345,7 +18331,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.nolimitmotorsport.com"
+    "domain": "nolimitmotorsport.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -18359,7 +18345,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.fifthroom.com"
+    "domain": "fifthroom.com"
   },
   {
     "product_type": "Ecommerce",
@@ -18371,7 +18357,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "m"
+    "domain": "blueprintprep.com"
   },
   {
     "product_type": "Ecommerce",
@@ -18385,7 +18371,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.unruhfurniture.com"
+    "domain": "unruhfurniture.com"
   },
   {
     "product_type": "Ecommerce",
@@ -18399,7 +18385,7 @@ const merchantData = [
     "categories": [
       "travel_and_events"
     ],
-    "domain": "www.jimmiejohnsonvip.com"
+    "domain": "jimmiejohnsonvip.com"
   },
   {
     "product_type": "Ecommerce",
@@ -18427,7 +18413,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.officefurniture2go.com"
+    "domain": "officefurniture2go.com"
   },
   {
     "product_type": "Ecommerce",
@@ -18441,7 +18427,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.effyjewelry.com"
+    "domain": "effyjewelry.com"
   },
   {
     "product_type": "Ecommerce",
@@ -18455,7 +18441,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.victory4x4.com"
+    "domain": "victory4x4.com"
   },
   {
     "product_type": "Ecommerce",
@@ -18498,7 +18484,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.nfm.com"
+    "domain": "nfm.com"
   },
   {
     "product_type": "Ecommerce",
@@ -18512,7 +18498,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.killerspin.com"
+    "domain": "killerspin.com"
   },
   {
     "product_type": "Ecommerce",
@@ -18524,7 +18510,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.prepexpert.com"
+    "domain": "prepexpert.com"
   },
   {
     "product_type": "Ecommerce",
@@ -18538,7 +18524,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.simbly.com"
+    "domain": "simbly.com"
   },
   {
     "product_type": "Ecommerce",
@@ -18578,7 +18564,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.vervetex.com"
+    "domain": "vervetex.com"
   },
   {
     "product_type": "Ecommerce",
@@ -18633,7 +18619,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.smartpakequine.com"
+    "domain": "smartpakequine.com"
   },
   {
     "product_type": "Ecommerce",
@@ -18647,7 +18633,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "s"
+    "domain": "slumber.solutions"
   },
   {
     "product_type": "Ecommerce",
@@ -18659,7 +18645,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.rugandhome.com"
+    "domain": "rugandhome.com"
   },
   {
     "product_type": "Ecommerce",
@@ -18673,7 +18659,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.uspmotorsports.com"
+    "domain": "uspmotorsports.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -18687,7 +18673,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.batteryjunction.com"
+    "domain": "batteryjunction.com"
   },
   {
     "product_type": "Ecommerce",
@@ -18701,7 +18687,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.jennifermeyer.com"
+    "domain": "jennifermeyer.com"
   },
   {
     "product_type": "Ecommerce",
@@ -18744,7 +18730,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "m"
+    "domain": "homeydesignstore.com"
   },
   {
     "product_type": "Ecommerce",
@@ -18758,7 +18744,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.tonal.com"
+    "domain": "tonal.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -18772,7 +18758,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.blissworld.com"
+    "domain": "blissworld.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -18784,7 +18770,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.chapters.indigo.ca"
+    "domain": "chapters.indigo.ca"
   },
   {
     "product_type": "Ecommerce",
@@ -18798,7 +18784,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.waterrower.com"
+    "domain": "waterrower.com"
   },
   {
     "product_type": "Ecommerce",
@@ -18842,7 +18828,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "m"
+    "domain": "wycovintagebroadway.com"
   },
   {
     "product_type": "Ecommerce",
@@ -18856,7 +18842,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.shopbandg.com"
+    "domain": "shopbandg.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -18870,7 +18856,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.jcp.com"
+    "domain": "jcp.com"
   },
   {
     "product_type": "Ecommerce",
@@ -18896,7 +18882,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.novosbed.com"
+    "domain": "novosbed.com"
   },
   {
     "product_type": "Ecommerce",
@@ -18908,7 +18894,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "accessories",
     "categories": null,
-    "domain": "www.diamondere.com"
+    "domain": "diamondere.com"
   },
   {
     "product_type": "Ecommerce",
@@ -18922,7 +18908,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.smartguyscomputers.com"
+    "domain": "smartguyscomputers.com"
   },
   {
     "product_type": "Ecommerce",
@@ -18936,7 +18922,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.sure2sleep.com"
+    "domain": "sure2sleep.com"
   },
   {
     "product_type": "Ecommerce",
@@ -18948,7 +18934,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.soothingweight.com"
+    "domain": "soothingweight.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -18957,7 +18943,7 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fwww.united.com&merchant_ari=BWXR2DLE44GILDFD",
     "icon_url": "https://cdn-assets.affirm.com/vcn_buy/v1/merchants/BWXR2DLE44GILDFD/logo_20190712201832/logo.png",
     "ari": "BWXR2DLE44GILDFD",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "travel_and_events",
     "categories": [
       "travel_and_events"
@@ -18990,7 +18976,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.danarebeccadesigns.com"
+    "domain": "danarebeccadesigns.com"
   },
   {
     "product_type": "Ecommerce",
@@ -19016,7 +19002,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.menswearhouse.com"
+    "domain": "menswearhouse.com"
   },
   {
     "product_type": "Ecommerce",
@@ -19054,7 +19040,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.bearwalker.com"
+    "domain": "bearwalker.com"
   },
   {
     "product_type": "Ecommerce",
@@ -19082,7 +19068,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.rangerup.com"
+    "domain": "rangerup.com"
   },
   {
     "product_type": "Ecommerce",
@@ -19096,7 +19082,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.autohance.com"
+    "domain": "autohance.com"
   },
   {
     "product_type": "Ecommerce",
@@ -19120,7 +19106,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "accessories",
     "categories": null,
-    "domain": "www.swcusa.com"
+    "domain": "swcusa.com"
   },
   {
     "product_type": "Ecommerce",
@@ -19132,7 +19118,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "auto",
     "categories": null,
-    "domain": "www.wattpowersports.com"
+    "domain": "wattpowersports.com"
   },
   {
     "product_type": "Ecommerce",
@@ -19144,7 +19130,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.filmtools.com"
+    "domain": "filmtools.com"
   },
   {
     "product_type": "Ecommerce",
@@ -19180,7 +19166,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.weldingmart.com"
+    "domain": "weldingmart.com"
   },
   {
     "product_type": "Ecommerce",
@@ -19208,7 +19194,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.spire.io"
+    "domain": "spire.io"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -19220,7 +19206,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.1800petmeds.com"
+    "domain": "1800petmeds.com"
   },
   {
     "product_type": "Ecommerce",
@@ -19234,7 +19220,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.totembrandco.com"
+    "domain": "totembrandco.com"
   },
   {
     "product_type": "Ecommerce",
@@ -19248,7 +19234,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.glasses.com"
+    "domain": "glasses.com"
   },
   {
     "product_type": "Ecommerce",
@@ -19274,7 +19260,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.pulsetv.com"
+    "domain": "pulsetv.com"
   },
   {
     "product_type": "Ecommerce",
@@ -19288,7 +19274,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.sharkclean.com"
+    "domain": "sharkclean.com"
   },
   {
     "product_type": "Ecommerce",
@@ -19300,7 +19286,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "m"
+    "domain": "acegolfcartcovers.com"
   },
   {
     "product_type": "Ecommerce",
@@ -19328,7 +19314,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.herbspro.com"
+    "domain": "herbspro.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -19342,7 +19328,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.furniture.com"
+    "domain": "furniture.com"
   },
   {
     "product_type": "Ecommerce",
@@ -19418,7 +19404,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.skymall.com"
+    "domain": "skymall.com"
   },
   {
     "product_type": "Ecommerce",
@@ -19432,7 +19418,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.bavsound.com"
+    "domain": "bavsound.com"
   },
   {
     "product_type": "Ecommerce",
@@ -19444,7 +19430,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "m"
+    "domain": "recroomoutlet.com"
   },
   {
     "product_type": "Ecommerce",
@@ -19456,7 +19442,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.daniellefrankelstudio.com"
+    "domain": "daniellefrankelstudio.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -19470,7 +19456,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.inmod.com"
+    "domain": "inmod.com"
   },
   {
     "product_type": "Ecommerce",
@@ -19484,7 +19470,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.WWW.SWFLTUNINGSOLUTIONS.COM"
+    "domain": "WWW.SWFLTUNINGSOLUTIONS.COM"
   },
   {
     "product_type": "Ecommerce",
@@ -19498,7 +19484,7 @@ const merchantData = [
     "categories": [
       "travel_and_events"
     ],
-    "domain": "www.karismahotels.com"
+    "domain": "karismahotels.com"
   },
   {
     "product_type": "Ecommerce",
@@ -19510,7 +19496,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "fitness_and_gear",
     "categories": null,
-    "domain": "t"
+    "domain": "gym1.net"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -19522,7 +19508,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.skygeek.com"
+    "domain": "skygeek.com"
   },
   {
     "product_type": "Ecommerce",
@@ -19536,7 +19522,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.happsy.com"
+    "domain": "happsy.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -19545,7 +19531,7 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fcompetitive-cyclist.pxf.io%2FMvDrq&merchant_ari=C8OVH1K8R52ES3PO",
     "icon_url": "https://cdn-assets.affirm.com/vcn_buy/v1/merchants/C8OVH1K8R52ES3PO/logo_20190711224515/logo.png",
     "ari": "C8OVH1K8R52ES3PO",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "fitness_and_gear",
     "categories": [
       "fitness_and_gear"
@@ -19564,7 +19550,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.hottopic.com"
+    "domain": "hottopic.com"
   },
   {
     "product_type": "Ecommerce",
@@ -19576,7 +19562,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.badassminis.com"
+    "domain": "badassminis.com"
   },
   {
     "product_type": "Ecommerce",
@@ -19616,7 +19602,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.houseofstclair.com"
+    "domain": "houseofstclair.com"
   },
   {
     "product_type": "Ecommerce",
@@ -19630,7 +19616,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.thursosurf.com"
+    "domain": "thursosurf.com"
   },
   {
     "product_type": "Ecommerce",
@@ -19644,7 +19630,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.scufgaming.com"
+    "domain": "scufgaming.com"
   },
   {
     "product_type": "Ecommerce",
@@ -19658,7 +19644,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.yadavjewelry.com"
+    "domain": "yadavjewelry.com"
   },
   {
     "product_type": "Ecommerce",
@@ -19672,7 +19658,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.us.shopmido.com"
+    "domain": "us.shopmido.com"
   },
   {
     "product_type": "Ecommerce",
@@ -19700,7 +19686,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.discountedwheelwarehouse.com"
+    "domain": "discountedwheelwarehouse.com"
   },
   {
     "product_type": "Ecommerce",
@@ -19712,7 +19698,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "lassanainyc.myshopify.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -19726,7 +19712,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.marcrichardsjewelry.com"
+    "domain": "marcrichardsjewelry.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -19794,7 +19780,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.cabinetsbay.com"
+    "domain": "cabinetsbay.com"
   },
   {
     "product_type": "Ecommerce",
@@ -19834,7 +19820,7 @@ const merchantData = [
     "categories": [
       "luxury"
     ],
-    "domain": "www.littleswitzerland.com"
+    "domain": "littleswitzerland.com"
   },
   {
     "product_type": "Ecommerce",
@@ -19848,7 +19834,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.boutiquerugs.com"
+    "domain": "boutiquerugs.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -19857,7 +19843,7 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=http%3A%2F%2Fwww.anrdoezrs.net%2Fclick-8191141-13505872&merchant_ari=CF0DBA5T830G3SMK",
     "icon_url": "http://cdn-assets.affirm.com/vcn_buy/v1/merchants/CF0DBA5T830G3SMK/logo2019111307/logo_offer.png",
     "ari": "CF0DBA5T830G3SMK",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "electronics",
     "categories": [
       "electronics"
@@ -19876,7 +19862,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.bluecotton.com"
+    "domain": "bluecotton.com"
   },
   {
     "product_type": "Ecommerce",
@@ -19904,7 +19890,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.NSBikeUSA.com"
+    "domain": "NSBikeUSA.com"
   },
   {
     "product_type": "Ecommerce",
@@ -19931,7 +19917,7 @@ const merchantData = [
       "auto",
       "electronics"
     ],
-    "domain": "www.lowes.com"
+    "domain": "lowes.com"
   },
   {
     "product_type": "Ecommerce",
@@ -19945,7 +19931,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.brooklynbedding.com"
+    "domain": "brooklynbedding.com"
   },
   {
     "product_type": "Ecommerce",
@@ -19959,7 +19945,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.photosavings.com"
+    "domain": "photosavings.com"
   },
   {
     "product_type": "Ecommerce",
@@ -20030,7 +20016,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.bestop.com"
+    "domain": "bestop.com"
   },
   {
     "product_type": "Ecommerce",
@@ -20044,7 +20030,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.kesslercrane.com"
+    "domain": "kesslercrane.com"
   },
   {
     "product_type": "Ecommerce",
@@ -20056,7 +20042,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.bestpowerwheelchair.com"
+    "domain": "bestpowerwheelchair.com"
   },
   {
     "product_type": "Ecommerce",
@@ -20070,7 +20056,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.cosmisusa.com"
+    "domain": "cosmisusa.com"
   },
   {
     "product_type": "Ecommerce",
@@ -20082,7 +20068,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "v"
+    "domain": "shopvcs.va.gov"
   },
   {
     "product_type": "Ecommerce",
@@ -20124,7 +20110,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.myxfitness.com"
+    "domain": "myxfitness.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -20136,7 +20122,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.store.cyberweld.com"
+    "domain": "store.cyberweld.com"
   },
   {
     "product_type": "Ecommerce",
@@ -20150,7 +20136,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.driveinautosound.com"
+    "domain": "driveinautosound.com"
   },
   {
     "product_type": "Ecommerce",
@@ -20176,7 +20162,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.ecampus.com"
+    "domain": "ecampus.com"
   },
   {
     "product_type": "Ecommerce",
@@ -20188,7 +20174,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.hittrax.com"
+    "domain": "hittrax.com"
   },
   {
     "product_type": "Ecommerce",
@@ -20214,7 +20200,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.nimasensor.com"
+    "domain": "nimasensor.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -20228,7 +20214,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.shiekhshoes.com"
+    "domain": "shiekhshoes.com"
   },
   {
     "product_type": "Ecommerce",
@@ -20256,7 +20242,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.vacuums360.com"
+    "domain": "vacuums360.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -20270,7 +20256,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.mackweldon.com"
+    "domain": "mackweldon.com"
   },
   {
     "product_type": "Ecommerce",
@@ -20284,7 +20270,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.wildboaratvparts.com"
+    "domain": "wildboaratvparts.com"
   },
   {
     "product_type": "Ecommerce",
@@ -20308,7 +20294,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.kroger.com"
+    "domain": "kroger.com"
   },
   {
     "product_type": "Ecommerce",
@@ -20336,7 +20322,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.hipsandcurves.com"
+    "domain": "hipsandcurves.com"
   },
   {
     "product_type": "Ecommerce",
@@ -20350,7 +20336,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.lgmotorsports.com"
+    "domain": "lgmotorsports.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -20380,7 +20366,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.CremeCyclesUSA.com"
+    "domain": "CremeCyclesUSA.com"
   },
   {
     "product_type": "Ecommerce",
@@ -20394,7 +20380,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.clever.pet"
+    "domain": "clever.pet"
   },
   {
     "product_type": "Ecommerce",
@@ -20408,7 +20394,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.thenailedbraidersalon.com"
+    "domain": "thenailedbraidersalon.com"
   },
   {
     "product_type": "Ecommerce",
@@ -20420,7 +20406,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "auto",
     "categories": null,
-    "domain": "www.LateGreatChevy.com"
+    "domain": "LateGreatChevy.com"
   },
   {
     "product_type": "Ecommerce",
@@ -20432,7 +20418,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.pinkysirondoors.com"
+    "domain": "pinkysirondoors.com"
   },
   {
     "product_type": "Ecommerce",
@@ -20472,7 +20458,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.teambeefcakeracing.com"
+    "domain": "teambeefcakeracing.com"
   },
   {
     "product_type": "Ecommerce",
@@ -20486,7 +20472,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.savvyrest.com"
+    "domain": "savvyrest.com"
   },
   {
     "product_type": "Ecommerce",
@@ -20500,7 +20486,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.TOOLSiD.com"
+    "domain": "TOOLSiD.com"
   },
   {
     "product_type": "Ecommerce",
@@ -20536,7 +20522,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "electronics",
     "categories": null,
-    "domain": "www.owletcare.com"
+    "domain": "owletcare.com"
   },
   {
     "product_type": "Ecommerce",
@@ -20550,7 +20536,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.towerelectricbikes.com"
+    "domain": "towerelectricbikes.com"
   },
   {
     "product_type": "Ecommerce",
@@ -20562,7 +20548,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.hugomoto.com"
+    "domain": "hugomoto.com"
   },
   {
     "product_type": "Ecommerce",
@@ -20576,7 +20562,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.rdoff-road.com"
+    "domain": "rdoff-road.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -20590,7 +20576,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.autoaccessoriesgarage.com"
+    "domain": "autoaccessoriesgarage.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -20604,7 +20590,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.store.apple.com"
+    "domain": "store.apple.com"
   },
   {
     "product_type": "Ecommerce",
@@ -20643,7 +20629,7 @@ const merchantData = [
       "accessories",
       "fitness_and_gear"
     ],
-    "domain": "www.healthylivingcoachusa.com"
+    "domain": "healthylivingcoachusa.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -20655,7 +20641,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.containerstore.com"
+    "domain": "containerstore.com"
   },
   {
     "product_type": "Ecommerce",
@@ -20667,7 +20653,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.alamomusic.com"
+    "domain": "alamomusic.com"
   },
   {
     "product_type": "Ecommerce",
@@ -20693,7 +20679,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.twistedthrottle.com"
+    "domain": "twistedthrottle.com"
   },
   {
     "product_type": "Ecommerce",
@@ -20707,7 +20693,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.uponpark.com"
+    "domain": "uponpark.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -20721,7 +20707,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.toolsusa.com"
+    "domain": "toolsusa.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -20735,7 +20721,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.bareescentuals.com"
+    "domain": "bareescentuals.com"
   },
   {
     "product_type": "Ecommerce",
@@ -20759,7 +20745,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "electronics",
     "categories": null,
-    "domain": "www.kpodj.com"
+    "domain": "kpodj.com"
   },
   {
     "product_type": "Ecommerce",
@@ -20773,7 +20759,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.smashitsports.com"
+    "domain": "smashitsports.com"
   },
   {
     "product_type": "Ecommerce",
@@ -20787,7 +20773,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.incrediblerugsanddecor.com"
+    "domain": "incrediblerugsanddecor.com"
   },
   {
     "product_type": "Ecommerce",
@@ -20802,7 +20788,7 @@ const merchantData = [
       "accessories",
       "electronics"
     ],
-    "domain": "www.heattransferwarehouse.com"
+    "domain": "heattransferwarehouse.com"
   },
   {
     "product_type": "Ecommerce",
@@ -20844,7 +20830,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "/"
+    "domain": "heartlandsheds.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -20884,7 +20870,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.symbolaudio.com"
+    "domain": "symbolaudio.com"
   },
   {
     "product_type": "Ecommerce",
@@ -20910,7 +20896,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.pugetsystems.com"
+    "domain": "pugetsystems.com"
   },
   {
     "product_type": "Ecommerce",
@@ -20952,7 +20938,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.bodenusa.com"
+    "domain": "bodenusa.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -20966,7 +20952,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.1stwebsales.com"
+    "domain": "1stwebsales.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -20980,7 +20966,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.smartsign.com"
+    "domain": "smartsign.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -20992,7 +20978,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.gourmetgiftbaskets.com"
+    "domain": "gourmetgiftbaskets.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -21006,7 +20992,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.pinklily.com"
+    "domain": "pinklily.com"
   },
   {
     "product_type": "Ecommerce",
@@ -21020,7 +21006,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.quadratec.com"
+    "domain": "quadratec.com"
   },
   {
     "product_type": "Ecommerce",
@@ -21046,7 +21032,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.southmoonunder.com"
+    "domain": "southmoonunder.com"
   },
   {
     "product_type": "Ecommerce",
@@ -21098,7 +21084,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.parts-express.com"
+    "domain": "parts-express.com"
   },
   {
     "product_type": "Ecommerce",
@@ -21113,7 +21099,7 @@ const merchantData = [
       "accessories",
       "apparel"
     ],
-    "domain": "www.shainamote.com"
+    "domain": "shainamote.com"
   },
   {
     "product_type": "Ecommerce",
@@ -21125,7 +21111,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.diewood.com"
+    "domain": "diewood.com"
   },
   {
     "product_type": "Ecommerce",
@@ -21163,7 +21149,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.uncommongoods.com"
+    "domain": "uncommongoods.com"
   },
   {
     "product_type": "Ecommerce",
@@ -21175,7 +21161,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.britishaudio.com"
+    "domain": "britishaudio.com"
   },
   {
     "product_type": "Ecommerce",
@@ -21189,7 +21175,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.hidkitpros.com"
+    "domain": "hidkitpros.com"
   },
   {
     "product_type": "Ecommerce",
@@ -21203,7 +21189,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.polyscienceculinary.com"
+    "domain": "polyscienceculinary.com"
   },
   {
     "product_type": "Ecommerce",
@@ -21217,7 +21203,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.myomigo.com"
+    "domain": "myomigo.com"
   },
   {
     "product_type": "Ecommerce",
@@ -21231,7 +21217,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.unisnewyork.com"
+    "domain": "unisnewyork.com"
   },
   {
     "product_type": "Ecommerce",
@@ -21243,7 +21229,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.houseofstaunton.com"
+    "domain": "houseofstaunton.com"
   },
   {
     "product_type": "Ecommerce",
@@ -21257,7 +21243,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.auraframes.com"
+    "domain": "auraframes.com"
   },
   {
     "product_type": "Ecommerce",
@@ -21269,7 +21255,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.mirasafety.com"
+    "domain": "mirasafety.com"
   },
   {
     "product_type": "Ecommerce",
@@ -21284,7 +21270,7 @@ const merchantData = [
       "accessories",
       "luxury"
     ],
-    "domain": "www.messika.com/"
+    "domain": "messika.com/"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -21298,7 +21284,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.fredericks.com"
+    "domain": "fredericks.com"
   },
   {
     "product_type": "Ecommerce",
@@ -21324,7 +21310,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.canyon.com"
+    "domain": "canyon.com"
   },
   {
     "product_type": "Ecommerce",
@@ -21338,7 +21324,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.orbitbabyusa.com"
+    "domain": "orbitbabyusa.com"
   },
   {
     "product_type": "Ecommerce",
@@ -21352,7 +21338,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.austinleathergallerytx.com"
+    "domain": "austinleathergallerytx.com"
   },
   {
     "product_type": "Ecommerce",
@@ -21366,7 +21352,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.robertscamera.com"
+    "domain": "robertscamera.com"
   },
   {
     "product_type": "Ecommerce",
@@ -21381,7 +21367,7 @@ const merchantData = [
       "accessories",
       "home_and_furniture"
     ],
-    "domain": "www.vintagetub.com"
+    "domain": "vintagetub.com"
   },
   {
     "product_type": "Ecommerce",
@@ -21409,7 +21395,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.elementcycles.net"
+    "domain": "elementcycles.net"
   },
   {
     "product_type": "Ecommerce",
@@ -21435,7 +21421,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "auto",
     "categories": null,
-    "domain": "www.s3powersports.com"
+    "domain": "s3powersports.com"
   },
   {
     "product_type": "Ecommerce",
@@ -21464,7 +21450,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.builddirect.com"
+    "domain": "builddirect.com"
   },
   {
     "product_type": "Ecommerce",
@@ -21478,7 +21464,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.karmicbikes.com"
+    "domain": "karmicbikes.com"
   },
   {
     "product_type": "Ecommerce",
@@ -21516,7 +21502,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "pyramidguitarscompany.com/"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -21528,7 +21514,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.toysrus.com"
+    "domain": "toysrus.com"
   },
   {
     "product_type": "Ecommerce",
@@ -21556,7 +21542,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.kathykuohome.com"
+    "domain": "kathykuohome.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -21570,7 +21556,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.printglobe.com"
+    "domain": "printglobe.com"
   },
   {
     "product_type": "Ecommerce",
@@ -21596,7 +21582,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.loq.us"
+    "domain": "loq.us"
   },
   {
     "product_type": "Ecommerce",
@@ -21610,7 +21596,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.newprovisionsracing.com"
+    "domain": "newprovisionsracing.com"
   },
   {
     "product_type": "Ecommerce",
@@ -21638,7 +21624,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.dmaxxsports.com"
+    "domain": "dmaxxsports.com"
   },
   {
     "product_type": "Ecommerce",
@@ -21666,7 +21652,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.maevona.com"
+    "domain": "maevona.com"
   },
   {
     "product_type": "Ecommerce",
@@ -21728,7 +21714,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "m"
+    "domain": "shoppe.amberinteriordesign.com"
   },
   {
     "product_type": "Ecommerce",
@@ -21754,7 +21740,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.stockngo.com"
+    "domain": "stockngo.com"
   },
   {
     "product_type": "Ecommerce",
@@ -21777,12 +21763,12 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fclick.linksynergy.com%2Ffs-bin%2Fclick%3Fid%3DbFeuiaEZizw%26offerid%3D608996.10003836%26type%3D3%26subid%3D0&merchant_ari=DGPSTVHDDCGN1NYP",
     "icon_url": "http://cdn-assets.affirm.com/vcn_buy/v1/merchants/DGPSTVHDDCGN1NYP/logo20191029/logo_offer.png",
     "ari": "DGPSTVHDDCGN1NYP",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "electronics",
     "categories": [
       "electronics"
     ],
-    "domain": "www.microsoftstore.com"
+    "domain": "microsoftstore.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -21796,7 +21782,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.logoup.com"
+    "domain": "logoup.com"
   },
   {
     "product_type": "Ecommerce",
@@ -21810,7 +21796,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.motorola.com"
+    "domain": "motorola.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -21819,7 +21805,7 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=http%3A%2F%2Fwww.tkqlhce.com%2Fclick-8191141-11315915&merchant_ari=DIMML0UVBIA42MH4",
     "icon_url": "https://cdn-assets.affirm.com/vcn_buy/v1/merchants/DIMML0UVBIA42MH4/logo_20190705174432/logo.png",
     "ari": "DIMML0UVBIA42MH4",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "apparel",
     "categories": [
       "apparel"
@@ -21838,7 +21824,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.art.com"
+    "domain": "art.com"
   },
   {
     "product_type": "Ecommerce",
@@ -21853,7 +21839,7 @@ const merchantData = [
       "accessories",
       "electronics"
     ],
-    "domain": "www.staycourant.com"
+    "domain": "staycourant.com"
   },
   {
     "product_type": "Ecommerce",
@@ -21865,7 +21851,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.callunaco.com"
+    "domain": "callunaco.com"
   },
   {
     "product_type": "Ecommerce",
@@ -21903,7 +21889,7 @@ const merchantData = [
     "categories": [
       "travel_and_events"
     ],
-    "domain": "www.outdoorsy.com"
+    "domain": "outdoorsy.com"
   },
   {
     "product_type": "Ecommerce",
@@ -21915,7 +21901,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.crossroadsguitarshop.com"
+    "domain": "crossroadsguitarshop.com"
   },
   {
     "product_type": "Ecommerce",
@@ -21929,7 +21915,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.aventon.com"
+    "domain": "aventon.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -21943,7 +21929,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.shedsforlessdirect.com"
+    "domain": "shedsforlessdirect.com"
   },
   {
     "product_type": "Ecommerce",
@@ -21997,7 +21983,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.EYELY.COM"
+    "domain": "EYELY.COM"
   },
   {
     "product_type": "Ecommerce",
@@ -22009,7 +21995,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.nelsoncoleman.com"
+    "domain": "nelsoncoleman.com"
   },
   {
     "product_type": "Ecommerce",
@@ -22051,7 +22037,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.amerimark.com"
+    "domain": "amerimark.com"
   },
   {
     "product_type": "Ecommerce",
@@ -22065,7 +22051,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.monstertransmission.com"
+    "domain": "monstertransmission.com"
   },
   {
     "product_type": "Ecommerce",
@@ -22079,7 +22065,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.formbeauty.com"
+    "domain": "formbeauty.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -22119,7 +22105,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.ylang23.com"
+    "domain": "ylang23.com"
   },
   {
     "product_type": "Ecommerce",
@@ -22133,7 +22119,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.macofalltrades.com"
+    "domain": "macofalltrades.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -22147,7 +22133,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.solesociety.com"
+    "domain": "solesociety.com"
   },
   {
     "product_type": "Ecommerce",
@@ -22161,7 +22147,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.diamondbackfitness.com"
+    "domain": "diamondbackfitness.com"
   },
   {
     "product_type": "Ecommerce",
@@ -22173,7 +22159,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.megn.store"
+    "domain": "megn.store"
   },
   {
     "product_type": "Ecommerce",
@@ -22187,7 +22173,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.hoytskate.com"
+    "domain": "hoytskate.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -22201,7 +22187,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.newbalance.com"
+    "domain": "newbalance.com"
   },
   {
     "product_type": "Ecommerce",
@@ -22239,7 +22225,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.chrono24.com"
+    "domain": "chrono24.com"
   },
   {
     "product_type": "Ecommerce",
@@ -22251,7 +22237,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "apparel",
     "categories": null,
-    "domain": "www.shopwittmore.com"
+    "domain": "shopwittmore.com"
   },
   {
     "product_type": "Ecommerce",
@@ -22292,7 +22278,7 @@ const merchantData = [
       "accessories",
       "auto"
     ],
-    "domain": "www.recpro.com"
+    "domain": "recpro.com"
   },
   {
     "product_type": "Ecommerce",
@@ -22318,7 +22304,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.benchmademodern.com"
+    "domain": "benchmademodern.com"
   },
   {
     "product_type": "Ecommerce",
@@ -22332,7 +22318,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.motowheels.com"
+    "domain": "motowheels.com"
   },
   {
     "product_type": "Ecommerce",
@@ -22346,7 +22332,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.dealrauto.com"
+    "domain": "dealrauto.com"
   },
   {
     "product_type": "Ecommerce",
@@ -22358,7 +22344,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.jenniferfurniture.com"
+    "domain": "jenniferfurniture.com"
   },
   {
     "product_type": "Ecommerce",
@@ -22386,7 +22372,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.tangosleep.com"
+    "domain": "tangosleep.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -22400,7 +22386,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.birchbox.com"
+    "domain": "birchbox.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -22409,13 +22395,13 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fpetco.9zpg.net%2FWb7P3&merchant_ari=DXP6SEIFQ29OWYPF",
     "icon_url": "http://cdn-assets.affirm.com/vcn_buy/v1/merchants/DXP6SEIFQ29OWYPF/logo20201116/logo_offer.png",
     "ari": "DXP6SEIFQ29OWYPF",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "fitness_and_gear",
     "categories": [
       "fitness_and_gear",
       "home_and_furniture"
     ],
-    "domain": "www.petco.com"
+    "domain": "petco.com"
   },
   {
     "product_type": "Ecommerce",
@@ -22429,7 +22415,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.birdysscootersandatvs.com"
+    "domain": "birdysscootersandatvs.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -22441,7 +22427,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.steinmart.com"
+    "domain": "steinmart.com"
   },
   {
     "product_type": "Ecommerce",
@@ -22469,7 +22455,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.overtons.com"
+    "domain": "overtons.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -22483,7 +22469,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.joyus.com"
+    "domain": "joyus.com"
   },
   {
     "product_type": "Ecommerce",
@@ -22497,7 +22483,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.output.com"
+    "domain": "output.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -22509,7 +22495,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.emusic.com"
+    "domain": "emusic.com"
   },
   {
     "product_type": "Ecommerce",
@@ -22523,7 +22509,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.bissell.com"
+    "domain": "bissell.com"
   },
   {
     "product_type": "Ecommerce",
@@ -22547,7 +22533,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.bananas.com"
+    "domain": "bananas.com"
   },
   {
     "product_type": "Ecommerce",
@@ -22559,7 +22545,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.loomahome.com"
+    "domain": "loomahome.com"
   },
   {
     "product_type": "Ecommerce",
@@ -22573,7 +22559,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.bakflip.com"
+    "domain": "bakflip.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -22587,7 +22573,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.uggaustralia.com"
+    "domain": "uggaustralia.com"
   },
   {
     "product_type": "Ecommerce",
@@ -22601,7 +22587,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.michaelsconsignment.com"
+    "domain": "michaelsconsignment.com"
   },
   {
     "product_type": "Ecommerce",
@@ -22613,7 +22599,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "m"
+    "domain": "1lss.com"
   },
   {
     "product_type": "Ecommerce",
@@ -22625,7 +22611,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.tireoutlet.com"
+    "domain": "tireoutlet.com"
   },
   {
     "product_type": "Ecommerce",
@@ -22651,7 +22637,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "electronics",
     "categories": null,
-    "domain": "www.gainsaver.com"
+    "domain": "gainsaver.com"
   },
   {
     "product_type": "Ecommerce",
@@ -22663,7 +22649,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.clekinc.com"
+    "domain": "clekinc.com"
   },
   {
     "product_type": "Ecommerce",
@@ -22677,7 +22663,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.worldwidestereo.com"
+    "domain": "worldwidestereo.com"
   },
   {
     "product_type": "Ecommerce",
@@ -22703,7 +22689,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.myessentia.com"
+    "domain": "myessentia.com"
   },
   {
     "product_type": "Ecommerce",
@@ -22715,7 +22701,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.dezyre.com"
+    "domain": "dezyre.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -22727,7 +22713,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.kidrobot.com"
+    "domain": "kidrobot.com"
   },
   {
     "product_type": "Ecommerce",
@@ -22741,7 +22727,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.bryte.com"
+    "domain": "bryte.com"
   },
   {
     "product_type": "Ecommerce",
@@ -22755,7 +22741,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.rubbermulch.com"
+    "domain": "rubbermulch.com"
   },
   {
     "product_type": "Ecommerce",
@@ -22767,7 +22753,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.getbarmax.com"
+    "domain": "getbarmax.com"
   },
   {
     "product_type": "Ecommerce",
@@ -22781,7 +22767,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.pearlparadise.com"
+    "domain": "pearlparadise.com"
   },
   {
     "product_type": "Ecommerce",
@@ -22831,7 +22817,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.perrinperformance.com"
+    "domain": "perrinperformance.com"
   },
   {
     "product_type": "Ecommerce",
@@ -22843,7 +22829,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "home_and_furniture",
     "categories": null,
-    "domain": "www.fromourplace.com"
+    "domain": "fromourplace.com"
   },
   {
     "product_type": "Ecommerce",
@@ -22855,7 +22841,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.powerequipmentdirect.com"
+    "domain": "powerequipmentdirect.com"
   },
   {
     "product_type": "Ecommerce",
@@ -22869,7 +22855,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.phoenixandroidradios.com"
+    "domain": "phoenixandroidradios.com"
   },
   {
     "product_type": "Ecommerce",
@@ -22897,7 +22883,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.naturesrest.com"
+    "domain": "naturesrest.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -22911,7 +22897,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.jockey.com"
+    "domain": "jockey.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -22925,7 +22911,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.store.americanapparel.net"
+    "domain": "store.americanapparel.net"
   },
   {
     "product_type": "Ecommerce",
@@ -22939,7 +22925,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.diamondwish.com"
+    "domain": "diamondwish.com"
   },
   {
     "product_type": "Ecommerce",
@@ -22963,7 +22949,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.shop.safeway.com"
+    "domain": "shop.safeway.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -22977,7 +22963,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.opgi.com"
+    "domain": "opgi.com"
   },
   {
     "product_type": "Ecommerce",
@@ -23003,7 +22989,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.listenup.com"
+    "domain": "listenup.com"
   },
   {
     "product_type": "Ecommerce",
@@ -23017,7 +23003,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.h2ophonestore.com"
+    "domain": "h2ophonestore.com"
   },
   {
     "product_type": "Ecommerce",
@@ -23034,7 +23020,7 @@ const merchantData = [
       "luxury",
       "shoes"
     ],
-    "domain": "www.stockx.com"
+    "domain": "stockx.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -23048,7 +23034,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.iherb.com"
+    "domain": "iherb.com"
   },
   {
     "product_type": "Ecommerce",
@@ -23060,7 +23046,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.qcsupply.com"
+    "domain": "qcsupply.com"
   },
   {
     "product_type": "Ecommerce",
@@ -23086,7 +23072,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.johnhardy.com"
+    "domain": "johnhardy.com"
   },
   {
     "product_type": "Ecommerce",
@@ -23098,7 +23084,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "apparel",
     "categories": null,
-    "domain": "www.usa.pedalmafia.cc"
+    "domain": "usa.pedalmafia.cc"
   },
   {
     "product_type": "Ecommerce",
@@ -23110,7 +23096,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.medmartonline.com"
+    "domain": "medmartonline.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -23150,7 +23136,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.article.com"
+    "domain": "article.com"
   },
   {
     "product_type": "Ecommerce",
@@ -23164,7 +23150,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.landice.com"
+    "domain": "landice.com"
   },
   {
     "product_type": "Ecommerce",
@@ -23192,7 +23178,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.diamondstuds.com"
+    "domain": "diamondstuds.com"
   },
   {
     "product_type": "Ecommerce",
@@ -23206,7 +23192,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.leatherup.com"
+    "domain": "leatherup.com"
   },
   {
     "product_type": "Ecommerce",
@@ -23218,7 +23204,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.cbioffroadfab.com"
+    "domain": "cbioffroadfab.com"
   },
   {
     "product_type": "Ecommerce",
@@ -23232,7 +23218,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.4moms.com"
+    "domain": "4moms.com"
   },
   {
     "product_type": "Ecommerce",
@@ -23244,7 +23230,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.gizmosupplyco.com"
+    "domain": "gizmosupplyco.com"
   },
   {
     "product_type": "Ecommerce",
@@ -23260,7 +23246,7 @@ const merchantData = [
       "apparel",
       "shoes"
     ],
-    "domain": "www.olivela.com"
+    "domain": "olivela.com"
   },
   {
     "product_type": "Ecommerce",
@@ -23272,7 +23258,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "fitness_and_gear",
     "categories": null,
-    "domain": "www.hkarmy.com"
+    "domain": "hkarmy.com"
   },
   {
     "product_type": "Ecommerce",
@@ -23286,7 +23272,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "/"
+    "domain": "dudesdieselperformance.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -23300,7 +23286,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.electricboardingco.com"
+    "domain": "electricboardingco.com"
   },
   {
     "product_type": "Ecommerce",
@@ -23330,7 +23316,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.horizonhobby.com"
+    "domain": "horizonhobby.com"
   },
   {
     "product_type": "Ecommerce",
@@ -23384,7 +23370,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "accessories",
     "categories": null,
-    "domain": "www.elegantswiss.com"
+    "domain": "elegantswiss.com"
   },
   {
     "product_type": "Ecommerce",
@@ -23398,7 +23384,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.pratikshajewelry.com"
+    "domain": "pratikshajewelry.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -23410,7 +23396,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.shoppbs.org"
+    "domain": "shoppbs.org"
   },
   {
     "product_type": "Ecommerce",
@@ -23424,7 +23410,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.glamira.com"
+    "domain": "glamira.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -23438,7 +23424,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.unoallavolta.com"
+    "domain": "unoallavolta.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -23452,7 +23438,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.rugs-direct.com"
+    "domain": "rugs-direct.com"
   },
   {
     "product_type": "Ecommerce",
@@ -23466,7 +23452,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.lexingtonbikeshop.com"
+    "domain": "lexingtonbikeshop.com"
   },
   {
     "product_type": "Ecommerce",
@@ -23492,7 +23478,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.360Powersports.com"
+    "domain": "360Powersports.com"
   },
   {
     "product_type": "Ecommerce",
@@ -23504,7 +23490,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.hustledude.com"
+    "domain": "hustledude.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -23516,7 +23502,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.microfiberproducts.com"
+    "domain": "microfiberproducts.com"
   },
   {
     "product_type": "Ecommerce",
@@ -23530,7 +23516,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.heattrak.com"
+    "domain": "heattrak.com"
   },
   {
     "product_type": "Ecommerce",
@@ -23544,7 +23530,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.net10wireless.com"
+    "domain": "net10wireless.com"
   },
   {
     "product_type": "Ecommerce",
@@ -23570,7 +23556,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.kiierr.com"
+    "domain": "kiierr.com"
   },
   {
     "product_type": "Ecommerce",
@@ -23584,7 +23570,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.decksdirect.com"
+    "domain": "decksdirect.com"
   },
   {
     "product_type": "Ecommerce",
@@ -23610,7 +23596,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.cinemood.com"
+    "domain": "cinemood.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -23624,7 +23610,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.cufflinks.com"
+    "domain": "cufflinks.com"
   },
   {
     "product_type": "Ecommerce",
@@ -23638,7 +23624,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.wirelesshut.net"
+    "domain": "wirelesshut.net"
   },
   {
     "product_type": "Ecommerce",
@@ -23652,7 +23638,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.protalus.com"
+    "domain": "protalus.com"
   },
   {
     "product_type": "Ecommerce",
@@ -23666,7 +23652,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.FurnitureETC.com"
+    "domain": "FurnitureETC.com"
   },
   {
     "product_type": "Ecommerce",
@@ -23678,7 +23664,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "kuzyk.myshopify.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -23690,7 +23676,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.labelsociety.com"
+    "domain": "labelsociety.com"
   },
   {
     "product_type": "Ecommerce",
@@ -23704,7 +23690,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.proworldinc.com"
+    "domain": "proworldinc.com"
   },
   {
     "product_type": "Ecommerce",
@@ -23718,7 +23704,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.lasvillasjewelry.com"
+    "domain": "lasvillasjewelry.com"
   },
   {
     "product_type": "Ecommerce",
@@ -23732,7 +23718,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.worldmoderndesign.com"
+    "domain": "worldmoderndesign.com"
   },
   {
     "product_type": "Ecommerce",
@@ -23746,7 +23732,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.dreem.com"
+    "domain": "dreem.com"
   },
   {
     "product_type": "Ecommerce",
@@ -23760,7 +23746,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.valfre.com"
+    "domain": "valfre.com"
   },
   {
     "product_type": "Ecommerce",
@@ -23774,7 +23760,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.govx.com"
+    "domain": "govx.com"
   },
   {
     "product_type": "Ecommerce",
@@ -23802,7 +23788,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.en-us.sennheiser.com"
+    "domain": "en-us.sennheiser.com"
   },
   {
     "product_type": "Ecommerce",
@@ -23816,7 +23802,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.full-race.com"
+    "domain": "full-race.com"
   },
   {
     "product_type": "Ecommerce",
@@ -23842,7 +23828,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.decorilla.com"
+    "domain": "decorilla.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -23854,7 +23840,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.powells.com"
+    "domain": "powells.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -23863,12 +23849,12 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fwww.fitbit.com%2Fglobal%2Fus%2Fhome&merchant_ari=EZVU238UY4DG4PA2",
     "icon_url": "https://cdn1.affirm.com/platform/public/promos/assets/EZVU238UY4DG4PA2/logo/logo1x.png",
     "ari": "EZVU238UY4DG4PA2",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "electronics",
     "categories": [
       "electronics"
     ],
-    "domain": "www.fitbit.com"
+    "domain": "fitbit.com"
   },
   {
     "product_type": "Ecommerce",
@@ -23894,7 +23880,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.thegreatcourses.com"
+    "domain": "thegreatcourses.com"
   },
   {
     "product_type": "Ecommerce",
@@ -23908,7 +23894,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.Baileybanksandbiddle.com"
+    "domain": "Baileybanksandbiddle.com"
   },
   {
     "product_type": "Ecommerce",
@@ -23922,7 +23908,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.custommade.com"
+    "domain": "custommade.com"
   },
   {
     "product_type": "Ecommerce",
@@ -23960,7 +23946,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "theheatherpresley.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -23974,7 +23960,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.phigora.com"
+    "domain": "phigora.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -23988,7 +23974,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.childrensplace.com"
+    "domain": "childrensplace.com"
   },
   {
     "product_type": "Ecommerce",
@@ -24042,7 +24028,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.expressgymsupply.com"
+    "domain": "expressgymsupply.com"
   },
   {
     "product_type": "Ecommerce",
@@ -24070,7 +24056,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.amsperformance.com"
+    "domain": "amsperformance.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -24082,7 +24068,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.firststreetonline.com"
+    "domain": "firststreetonline.com"
   },
   {
     "product_type": "Ecommerce",
@@ -24108,7 +24094,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.babyearth.com"
+    "domain": "babyearth.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -24122,7 +24108,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.frys.com"
+    "domain": "frys.com"
   },
   {
     "product_type": "Ecommerce",
@@ -24134,7 +24120,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.proaquawater.com"
+    "domain": "proaquawater.com"
   },
   {
     "product_type": "Ecommerce",
@@ -24146,7 +24132,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "accessories",
     "categories": null,
-    "domain": "www.raymondleejewerly.net"
+    "domain": "raymondleejewerly.net"
   },
   {
     "product_type": "Ecommerce",
@@ -24160,7 +24146,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.battenhome.co"
+    "domain": "battenhome.co"
   },
   {
     "product_type": "Ecommerce",
@@ -24174,7 +24160,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.ebikesflorida.com"
+    "domain": "ebikesflorida.com"
   },
   {
     "product_type": "Ecommerce",
@@ -24188,7 +24174,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.royaltycore.com"
+    "domain": "royaltycore.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -24200,7 +24186,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.beallsflorida.com"
+    "domain": "beallsflorida.com"
   },
   {
     "product_type": "Ecommerce",
@@ -24224,7 +24210,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "auto",
     "categories": null,
-    "domain": "www.EcklersMBZParts.com"
+    "domain": "EcklersMBZParts.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -24238,7 +24224,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.beltoutlet.com"
+    "domain": "beltoutlet.com"
   },
   {
     "product_type": "Ecommerce",
@@ -24252,7 +24238,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.dieselautopower.com"
+    "domain": "dieselautopower.com"
   },
   {
     "product_type": "Ecommerce",
@@ -24266,7 +24252,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.thechristmaspalace.com"
+    "domain": "thechristmaspalace.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -24278,7 +24264,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.gnc.com"
+    "domain": "gnc.com"
   },
   {
     "product_type": "Ecommerce",
@@ -24292,7 +24278,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.hastingsperformancestore.com"
+    "domain": "hastingsperformancestore.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -24306,7 +24292,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.grainger.com"
+    "domain": "grainger.com"
   },
   {
     "product_type": "Ecommerce",
@@ -24334,7 +24320,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.esportsonline.com"
+    "domain": "esportsonline.com"
   },
   {
     "product_type": "Ecommerce",
@@ -24357,10 +24343,10 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fwww.chewy.com%2F&merchant_ari=FD42WH60CF6R6XXN",
     "icon_url": "https://cdn1.affirm.com/platform/public/promos/assets/FD42WH60CF6R6XXN/logo/logo1x.png",
     "ari": "FD42WH60CF6R6XXN",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.chewy.com"
+    "domain": "chewy.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -24374,7 +24360,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.softchoice.com"
+    "domain": "softchoice.com"
   },
   {
     "product_type": "Ecommerce",
@@ -24402,7 +24388,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.northlineexpress.com"
+    "domain": "northlineexpress.com"
   },
   {
     "product_type": "Ecommerce",
@@ -24414,7 +24400,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.lauren-fisher.com"
+    "domain": "lauren-fisher.com"
   },
   {
     "product_type": "Ecommerce",
@@ -24426,7 +24412,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "m"
+    "domain": "try-nok.com"
   },
   {
     "product_type": "Ecommerce",
@@ -24440,7 +24426,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.superlift.com"
+    "domain": "superlift.com"
   },
   {
     "product_type": "Ecommerce",
@@ -24452,7 +24438,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "accessories",
     "categories": null,
-    "domain": "www.levenger.com"
+    "domain": "levenger.com"
   },
   {
     "product_type": "Ecommerce",
@@ -24464,7 +24450,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.gleim.com"
+    "domain": "gleim.com"
   },
   {
     "product_type": "Ecommerce",
@@ -24478,7 +24464,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.thekeystone.com"
+    "domain": "thekeystone.com"
   },
   {
     "product_type": "Ecommerce",
@@ -24504,7 +24490,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.leonardaccessories.com"
+    "domain": "leonardaccessories.com"
   },
   {
     "product_type": "Ecommerce",
@@ -24516,7 +24502,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.evenflo.com"
+    "domain": "evenflo.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -24530,7 +24516,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.destinationmaternity.com"
+    "domain": "destinationmaternity.com"
   },
   {
     "product_type": "Ecommerce",
@@ -24544,7 +24530,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.Dirtkingfabrication.com"
+    "domain": "Dirtkingfabrication.com"
   },
   {
     "product_type": "Ecommerce",
@@ -24558,7 +24544,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.pickupfortrucks.com"
+    "domain": "pickupfortrucks.com"
   },
   {
     "product_type": "Ecommerce",
@@ -24572,7 +24558,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.owperformance.net"
+    "domain": "owperformance.net"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -24586,7 +24572,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.cableorganizer.com"
+    "domain": "cableorganizer.com"
   },
   {
     "product_type": "Ecommerce",
@@ -24600,7 +24586,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.theensign.us"
+    "domain": "theensign.us"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -24640,7 +24626,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.pyramydair.com"
+    "domain": "pyramydair.com"
   },
   {
     "product_type": "Ecommerce",
@@ -24668,7 +24654,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.beautykind.us"
+    "domain": "beautykind.us"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -24682,7 +24668,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.hourglassangel.com"
+    "domain": "hourglassangel.com"
   },
   {
     "product_type": "Ecommerce",
@@ -24694,7 +24680,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.guitarsalon.com"
+    "domain": "guitarsalon.com"
   },
   {
     "product_type": "Ecommerce",
@@ -24706,7 +24692,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "home_and_furniture",
     "categories": null,
-    "domain": "www.healthybedstore.com"
+    "domain": "healthybedstore.com"
   },
   {
     "product_type": "Ecommerce",
@@ -24718,7 +24704,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "restperformance.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -24744,7 +24730,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.whiteflash.com"
+    "domain": "whiteflash.com"
   },
   {
     "product_type": "Ecommerce",
@@ -24758,7 +24744,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.maxandlily.com"
+    "domain": "maxandlily.com"
   },
   {
     "product_type": "Ecommerce",
@@ -24772,7 +24758,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.silvers-na.com"
+    "domain": "silvers-na.com"
   },
   {
     "product_type": "Ecommerce",
@@ -24786,7 +24772,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.cymax.com"
+    "domain": "cymax.com"
   },
   {
     "product_type": "Ecommerce",
@@ -24803,7 +24789,7 @@ const merchantData = [
       "beauty",
       "luxury"
     ],
-    "domain": "www.darbyscott.com"
+    "domain": "darbyscott.com"
   },
   {
     "product_type": "Ecommerce",
@@ -24817,7 +24803,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.lull.com"
+    "domain": "lull.com"
   },
   {
     "product_type": "Ecommerce",
@@ -24831,7 +24817,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.dressanomalie.com"
+    "domain": "dressanomalie.com"
   },
   {
     "product_type": "Ecommerce",
@@ -24845,7 +24831,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.victorbarbone.com"
+    "domain": "victorbarbone.com"
   },
   {
     "product_type": "Ecommerce",
@@ -24873,7 +24859,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.teeter.com"
+    "domain": "teeter.com"
   },
   {
     "product_type": "Ecommerce",
@@ -24885,7 +24871,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.pattys-cakes.com"
+    "domain": "pattys-cakes.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -24899,7 +24885,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.worldjewels.com"
+    "domain": "worldjewels.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -24911,7 +24897,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.fingerhut.com"
+    "domain": "fingerhut.com"
   },
   {
     "product_type": "Ecommerce",
@@ -24926,7 +24912,7 @@ const merchantData = [
       "accessories",
       "electronics"
     ],
-    "domain": "www.igadgetz.tech"
+    "domain": "igadgetz.tech"
   },
   {
     "product_type": "Ecommerce",
@@ -24940,7 +24926,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.Bikesmart.com"
+    "domain": "Bikesmart.com"
   },
   {
     "product_type": "Ecommerce",
@@ -24968,7 +24954,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.campmor.com"
+    "domain": "campmor.com"
   },
   {
     "product_type": "Ecommerce",
@@ -24980,7 +24966,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.mod-mouth.com"
+    "domain": "mod-mouth.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -24994,7 +24980,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.napaonline.com"
+    "domain": "napaonline.com"
   },
   {
     "product_type": "Ecommerce",
@@ -25022,7 +25008,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.Filabot.com"
+    "domain": "Filabot.com"
   },
   {
     "product_type": "Ecommerce",
@@ -25034,7 +25020,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.nrs.com"
+    "domain": "nrs.com"
   },
   {
     "product_type": "Ecommerce",
@@ -25060,7 +25046,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.thebackstore.com"
+    "domain": "thebackstore.com"
   },
   {
     "product_type": "Ecommerce",
@@ -25072,7 +25058,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "electronics",
     "categories": null,
-    "domain": "www.pro-star.com"
+    "domain": "pro-star.com"
   },
   {
     "product_type": "Ecommerce",
@@ -25086,7 +25072,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.embrlabs.com"
+    "domain": "embrlabs.com"
   },
   {
     "product_type": "Ecommerce",
@@ -25098,7 +25084,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "electronics",
     "categories": null,
-    "domain": "www.rhinocameragear.com"
+    "domain": "rhinocameragear.com"
   },
   {
     "product_type": "Ecommerce",
@@ -25110,7 +25096,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "electronics",
     "categories": null,
-    "domain": "www.swash.com"
+    "domain": "swash.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -25124,7 +25110,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.sallybeauty.com"
+    "domain": "sallybeauty.com"
   },
   {
     "product_type": "Ecommerce",
@@ -25138,7 +25124,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.adiamor.com"
+    "domain": "adiamor.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -25147,12 +25133,12 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fwww.rockauto.com%2F&merchant_ari=FST4TXM11XVG0NAZ",
     "icon_url": "https://cdn-assets.affirm.com/vcn_buy/v1/merchants/FST4TXM11XVG0NAZ/logo_20190710100622/logo.png",
     "ari": "FST4TXM11XVG0NAZ",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "auto",
     "categories": [
       "auto"
     ],
-    "domain": "www.rockauto.com"
+    "domain": "rockauto.com"
   },
   {
     "product_type": "Ecommerce",
@@ -25164,7 +25150,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "rgbcustompc.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -25176,7 +25162,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "radridesbuilt.com/"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -25190,7 +25176,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.charmingcharlie.com"
+    "domain": "charmingcharlie.com"
   },
   {
     "product_type": "Ecommerce",
@@ -25204,7 +25190,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.shoplovard.com"
+    "domain": "shoplovard.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -25246,7 +25232,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.shiffonco.com"
+    "domain": "shiffonco.com"
   },
   {
     "product_type": "Ecommerce",
@@ -25274,7 +25260,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.hearthsong.com"
+    "domain": "hearthsong.com"
   },
   {
     "product_type": "Ecommerce",
@@ -25288,7 +25274,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.basketballgoalstore.com"
+    "domain": "basketballgoalstore.com"
   },
   {
     "product_type": "Ecommerce",
@@ -25330,7 +25316,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.hugoboss.com"
+    "domain": "hugoboss.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -25344,7 +25330,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.rugstudio.com"
+    "domain": "rugstudio.com"
   },
   {
     "product_type": "Ecommerce",
@@ -25356,7 +25342,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "apparel",
     "categories": null,
-    "domain": "www.notre-shop.com"
+    "domain": "notre-shop.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -25370,7 +25356,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.golfclubs.com"
+    "domain": "golfclubs.com"
   },
   {
     "product_type": "Ecommerce",
@@ -25396,7 +25382,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.emotiva.com"
+    "domain": "emotiva.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -25410,7 +25396,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.activerideshop.com"
+    "domain": "activerideshop.com"
   },
   {
     "product_type": "Ecommerce",
@@ -25422,7 +25408,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.healthstore.philips.com"
+    "domain": "healthstore.philips.com"
   },
   {
     "product_type": "Ecommerce",
@@ -25490,7 +25476,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.smgspeed.com"
+    "domain": "smgspeed.com"
   },
   {
     "product_type": "Ecommerce",
@@ -25504,7 +25490,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.kchilites.com"
+    "domain": "kchilites.com"
   },
   {
     "product_type": "Ecommerce",
@@ -25516,7 +25502,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "home_and_furniture",
     "categories": null,
-    "domain": "www.airweave.com"
+    "domain": "airweave.com"
   },
   {
     "product_type": "Ecommerce",
@@ -25528,7 +25514,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.SoundPure.com"
+    "domain": "SoundPure.com"
   },
   {
     "product_type": "Ecommerce",
@@ -25554,7 +25540,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.all-wall.com"
+    "domain": "all-wall.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -25568,7 +25554,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.discountelectronics.com"
+    "domain": "discountelectronics.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -25580,7 +25566,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.moviemars.com"
+    "domain": "moviemars.com"
   },
   {
     "product_type": "Ecommerce",
@@ -25592,7 +25578,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "m"
+    "domain": "kayakcreek.com"
   },
   {
     "product_type": "Ecommerce",
@@ -25606,7 +25592,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.22bicycles.com"
+    "domain": "22bicycles.com"
   },
   {
     "product_type": "Ecommerce",
@@ -25620,7 +25606,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.bigboysgaragetoys.com"
+    "domain": "bigboysgaragetoys.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -25634,7 +25620,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.streetmoda.com"
+    "domain": "streetmoda.com"
   },
   {
     "product_type": "Ecommerce",
@@ -25674,7 +25660,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.victorystore.com"
+    "domain": "victorystore.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -25688,7 +25674,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.sivanaspirit.com"
+    "domain": "sivanaspirit.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -25740,7 +25726,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.cyberpowerpc.com"
+    "domain": "cyberpowerpc.com"
   },
   {
     "product_type": "Ecommerce",
@@ -25756,7 +25742,7 @@ const merchantData = [
       "beauty",
       "home_and_furniture"
     ],
-    "domain": "www.verishop.com"
+    "domain": "verishop.com"
   },
   {
     "product_type": "Ecommerce",
@@ -25782,7 +25768,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.unlimitedtruck.com"
+    "domain": "unlimitedtruck.com"
   },
   {
     "product_type": "Ecommerce",
@@ -25810,7 +25796,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.bikemastersaz.com"
+    "domain": "bikemastersaz.com"
   },
   {
     "product_type": "Ecommerce",
@@ -25822,7 +25808,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.lsatmax.com"
+    "domain": "lsatmax.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -25836,7 +25822,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.peruvianconnection.com"
+    "domain": "peruvianconnection.com"
   },
   {
     "product_type": "Ecommerce",
@@ -25864,7 +25850,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.stealthmodules.com"
+    "domain": "stealthmodules.com"
   },
   {
     "product_type": "Ecommerce",
@@ -25878,7 +25864,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.shopmodernman.com"
+    "domain": "shopmodernman.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -25892,7 +25878,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.indochino.com"
+    "domain": "indochino.com"
   },
   {
     "product_type": "Ecommerce",
@@ -25907,7 +25893,7 @@ const merchantData = [
       "accessories",
       "luxury"
     ],
-    "domain": "m"
+    "domain": "rebag.com"
   },
   {
     "product_type": "Ecommerce",
@@ -25945,7 +25931,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "accessories",
     "categories": null,
-    "domain": "www.annsfabulouscloseouts.com/"
+    "domain": "annsfabulouscloseouts.com/"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -25987,7 +25973,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.jiobit.com"
+    "domain": "jiobit.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -26001,7 +25987,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.bargainstation.com"
+    "domain": "bargainstation.com"
   },
   {
     "product_type": "Ecommerce",
@@ -26027,7 +26013,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "m"
+    "domain": "gunner.com"
   },
   {
     "product_type": "Ecommerce",
@@ -26041,7 +26027,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.chicagobrickoven.com"
+    "domain": "chicagobrickoven.com"
   },
   {
     "product_type": "Ecommerce",
@@ -26056,7 +26042,7 @@ const merchantData = [
       "electronics",
       "fitness_and_gear"
     ],
-    "domain": "/"
+    "domain": "bussobikes.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -26070,7 +26056,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.brilliantdiamonds.com"
+    "domain": "brilliantdiamonds.com"
   },
   {
     "product_type": "Ecommerce",
@@ -26094,7 +26080,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.meditationlife.co"
+    "domain": "meditationlife.co"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -26106,7 +26092,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.puritan.com"
+    "domain": "puritan.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -26120,7 +26106,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.harrietcarter.com"
+    "domain": "harrietcarter.com"
   },
   {
     "product_type": "Ecommerce",
@@ -26146,7 +26132,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.boemarine.com"
+    "domain": "boemarine.com"
   },
   {
     "product_type": "Ecommerce",
@@ -26158,7 +26144,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "apparel",
     "categories": null,
-    "domain": "www.ixcheltriangle.com"
+    "domain": "ixcheltriangle.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -26167,7 +26153,7 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=http%3A%2F%2Fwww.anrdoezrs.net%2Fclick-8191141-13029200&merchant_ari=GH58HYIP3N93QRD3",
     "icon_url": "http://cdn-assets.affirm.com/vcn_buy/v1/merchants/GH58HYIP3N93QRD3/logo20191029/logo_offer.png",
     "ari": "GH58HYIP3N93QRD3",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "auto",
     "categories": [
       "auto"
@@ -26184,7 +26170,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.brookstone.com"
+    "domain": "brookstone.com"
   },
   {
     "product_type": "Ecommerce",
@@ -26212,7 +26198,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.limogesjewelry.com"
+    "domain": "limogesjewelry.com"
   },
   {
     "product_type": "Ecommerce",
@@ -26226,7 +26212,7 @@ const merchantData = [
     "categories": [
       "shoes"
     ],
-    "domain": "www.duckfeetusa.com"
+    "domain": "duckfeetusa.com"
   },
   {
     "product_type": "Ecommerce",
@@ -26240,7 +26226,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.campchef.com"
+    "domain": "campchef.com"
   },
   {
     "product_type": "Ecommerce",
@@ -26266,7 +26252,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.borgmotorsports.com"
+    "domain": "borgmotorsports.com"
   },
   {
     "product_type": "Ecommerce",
@@ -26281,7 +26267,7 @@ const merchantData = [
       "accessories",
       "luxury"
     ],
-    "domain": "www.commonerajewelry.com"
+    "domain": "commonerajewelry.com"
   },
   {
     "product_type": "Ecommerce",
@@ -26309,7 +26295,7 @@ const merchantData = [
     "categories": [
       "shoes"
     ],
-    "domain": "www.hushpuppies.com"
+    "domain": "hushpuppies.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -26321,7 +26307,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.plated.com"
+    "domain": "plated.com"
   },
   {
     "product_type": "Ecommerce",
@@ -26333,7 +26319,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "fitness_and_gear",
     "categories": null,
-    "domain": "www.russellmarineproducts.com"
+    "domain": "russellmarineproducts.com"
   },
   {
     "product_type": "Ecommerce",
@@ -26347,7 +26333,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.sdparts.com"
+    "domain": "sdparts.com"
   },
   {
     "product_type": "Ecommerce",
@@ -26361,7 +26347,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.mysimplephones.com"
+    "domain": "mysimplephones.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -26375,7 +26361,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.fullsource.com"
+    "domain": "fullsource.com"
   },
   {
     "product_type": "Ecommerce",
@@ -26401,7 +26387,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.platinumracinginc.com"
+    "domain": "platinumracinginc.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -26413,7 +26399,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.doortodoororganics.com"
+    "domain": "doortodoororganics.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -26427,7 +26413,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.totalhockey.com"
+    "domain": "totalhockey.com"
   },
   {
     "product_type": "Ecommerce",
@@ -26441,7 +26427,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.buytruckwheels.com"
+    "domain": "buytruckwheels.com"
   },
   {
     "product_type": "Ecommerce",
@@ -26455,7 +26441,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.revivalrugs.com"
+    "domain": "revivalrugs.com"
   },
   {
     "product_type": "Ecommerce",
@@ -26469,7 +26455,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.badnewsracing.net"
+    "domain": "badnewsracing.net"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -26483,7 +26469,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.scentiments.com"
+    "domain": "scentiments.com"
   },
   {
     "product_type": "Ecommerce",
@@ -26497,7 +26483,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.motionrc.com"
+    "domain": "motionrc.com"
   },
   {
     "product_type": "Ecommerce",
@@ -26509,7 +26495,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.richmondtransmissionservice.com"
+    "domain": "richmondtransmissionservice.com"
   },
   {
     "product_type": "Ecommerce",
@@ -26521,7 +26507,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.neosensory.com"
+    "domain": "neosensory.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -26530,12 +26516,12 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fclick.linksynergy.com%2Ffs-bin%2Fclick%3Fid%3DbFeuiaEZizw%26offerid%3D608996.10003835%26type%3D3%26subid%3D0&merchant_ari=GNKOT463G3S3FZL3",
     "icon_url": "http://cdn-assets.affirm.com/vcn_buy/v1/merchants/GNKOT463G3S3FZL3/logo20191029/logo_offer.png",
     "ari": "GNKOT463G3S3FZL3",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "electronics",
     "categories": [
       "electronics"
     ],
-    "domain": "www.microsoftstore.com"
+    "domain": "microsoftstore.com"
   },
   {
     "product_type": "Ecommerce",
@@ -26561,7 +26547,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.dazadi.com"
+    "domain": "dazadi.com"
   },
   {
     "product_type": "Ecommerce",
@@ -26573,7 +26559,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.applerouth.com"
+    "domain": "applerouth.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -26585,7 +26571,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.tumi.com"
+    "domain": "tumi.com"
   },
   {
     "product_type": "Ecommerce",
@@ -26599,7 +26585,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.budgetheating.com"
+    "domain": "budgetheating.com"
   },
   {
     "product_type": "Ecommerce",
@@ -26613,7 +26599,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.kitchenaid.com"
+    "domain": "kitchenaid.com"
   },
   {
     "product_type": "Ecommerce",
@@ -26627,7 +26613,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.maxtrixkids.com"
+    "domain": "maxtrixkids.com"
   },
   {
     "product_type": "Ecommerce",
@@ -26639,7 +26625,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.stylesbyalexis.com"
+    "domain": "stylesbyalexis.com"
   },
   {
     "product_type": "Ecommerce",
@@ -26653,7 +26639,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.pickardusa.com"
+    "domain": "pickardusa.com"
   },
   {
     "product_type": "Ecommerce",
@@ -26693,7 +26679,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.boostautoparts.com"
+    "domain": "boostautoparts.com"
   },
   {
     "product_type": "Ecommerce",
@@ -26731,7 +26717,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "auto",
     "categories": null,
-    "domain": "www.nlmotoring.com"
+    "domain": "nlmotoring.com"
   },
   {
     "product_type": "Ecommerce",
@@ -26745,7 +26731,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.liftordrop.com"
+    "domain": "liftordrop.com"
   },
   {
     "product_type": "Ecommerce",
@@ -26759,7 +26745,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.ridenuviz.com"
+    "domain": "ridenuviz.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -26773,7 +26759,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.woodcraft.com"
+    "domain": "woodcraft.com"
   },
   {
     "product_type": "Ecommerce",
@@ -26787,7 +26773,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.inventables.com"
+    "domain": "inventables.com"
   },
   {
     "product_type": "Ecommerce",
@@ -26801,7 +26787,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.helzberg.com"
+    "domain": "helzberg.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -26813,7 +26799,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.crownawards.com"
+    "domain": "crownawards.com"
   },
   {
     "product_type": "Ecommerce",
@@ -26827,7 +26813,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.sermez.com"
+    "domain": "sermez.com"
   },
   {
     "product_type": "Ecommerce",
@@ -26891,7 +26877,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.taylordorry.com"
+    "domain": "taylordorry.com"
   },
   {
     "product_type": "Ecommerce",
@@ -26917,7 +26903,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.warbyparker.com"
+    "domain": "warbyparker.com"
   },
   {
     "product_type": "Ecommerce",
@@ -26931,7 +26917,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.alliedcycleworks.com"
+    "domain": "alliedcycleworks.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -26943,7 +26929,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.ticketprinting.com"
+    "domain": "ticketprinting.com"
   },
   {
     "product_type": "Ecommerce",
@@ -26957,7 +26943,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.texas-speed.com"
+    "domain": "texas-speed.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -26971,7 +26957,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.theclymb.com"
+    "domain": "theclymb.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -26985,7 +26971,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.bluemercury.com"
+    "domain": "bluemercury.com"
   },
   {
     "product_type": "Ecommerce",
@@ -26999,7 +26985,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "/"
+    "domain": "systempredict.com/"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -27011,7 +26997,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.theshoppingchannel.com"
+    "domain": "theshoppingchannel.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -27025,7 +27011,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.rockcreek.com"
+    "domain": "rockcreek.com"
   },
   {
     "product_type": "Ecommerce",
@@ -27053,7 +27039,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.veronicabeard.com"
+    "domain": "veronicabeard.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -27081,7 +27067,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.friedmans.com"
+    "domain": "friedmans.com"
   },
   {
     "product_type": "Ecommerce",
@@ -27095,7 +27081,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.kayakcity.com"
+    "domain": "kayakcity.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -27109,7 +27095,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.naturehills.com"
+    "domain": "naturehills.com"
   },
   {
     "product_type": "Ecommerce",
@@ -27145,7 +27131,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "m"
+    "domain": "shop.gentlenursery.com"
   },
   {
     "product_type": "Ecommerce",
@@ -27159,7 +27145,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.thedbmethod.com"
+    "domain": "thedbmethod.com"
   },
   {
     "product_type": "Ecommerce",
@@ -27197,7 +27183,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.queenlulub.com"
+    "domain": "queenlulub.com"
   },
   {
     "product_type": "Ecommerce",
@@ -27251,7 +27237,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.commercialsitefurnishings.com"
+    "domain": "commercialsitefurnishings.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -27265,7 +27251,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.jpeterman.com"
+    "domain": "jpeterman.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -27279,7 +27265,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.shoplet.com"
+    "domain": "shoplet.com"
   },
   {
     "product_type": "Ecommerce",
@@ -27293,7 +27279,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.hspdiesel.com"
+    "domain": "hspdiesel.com"
   },
   {
     "product_type": "Ecommerce",
@@ -27319,7 +27305,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "/"
+    "domain": "thefemalequotient.shop/"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -27333,7 +27319,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.burton.com"
+    "domain": "burton.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -27347,7 +27333,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.renttherunway.com"
+    "domain": "renttherunway.com"
   },
   {
     "product_type": "Ecommerce",
@@ -27361,7 +27347,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.watchgang.com"
+    "domain": "watchgang.com"
   },
   {
     "product_type": "Ecommerce",
@@ -27373,7 +27359,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.ironworkergear.com"
+    "domain": "ironworkergear.com"
   },
   {
     "product_type": "Ecommerce",
@@ -27399,7 +27385,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.joyeriaadan.com"
+    "domain": "joyeriaadan.com"
   },
   {
     "product_type": "Ecommerce",
@@ -27414,7 +27400,7 @@ const merchantData = [
       "accessories",
       "luxury"
     ],
-    "domain": "www.lxrco.com"
+    "domain": "lxrco.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -27426,7 +27412,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.jellybelly.com"
+    "domain": "jellybelly.com"
   },
   {
     "product_type": "Ecommerce",
@@ -27452,7 +27438,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.scandinaviandesigns.com"
+    "domain": "scandinaviandesigns.com"
   },
   {
     "product_type": "Ecommerce",
@@ -27480,7 +27466,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.biostrap.com"
+    "domain": "biostrap.com"
   },
   {
     "product_type": "Ecommerce",
@@ -27492,7 +27478,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.280group.com"
+    "domain": "280group.com"
   },
   {
     "product_type": "Ecommerce",
@@ -27504,7 +27490,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.skidsteers.com"
+    "domain": "skidsteers.com"
   },
   {
     "product_type": "Ecommerce",
@@ -27546,7 +27532,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.stuhrling.com"
+    "domain": "stuhrling.com"
   },
   {
     "product_type": "Ecommerce",
@@ -27560,7 +27546,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.genyhitch.com"
+    "domain": "genyhitch.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -27574,7 +27560,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.worldofwatches.com"
+    "domain": "worldofwatches.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -27605,7 +27591,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.outlet.loft.com"
+    "domain": "outlet.loft.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -27619,7 +27605,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.sportsmemorabilia.com"
+    "domain": "sportsmemorabilia.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -27645,7 +27631,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.sitstanddesk.com"
+    "domain": "sitstanddesk.com"
   },
   {
     "product_type": "Ecommerce",
@@ -27659,7 +27645,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.goldition.com"
+    "domain": "goldition.com"
   },
   {
     "product_type": "Ecommerce",
@@ -27685,7 +27671,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "m"
+    "domain": "retrospec.com"
   },
   {
     "product_type": "Ecommerce",
@@ -27699,7 +27685,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.lightform.com"
+    "domain": "lightform.com"
   },
   {
     "product_type": "Ecommerce",
@@ -27713,7 +27699,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.teacollection.com"
+    "domain": "teacollection.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -27727,7 +27713,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.headsets.com"
+    "domain": "headsets.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -27754,7 +27740,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.RQFBOUTIQUE.com"
+    "domain": "RQFBOUTIQUE.com"
   },
   {
     "product_type": "Ecommerce",
@@ -27780,7 +27766,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.gtrsimulator.com"
+    "domain": "gtrsimulator.com"
   },
   {
     "product_type": "Ecommerce",
@@ -27792,7 +27778,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.hsfosterjewelry.com"
+    "domain": "hsfosterjewelry.com"
   },
   {
     "product_type": "Ecommerce",
@@ -27806,7 +27792,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.jcroffroad.com"
+    "domain": "jcroffroad.com"
   },
   {
     "product_type": "Ecommerce",
@@ -27846,7 +27832,7 @@ const merchantData = [
     "categories": [
       "travel_and_events"
     ],
-    "domain": "www.TickPick.com"
+    "domain": "TickPick.com"
   },
   {
     "product_type": "Ecommerce",
@@ -27860,7 +27846,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.noirgallery.co"
+    "domain": "noirgallery.co"
   },
   {
     "product_type": "Ecommerce",
@@ -27874,7 +27860,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.outdoorvitals.com"
+    "domain": "outdoorvitals.com"
   },
   {
     "product_type": "Ecommerce",
@@ -27888,7 +27874,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.subispeed.com"
+    "domain": "subispeed.com"
   },
   {
     "product_type": "Ecommerce",
@@ -27917,7 +27903,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.madsencycles.com"
+    "domain": "madsencycles.com"
   },
   {
     "product_type": "Ecommerce",
@@ -27931,7 +27917,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.anovaculinary.com"
+    "domain": "anovaculinary.com"
   },
   {
     "product_type": "Ecommerce",
@@ -27943,7 +27929,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "m"
+    "domain": "artagentsinternational.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -27955,7 +27941,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.royceleathergifts.com"
+    "domain": "royceleathergifts.com"
   },
   {
     "product_type": "Ecommerce",
@@ -27969,7 +27955,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.ajmadison.com"
+    "domain": "ajmadison.com"
   },
   {
     "product_type": "Ecommerce",
@@ -27995,7 +27981,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.jeproaudio.com"
+    "domain": "jeproaudio.com"
   },
   {
     "product_type": "Ecommerce",
@@ -28007,7 +27993,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.homesteadimplements.com"
+    "domain": "homesteadimplements.com"
   },
   {
     "product_type": "Ecommerce",
@@ -28021,7 +28007,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.dxracer.com"
+    "domain": "dxracer.com"
   },
   {
     "product_type": "Ecommerce",
@@ -28035,7 +28021,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.smartairpurifiers.com"
+    "domain": "smartairpurifiers.com"
   },
   {
     "product_type": "Ecommerce",
@@ -28049,7 +28035,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "a"
+    "domain": "poshmark.ca"
   },
   {
     "product_type": "Ecommerce",
@@ -28063,7 +28049,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.royalswimmingpools.com"
+    "domain": "royalswimmingpools.com"
   },
   {
     "product_type": "Ecommerce",
@@ -28077,7 +28063,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.arkonoffroad.com"
+    "domain": "arkonoffroad.com"
   },
   {
     "product_type": "Ecommerce",
@@ -28091,7 +28077,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.jaysonhome.com"
+    "domain": "jaysonhome.com"
   },
   {
     "product_type": "Ecommerce",
@@ -28117,7 +28103,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.jclub.com"
+    "domain": "jclub.com"
   },
   {
     "product_type": "Ecommerce",
@@ -28131,7 +28117,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.thepinballcompany.com"
+    "domain": "thepinballcompany.com"
   },
   {
     "product_type": "Ecommerce",
@@ -28143,7 +28129,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.idyllwind.com/"
+    "domain": "idyllwind.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -28171,7 +28157,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.getbevel.com"
+    "domain": "getbevel.com"
   },
   {
     "product_type": "Ecommerce",
@@ -28183,7 +28169,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.shopsirensays.com"
+    "domain": "shopsirensays.com"
   },
   {
     "product_type": "Ecommerce",
@@ -28209,7 +28195,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.grizzly.com"
+    "domain": "grizzly.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -28221,7 +28207,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.shopmyexchange.com"
+    "domain": "shopmyexchange.com"
   },
   {
     "product_type": "Ecommerce",
@@ -28245,7 +28231,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.langmuirsystems.com"
+    "domain": "langmuirsystems.com"
   },
   {
     "product_type": "Ecommerce",
@@ -28259,7 +28245,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.custom.ultimateears.com"
+    "domain": "custom.ultimateears.com"
   },
   {
     "product_type": "Ecommerce",
@@ -28273,7 +28259,7 @@ const merchantData = [
     "categories": [
       "travel_and_events"
     ],
-    "domain": "www.redweek.com"
+    "domain": "redweek.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -28287,7 +28273,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.1800contacts.com"
+    "domain": "1800contacts.com"
   },
   {
     "product_type": "Ecommerce",
@@ -28301,7 +28287,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "m"
+    "domain": "thelostco.com"
   },
   {
     "product_type": "Ecommerce",
@@ -28329,7 +28315,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.wrightbedding.com"
+    "domain": "wrightbedding.com"
   },
   {
     "product_type": "Ecommerce",
@@ -28343,7 +28329,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.soiakyo.com"
+    "domain": "soiakyo.com"
   },
   {
     "product_type": "Ecommerce",
@@ -28355,7 +28341,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.pass-program.com"
+    "domain": "pass-program.com"
   },
   {
     "product_type": "Ecommerce",
@@ -28383,7 +28369,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.uniqlo.com"
+    "domain": "uniqlo.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -28397,7 +28383,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.hannaandersson.com"
+    "domain": "hannaandersson.com"
   },
   {
     "product_type": "Ecommerce",
@@ -28451,7 +28437,7 @@ const merchantData = [
       "apparel",
       "fitness_and_gear"
     ],
-    "domain": "www.chromeindustries.com"
+    "domain": "chromeindustries.com"
   },
   {
     "product_type": "Ecommerce",
@@ -28477,7 +28463,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.tauntonstore.com"
+    "domain": "tauntonstore.com"
   },
   {
     "product_type": "Ecommerce",
@@ -28489,7 +28475,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "accessories",
     "categories": null,
-    "domain": "www.nightriderjewelry.com"
+    "domain": "nightriderjewelry.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -28503,7 +28489,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.filters-now.com"
+    "domain": "filters-now.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -28517,7 +28503,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.evitamins.com"
+    "domain": "evitamins.com"
   },
   {
     "product_type": "Ecommerce",
@@ -28545,7 +28531,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.dailysteals.com"
+    "domain": "dailysteals.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -28573,7 +28559,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.outdoorfirehq.com"
+    "domain": "outdoorfirehq.com"
   },
   {
     "product_type": "Ecommerce",
@@ -28601,7 +28587,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.cariloha.com"
+    "domain": "cariloha.com"
   },
   {
     "product_type": "Ecommerce",
@@ -28615,7 +28601,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.citygrounds.com"
+    "domain": "citygrounds.com"
   },
   {
     "product_type": "Ecommerce",
@@ -28667,7 +28653,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "accessories",
     "categories": null,
-    "domain": "www.luxurybazaar.com"
+    "domain": "luxurybazaar.com"
   },
   {
     "product_type": "Ecommerce",
@@ -28681,7 +28667,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.goalzero.com"
+    "domain": "goalzero.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -28695,7 +28681,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.toolup.com"
+    "domain": "toolup.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -28707,7 +28693,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.toywiz.com"
+    "domain": "toywiz.com"
   },
   {
     "product_type": "Ecommerce",
@@ -28721,7 +28707,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.treadly.co"
+    "domain": "treadly.co"
   },
   {
     "product_type": "Ecommerce",
@@ -28735,7 +28721,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.watchmydiamonds.com"
+    "domain": "watchmydiamonds.com"
   },
   {
     "product_type": "Ecommerce",
@@ -28749,7 +28735,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.soundboks.com"
+    "domain": "soundboks.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -28763,7 +28749,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.gothamcityonline.com"
+    "domain": "gothamcityonline.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -28777,7 +28763,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.express.com"
+    "domain": "express.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -28791,7 +28777,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.patagonia.com"
+    "domain": "patagonia.com"
   },
   {
     "product_type": "Ecommerce",
@@ -28805,7 +28791,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.blindster.com"
+    "domain": "blindster.com"
   },
   {
     "product_type": "Ecommerce",
@@ -28819,7 +28805,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.hollyyashi.com"
+    "domain": "hollyyashi.com"
   },
   {
     "product_type": "Ecommerce",
@@ -28833,7 +28819,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.mantraband.com"
+    "domain": "mantraband.com"
   },
   {
     "product_type": "Ecommerce",
@@ -28845,7 +28831,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "jansello.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -28859,7 +28845,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.x-offroad.com"
+    "domain": "x-offroad.com"
   },
   {
     "product_type": "Ecommerce",
@@ -28871,7 +28857,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.sleepdata.com"
+    "domain": "sleepdata.com"
   },
   {
     "product_type": "Ecommerce",
@@ -28897,7 +28883,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.fearlesspaints.com"
+    "domain": "fearlesspaints.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -28906,7 +28892,7 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fwww.ulta.com%2F&merchant_ari=I35U75GPW5YO1ZZH",
     "icon_url": "http://cdn-assets.affirm.com/vcn_buy/v1/merchants/I35U75GPW5YO1ZZH/logo20191023/logo_offer.png",
     "ari": "I35U75GPW5YO1ZZH",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "beauty",
     "categories": [
       "beauty"
@@ -28937,7 +28923,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.wfliiidrums.com"
+    "domain": "wfliiidrums.com"
   },
   {
     "product_type": "Ecommerce",
@@ -28963,7 +28949,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.redfoxbaggers.com"
+    "domain": "redfoxbaggers.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -28989,7 +28975,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.dollargeneral.com"
+    "domain": "dollargeneral.com"
   },
   {
     "product_type": "Ecommerce",
@@ -29001,7 +28987,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.thedronecircuit.com"
+    "domain": "thedronecircuit.com"
   },
   {
     "product_type": "Ecommerce",
@@ -29013,7 +28999,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.comingsoonnewyork.com"
+    "domain": "comingsoonnewyork.com"
   },
   {
     "product_type": "Ecommerce",
@@ -29027,7 +29013,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.doheny.com"
+    "domain": "doheny.com"
   },
   {
     "product_type": "Ecommerce",
@@ -29041,7 +29027,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.ipdusa.com"
+    "domain": "ipdusa.com"
   },
   {
     "product_type": "Ecommerce",
@@ -29055,7 +29041,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.vestiairecollective.com"
+    "domain": "vestiairecollective.com"
   },
   {
     "product_type": "Ecommerce",
@@ -29069,7 +29055,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.giant-bicycles.com"
+    "domain": "giant-bicycles.com"
   },
   {
     "product_type": "Ecommerce",
@@ -29083,7 +29069,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.leesa.com"
+    "domain": "leesa.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -29097,7 +29083,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.knotstandard.com"
+    "domain": "knotstandard.com"
   },
   {
     "product_type": "Ecommerce",
@@ -29111,7 +29097,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.airmega.com"
+    "domain": "airmega.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -29123,7 +29109,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.zazzle.com"
+    "domain": "zazzle.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -29135,7 +29121,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.putmeinthestory.com"
+    "domain": "putmeinthestory.com"
   },
   {
     "product_type": "Ecommerce",
@@ -29149,7 +29135,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.raymond-weil.us"
+    "domain": "raymond-weil.us"
   },
   {
     "product_type": "Ecommerce",
@@ -29161,7 +29147,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.shapertools.com"
+    "domain": "shapertools.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -29175,7 +29161,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.gaiam.com"
+    "domain": "gaiam.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -29189,7 +29175,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.harrys.com"
+    "domain": "harrys.com"
   },
   {
     "product_type": "Ecommerce",
@@ -29203,7 +29189,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.voilabox.com"
+    "domain": "voilabox.com"
   },
   {
     "product_type": "Ecommerce",
@@ -29217,7 +29203,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.fabglassandmirror.com"
+    "domain": "fabglassandmirror.com"
   },
   {
     "product_type": "Ecommerce",
@@ -29231,7 +29217,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.peterglenn.com"
+    "domain": "peterglenn.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -29245,7 +29231,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "m"
+    "domain": "39dollarglasses.com"
   },
   {
     "product_type": "Ecommerce",
@@ -29259,7 +29245,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.inboardtechnology.com"
+    "domain": "inboardtechnology.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -29271,7 +29257,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.lukiegames.com"
+    "domain": "lukiegames.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -29283,7 +29269,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.munchery.com"
+    "domain": "munchery.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -29295,7 +29281,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.zabars.com"
+    "domain": "zabars.com"
   },
   {
     "product_type": "Ecommerce",
@@ -29307,7 +29293,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.podiumms.com"
+    "domain": "podiumms.com"
   },
   {
     "product_type": "Ecommerce",
@@ -29321,7 +29307,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.oneplus.net"
+    "domain": "oneplus.net"
   },
   {
     "product_type": "Ecommerce",
@@ -29335,7 +29321,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.activeautowerke.com"
+    "domain": "activeautowerke.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -29349,7 +29335,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.alliedelec.com"
+    "domain": "alliedelec.com"
   },
   {
     "product_type": "Ecommerce",
@@ -29375,7 +29361,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.tennis-warehouse.com"
+    "domain": "tennis-warehouse.com"
   },
   {
     "product_type": "Ecommerce",
@@ -29387,7 +29373,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "athenanewton.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -29429,7 +29415,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.usedphotopro.com"
+    "domain": "usedphotopro.com"
   },
   {
     "product_type": "Ecommerce",
@@ -29457,7 +29443,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.authenticity50.com"
+    "domain": "authenticity50.com"
   },
   {
     "product_type": "Ecommerce",
@@ -29507,7 +29493,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.kdcusa.com"
+    "domain": "kdcusa.com"
   },
   {
     "product_type": "Ecommerce",
@@ -29547,7 +29533,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.rippmods.com"
+    "domain": "rippmods.com"
   },
   {
     "product_type": "Ecommerce",
@@ -29585,7 +29571,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.patmcgrath.com"
+    "domain": "patmcgrath.com"
   },
   {
     "product_type": "Ecommerce",
@@ -29597,7 +29583,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.bakersgas.com"
+    "domain": "bakersgas.com"
   },
   {
     "product_type": "Ecommerce",
@@ -29609,7 +29595,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "auto",
     "categories": null,
-    "domain": "www.alligatorperformance.com"
+    "domain": "alligatorperformance.com"
   },
   {
     "product_type": "Ecommerce",
@@ -29632,12 +29618,12 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fwww.autozone.com%2F&merchant_ari=IH8W56I684ES15KB",
     "icon_url": "https://cdn-assets.affirm.com/vcn_buy/v1/merchants/IH8W56I684ES15KB/logo_20190711205009/logo.png",
     "ari": "IH8W56I684ES15KB",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "auto",
     "categories": [
       "auto"
     ],
-    "domain": "www.autozone.com"
+    "domain": "autozone.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -29651,7 +29637,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.4inkjets.com"
+    "domain": "4inkjets.com"
   },
   {
     "product_type": "Ecommerce",
@@ -29665,7 +29651,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.weisswatchcompany.com"
+    "domain": "weisswatchcompany.com"
   },
   {
     "product_type": "Ecommerce",
@@ -29691,7 +29677,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.quellrelief.com"
+    "domain": "quellrelief.com"
   },
   {
     "product_type": "Ecommerce",
@@ -29745,7 +29731,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.seejanework.com"
+    "domain": "seejanework.com"
   },
   {
     "product_type": "Ecommerce",
@@ -29757,7 +29743,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.dtgpro.com"
+    "domain": "dtgpro.com"
   },
   {
     "product_type": "Ecommerce",
@@ -29771,7 +29757,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.sleepongreen.com"
+    "domain": "sleepongreen.com"
   },
   {
     "product_type": "Ecommerce",
@@ -29785,7 +29771,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.gitmanvintage.com"
+    "domain": "gitmanvintage.com"
   },
   {
     "product_type": "Ecommerce",
@@ -29797,7 +29783,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.byteme.com"
+    "domain": "byteme.com"
   },
   {
     "product_type": "Ecommerce",
@@ -29851,7 +29837,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.phastekperformance.com"
+    "domain": "phastekperformance.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -29865,7 +29851,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.firefold.com"
+    "domain": "firefold.com"
   },
   {
     "product_type": "Ecommerce",
@@ -29877,7 +29863,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "raddiscountdresses.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -29905,7 +29891,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.shop.maxandfix.com"
+    "domain": "shop.maxandfix.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -29917,7 +29903,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.kingarthurflour.com"
+    "domain": "kingarthurflour.com"
   },
   {
     "product_type": "Ecommerce",
@@ -29931,7 +29917,7 @@ const merchantData = [
     "categories": [
       "shoes"
     ],
-    "domain": "www.sperry.com"
+    "domain": "sperry.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -29945,7 +29931,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.sunglasswarehouse.com"
+    "domain": "sunglasswarehouse.com"
   },
   {
     "product_type": "Ecommerce",
@@ -29957,7 +29943,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.vivasalotti.com"
+    "domain": "vivasalotti.com"
   },
   {
     "product_type": "Ecommerce",
@@ -29971,7 +29957,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.kendrascott.com"
+    "domain": "kendrascott.com"
   },
   {
     "product_type": "Ecommerce",
@@ -29983,7 +29969,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.fattebikes.com"
+    "domain": "fattebikes.com"
   },
   {
     "product_type": "Ecommerce",
@@ -30011,7 +29997,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.a1poolparts.com"
+    "domain": "a1poolparts.com"
   },
   {
     "product_type": "Ecommerce",
@@ -30025,7 +30011,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.strongmade.com"
+    "domain": "strongmade.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -30039,7 +30025,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.esteelauder.com"
+    "domain": "esteelauder.com"
   },
   {
     "product_type": "Ecommerce",
@@ -30053,7 +30039,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.wingalpha.com"
+    "domain": "wingalpha.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -30062,13 +30048,13 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fnflshop.k77v.net%2FM1OBq&merchant_ari=IPA751B7IPMU1BIP",
     "icon_url": "http://cdn-assets.affirm.com/vcn_buy/v1/merchants/IPA751B7IPMU1BIP/logo2019111307/logo_offer.png",
     "ari": "IPA751B7IPMU1BIP",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "fitness_and_gear",
     "categories": [
       "apparel",
       "fitness_and_gear"
     ],
-    "domain": "www.nflshop.com"
+    "domain": "nflshop.com"
   },
   {
     "product_type": "Ecommerce",
@@ -30082,7 +30068,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.boatid.com"
+    "domain": "boatid.com"
   },
   {
     "product_type": "Ecommerce",
@@ -30096,7 +30082,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.callawaygolf.com"
+    "domain": "callawaygolf.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -30108,7 +30094,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.orientaltrading.com"
+    "domain": "orientaltrading.com"
   },
   {
     "product_type": "Ecommerce",
@@ -30122,7 +30108,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.Www.kiesmotorsports.com"
+    "domain": "Www.kiesmotorsports.com"
   },
   {
     "product_type": "Ecommerce",
@@ -30134,7 +30120,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.xtremelashes.com/"
+    "domain": "xtremelashes.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -30174,7 +30160,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.3balls.com"
+    "domain": "3balls.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -30188,7 +30174,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.sleepnumber.com"
+    "domain": "sleepnumber.com"
   },
   {
     "product_type": "Ecommerce",
@@ -30202,7 +30188,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.seriousdetecting.com"
+    "domain": "seriousdetecting.com"
   },
   {
     "product_type": "Ecommerce",
@@ -30216,7 +30202,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.traxnyc.com"
+    "domain": "traxnyc.com"
   },
   {
     "product_type": "Ecommerce",
@@ -30228,7 +30214,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.moderntruck.com"
+    "domain": "moderntruck.com"
   },
   {
     "product_type": "Ecommerce",
@@ -30242,7 +30228,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.theladybag.com"
+    "domain": "theladybag.com"
   },
   {
     "product_type": "Ecommerce",
@@ -30254,7 +30240,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "electronics",
     "categories": null,
-    "domain": "www.thedjhookup.com"
+    "domain": "thedjhookup.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -30266,7 +30252,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.gulfcoastpetsupplies.com"
+    "domain": "gulfcoastpetsupplies.com"
   },
   {
     "product_type": "Ecommerce",
@@ -30294,7 +30280,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.acehardware.com"
+    "domain": "acehardware.com"
   },
   {
     "product_type": "Ecommerce",
@@ -30322,7 +30308,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.designtoscano.com"
+    "domain": "designtoscano.com"
   },
   {
     "product_type": "Ecommerce",
@@ -30336,7 +30322,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.stancecraftusa.com"
+    "domain": "stancecraftusa.com"
   },
   {
     "product_type": "Ecommerce",
@@ -30357,7 +30343,7 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fwww.jetblue.com&merchant_ari=IWMTEMVI7UTUGQ2Z",
     "icon_url": "https://cdn-assets.affirm.com/vcn_buy/v1/merchants/IWMTEMVI7UTUGQ2Z/logo_20190712105025/logo.png",
     "ari": "IWMTEMVI7UTUGQ2Z",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "travel_and_events",
     "categories": [
       "travel_and_events"
@@ -30376,7 +30362,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.ctshirts.com"
+    "domain": "ctshirts.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -30385,12 +30371,12 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Flenovo.7eer.net%2Fc%2F332008%2F218864%2F3808&merchant_ari=IXMLY90PYVGZIICZ",
     "icon_url": "https://cdn1.affirm.com/platform/public/promos/assets/IXMLY90PYVGZIICZ/logo/logo1x.png",
     "ari": "IXMLY90PYVGZIICZ",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "electronics",
     "categories": [
       "electronics"
     ],
-    "domain": "www.lenovo.com"
+    "domain": "lenovo.com"
   },
   {
     "product_type": "Ecommerce",
@@ -30404,7 +30390,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.weistec.com"
+    "domain": "weistec.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -30416,7 +30402,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.trainz.com"
+    "domain": "trainz.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -30430,7 +30416,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.heels.com"
+    "domain": "heels.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -30456,7 +30442,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.trollandtoad.com"
+    "domain": "trollandtoad.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -30468,7 +30454,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.myspicesage.com"
+    "domain": "myspicesage.com"
   },
   {
     "product_type": "Ecommerce",
@@ -30482,7 +30468,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "m"
+    "domain": "ecoflow.com"
   },
   {
     "product_type": "Ecommerce",
@@ -30496,7 +30482,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.reeds.com"
+    "domain": "reeds.com"
   },
   {
     "product_type": "Ecommerce",
@@ -30508,7 +30494,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "electronics",
     "categories": null,
-    "domain": "www.aperionaudio.com"
+    "domain": "aperionaudio.com"
   },
   {
     "product_type": "Ecommerce",
@@ -30522,7 +30508,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.streetstrider.com"
+    "domain": "streetstrider.com"
   },
   {
     "product_type": "Ecommerce",
@@ -30536,7 +30522,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.reecefurniture.com"
+    "domain": "reecefurniture.com"
   },
   {
     "product_type": "Ecommerce",
@@ -30550,7 +30536,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.firstbuild.com"
+    "domain": "firstbuild.com"
   },
   {
     "product_type": "Ecommerce",
@@ -30562,7 +30548,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.bigbarker.com"
+    "domain": "bigbarker.com"
   },
   {
     "product_type": "Ecommerce",
@@ -30576,7 +30562,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.cabinets.com"
+    "domain": "cabinets.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -30590,7 +30576,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.pfaltzgraff.com"
+    "domain": "pfaltzgraff.com"
   },
   {
     "product_type": "Ecommerce",
@@ -30613,7 +30599,7 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fclick.linksynergy.com%2Ffs-bin%2Fclick%3Fid%3DbFeuiaEZizw%26offerid%3D765415.1282%26type%3D3%26subid%3D0&merchant_ari=J264W8RCNUCNR741",
     "icon_url": "https://cdn-assets.affirm.com/vcn_buy/v1/merchants/J264W8RCNUCNR741/logo2020041750/logo1.png",
     "ari": "J264W8RCNUCNR741",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "apparel",
     "categories": [
       "apparel"
@@ -30641,13 +30627,13 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=http%3A%2F%2Fwww.anrdoezrs.net%2Fclick-8191141-13500394&merchant_ari=J38EN7ELHJKN93AY",
     "icon_url": "https://cdn-assets.affirm.com/vcn_buy/v1/merchants/J38EN7ELHJKN93AY/logo_20200121/logo.png",
     "ari": "J38EN7ELHJKN93AY",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "electronics",
     "categories": [
       "electronics",
       "home_and_furniture"
     ],
-    "domain": "www.bjs.com"
+    "domain": "bjs.com"
   },
   {
     "product_type": "Ecommerce",
@@ -30659,7 +30645,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.universalmusic.com"
+    "domain": "universalmusic.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -30671,7 +30657,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.swimoutlet.com"
+    "domain": "swimoutlet.com"
   },
   {
     "product_type": "Ecommerce",
@@ -30683,7 +30669,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.gatortuning.myshopify.com"
+    "domain": "gatortuning.myshopify.com"
   },
   {
     "product_type": "Ecommerce",
@@ -30697,7 +30683,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.Www.SamsonEbikes.com"
+    "domain": "Www.SamsonEbikes.com"
   },
   {
     "product_type": "Ecommerce",
@@ -30711,7 +30697,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.hiholden.com"
+    "domain": "hiholden.com"
   },
   {
     "product_type": "Ecommerce",
@@ -30725,7 +30711,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.lazboyoutdoor.com"
+    "domain": "lazboyoutdoor.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -30734,7 +30720,7 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fwww.ikea.com%2F&merchant_ari=J5JYJ8IDN9KS2RKU",
     "icon_url": "https://cdn1.affirm.com/platform/public/promos/assets/J5JYJ8IDN9KS2RKU/logo/logo1x.png",
     "ari": "J5JYJ8IDN9KS2RKU",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "home_and_furniture",
     "categories": [
       "home_and_furniture"
@@ -30751,7 +30737,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.61daysinchurch.com"
+    "domain": "61daysinchurch.com"
   },
   {
     "product_type": "Ecommerce",
@@ -30765,7 +30751,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.lmr.com"
+    "domain": "lmr.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -30779,7 +30765,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.aclens.com"
+    "domain": "aclens.com"
   },
   {
     "product_type": "Ecommerce",
@@ -30805,7 +30791,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.acousticvibesmusic.com"
+    "domain": "acousticvibesmusic.com"
   },
   {
     "product_type": "Ecommerce",
@@ -30819,7 +30805,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.karmaloop.com"
+    "domain": "karmaloop.com"
   },
   {
     "product_type": "Ecommerce",
@@ -30831,7 +30817,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.deathbeforestock.com"
+    "domain": "deathbeforestock.com"
   },
   {
     "product_type": "Ecommerce",
@@ -30843,7 +30829,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.buffaloboards.com"
+    "domain": "buffaloboards.com"
   },
   {
     "product_type": "Ecommerce",
@@ -30866,12 +30852,12 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fcanadagoose.com&merchant_ari=J8JZ1B9WA1MRK2FN",
     "icon_url": "https://cdn1.affirm.com/platform/public/promos/assets/J8JZ1B9WA1MRK2FN/logo/logo1x.png",
     "ari": "J8JZ1B9WA1MRK2FN",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "apparel",
     "categories": [
       "apparel"
     ],
-    "domain": "www.canadagoose.com"
+    "domain": "canadagoose.com"
   },
   {
     "product_type": "Ecommerce",
@@ -30883,7 +30869,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.delfastbikes.com"
+    "domain": "delfastbikes.com"
   },
   {
     "product_type": "Ecommerce",
@@ -30897,7 +30883,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.trijewels.com"
+    "domain": "trijewels.com"
   },
   {
     "product_type": "Ecommerce",
@@ -30911,7 +30897,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.nuwavebravo.com"
+    "domain": "nuwavebravo.com"
   },
   {
     "product_type": "Ecommerce",
@@ -30925,7 +30911,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.VintageDiamondRing.com"
+    "domain": "VintageDiamondRing.com"
   },
   {
     "product_type": "Ecommerce",
@@ -30951,7 +30937,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.golflandwarehouse.com"
+    "domain": "golflandwarehouse.com"
   },
   {
     "product_type": "Ecommerce",
@@ -30965,7 +30951,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.olivercabell.com"
+    "domain": "olivercabell.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -30977,7 +30963,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.store.schoolspecialty.com"
+    "domain": "store.schoolspecialty.com"
   },
   {
     "product_type": "Ecommerce",
@@ -31019,7 +31005,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.troverie.com"
+    "domain": "troverie.com"
   },
   {
     "product_type": "Ecommerce",
@@ -31031,7 +31017,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.thelabmine.com"
+    "domain": "thelabmine.com"
   },
   {
     "product_type": "Ecommerce",
@@ -31059,7 +31045,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.winterwomen.com"
+    "domain": "winterwomen.com"
   },
   {
     "product_type": "Ecommerce",
@@ -31083,7 +31069,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.prestigetime.com"
+    "domain": "prestigetime.com"
   },
   {
     "product_type": "Ecommerce",
@@ -31109,7 +31095,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.jjill.com"
+    "domain": "jjill.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -31123,7 +31109,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.shopthetv.com"
+    "domain": "shopthetv.com"
   },
   {
     "product_type": "Ecommerce",
@@ -31149,7 +31135,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "electronics",
     "categories": null,
-    "domain": "www.audeze.com"
+    "domain": "audeze.com"
   },
   {
     "product_type": "Ecommerce",
@@ -31161,7 +31147,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "electronics",
     "categories": null,
-    "domain": "www.Printrbot.com"
+    "domain": "Printrbot.com"
   },
   {
     "product_type": "Ecommerce",
@@ -31187,7 +31173,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.Nextlevelcarwraps.com"
+    "domain": "Nextlevelcarwraps.com"
   },
   {
     "product_type": "Ecommerce",
@@ -31215,7 +31201,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.topshop.com"
+    "domain": "topshop.com"
   },
   {
     "product_type": "Ecommerce",
@@ -31229,7 +31215,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.pelicanwater.com"
+    "domain": "pelicanwater.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -31243,7 +31229,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.ansgear.com"
+    "domain": "ansgear.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -31257,7 +31243,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.airsplat.com"
+    "domain": "airsplat.com"
   },
   {
     "product_type": "Ecommerce",
@@ -31281,7 +31267,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.eoneheavy.com"
+    "domain": "eoneheavy.com"
   },
   {
     "product_type": "Ecommerce",
@@ -31295,7 +31281,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.hautecarat.com"
+    "domain": "hautecarat.com"
   },
   {
     "product_type": "Ecommerce",
@@ -31321,7 +31307,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "apparel",
     "categories": null,
-    "domain": "www.cockpitusa.com"
+    "domain": "cockpitusa.com"
   },
   {
     "product_type": "Ecommerce",
@@ -31335,7 +31321,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.gotenna.com"
+    "domain": "gotenna.com"
   },
   {
     "product_type": "Ecommerce",
@@ -31361,7 +31347,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.meundies.com"
+    "domain": "meundies.com"
   },
   {
     "product_type": "Ecommerce",
@@ -31375,7 +31361,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.zoara.com"
+    "domain": "zoara.com"
   },
   {
     "product_type": "Ecommerce",
@@ -31415,7 +31401,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.thredup.com"
+    "domain": "thredup.com"
   },
   {
     "product_type": "Ecommerce",
@@ -31467,7 +31453,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.shop4patio.com"
+    "domain": "shop4patio.com"
   },
   {
     "product_type": "Ecommerce",
@@ -31493,7 +31479,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.officesupply.com"
+    "domain": "officesupply.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -31505,7 +31491,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.stage.com"
+    "domain": "stage.com"
   },
   {
     "product_type": "Ecommerce",
@@ -31531,7 +31517,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.simplifiedbuilding.com"
+    "domain": "simplifiedbuilding.com"
   },
   {
     "product_type": "Ecommerce",
@@ -31559,7 +31545,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.voipphoneoutlet.com"
+    "domain": "voipphoneoutlet.com"
   },
   {
     "product_type": "Ecommerce",
@@ -31599,7 +31585,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.baudville.com"
+    "domain": "baudville.com"
   },
   {
     "product_type": "Ecommerce",
@@ -31613,7 +31599,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.shop.wornandwound.com"
+    "domain": "shop.wornandwound.com"
   },
   {
     "product_type": "Ecommerce",
@@ -31625,7 +31611,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.horizondevices.com"
+    "domain": "horizondevices.com"
   },
   {
     "product_type": "Ecommerce",
@@ -31651,7 +31637,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.hoistfitness.com"
+    "domain": "hoistfitness.com"
   },
   {
     "product_type": "Ecommerce",
@@ -31665,7 +31651,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.Icey-Tek.com"
+    "domain": "Icey-Tek.com"
   },
   {
     "product_type": "Ecommerce",
@@ -31691,7 +31677,7 @@ const merchantData = [
     "zero_apr": true,
     "primary_category": "travel_and_events",
     "categories": null,
-    "domain": "www.kaplan.com"
+    "domain": "kaplan.com"
   },
   {
     "product_type": "Ecommerce",
@@ -31703,7 +31689,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.mbamission.com"
+    "domain": "mbamission.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -31715,7 +31701,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.vetdepot.com"
+    "domain": "vetdepot.com"
   },
   {
     "product_type": "Ecommerce",
@@ -31741,7 +31727,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.PolyPerformance.com"
+    "domain": "PolyPerformance.com"
   },
   {
     "product_type": "Ecommerce",
@@ -31755,7 +31741,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.exodusoutdoorgear.com"
+    "domain": "exodusoutdoorgear.com"
   },
   {
     "product_type": "Ecommerce",
@@ -31769,7 +31755,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.bavsoundclearance.com"
+    "domain": "bavsoundclearance.com"
   },
   {
     "product_type": "Ecommerce",
@@ -31783,7 +31769,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.bellamihair.com"
+    "domain": "bellamihair.com"
   },
   {
     "product_type": "Ecommerce",
@@ -31795,7 +31781,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "auto",
     "categories": null,
-    "domain": "www.makperformance.com"
+    "domain": "makperformance.com"
   },
   {
     "product_type": "Ecommerce",
@@ -31807,7 +31793,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "accessories",
     "categories": null,
-    "domain": "www.wwake.com"
+    "domain": "wwake.com"
   },
   {
     "product_type": "Ecommerce",
@@ -31821,7 +31807,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.shop.sportsbasement.com"
+    "domain": "shop.sportsbasement.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -31835,7 +31821,7 @@ const merchantData = [
     "categories": [
       "travel_and_events"
     ],
-    "domain": "www.gocity.com"
+    "domain": "gocity.com"
   },
   {
     "product_type": "Ecommerce",
@@ -31847,7 +31833,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "electronics",
     "categories": null,
-    "domain": "www.uprightpose.com"
+    "domain": "uprightpose.com"
   },
   {
     "product_type": "Ecommerce",
@@ -31883,7 +31869,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.tigerfitness.com"
+    "domain": "tigerfitness.com"
   },
   {
     "product_type": "Ecommerce",
@@ -31897,7 +31883,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.ting.com"
+    "domain": "ting.com"
   },
   {
     "product_type": "Ecommerce",
@@ -31911,7 +31897,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.bk-motorsport.com"
+    "domain": "bk-motorsport.com"
   },
   {
     "product_type": "Ecommerce",
@@ -31939,7 +31925,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.ifandco.com"
+    "domain": "ifandco.com"
   },
   {
     "product_type": "Ecommerce",
@@ -31951,7 +31937,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.meadowblu.com"
+    "domain": "meadowblu.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -31989,7 +31975,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.beadaholique.com"
+    "domain": "beadaholique.com"
   },
   {
     "product_type": "Ecommerce",
@@ -32003,7 +31989,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.iagperformance.com"
+    "domain": "iagperformance.com"
   },
   {
     "product_type": "Ecommerce",
@@ -32017,7 +32003,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.fastwrx.com"
+    "domain": "fastwrx.com"
   },
   {
     "product_type": "Ecommerce",
@@ -32031,7 +32017,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.topshelfgolf.com"
+    "domain": "topshelfgolf.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -32043,7 +32029,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.ameswalker.com"
+    "domain": "ameswalker.com"
   },
   {
     "product_type": "Ecommerce",
@@ -32057,7 +32043,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.SimplyModernMattress.com"
+    "domain": "SimplyModernMattress.com"
   },
   {
     "product_type": "Ecommerce",
@@ -32095,7 +32081,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.fswerks.com"
+    "domain": "fswerks.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -32107,7 +32093,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.americanmeadows.com"
+    "domain": "americanmeadows.com"
   },
   {
     "product_type": "Ecommerce",
@@ -32121,7 +32107,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.bidetking.com"
+    "domain": "bidetking.com"
   },
   {
     "product_type": "Ecommerce",
@@ -32133,7 +32119,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "fitness_and_gear",
     "categories": null,
-    "domain": "www.Hutchtents.com"
+    "domain": "Hutchtents.com"
   },
   {
     "product_type": "Ecommerce",
@@ -32159,7 +32145,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.Axiatime.com"
+    "domain": "Axiatime.com"
   },
   {
     "product_type": "Ecommerce",
@@ -32185,7 +32171,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.swatch.com"
+    "domain": "swatch.com"
   },
   {
     "product_type": "Ecommerce",
@@ -32213,7 +32199,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.acwholesalers.com"
+    "domain": "acwholesalers.com"
   },
   {
     "product_type": "Ecommerce",
@@ -32270,7 +32256,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "c"
+    "domain": "knickerbocker.nyc"
   },
   {
     "product_type": "Ecommerce",
@@ -32284,7 +32270,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.rcvperformance.com"
+    "domain": "rcvperformance.com"
   },
   {
     "product_type": "Ecommerce",
@@ -32314,7 +32300,7 @@ const merchantData = [
       "luxury",
       "shoes"
     ],
-    "domain": "www.goat.com"
+    "domain": "goat.com"
   },
   {
     "product_type": "Ecommerce",
@@ -32328,7 +32314,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.actionclutch.com"
+    "domain": "actionclutch.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -32337,12 +32323,12 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fgopro.com%2F&merchant_ari=K806OV18B17HAM78",
     "icon_url": "http://cdn-assets.affirm.com/vcn_buy/v1/merchants/6C7ZFWQKY7UFNCQJ/logo_20190416172634/logo.png",
     "ari": "K806OV18B17HAM78",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "electronics",
     "categories": [
       "electronics"
     ],
-    "domain": "www.shop.gopro.com"
+    "domain": "shop.gopro.com"
   },
   {
     "product_type": "Ecommerce",
@@ -32356,7 +32342,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.homelement.com"
+    "domain": "homelement.com"
   },
   {
     "product_type": "Ecommerce",
@@ -32370,7 +32356,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.modernblaze.com"
+    "domain": "modernblaze.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -32384,7 +32370,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.maxfurniture.com"
+    "domain": "maxfurniture.com"
   },
   {
     "product_type": "Ecommerce",
@@ -32410,7 +32396,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.prepsportswear.com"
+    "domain": "prepsportswear.com"
   },
   {
     "product_type": "Ecommerce",
@@ -32424,7 +32410,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.maxxedperformance.com"
+    "domain": "maxxedperformance.com"
   },
   {
     "product_type": "Ecommerce",
@@ -32438,7 +32424,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.autonomous.ai"
+    "domain": "autonomous.ai"
   },
   {
     "product_type": "Ecommerce",
@@ -32452,7 +32438,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.stockwiseauto.com"
+    "domain": "stockwiseauto.com"
   },
   {
     "product_type": "Ecommerce",
@@ -32466,7 +32452,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.getoco.com"
+    "domain": "getoco.com"
   },
   {
     "product_type": "Ecommerce",
@@ -32504,7 +32490,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.specialtytraders.com"
+    "domain": "specialtytraders.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -32518,7 +32504,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.reddressboutique.com"
+    "domain": "reddressboutique.com"
   },
   {
     "product_type": "Ecommerce",
@@ -32546,7 +32532,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.solidandstriped.com"
+    "domain": "solidandstriped.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -32560,7 +32546,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.bananarepublic.gap.com"
+    "domain": "bananarepublic.gap.com"
   },
   {
     "product_type": "Ecommerce",
@@ -32588,7 +32574,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.daniafurniture.com"
+    "domain": "daniafurniture.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -32600,7 +32586,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.homewetbar.com"
+    "domain": "homewetbar.com"
   },
   {
     "product_type": "Ecommerce",
@@ -32612,7 +32598,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "home_and_furniture",
     "categories": null,
-    "domain": "www.trnk-nyc.com"
+    "domain": "trnk-nyc.com"
   },
   {
     "product_type": "Ecommerce",
@@ -32640,7 +32626,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.vince.com"
+    "domain": "vince.com"
   },
   {
     "product_type": "Ecommerce",
@@ -32652,7 +32638,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.ecosleepsolutions.com"
+    "domain": "ecosleepsolutions.com"
   },
   {
     "product_type": "Ecommerce",
@@ -32664,7 +32650,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.treasurefinejewelers.com"
+    "domain": "treasurefinejewelers.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -32678,7 +32664,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.drillspot.com"
+    "domain": "drillspot.com"
   },
   {
     "product_type": "Ecommerce",
@@ -32730,7 +32716,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.amiclubwear.com"
+    "domain": "amiclubwear.com"
   },
   {
     "product_type": "Ecommerce",
@@ -32744,7 +32730,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.wheelwarehouseonline.com"
+    "domain": "wheelwarehouseonline.com"
   },
   {
     "product_type": "Ecommerce",
@@ -32758,7 +32744,7 @@ const merchantData = [
     "categories": [
       "travel_and_events"
     ],
-    "domain": "www.wildwestirishtours.com"
+    "domain": "wildwestirishtours.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -32801,7 +32787,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.chiefaircraft.com"
+    "domain": "chiefaircraft.com"
   },
   {
     "product_type": "Ecommerce",
@@ -32815,7 +32801,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.taylorandhart.com"
+    "domain": "taylorandhart.com"
   },
   {
     "product_type": "Ecommerce",
@@ -32843,7 +32829,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.2ndwindexercise.com"
+    "domain": "2ndwindexercise.com"
   },
   {
     "product_type": "Ecommerce",
@@ -32857,7 +32843,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.electricfireplacesplus.com"
+    "domain": "electricfireplacesplus.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -32871,7 +32857,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.fusionbeads.com"
+    "domain": "fusionbeads.com"
   },
   {
     "product_type": "Ecommerce",
@@ -32897,7 +32883,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.espressozen.myshopify.com"
+    "domain": "espressozen.myshopify.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -32911,7 +32897,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.queensboro.com"
+    "domain": "queensboro.com"
   },
   {
     "product_type": "Ecommerce",
@@ -32925,7 +32911,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.patrickta.com"
+    "domain": "patrickta.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -32934,7 +32920,7 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fclick.linksynergy.com%2Ffs-bin%2Fclick%3Fid%3DbFeuiaEZizw%26offerid%3D365991.10005827%26type%3D3%26subid%3D0&merchant_ari=KGYHY5KUZIA6C5ET",
     "icon_url": "https://cdn-assets.affirm.com/vcn_buy/v1/merchants/KGYHY5KUZIA6C5ET/logo20191107/logo_offer.png",
     "ari": "KGYHY5KUZIA6C5ET",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "accessories",
     "categories": [
       "accessories",
@@ -32968,7 +32954,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "auto",
     "categories": null,
-    "domain": "www.cpaddict.com"
+    "domain": "cpaddict.com"
   },
   {
     "product_type": "Ecommerce",
@@ -33009,7 +32995,7 @@ const merchantData = [
       "accessories",
       "luxury"
     ],
-    "domain": "www.yourwatch.com"
+    "domain": "yourwatch.com"
   },
   {
     "product_type": "Ecommerce",
@@ -33035,7 +33021,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.safeandsoundhq.com"
+    "domain": "safeandsoundhq.com"
   },
   {
     "product_type": "Ecommerce",
@@ -33049,7 +33035,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.theretrofitsource.com"
+    "domain": "theretrofitsource.com"
   },
   {
     "product_type": "Ecommerce",
@@ -33063,7 +33049,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.wishrockrelaxation.com"
+    "domain": "wishrockrelaxation.com"
   },
   {
     "product_type": "Ecommerce",
@@ -33089,7 +33075,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.joydivizn.com"
+    "domain": "joydivizn.com"
   },
   {
     "product_type": "Ecommerce",
@@ -33101,7 +33087,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.ebbsleep.com"
+    "domain": "ebbsleep.com"
   },
   {
     "product_type": "Ecommerce",
@@ -33129,7 +33115,7 @@ const merchantData = [
     "categories": [
       "travel_and_events"
     ],
-    "domain": "www.flyus.com"
+    "domain": "flyus.com"
   },
   {
     "product_type": "Ecommerce",
@@ -33155,7 +33141,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.niterider.com"
+    "domain": "niterider.com"
   },
   {
     "product_type": "Ecommerce",
@@ -33169,7 +33155,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.OPENSOURCEPC.com"
+    "domain": "OPENSOURCEPC.com"
   },
   {
     "product_type": "Ecommerce",
@@ -33195,7 +33181,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.usa.hermes.com"
+    "domain": "usa.hermes.com"
   },
   {
     "product_type": "Ecommerce",
@@ -33209,7 +33195,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.mene.com"
+    "domain": "mene.com"
   },
   {
     "product_type": "Ecommerce",
@@ -33223,7 +33209,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.braumracing.com"
+    "domain": "braumracing.com"
   },
   {
     "product_type": "Ecommerce",
@@ -33237,7 +33223,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.manfredijewels.com"
+    "domain": "manfredijewels.com"
   },
   {
     "product_type": "Ecommerce",
@@ -33251,7 +33237,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.outdoorplay.com"
+    "domain": "outdoorplay.com"
   },
   {
     "product_type": "Ecommerce",
@@ -33263,7 +33249,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "thelifestyledcoshop.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -33301,7 +33287,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.firemountaingems.com"
+    "domain": "firemountaingems.com"
   },
   {
     "product_type": "Ecommerce",
@@ -33315,7 +33301,7 @@ const merchantData = [
     "categories": [
       "shoes"
     ],
-    "domain": "www.hytest.com"
+    "domain": "hytest.com"
   },
   {
     "product_type": "Ecommerce",
@@ -33329,7 +33315,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.matuse.com"
+    "domain": "matuse.com"
   },
   {
     "product_type": "Ecommerce",
@@ -33343,7 +33329,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.moderncitizen.com"
+    "domain": "moderncitizen.com"
   },
   {
     "product_type": "Ecommerce",
@@ -33357,7 +33343,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.atterstone.com"
+    "domain": "atterstone.com"
   },
   {
     "product_type": "Ecommerce",
@@ -33369,7 +33355,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.jrbrotherswatchandjewelry.com"
+    "domain": "jrbrotherswatchandjewelry.com"
   },
   {
     "product_type": "Ecommerce",
@@ -33381,7 +33367,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "apparel",
     "categories": null,
-    "domain": "www.senestudio.com"
+    "domain": "senestudio.com"
   },
   {
     "product_type": "Ecommerce",
@@ -33409,7 +33395,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.garage-organization.com"
+    "domain": "garage-organization.com"
   },
   {
     "product_type": "Ecommerce",
@@ -33435,7 +33421,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.ourwirelessstore.com"
+    "domain": "ourwirelessstore.com"
   },
   {
     "product_type": "Ecommerce",
@@ -33449,7 +33435,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.radpowerbikes.com"
+    "domain": "radpowerbikes.com"
   },
   {
     "product_type": "Ecommerce",
@@ -33463,7 +33449,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.everythingcarts.com"
+    "domain": "everythingcarts.com"
   },
   {
     "product_type": "Ecommerce",
@@ -33477,7 +33463,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.cjcoffroad.com"
+    "domain": "cjcoffroad.com"
   },
   {
     "product_type": "Ecommerce",
@@ -33491,7 +33477,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.astarswomens.com"
+    "domain": "astarswomens.com"
   },
   {
     "product_type": "Ecommerce",
@@ -33505,7 +33491,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.onlinecarstereo.com"
+    "domain": "onlinecarstereo.com"
   },
   {
     "product_type": "Ecommerce",
@@ -33519,7 +33505,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.performanceplustire.com"
+    "domain": "performanceplustire.com"
   },
   {
     "product_type": "Ecommerce",
@@ -33531,7 +33517,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.stringworks.com"
+    "domain": "stringworks.com"
   },
   {
     "product_type": "Ecommerce",
@@ -33559,7 +33545,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.petcube.com"
+    "domain": "petcube.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -33573,7 +33559,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.shopnastygal.com"
+    "domain": "shopnastygal.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -33587,7 +33573,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.everlane.com"
+    "domain": "everlane.com"
   },
   {
     "product_type": "Ecommerce",
@@ -33601,7 +33587,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.movebumpers.com"
+    "domain": "movebumpers.com"
   },
   {
     "product_type": "Ecommerce",
@@ -33627,7 +33613,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "m"
+    "domain": "shopatsoho.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -33639,7 +33625,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.emazinglights.com"
+    "domain": "emazinglights.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -33653,7 +33639,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.invitationconsultants.com"
+    "domain": "invitationconsultants.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -33667,7 +33653,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.80stees.com"
+    "domain": "80stees.com"
   },
   {
     "product_type": "Ecommerce",
@@ -33681,7 +33667,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.statusracing.com"
+    "domain": "statusracing.com"
   },
   {
     "product_type": "Ecommerce",
@@ -33695,7 +33681,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.mdhposhinteriorshomestore.com"
+    "domain": "mdhposhinteriorshomestore.com"
   },
   {
     "product_type": "Ecommerce",
@@ -33707,7 +33693,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "grodex.co/"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -33719,7 +33705,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.signaturehardware.com"
+    "domain": "signaturehardware.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -33749,7 +33735,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.getrxd.com"
+    "domain": "getrxd.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -33758,7 +33744,7 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fwww.dpbolvw.net%2Fclick-100011847-14407403&merchant_ari=KYF71QAN56RDH4H4",
     "icon_url": "https://cdn-assets.affirm.com/vcn_buy/v1/merchants/3PU1GBPH5PM3A9QK/logo/logo.png",
     "ari": "KYF71QAN56RDH4H4",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "travel_and_events",
     "categories": [
       "travel_and_events"
@@ -33777,7 +33763,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.mysmartbeat.com"
+    "domain": "mysmartbeat.com"
   },
   {
     "product_type": "Ecommerce",
@@ -33789,7 +33775,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "home_and_furniture",
     "categories": null,
-    "domain": "www.SVAGO.COM"
+    "domain": "SVAGO.COM"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -33815,7 +33801,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.nytimes.com"
+    "domain": "nytimes.com"
   },
   {
     "product_type": "Ecommerce",
@@ -33843,7 +33829,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.crystalquest.com"
+    "domain": "crystalquest.com"
   },
   {
     "product_type": "Ecommerce",
@@ -33883,7 +33869,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.seasucker.com"
+    "domain": "seasucker.com"
   },
   {
     "product_type": "Ecommerce",
@@ -33895,7 +33881,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.wildwoodguitars.com"
+    "domain": "wildwoodguitars.com"
   },
   {
     "product_type": "Ecommerce",
@@ -33909,7 +33895,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.upr.com"
+    "domain": "upr.com"
   },
   {
     "product_type": "Ecommerce",
@@ -33923,7 +33909,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.blueoakoutdoor.com"
+    "domain": "blueoakoutdoor.com"
   },
   {
     "product_type": "Ecommerce",
@@ -33937,7 +33923,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.agpturbo.com"
+    "domain": "agpturbo.com"
   },
   {
     "product_type": "Ecommerce",
@@ -33965,7 +33951,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.wellbots.com"
+    "domain": "wellbots.com"
   },
   {
     "product_type": "Ecommerce",
@@ -33991,7 +33977,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.momastore.org"
+    "domain": "momastore.org"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -34005,7 +33991,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.equipatron.com"
+    "domain": "equipatron.com"
   },
   {
     "product_type": "Ecommerce",
@@ -34019,7 +34005,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.justcoffeetech.com"
+    "domain": "justcoffeetech.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -34047,7 +34033,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.bikesomewhere.com"
+    "domain": "bikesomewhere.com"
   },
   {
     "product_type": "Ecommerce",
@@ -34061,7 +34047,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.stonebrookjewelry.com"
+    "domain": "stonebrookjewelry.com"
   },
   {
     "product_type": "Ecommerce",
@@ -34076,7 +34062,7 @@ const merchantData = [
       "accessories",
       "luxury"
     ],
-    "domain": "www.truefacet.com"
+    "domain": "truefacet.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -34090,7 +34076,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.shoecarnival.com"
+    "domain": "shoecarnival.com"
   },
   {
     "product_type": "Ecommerce",
@@ -34104,7 +34090,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.anarchydiesel.com"
+    "domain": "anarchydiesel.com"
   },
   {
     "product_type": "Ecommerce",
@@ -34130,7 +34116,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.aolanihawaii.com"
+    "domain": "aolanihawaii.com"
   },
   {
     "product_type": "Ecommerce",
@@ -34144,7 +34130,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.forcedperformance.net"
+    "domain": "forcedperformance.net"
   },
   {
     "product_type": "Ecommerce",
@@ -34156,7 +34142,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "overstockbags.com/"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -34170,7 +34156,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.ibuyofficesupply.com"
+    "domain": "ibuyofficesupply.com"
   },
   {
     "product_type": "Ecommerce",
@@ -34182,7 +34168,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.mygreenoutdoors.com"
+    "domain": "mygreenoutdoors.com"
   },
   {
     "product_type": "Ecommerce",
@@ -34196,7 +34182,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.populo.com"
+    "domain": "populo.com"
   },
   {
     "product_type": "Ecommerce",
@@ -34210,7 +34196,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.HairFactory.com"
+    "domain": "HairFactory.com"
   },
   {
     "product_type": "Ecommerce",
@@ -34236,7 +34222,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.mom365.com"
+    "domain": "mom365.com"
   },
   {
     "product_type": "Ecommerce",
@@ -34275,7 +34261,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.huckberry.com"
+    "domain": "huckberry.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -34289,7 +34275,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.billiards.com"
+    "domain": "billiards.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -34303,7 +34289,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.cleanfreak.com"
+    "domain": "cleanfreak.com"
   },
   {
     "product_type": "Ecommerce",
@@ -34331,7 +34317,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.bbopokertables.com"
+    "domain": "bbopokertables.com"
   },
   {
     "product_type": "Ecommerce",
@@ -34345,7 +34331,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.shahlakarimi.com"
+    "domain": "shahlakarimi.com"
   },
   {
     "product_type": "Ecommerce",
@@ -34363,6 +34349,21 @@ const merchantData = [
   },
   {
     "product_type": "Ecommerce",
+    "image_url": "https://cdn1.affirm.com/platform/public/promos/assets/6P1KKSYG9QM0G9G2/hero2020102223/hero1.png",
+    "name": "DICK'S Sporting Goods",
+    "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fwww.dickssportinggoods.com&merchant_ari=LF393WHRIM5JEHEK",
+    "icon_url": "https://cdn1.affirm.com/platform/public/promos/assets/9X1OH1SO4556PD6L/logo/logo1x.png",
+    "ari": "LF393WHRIM5JEHEK",
+    "zero_apr": false,
+    "primary_category": null,
+    "categories": [
+      "apparel",
+      "fitness_and_gear"
+    ],
+    "domain": "www.dickssportinggoods.com"
+  },
+  {
+    "product_type": "Ecommerce",
     "image_url": "https://cdn1.affirm.com/platform/public/promos/assets/LFE71UCCPPSHCWFU/hero/hero2x.png",
     "name": "Pier Protector",
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fpierprotector.com&merchant_ari=LFE71UCCPPSHCWFU",
@@ -34373,7 +34374,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.pierprotector.com"
+    "domain": "pierprotector.com"
   },
   {
     "product_type": "Ecommerce",
@@ -34385,7 +34386,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "m"
+    "domain": "zoomelectricbikes.com"
   },
   {
     "product_type": "Ecommerce",
@@ -34411,7 +34412,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.tires-easy.com"
+    "domain": "tires-easy.com"
   },
   {
     "product_type": "Ecommerce",
@@ -34425,7 +34426,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.wallbarzus.com"
+    "domain": "wallbarzus.com"
   },
   {
     "product_type": "Ecommerce",
@@ -34442,7 +34443,7 @@ const merchantData = [
       "fitness_and_gear",
       "shoes"
     ],
-    "domain": "www.reebok.com"
+    "domain": "reebok.com"
   },
   {
     "product_type": "Ecommerce",
@@ -34468,7 +34469,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.historicalemporium.com"
+    "domain": "historicalemporium.com"
   },
   {
     "product_type": "Ecommerce",
@@ -34482,7 +34483,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.discountramps.com"
+    "domain": "discountramps.com"
   },
   {
     "product_type": "Ecommerce",
@@ -34494,7 +34495,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.otofonix.com"
+    "domain": "otofonix.com"
   },
   {
     "product_type": "Ecommerce",
@@ -34506,7 +34507,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "zero28customs.com/"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -34518,7 +34519,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.albeebaby.com"
+    "domain": "albeebaby.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -34532,7 +34533,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.shoezoo.com"
+    "domain": "shoezoo.com"
   },
   {
     "product_type": "Ecommerce",
@@ -34544,7 +34545,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "fitness_and_gear",
     "categories": null,
-    "domain": "www.blueseventy.com"
+    "domain": "blueseventy.com"
   },
   {
     "product_type": "Ecommerce",
@@ -34558,7 +34559,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.awtjeeps.com"
+    "domain": "awtjeeps.com"
   },
   {
     "product_type": "Ecommerce",
@@ -34584,7 +34585,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "dreamcontroller.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -34599,7 +34600,7 @@ const merchantData = [
       "accessories",
       "home_and_furniture"
     ],
-    "domain": "www.kardiel.com"
+    "domain": "kardiel.com"
   },
   {
     "product_type": "Ecommerce",
@@ -34613,7 +34614,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.davidsw.com"
+    "domain": "davidsw.com"
   },
   {
     "product_type": "Ecommerce",
@@ -34627,7 +34628,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.phyn.com"
+    "domain": "phyn.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -34655,7 +34656,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.hobobags.com"
+    "domain": "hobobags.com"
   },
   {
     "product_type": "Ecommerce",
@@ -34667,7 +34668,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "clutchmodern.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -34681,7 +34682,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.signalsnowboards.com"
+    "domain": "signalsnowboards.com"
   },
   {
     "product_type": "Ecommerce",
@@ -34695,7 +34696,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.americanmuscle.com"
+    "domain": "americanmuscle.com"
   },
   {
     "product_type": "Ecommerce",
@@ -34709,7 +34710,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.ocelotmarket.com"
+    "domain": "ocelotmarket.com"
   },
   {
     "product_type": "Ecommerce",
@@ -34735,7 +34736,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.byltbasics.com"
+    "domain": "byltbasics.com"
   },
   {
     "product_type": "Ecommerce",
@@ -34747,7 +34748,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "travel_and_events",
     "categories": null,
-    "domain": "www.wearebamboo.com"
+    "domain": "wearebamboo.com"
   },
   {
     "product_type": "Ecommerce",
@@ -34759,7 +34760,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.sky-tours.com"
+    "domain": "sky-tours.com"
   },
   {
     "product_type": "Ecommerce",
@@ -34771,7 +34772,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.ideafit.com"
+    "domain": "ideafit.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -34785,7 +34786,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.amsan.com"
+    "domain": "amsan.com"
   },
   {
     "product_type": "Ecommerce",
@@ -34813,7 +34814,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.snakeeyessociety.com"
+    "domain": "snakeeyessociety.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -34825,7 +34826,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.bigdotofhappiness.com"
+    "domain": "bigdotofhappiness.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -34837,7 +34838,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.ourpamperedhome.com"
+    "domain": "ourpamperedhome.com"
   },
   {
     "product_type": "Ecommerce",
@@ -34851,7 +34852,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.museummonochrome.com"
+    "domain": "museummonochrome.com"
   },
   {
     "product_type": "Ecommerce",
@@ -34865,7 +34866,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "m"
+    "domain": "climbsociety.com"
   },
   {
     "product_type": "Ecommerce",
@@ -34889,7 +34890,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.candywarehouse.com"
+    "domain": "candywarehouse.com"
   },
   {
     "product_type": "Ecommerce",
@@ -34927,7 +34928,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "electronics",
     "categories": null,
-    "domain": "www.dslrpros.com"
+    "domain": "dslrpros.com"
   },
   {
     "product_type": "Ecommerce",
@@ -34953,7 +34954,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "m"
+    "domain": "exquisitecanes.com"
   },
   {
     "product_type": "Ecommerce",
@@ -34993,7 +34994,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "us.olliella.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -35021,7 +35022,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.projectrepat.com"
+    "domain": "projectrepat.com"
   },
   {
     "product_type": "Ecommerce",
@@ -35035,7 +35036,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.lockedoffroad.com"
+    "domain": "lockedoffroad.com"
   },
   {
     "product_type": "Ecommerce",
@@ -35049,7 +35050,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.acwholesalers.com"
+    "domain": "acwholesalers.com"
   },
   {
     "product_type": "Ecommerce",
@@ -35077,7 +35078,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.duncanquinn.com"
+    "domain": "duncanquinn.com"
   },
   {
     "product_type": "Ecommerce",
@@ -35129,7 +35130,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.omata.com"
+    "domain": "omata.com"
   },
   {
     "product_type": "Ecommerce",
@@ -35169,7 +35170,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.probikesupply.com"
+    "domain": "probikesupply.com"
   },
   {
     "product_type": "Ecommerce",
@@ -35183,7 +35184,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.touthetop.com"
+    "domain": "touthetop.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -35197,7 +35198,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.burtsbees.com"
+    "domain": "burtsbees.com"
   },
   {
     "product_type": "Ecommerce",
@@ -35221,7 +35222,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "m"
+    "domain": "leasingreality.com"
   },
   {
     "product_type": "Ecommerce",
@@ -35244,12 +35245,12 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fpurple.com%2F%3Futm_source%3Daffirm%26utm_medium%3Dreferral%26utm_campaign%3Doffers&merchant_ari=LWGKASO1U9UXFLAJ",
     "icon_url": "https://cdn-assets.affirm.com/vcn_buy/v1/merchants/QF7LIN5K1GW9BQ1B/logo/logo.png",
     "ari": "LWGKASO1U9UXFLAJ",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "home_and_furniture",
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.purple.com"
+    "domain": "purple.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -35261,7 +35262,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.ipsy.com"
+    "domain": "ipsy.com"
   },
   {
     "product_type": "Ecommerce",
@@ -35297,7 +35298,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.beau-coup.com"
+    "domain": "beau-coup.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -35311,7 +35312,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.oreillyauto.com"
+    "domain": "oreillyauto.com"
   },
   {
     "product_type": "Ecommerce",
@@ -35365,7 +35366,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.shop.northamericamobile.com"
+    "domain": "shop.northamericamobile.com"
   },
   {
     "product_type": "Ecommerce",
@@ -35389,7 +35390,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.russomusic.com"
+    "domain": "russomusic.com"
   },
   {
     "product_type": "Ecommerce",
@@ -35417,7 +35418,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.everythingkitchens.com"
+    "domain": "everythingkitchens.com"
   },
   {
     "product_type": "Ecommerce",
@@ -35431,7 +35432,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.theceramicshop.com"
+    "domain": "theceramicshop.com"
   },
   {
     "product_type": "Ecommerce",
@@ -35445,7 +35446,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.saatchiart.com"
+    "domain": "saatchiart.com"
   },
   {
     "product_type": "Ecommerce",
@@ -35459,7 +35460,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.alternativeoffroad.com"
+    "domain": "alternativeoffroad.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -35473,7 +35474,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.teacollection.com"
+    "domain": "teacollection.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -35487,7 +35488,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.kingdom.com"
+    "domain": "kingdom.com"
   },
   {
     "product_type": "Ecommerce",
@@ -35501,7 +35502,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.anatomie.com"
+    "domain": "anatomie.com"
   },
   {
     "product_type": "Ecommerce",
@@ -35513,7 +35514,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.sprylyfe.com"
+    "domain": "sprylyfe.com"
   },
   {
     "product_type": "Ecommerce",
@@ -35540,7 +35541,7 @@ const merchantData = [
       "accessories",
       "apparel"
     ],
-    "domain": "www.chiccousa.com"
+    "domain": "chiccousa.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -35552,7 +35553,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.musicnotes.com"
+    "domain": "musicnotes.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -35566,7 +35567,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.shavemob.com"
+    "domain": "shavemob.com"
   },
   {
     "product_type": "Ecommerce",
@@ -35594,7 +35595,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.usdieselparts.com"
+    "domain": "usdieselparts.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -35606,7 +35607,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.gamefly.com"
+    "domain": "gamefly.com"
   },
   {
     "product_type": "Ecommerce",
@@ -35618,7 +35619,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "m"
+    "domain": "corima-usa.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -35632,7 +35633,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.lovelyskin.com"
+    "domain": "lovelyskin.com"
   },
   {
     "product_type": "Ecommerce",
@@ -35660,7 +35661,7 @@ const merchantData = [
       "apparel",
       "luxury"
     ],
-    "domain": "www.oscardelarenta.com"
+    "domain": "oscardelarenta.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -35672,7 +35673,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.bkstr.com"
+    "domain": "bkstr.com"
   },
   {
     "product_type": "Ecommerce",
@@ -35686,7 +35687,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.peternappi.com"
+    "domain": "peternappi.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -35700,7 +35701,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.mileskimball.com"
+    "domain": "mileskimball.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -35740,7 +35741,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.runragnar.com"
+    "domain": "runragnar.com"
   },
   {
     "product_type": "Ecommerce",
@@ -35754,7 +35755,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.xrdiesel.com"
+    "domain": "xrdiesel.com"
   },
   {
     "product_type": "Ecommerce",
@@ -35768,7 +35769,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.litlightz.com"
+    "domain": "litlightz.com"
   },
   {
     "product_type": "Ecommerce",
@@ -35782,7 +35783,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.unique-vintage.com"
+    "domain": "unique-vintage.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -35796,7 +35797,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.verabradley.com"
+    "domain": "verabradley.com"
   },
   {
     "product_type": "Ecommerce",
@@ -35810,7 +35811,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.backwoodsadventuremods.com"
+    "domain": "backwoodsadventuremods.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -35824,7 +35825,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.crocs.com"
+    "domain": "crocs.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -35838,7 +35839,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.modells.com"
+    "domain": "modells.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -35850,7 +35851,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.kontrolfreek.com"
+    "domain": "kontrolfreek.com"
   },
   {
     "product_type": "Ecommerce",
@@ -35864,7 +35865,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.farm.bot"
+    "domain": "farm.bot"
   },
   {
     "product_type": "Ecommerce",
@@ -35878,7 +35879,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.ondemand.gillette.com"
+    "domain": "ondemand.gillette.com"
   },
   {
     "product_type": "Ecommerce",
@@ -35892,7 +35893,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.lenscrafters.com"
+    "domain": "lenscrafters.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -35904,7 +35905,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.calendars.com"
+    "domain": "calendars.com"
   },
   {
     "product_type": "Ecommerce",
@@ -35918,7 +35919,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.apollo-optics.com"
+    "domain": "apollo-optics.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -35932,7 +35933,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.onlinesports.com"
+    "domain": "onlinesports.com"
   },
   {
     "product_type": "Ecommerce",
@@ -35946,7 +35947,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.shadowhunterblinds.com"
+    "domain": "shadowhunterblinds.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -35955,7 +35956,7 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fwww.rei.com%2F&merchant_ari=MC99ISSGAQBENUO7",
     "icon_url": "https://cdn1.affirm.com/platform/public/promos/assets/MC99ISSGAQBENUO7/logo/logo1x.png",
     "ari": "MC99ISSGAQBENUO7",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "fitness_and_gear",
     "categories": [
       "fitness_and_gear"
@@ -35972,7 +35973,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.avmaxx.com"
+    "domain": "avmaxx.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -35984,7 +35985,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.halegroves.com"
+    "domain": "halegroves.com"
   },
   {
     "product_type": "Ecommerce",
@@ -35998,7 +35999,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.italic.com"
+    "domain": "italic.com"
   },
   {
     "product_type": "Ecommerce",
@@ -36012,7 +36013,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.pedegoelectricbikes.com"
+    "domain": "pedegoelectricbikes.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -36026,7 +36027,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.dsw.com"
+    "domain": "dsw.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -36040,7 +36041,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.gymboree.com"
+    "domain": "gymboree.com"
   },
   {
     "product_type": "Ecommerce",
@@ -36083,7 +36084,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.ft86speedfactory.com"
+    "domain": "ft86speedfactory.com"
   },
   {
     "product_type": "Ecommerce",
@@ -36109,7 +36110,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.eastforkpottery.com"
+    "domain": "eastforkpottery.com"
   },
   {
     "product_type": "Ecommerce",
@@ -36123,7 +36124,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.tacotunes.com"
+    "domain": "tacotunes.com"
   },
   {
     "product_type": "Ecommerce",
@@ -36147,7 +36148,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "m"
+    "domain": "redfora.com"
   },
   {
     "product_type": "Ecommerce",
@@ -36161,7 +36162,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.Abbyson.com"
+    "domain": "Abbyson.com"
   },
   {
     "product_type": "Ecommerce",
@@ -36175,13 +36176,13 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.vintageking.com"
+    "domain": "vintageking.com"
   },
   {
     "product_type": "Ecommerce",
     "image_url": "https://cdn1.affirm.com/platform/public/promos/assets/MJU7RJ29QM6UG3CV/hero/hero2x.png",
     "name": "Revzilla Motorsports, LLC",
-    "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fwww.revzilla.com%2F&merchant_ari=MJU7RJ29QM6UG3CV",
+    "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fimp.i104546.net%2FnDMb7&merchant_ari=MJU7RJ29QM6UG3CV",
     "icon_url": "https://cdn-assets.affirm.com/vcn_buy/v1/merchants/MJU7RJ29QM6UG3CV/logo/logo.png",
     "ari": "MJU7RJ29QM6UG3CV",
     "zero_apr": false,
@@ -36189,7 +36190,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.revzilla.com"
+    "domain": "revzilla.com"
   },
   {
     "product_type": "Ecommerce",
@@ -36204,7 +36205,7 @@ const merchantData = [
       "apparel",
       "luxury"
     ],
-    "domain": "www.r13denim.com"
+    "domain": "r13denim.com"
   },
   {
     "product_type": "Ecommerce",
@@ -36219,7 +36220,7 @@ const merchantData = [
       "accessories",
       "electronics"
     ],
-    "domain": "m"
+    "domain": "thetalkstar.com"
   },
   {
     "product_type": "Ecommerce",
@@ -36233,7 +36234,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.gofsr.com"
+    "domain": "gofsr.com"
   },
   {
     "product_type": "Ecommerce",
@@ -36247,7 +36248,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.shop.dynokids.com"
+    "domain": "shop.dynokids.com"
   },
   {
     "product_type": "Ecommerce",
@@ -36261,7 +36262,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.brondell.com"
+    "domain": "brondell.com"
   },
   {
     "product_type": "Ecommerce",
@@ -36275,7 +36276,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.lamarzoccousa.com"
+    "domain": "lamarzoccousa.com"
   },
   {
     "product_type": "Ecommerce",
@@ -36289,7 +36290,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.shop.jsnoor.com"
+    "domain": "shop.jsnoor.com"
   },
   {
     "product_type": "Ecommerce",
@@ -36315,7 +36316,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "m"
+    "domain": "casper.com"
   },
   {
     "product_type": "Ecommerce",
@@ -36341,7 +36342,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "m"
+    "domain": "leanaswim.com"
   },
   {
     "product_type": "Ecommerce",
@@ -36369,7 +36370,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.anuevajewelry.com"
+    "domain": "anuevajewelry.com"
   },
   {
     "product_type": "Ecommerce",
@@ -36383,7 +36384,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.amuze.com"
+    "domain": "amuze.com"
   },
   {
     "product_type": "Ecommerce",
@@ -36398,7 +36399,7 @@ const merchantData = [
       "accessories",
       "luxury"
     ],
-    "domain": "www.doamore.com"
+    "domain": "doamore.com"
   },
   {
     "product_type": "Ecommerce",
@@ -36412,7 +36413,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.kombustionmotorsports.com"
+    "domain": "kombustionmotorsports.com"
   },
   {
     "product_type": "Ecommerce",
@@ -36424,7 +36425,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.thebicycleguys.com"
+    "domain": "thebicycleguys.com"
   },
   {
     "product_type": "Ecommerce",
@@ -36436,7 +36437,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "pairess.com/"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -36450,7 +36451,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.monoprice.com"
+    "domain": "monoprice.com"
   },
   {
     "product_type": "Ecommerce",
@@ -36464,7 +36465,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.rokkor.com"
+    "domain": "rokkor.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -36478,7 +36479,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.blingjewelry.com"
+    "domain": "blingjewelry.com"
   },
   {
     "product_type": "Ecommerce",
@@ -36516,7 +36517,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.liveouter.com"
+    "domain": "liveouter.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -36531,7 +36532,7 @@ const merchantData = [
       "apparel",
       "accessories"
     ],
-    "domain": "www.usa.tommy.com"
+    "domain": "usa.tommy.com"
   },
   {
     "product_type": "Ecommerce",
@@ -36557,7 +36558,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.bikebling.com"
+    "domain": "bikebling.com"
   },
   {
     "product_type": "Ecommerce",
@@ -36581,7 +36582,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "m"
+    "domain": "titancasket.com"
   },
   {
     "product_type": "Ecommerce",
@@ -36595,7 +36596,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.enve.com"
+    "domain": "enve.com"
   },
   {
     "product_type": "Ecommerce",
@@ -36609,7 +36610,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.rousehome.com"
+    "domain": "rousehome.com"
   },
   {
     "product_type": "Ecommerce",
@@ -36623,7 +36624,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.slingmods.com"
+    "domain": "slingmods.com"
   },
   {
     "product_type": "Ecommerce",
@@ -36651,7 +36652,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.jhannahjewelry.com"
+    "domain": "jhannahjewelry.com"
   },
   {
     "product_type": "Ecommerce",
@@ -36691,7 +36692,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.hickies.com"
+    "domain": "hickies.com"
   },
   {
     "product_type": "Ecommerce",
@@ -36719,7 +36720,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.lyndallbrakes.com"
+    "domain": "lyndallbrakes.com"
   },
   {
     "product_type": "Ecommerce",
@@ -36759,7 +36760,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.duramaxtuner.com"
+    "domain": "duramaxtuner.com"
   },
   {
     "product_type": "Ecommerce",
@@ -36771,7 +36772,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.thefretwire.com"
+    "domain": "thefretwire.com"
   },
   {
     "product_type": "Ecommerce",
@@ -36785,7 +36786,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.vibekayaks.com"
+    "domain": "vibekayaks.com"
   },
   {
     "product_type": "Ecommerce",
@@ -36813,7 +36814,7 @@ const merchantData = [
     "categories": [
       "luxury"
     ],
-    "domain": "m"
+    "domain": "lisarobinjewelry.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -36855,7 +36856,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.us.creative.com"
+    "domain": "us.creative.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -36869,7 +36870,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.usmarkerboard.com"
+    "domain": "usmarkerboard.com"
   },
   {
     "product_type": "Ecommerce",
@@ -36883,7 +36884,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.boosted-creations.myshopify.com"
+    "domain": "boosted-creations.myshopify.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -36899,7 +36900,7 @@ const merchantData = [
       "apparel",
       "shoes"
     ],
-    "domain": "www.katespade.com"
+    "domain": "katespade.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -36913,7 +36914,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.palmbeachjewelry.com"
+    "domain": "palmbeachjewelry.com"
   },
   {
     "product_type": "Ecommerce",
@@ -36941,7 +36942,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.tempurpedic.com"
+    "domain": "tempurpedic.com"
   },
   {
     "product_type": "Ecommerce",
@@ -36967,7 +36968,7 @@ const merchantData = [
     "categories": [
       "shoes"
     ],
-    "domain": "www.catfootwear.com"
+    "domain": "catfootwear.com"
   },
   {
     "product_type": "Ecommerce",
@@ -36979,7 +36980,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.mealeymarine.com"
+    "domain": "mealeymarine.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -36991,7 +36992,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.aicpastore.com"
+    "domain": "aicpastore.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -37003,7 +37004,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.christianbook.com"
+    "domain": "christianbook.com"
   },
   {
     "product_type": "Ecommerce",
@@ -37017,7 +37018,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.shiekh.com"
+    "domain": "shiekh.com"
   },
   {
     "product_type": "Ecommerce",
@@ -37031,7 +37032,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.cvc-stones.com"
+    "domain": "cvc-stones.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -37043,7 +37044,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.baskinrobbins.com"
+    "domain": "baskinrobbins.com"
   },
   {
     "product_type": "Ecommerce",
@@ -37080,7 +37081,7 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fpartners.hotwire.com%2FYaezB&merchant_ari=N1JPSYZDC1AOZW84",
     "icon_url": "http://cdn-assets.affirm.com/vcn_buy/v1/merchants/N1JPSYZDC1AOZW84/logo20200312/logo_offer.png",
     "ari": "N1JPSYZDC1AOZW84",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "travel_and_events",
     "categories": [
       "travel_and_events"
@@ -37099,7 +37100,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "m"
+    "domain": "mattresskingok.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -37111,7 +37112,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.birthdaydirect.com"
+    "domain": "birthdaydirect.com"
   },
   {
     "product_type": "Ecommerce",
@@ -37139,7 +37140,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.kialoa.com"
+    "domain": "kialoa.com"
   },
   {
     "product_type": "Ecommerce",
@@ -37227,7 +37228,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.deqor.com"
+    "domain": "deqor.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -37241,7 +37242,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.floorstoyourhome.com"
+    "domain": "floorstoyourhome.com"
   },
   {
     "product_type": "Ecommerce",
@@ -37267,7 +37268,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.kingjewelers.com"
+    "domain": "kingjewelers.com"
   },
   {
     "product_type": "Ecommerce",
@@ -37279,7 +37280,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.smofried.com"
+    "domain": "smofried.com"
   },
   {
     "product_type": "Ecommerce",
@@ -37291,7 +37292,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.curated.com/"
+    "domain": "curated.com/"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -37305,7 +37306,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.batteries.com"
+    "domain": "batteries.com"
   },
   {
     "product_type": "Ecommerce",
@@ -37333,7 +37334,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.extremewheels.com"
+    "domain": "extremewheels.com"
   },
   {
     "product_type": "Ecommerce",
@@ -37345,7 +37346,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.store.bluenote.com"
+    "domain": "store.bluenote.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -37359,7 +37360,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.findtape.com"
+    "domain": "findtape.com"
   },
   {
     "product_type": "Ecommerce",
@@ -37383,7 +37384,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.dermawand.com"
+    "domain": "dermawand.com"
   },
   {
     "product_type": "Ecommerce",
@@ -37411,7 +37412,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.naturepedic.com"
+    "domain": "naturepedic.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -37425,7 +37426,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.anntaylor.com"
+    "domain": "anntaylor.com"
   },
   {
     "product_type": "Ecommerce",
@@ -37451,7 +37452,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.bbwheelsonline.com"
+    "domain": "bbwheelsonline.com"
   },
   {
     "product_type": "Ecommerce",
@@ -37463,7 +37464,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "shiftedmotorsports.com/"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -37472,12 +37473,12 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fwww.tiffany.com&merchant_ari=NA9LTG1M6XAG0LSJ",
     "icon_url": "https://cdn1.affirm.com/platform/public/promos/assets/NA9LTG1M6XAG0LSJ/logo/logo1x.png",
     "ari": "NA9LTG1M6XAG0LSJ",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "accessories",
     "categories": [
       "accessories"
     ],
-    "domain": "www.tiffany.com"
+    "domain": "tiffany.com"
   },
   {
     "product_type": "Ecommerce",
@@ -37505,7 +37506,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.litter-robot.com"
+    "domain": "litter-robot.com"
   },
   {
     "product_type": "Ecommerce",
@@ -37517,7 +37518,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.drumcenternh.com"
+    "domain": "drumcenternh.com"
   },
   {
     "product_type": "Ecommerce",
@@ -37531,7 +37532,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.revl.com"
+    "domain": "revl.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -37543,7 +37544,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.homechef.com"
+    "domain": "homechef.com"
   },
   {
     "product_type": "Ecommerce",
@@ -37569,7 +37570,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.milehighdjsupply.com"
+    "domain": "milehighdjsupply.com"
   },
   {
     "product_type": "Ecommerce",
@@ -37583,7 +37584,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.closetconnectionresale.com"
+    "domain": "closetconnectionresale.com"
   },
   {
     "product_type": "Ecommerce",
@@ -37595,7 +37596,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "precisionworkz-llc.myshopify.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -37623,7 +37624,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.CAMPERiD.com"
+    "domain": "CAMPERiD.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -37635,7 +37636,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.belk.com"
+    "domain": "belk.com"
   },
   {
     "product_type": "Ecommerce",
@@ -37647,7 +37648,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "a-d-k19.myshopify.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -37659,7 +37660,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.ashleighbergman.com"
+    "domain": "ashleighbergman.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -37673,7 +37674,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.nutricity.com"
+    "domain": "nutricity.com"
   },
   {
     "product_type": "Ecommerce",
@@ -37685,7 +37686,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.moved.com"
+    "domain": "moved.com"
   },
   {
     "product_type": "Ecommerce",
@@ -37713,7 +37714,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.qualitybath.com"
+    "domain": "qualitybath.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -37727,7 +37728,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.shop.philips.com"
+    "domain": "shop.philips.com"
   },
   {
     "product_type": "Ecommerce",
@@ -37739,7 +37740,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.squareoffnow.com"
+    "domain": "squareoffnow.com"
   },
   {
     "product_type": "Ecommerce",
@@ -37753,7 +37754,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.lumanarlighting.com"
+    "domain": "lumanarlighting.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -37762,7 +37763,7 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fbit.ly%2F2QUecN0&merchant_ari=NGU8YEM20VU930UU",
     "icon_url": "http://cdn-assets.affirm.com/vcn_buy/v1/merchants/NGU8YEM20VU930UU/logo20191023/logo_offer.png",
     "ari": "NGU8YEM20VU930UU",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "apparel",
     "categories": [
       "accessories",
@@ -37770,7 +37771,7 @@ const merchantData = [
       "luxury",
       "shoes"
     ],
-    "domain": "www.burberry.com"
+    "domain": "burberry.com"
   },
   {
     "product_type": "Ecommerce",
@@ -37784,7 +37785,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.flashbike.io"
+    "domain": "flashbike.io"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -37796,7 +37797,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.greenchef.com"
+    "domain": "greenchef.com"
   },
   {
     "product_type": "Ecommerce",
@@ -37822,7 +37823,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.minisuit.com"
+    "domain": "minisuit.com"
   },
   {
     "product_type": "Ecommerce",
@@ -37868,7 +37869,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.laurengadams.com"
+    "domain": "laurengadams.com"
   },
   {
     "product_type": "Ecommerce",
@@ -37880,7 +37881,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "apparel",
     "categories": null,
-    "domain": "www.patrikervell.com"
+    "domain": "patrikervell.com"
   },
   {
     "product_type": "Ecommerce",
@@ -37894,7 +37895,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.gr1performance.com"
+    "domain": "gr1performance.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -37908,7 +37909,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.countryclubprep.com"
+    "domain": "countryclubprep.com"
   },
   {
     "product_type": "Ecommerce",
@@ -37920,7 +37921,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.7levelhome.com"
+    "domain": "7levelhome.com"
   },
   {
     "product_type": "Ecommerce",
@@ -37932,7 +37933,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.its-a-lifestyle-340.myshopify.com"
+    "domain": "its-a-lifestyle-340.myshopify.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -37944,7 +37945,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.play.google.com"
+    "domain": "play.google.com"
   },
   {
     "product_type": "Ecommerce",
@@ -37958,7 +37959,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "m"
+    "domain": "mojodesk.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -37967,12 +37968,12 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fwww.awin1.com%2Fcread.php%3Fawinmid%3D7168%26awinaffid%3D301841%26clickref%3D%26p%3D%255B%255Bhttps%25253A%25252F%25252Fstore.hp.com%25252Fapp%25252Fslp%25252Fweekly-deals%25253Fjumpid%25253Dma_vwa_vp_na_1_190929%255D%255D&merchant_ari=NJM5LAU92MMF7I9N",
     "icon_url": "http://cdn-assets.affirm.com/vcn_buy/v1/merchants/NJM5LAU92MMF7I9N/logo20200305/logo_offer.png",
     "ari": "NJM5LAU92MMF7I9N",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "electronics",
     "categories": [
       "electronics"
     ],
-    "domain": "www.store.hp.com"
+    "domain": "store.hp.com"
   },
   {
     "product_type": "Ecommerce",
@@ -38010,7 +38011,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.cpapman.com"
+    "domain": "cpapman.com"
   },
   {
     "product_type": "Ecommerce",
@@ -38024,7 +38025,7 @@ const merchantData = [
     "categories": [
       "shoes"
     ],
-    "domain": "www.saucony.com"
+    "domain": "saucony.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -38033,13 +38034,13 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fgoto.bluenile.com%2FKAb0n&merchant_ari=NKRNDHYP8J2HP0JA",
     "icon_url": "http://cdn-assets.affirm.com/vcn_buy/v1/merchants/NKRNDHYP8J2HP0JA/logo20200220/logo_offer.png",
     "ari": "NKRNDHYP8J2HP0JA",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "accessories",
     "categories": [
       "accessories",
       "luxury"
     ],
-    "domain": "www.bluenile.com"
+    "domain": "bluenile.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -38053,7 +38054,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.shop.captaindaves.com"
+    "domain": "shop.captaindaves.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -38084,7 +38085,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.swap.com"
+    "domain": "swap.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -38098,7 +38099,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.cardsdirect.com"
+    "domain": "cardsdirect.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -38107,7 +38108,7 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fclick.linksynergy.com%2Ffs-bin%2Fclick%3Fid%3DbFeuiaEZizw%26offerid%3D768057.10006401%26type%3D3%26subid%3D0&merchant_ari=NMT8AO7S900MX16Z",
     "icon_url": "http://cdn-assets.affirm.com/vcn_buy/v1/merchants/NMT8AO7S900MX16Z/logo_20190712161755/logo_offer.png",
     "ari": "NMT8AO7S900MX16Z",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "beauty",
     "categories": [
       "beauty"
@@ -38126,7 +38127,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.mintmobile.com"
+    "domain": "mintmobile.com"
   },
   {
     "product_type": "Ecommerce",
@@ -38141,7 +38142,7 @@ const merchantData = [
       "accessories",
       "auto"
     ],
-    "domain": "www.denniskirk.com"
+    "domain": "denniskirk.com"
   },
   {
     "product_type": "Ecommerce",
@@ -38153,7 +38154,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.octavejewelry.com"
+    "domain": "octavejewelry.com"
   },
   {
     "product_type": "Ecommerce",
@@ -38165,7 +38166,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.ntxglow.com"
+    "domain": "ntxglow.com"
   },
   {
     "product_type": "Ecommerce",
@@ -38191,7 +38192,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "theyakshak.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -38203,7 +38204,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.bulkreefsupply.com"
+    "domain": "bulkreefsupply.com"
   },
   {
     "product_type": "Ecommerce",
@@ -38218,7 +38219,7 @@ const merchantData = [
       "accessories",
       "luxury"
     ],
-    "domain": "www.mygolani.com"
+    "domain": "mygolani.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -38232,7 +38233,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.dollarshaveclub.com"
+    "domain": "dollarshaveclub.com"
   },
   {
     "product_type": "Ecommerce",
@@ -38244,7 +38245,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.evolutionmasks.com"
+    "domain": "evolutionmasks.com"
   },
   {
     "product_type": "Ecommerce",
@@ -38258,7 +38259,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.pacificdualies.com"
+    "domain": "pacificdualies.com"
   },
   {
     "product_type": "Ecommerce",
@@ -38270,7 +38271,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.aperiiatech.com"
+    "domain": "aperiiatech.com"
   },
   {
     "product_type": "Ecommerce",
@@ -38284,7 +38285,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.shop.hodinkee.com"
+    "domain": "shop.hodinkee.com"
   },
   {
     "product_type": "Ecommerce",
@@ -38296,7 +38297,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.irisvision.com"
+    "domain": "irisvision.com"
   },
   {
     "product_type": "Ecommerce",
@@ -38374,7 +38375,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.naja.co"
+    "domain": "naja.co"
   },
   {
     "product_type": "Ecommerce",
@@ -38388,7 +38389,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.jewelry4lessatl.com"
+    "domain": "jewelry4lessatl.com"
   },
   {
     "product_type": "Ecommerce",
@@ -38402,7 +38403,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.minimale-animale.com"
+    "domain": "minimale-animale.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -38428,7 +38429,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.bhcosmetics.com"
+    "domain": "bhcosmetics.com"
   },
   {
     "product_type": "Ecommerce",
@@ -38442,7 +38443,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.dji.com"
+    "domain": "dji.com"
   },
   {
     "product_type": "Ecommerce",
@@ -38456,7 +38457,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.maverickdrone.com"
+    "domain": "maverickdrone.com"
   },
   {
     "product_type": "Ecommerce",
@@ -38470,7 +38471,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.roomandboard.com"
+    "domain": "roomandboard.com"
   },
   {
     "product_type": "Ecommerce",
@@ -38498,7 +38499,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.xchair.com"
+    "domain": "xchair.com"
   },
   {
     "product_type": "Ecommerce",
@@ -38526,7 +38527,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.tappancollective.com"
+    "domain": "tappancollective.com"
   },
   {
     "product_type": "Ecommerce",
@@ -38554,7 +38555,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.jpcycles.com"
+    "domain": "jpcycles.com"
   },
   {
     "product_type": "Ecommerce",
@@ -38568,7 +38569,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.powerteq.com"
+    "domain": "powerteq.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -38582,7 +38583,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.overstockart.com"
+    "domain": "overstockart.com"
   },
   {
     "product_type": "Ecommerce",
@@ -38610,7 +38611,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.apt2b.com"
+    "domain": "apt2b.com"
   },
   {
     "product_type": "Ecommerce",
@@ -38624,7 +38625,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.Austinhomebrew.com"
+    "domain": "Austinhomebrew.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -38638,7 +38639,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "/"
+    "domain": "hellotushy.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -38650,7 +38651,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.littlemachineshop.com"
+    "domain": "littlemachineshop.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -38659,7 +38660,7 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fbit.ly%2F37LoQvs&merchant_ari=NY7XUNNWOKYCCI4R",
     "icon_url": "https://cdn-assets.affirm.com/vcn_buy/v1/merchants/NY7XUNNWOKYCCI4R/logo_20190711224146/logo.png",
     "ari": "NY7XUNNWOKYCCI4R",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "home_and_furniture",
     "categories": [
       "home_and_furniture"
@@ -38678,7 +38679,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.performancebyie.com"
+    "domain": "performancebyie.com"
   },
   {
     "product_type": "Ecommerce",
@@ -38690,7 +38691,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.hestanculinary.com"
+    "domain": "hestanculinary.com"
   },
   {
     "product_type": "Ecommerce",
@@ -38759,7 +38760,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.polarispartshouse.com"
+    "domain": "polarispartshouse.com"
   },
   {
     "product_type": "Ecommerce",
@@ -38773,7 +38774,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.fireandbrilliance.com"
+    "domain": "fireandbrilliance.com"
   },
   {
     "product_type": "Ecommerce",
@@ -38787,7 +38788,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.absolutehomefurnishings.com"
+    "domain": "absolutehomefurnishings.com"
   },
   {
     "product_type": "Ecommerce",
@@ -38801,7 +38802,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.sondors.com"
+    "domain": "sondors.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -38813,7 +38814,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.potpourrigift.com"
+    "domain": "potpourrigift.com"
   },
   {
     "product_type": "Ecommerce",
@@ -38867,7 +38868,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.klashwerks.com"
+    "domain": "klashwerks.com"
   },
   {
     "product_type": "Ecommerce",
@@ -38879,7 +38880,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "home_and_furniture",
     "categories": null,
-    "domain": "www.projectnursery.com"
+    "domain": "projectnursery.com"
   },
   {
     "product_type": "Ecommerce",
@@ -38893,7 +38894,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.babbittsktmparts.com"
+    "domain": "babbittsktmparts.com"
   },
   {
     "product_type": "Ecommerce",
@@ -38917,7 +38918,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.ToolBarn.com"
+    "domain": "ToolBarn.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -38931,7 +38932,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.boohoo.com"
+    "domain": "boohoo.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -38943,7 +38944,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.ftd.com"
+    "domain": "ftd.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -38955,7 +38956,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.sheetmusicplus.com"
+    "domain": "sheetmusicplus.com"
   },
   {
     "product_type": "Ecommerce",
@@ -38969,7 +38970,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.bombayhair.com"
+    "domain": "bombayhair.com"
   },
   {
     "product_type": "Ecommerce",
@@ -38981,7 +38982,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.misahara.com"
+    "domain": "misahara.com"
   },
   {
     "product_type": "Ecommerce",
@@ -38995,7 +38996,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.snakeoilprovisions.com"
+    "domain": "snakeoilprovisions.com"
   },
   {
     "product_type": "Ecommerce",
@@ -39007,7 +39008,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "fitness_and_gear",
     "categories": null,
-    "domain": "www.missionbicycle.com"
+    "domain": "missionbicycle.com"
   },
   {
     "product_type": "Ecommerce",
@@ -39021,7 +39022,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.telefonostelcelamerica.com"
+    "domain": "telefonostelcelamerica.com"
   },
   {
     "product_type": "Ecommerce",
@@ -39035,7 +39036,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.beckertime.com"
+    "domain": "beckertime.com"
   },
   {
     "product_type": "Ecommerce",
@@ -39049,7 +39050,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.govbergwatches.com"
+    "domain": "govbergwatches.com"
   },
   {
     "product_type": "Ecommerce",
@@ -39063,7 +39064,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.us.oliviaburton.com"
+    "domain": "us.oliviaburton.com"
   },
   {
     "product_type": "Ecommerce",
@@ -39077,7 +39078,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.geoo.com"
+    "domain": "geoo.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -39091,7 +39092,7 @@ const merchantData = [
     "categories": [
       "shoes"
     ],
-    "domain": "www.aldoshoes.com"
+    "domain": "aldoshoes.com"
   },
   {
     "product_type": "Ecommerce",
@@ -39105,7 +39106,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.coloradokayak.com"
+    "domain": "coloradokayak.com"
   },
   {
     "product_type": "Ecommerce",
@@ -39119,7 +39120,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.jhpusa.com"
+    "domain": "jhpusa.com"
   },
   {
     "product_type": "Ecommerce",
@@ -39145,7 +39146,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "americanorchidusa.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -39169,7 +39170,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.audioengineusa.com"
+    "domain": "audioengineusa.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -39183,7 +39184,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.llbean.com"
+    "domain": "llbean.com"
   },
   {
     "product_type": "Ecommerce",
@@ -39197,7 +39198,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.grillz.com"
+    "domain": "grillz.com"
   },
   {
     "product_type": "Ecommerce",
@@ -39211,7 +39212,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.republicwireless.com"
+    "domain": "republicwireless.com"
   },
   {
     "product_type": "Ecommerce",
@@ -39225,7 +39226,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.lussosleep.com"
+    "domain": "lussosleep.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -39237,7 +39238,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.store.discovery.com"
+    "domain": "store.discovery.com"
   },
   {
     "product_type": "Ecommerce",
@@ -39251,7 +39252,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.AACORVETTE.COM"
+    "domain": "AACORVETTE.COM"
   },
   {
     "product_type": "Ecommerce",
@@ -39274,7 +39275,7 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fredirect.viglink.com%3Fkey%3D00fff34dfd348ad04c8b3b29221c1655%26u%3Dhttp%253A%252F%252Flululemon.com&merchant_ari=OERSTMFPHIL5L67Y",
     "icon_url": "http://cdn-assets.affirm.com/vcn_buy/v1/merchants/OERSTMFPHIL5L67Y/logo20191023/logo_offer.png",
     "ari": "OERSTMFPHIL5L67Y",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "fitness_and_gear",
     "categories": [
       "fitness_and_gear"
@@ -39312,7 +39313,7 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=http%3A%2F%2Fwww.jdoqocy.com%2Fclick-8191141-12834741&merchant_ari=OF3W0SWX77Y2B38P",
     "icon_url": "http://cdn-assets.affirm.com/vcn_buy/v1/merchants/OF3W0SWX77Y2B38P/logo/logo_offer.png",
     "ari": "OF3W0SWX77Y2B38P",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "luxury",
     "categories": [
       "accessories",
@@ -39346,7 +39347,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.thebikeshopstore.com"
+    "domain": "thebikeshopstore.com"
   },
   {
     "product_type": "Ecommerce",
@@ -39360,7 +39361,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.adadiamonds.com"
+    "domain": "adadiamonds.com"
   },
   {
     "product_type": "Ecommerce",
@@ -39372,7 +39373,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.corepoweryoga.com"
+    "domain": "corepoweryoga.com"
   },
   {
     "product_type": "Ecommerce",
@@ -39386,7 +39387,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.sportsmemorabilia.com"
+    "domain": "sportsmemorabilia.com"
   },
   {
     "product_type": "Ecommerce",
@@ -39400,7 +39401,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.shopdoen.com"
+    "domain": "shopdoen.com"
   },
   {
     "product_type": "Ecommerce",
@@ -39412,7 +39413,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "tiresupplynetwork.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -39426,7 +39427,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.doyouevenboost.com"
+    "domain": "doyouevenboost.com"
   },
   {
     "product_type": "Ecommerce",
@@ -39454,7 +39455,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.calvinklein.com"
+    "domain": "calvinklein.com"
   },
   {
     "product_type": "Ecommerce",
@@ -39480,7 +39481,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.franceandson.com"
+    "domain": "franceandson.com"
   },
   {
     "product_type": "Ecommerce",
@@ -39492,7 +39493,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "home_and_furniture",
     "categories": null,
-    "domain": "www.underthecanopy.com"
+    "domain": "underthecanopy.com"
   },
   {
     "product_type": "Ecommerce",
@@ -39504,7 +39505,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "home_and_furniture",
     "categories": null,
-    "domain": "www.WATERONTHEWEB.COM"
+    "domain": "WATERONTHEWEB.COM"
   },
   {
     "product_type": "Ecommerce",
@@ -39525,12 +39526,12 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fjegs.ork2.net%2FOMBMP&merchant_ari=OJ067WHWJ9PSPTKK",
     "icon_url": "https://cdn1.affirm.com/platform/public/promos/assets/OJ067WHWJ9PSPTKK/logo/logo1x.png",
     "ari": "OJ067WHWJ9PSPTKK",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "auto",
     "categories": [
       "auto"
     ],
-    "domain": "www.jegs.com"
+    "domain": "jegs.com"
   },
   {
     "product_type": "Ecommerce",
@@ -39556,7 +39557,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.onlinestores.com"
+    "domain": "onlinestores.com"
   },
   {
     "product_type": "Ecommerce",
@@ -39596,7 +39597,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.nahcotta.com"
+    "domain": "nahcotta.com"
   },
   {
     "product_type": "Ecommerce",
@@ -39608,7 +39609,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "travel_and_events",
     "categories": null,
-    "domain": "www.gacucon.com"
+    "domain": "gacucon.com"
   },
   {
     "product_type": "Ecommerce",
@@ -39622,7 +39623,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.motorcycler.com"
+    "domain": "motorcycler.com"
   },
   {
     "product_type": "Ecommerce",
@@ -39634,7 +39635,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.hearingaids.direct"
+    "domain": "hearingaids.direct"
   },
   {
     "product_type": "Ecommerce",
@@ -39648,7 +39649,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.stillen.com"
+    "domain": "stillen.com"
   },
   {
     "product_type": "Ecommerce",
@@ -39660,7 +39661,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "m"
+    "domain": "senville.com"
   },
   {
     "product_type": "Ecommerce",
@@ -39674,7 +39675,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.barracudatackle.com"
+    "domain": "barracudatackle.com"
   },
   {
     "product_type": "Ecommerce",
@@ -39688,7 +39689,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.PublicBikes.com"
+    "domain": "PublicBikes.com"
   },
   {
     "product_type": "Ecommerce",
@@ -39716,7 +39717,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.cocomelody.com"
+    "domain": "cocomelody.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -39725,12 +39726,12 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fgap.igs4ds.net%2F93Jde&merchant_ari=OM5V2DSXMI41MZR2",
     "icon_url": "http://cdn-assets.affirm.com/vcn_buy/v1/merchants/OM5V2DSXMI41MZR2/logo20191029/logo_offer.png",
     "ari": "OM5V2DSXMI41MZR2",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "apparel",
     "categories": [
       "apparel"
     ],
-    "domain": "www.oldnavy.gap.com"
+    "domain": "oldnavy.gap.com"
   },
   {
     "product_type": "Ecommerce",
@@ -39744,7 +39745,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.d2bdmotorwerks.com"
+    "domain": "d2bdmotorwerks.com"
   },
   {
     "product_type": "Ecommerce",
@@ -39772,7 +39773,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.byegreis.com"
+    "domain": "byegreis.com"
   },
   {
     "product_type": "Ecommerce",
@@ -39784,7 +39785,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.hearingassist.com"
+    "domain": "hearingassist.com"
   },
   {
     "product_type": "Ecommerce",
@@ -39798,7 +39799,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.carpettiledepot.com"
+    "domain": "carpettiledepot.com"
   },
   {
     "product_type": "Ecommerce",
@@ -39812,7 +39813,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.getneuromd.com"
+    "domain": "getneuromd.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -39852,7 +39853,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.badgleymischka.com"
+    "domain": "badgleymischka.com"
   },
   {
     "product_type": "Ecommerce",
@@ -39866,7 +39867,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.airslamit.com"
+    "domain": "airslamit.com"
   },
   {
     "product_type": "Ecommerce",
@@ -39880,7 +39881,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "m"
+    "domain": "staticmotorsports.com"
   },
   {
     "product_type": "Ecommerce",
@@ -39892,7 +39893,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.lumibypampers.com"
+    "domain": "lumibypampers.com"
   },
   {
     "product_type": "Ecommerce",
@@ -39904,7 +39905,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "auto",
     "categories": null,
-    "domain": "www.store.ekstensive.com"
+    "domain": "store.ekstensive.com"
   },
   {
     "product_type": "Ecommerce",
@@ -39916,7 +39917,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "m"
+    "domain": "kingsdown-direct.myshopify.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -39928,7 +39929,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.livingsocial.com"
+    "domain": "livingsocial.com"
   },
   {
     "product_type": "Ecommerce",
@@ -39943,7 +39944,7 @@ const merchantData = [
       "apparel",
       "fitness_and_gear"
     ],
-    "domain": "www.vitaminaswim.com"
+    "domain": "vitaminaswim.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -39955,7 +39956,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.hsn.com"
+    "domain": "hsn.com"
   },
   {
     "product_type": "Ecommerce",
@@ -39969,7 +39970,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.rugs.com"
+    "domain": "rugs.com"
   },
   {
     "product_type": "Ecommerce",
@@ -40047,7 +40048,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "m"
+    "domain": "floydhome.com"
   },
   {
     "product_type": "Ecommerce",
@@ -40062,7 +40063,7 @@ const merchantData = [
       "accessories",
       "home_and_furniture"
     ],
-    "domain": "www.massagechairstore.com"
+    "domain": "massagechairstore.com"
   },
   {
     "product_type": "Ecommerce",
@@ -40074,7 +40075,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.muyshondt.net"
+    "domain": "muyshondt.net"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -40083,12 +40084,12 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fwww.zara.com%2Fus%2F&merchant_ari=OT8H742ZF3JYP5RA",
     "icon_url": "https://cdn1.affirm.com/platform/public/promos/assets/OT8H742ZF3JYP5RA/logo/logo1x.png",
     "ari": "OT8H742ZF3JYP5RA",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "apparel",
     "categories": [
       "apparel"
     ],
-    "domain": "www.zara.com"
+    "domain": "zara.com"
   },
   {
     "product_type": "Ecommerce",
@@ -40100,7 +40101,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.tulipcremation.com"
+    "domain": "tulipcremation.com"
   },
   {
     "product_type": "Ecommerce",
@@ -40114,7 +40115,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.lithiumbatterypower.com"
+    "domain": "lithiumbatterypower.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -40128,7 +40129,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.gemvara.com"
+    "domain": "gemvara.com"
   },
   {
     "product_type": "Ecommerce",
@@ -40152,7 +40153,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.shop.kingremodeling.com"
+    "domain": "shop.kingremodeling.com"
   },
   {
     "product_type": "Ecommerce",
@@ -40164,7 +40165,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "auto",
     "categories": null,
-    "domain": "www.CheapTiresASAP.com"
+    "domain": "CheapTiresASAP.com"
   },
   {
     "product_type": "Ecommerce",
@@ -40178,7 +40179,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.raneystruckparts.com"
+    "domain": "raneystruckparts.com"
   },
   {
     "product_type": "Ecommerce",
@@ -40228,7 +40229,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.liveplanet.net"
+    "domain": "liveplanet.net"
   },
   {
     "product_type": "Ecommerce",
@@ -40256,7 +40257,7 @@ const merchantData = [
     "categories": [
       "travel_and_events"
     ],
-    "domain": "www.rosetours.com"
+    "domain": "rosetours.com"
   },
   {
     "product_type": "Ecommerce",
@@ -40284,7 +40285,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.bettymills.com"
+    "domain": "bettymills.com"
   },
   {
     "product_type": "Ecommerce",
@@ -40310,7 +40311,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.survivalsupplies.co"
+    "domain": "survivalsupplies.co"
   },
   {
     "product_type": "Ecommerce",
@@ -40324,7 +40325,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.barbellapparel.com"
+    "domain": "barbellapparel.com"
   },
   {
     "product_type": "Ecommerce",
@@ -40352,7 +40353,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.jackssurfboards.com"
+    "domain": "jackssurfboards.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -40366,7 +40367,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.perryellis.com"
+    "domain": "perryellis.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -40380,7 +40381,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.lakeside.com"
+    "domain": "lakeside.com"
   },
   {
     "product_type": "Ecommerce",
@@ -40406,7 +40407,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.allthebagz.com"
+    "domain": "allthebagz.com"
   },
   {
     "product_type": "Ecommerce",
@@ -40420,7 +40421,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.pointnopointstudio.com"
+    "domain": "pointnopointstudio.com"
   },
   {
     "product_type": "Ecommerce",
@@ -40456,7 +40457,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.convenientheight.com"
+    "domain": "convenientheight.com"
   },
   {
     "product_type": "Ecommerce",
@@ -40470,7 +40471,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.thehumansolution.com"
+    "domain": "thehumansolution.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -40484,7 +40485,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.stacksandstacks.com"
+    "domain": "stacksandstacks.com"
   },
   {
     "product_type": "Ecommerce",
@@ -40498,7 +40499,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.AquaTru.com"
+    "domain": "AquaTru.com"
   },
   {
     "product_type": "Ecommerce",
@@ -40524,7 +40525,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "auto",
     "categories": null,
-    "domain": "www.elcaminostore.com"
+    "domain": "elcaminostore.com"
   },
   {
     "product_type": "Ecommerce",
@@ -40592,7 +40593,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.jaxjox.com"
+    "domain": "jaxjox.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -40606,7 +40607,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.destinationxl.com"
+    "domain": "destinationxl.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -40618,7 +40619,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.shopko.com"
+    "domain": "shopko.com"
   },
   {
     "product_type": "Ecommerce",
@@ -40632,7 +40633,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.sportcompactwarehouse.com"
+    "domain": "sportcompactwarehouse.com"
   },
   {
     "product_type": "Ecommerce",
@@ -40646,7 +40647,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.forceusa.com"
+    "domain": "forceusa.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -40660,7 +40661,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.verizon.com"
+    "domain": "verizon.com"
   },
   {
     "product_type": "Ecommerce",
@@ -40674,7 +40675,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.ag-custommotoring.com"
+    "domain": "ag-custommotoring.com"
   },
   {
     "product_type": "Ecommerce",
@@ -40702,7 +40703,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "k"
+    "domain": "deals.dell.com/en-us/work"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -40716,7 +40717,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.cookieskids.com"
+    "domain": "cookieskids.com"
   },
   {
     "product_type": "Ecommerce",
@@ -40753,7 +40754,7 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fwww.toryburch.com%2F&merchant_ari=P70YP8Y89GAHBUP7",
     "icon_url": "https://cdn1.affirm.com/platform/public/promos/assets/P70YP8Y89GAHBUP7/logo/logo1x.png",
     "ari": "P70YP8Y89GAHBUP7",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "apparel",
     "categories": [
       "accessories",
@@ -40761,7 +40762,7 @@ const merchantData = [
       "luxury",
       "shoes"
     ],
-    "domain": "www.toryburch.com"
+    "domain": "toryburch.com"
   },
   {
     "product_type": "Ecommerce",
@@ -40776,7 +40777,7 @@ const merchantData = [
       "accessories",
       "apparel"
     ],
-    "domain": "www.wooden-ships.com"
+    "domain": "wooden-ships.com"
   },
   {
     "product_type": "Ecommerce",
@@ -40791,7 +40792,7 @@ const merchantData = [
       "electronics",
       "fitness_and_gear"
     ],
-    "domain": "www.theragun.com"
+    "domain": "theragun.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -40805,7 +40806,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.centralvacuumstores.com"
+    "domain": "centralvacuumstores.com"
   },
   {
     "product_type": "Ecommerce",
@@ -40817,7 +40818,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "home_and_furniture",
     "categories": null,
-    "domain": "www.rescuedfurnishings.com"
+    "domain": "rescuedfurnishings.com"
   },
   {
     "product_type": "Ecommerce",
@@ -40831,7 +40832,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.boteboard.com"
+    "domain": "boteboard.com"
   },
   {
     "product_type": "Ecommerce",
@@ -40845,7 +40846,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.customcruzers.com"
+    "domain": "customcruzers.com"
   },
   {
     "product_type": "Ecommerce",
@@ -40859,7 +40860,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.ecstuning.com"
+    "domain": "ecstuning.com"
   },
   {
     "product_type": "Ecommerce",
@@ -40885,7 +40886,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.makerandmoss.com"
+    "domain": "makerandmoss.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -40899,7 +40900,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.compacc.com"
+    "domain": "compacc.com"
   },
   {
     "product_type": "Ecommerce",
@@ -40923,7 +40924,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.hdbuttercup.com"
+    "domain": "hdbuttercup.com"
   },
   {
     "product_type": "Ecommerce",
@@ -40951,7 +40952,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.fortec4x4.com"
+    "domain": "fortec4x4.com"
   },
   {
     "product_type": "Ecommerce",
@@ -40963,7 +40964,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "m"
+    "domain": "seduire-academy-finance.myshopify.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -40977,7 +40978,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.mvmtwatches.com"
+    "domain": "mvmtwatches.com"
   },
   {
     "product_type": "Ecommerce",
@@ -40993,7 +40994,7 @@ const merchantData = [
       "apparel",
       "luxury"
     ],
-    "domain": "www.mackage.com"
+    "domain": "mackage.com"
   },
   {
     "product_type": "Ecommerce",
@@ -41005,7 +41006,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "auto",
     "categories": null,
-    "domain": "www.stage3motorsports.com"
+    "domain": "stage3motorsports.com"
   },
   {
     "product_type": "Ecommerce",
@@ -41019,7 +41020,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.WWW.PINKDOLPHINONLINE.COM"
+    "domain": "WWW.PINKDOLPHINONLINE.COM"
   },
   {
     "product_type": "Ecommerce",
@@ -41033,7 +41034,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.xoticpc.com"
+    "domain": "xoticpc.com"
   },
   {
     "product_type": "Ecommerce",
@@ -41047,7 +41048,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.prestigetime.com"
+    "domain": "prestigetime.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -41091,7 +41092,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.touchofclass.com"
+    "domain": "touchofclass.com"
   },
   {
     "product_type": "Ecommerce",
@@ -41105,7 +41106,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.partcatalog.com"
+    "domain": "partcatalog.com"
   },
   {
     "product_type": "Ecommerce",
@@ -41117,7 +41118,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.summit-hydraulics.com"
+    "domain": "summit-hydraulics.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -41131,7 +41132,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.letote.com"
+    "domain": "letote.com"
   },
   {
     "product_type": "Ecommerce",
@@ -41157,7 +41158,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.tireagent.com"
+    "domain": "tireagent.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -41195,7 +41196,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "accessories",
     "categories": null,
-    "domain": "www.giantvintage.com"
+    "domain": "giantvintage.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -41207,7 +41208,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.petflow.com"
+    "domain": "petflow.com"
   },
   {
     "product_type": "Ecommerce",
@@ -41233,7 +41234,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "/"
+    "domain": "hillerysproductsservices.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -41247,7 +41248,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.ultimate3dprintingstore.com"
+    "domain": "ultimate3dprintingstore.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -41261,7 +41262,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.crucialvacuum.com"
+    "domain": "crucialvacuum.com"
   },
   {
     "product_type": "Ecommerce",
@@ -41275,7 +41276,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.crestoutdoors.com"
+    "domain": "crestoutdoors.com"
   },
   {
     "product_type": "Ecommerce",
@@ -41299,7 +41300,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.quattromama.com"
+    "domain": "quattromama.com"
   },
   {
     "product_type": "Ecommerce",
@@ -41313,7 +41314,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.liftkits4less.com"
+    "domain": "liftkits4less.com"
   },
   {
     "product_type": "Ecommerce",
@@ -41325,7 +41326,7 @@ const merchantData = [
     "zero_apr": true,
     "primary_category": "travel_and_events",
     "categories": null,
-    "domain": "www.udacity.com"
+    "domain": "udacity.com"
   },
   {
     "product_type": "Ecommerce",
@@ -41339,7 +41340,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.cookmellow.com"
+    "domain": "cookmellow.com"
   },
   {
     "product_type": "Ecommerce",
@@ -41353,7 +41354,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.insideweather.com"
+    "domain": "insideweather.com"
   },
   {
     "product_type": "Ecommerce",
@@ -41405,7 +41406,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.harbormotorsports.com"
+    "domain": "harbormotorsports.com"
   },
   {
     "product_type": "Ecommerce",
@@ -41431,7 +41432,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.blackforestdecor.com"
+    "domain": "blackforestdecor.com"
   },
   {
     "product_type": "Ecommerce",
@@ -41445,7 +41446,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.Mathematics.nyc"
+    "domain": "Mathematics.nyc"
   },
   {
     "product_type": "Ecommerce",
@@ -41457,7 +41458,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.johnatencio.com"
+    "domain": "johnatencio.com"
   },
   {
     "product_type": "Ecommerce",
@@ -41483,7 +41484,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.cosmeticmall.com"
+    "domain": "cosmeticmall.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -41497,7 +41498,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.barenecessities.com"
+    "domain": "barenecessities.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -41511,7 +41512,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.inksell.com"
+    "domain": "inksell.com"
   },
   {
     "product_type": "Ecommerce",
@@ -41523,7 +41524,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.padousa.com"
+    "domain": "padousa.com"
   },
   {
     "product_type": "Ecommerce",
@@ -41549,7 +41550,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.wildwestguitars.com"
+    "domain": "wildwestguitars.com"
   },
   {
     "product_type": "Ecommerce",
@@ -41561,7 +41562,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "accessories",
     "categories": null,
-    "domain": "www.lily-booth-collection.myshopify.com"
+    "domain": "lily-booth-collection.myshopify.com"
   },
   {
     "product_type": "Ecommerce",
@@ -41575,7 +41576,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.metro-board.com"
+    "domain": "metro-board.com"
   },
   {
     "product_type": "Ecommerce",
@@ -41589,7 +41590,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.flightscope.com"
+    "domain": "flightscope.com"
   },
   {
     "product_type": "Ecommerce",
@@ -41629,7 +41630,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.skechers.com"
+    "domain": "skechers.com"
   },
   {
     "product_type": "Ecommerce",
@@ -41641,7 +41642,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.saslowshenebrys.com"
+    "domain": "saslowshenebrys.com"
   },
   {
     "product_type": "Ecommerce",
@@ -41655,7 +41656,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.selectblinds.com"
+    "domain": "selectblinds.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -41667,7 +41668,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.minimus.biz"
+    "domain": "minimus.biz"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -41694,7 +41695,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.fye.com"
+    "domain": "fye.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -41709,7 +41710,7 @@ const merchantData = [
       "accessories",
       "apparel"
     ],
-    "domain": "www.gap.com"
+    "domain": "gap.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -41721,7 +41722,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.foryourlegs.com"
+    "domain": "foryourlegs.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -41733,7 +41734,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.mynaturalmarket.com"
+    "domain": "mynaturalmarket.com"
   },
   {
     "product_type": "Ecommerce",
@@ -41761,7 +41762,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.shop.fullforcediesel.com"
+    "domain": "shop.fullforcediesel.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -41775,7 +41776,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.cablesandkits.com"
+    "domain": "cablesandkits.com"
   },
   {
     "product_type": "Ecommerce",
@@ -41799,7 +41800,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.odysseytestprep.com"
+    "domain": "odysseytestprep.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -41813,7 +41814,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.jackthreads.com"
+    "domain": "jackthreads.com"
   },
   {
     "product_type": "Ecommerce",
@@ -41825,7 +41826,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.cheapcpapsupplies.com"
+    "domain": "cheapcpapsupplies.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -41841,7 +41842,7 @@ const merchantData = [
       "apparel",
       "travel_and_events"
     ],
-    "domain": "/"
+    "domain": "herschel.com/"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -41855,7 +41856,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.islandcompany.com"
+    "domain": "islandcompany.com"
   },
   {
     "product_type": "Ecommerce",
@@ -41879,7 +41880,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.bushnellgolf.com"
+    "domain": "bushnellgolf.com"
   },
   {
     "product_type": "Ecommerce",
@@ -41891,7 +41892,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.outfitedge.com"
+    "domain": "outfitedge.com"
   },
   {
     "product_type": "Ecommerce",
@@ -41905,7 +41906,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.chiltons.com"
+    "domain": "chiltons.com"
   },
   {
     "product_type": "Ecommerce",
@@ -41917,7 +41918,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.edgeright.com"
+    "domain": "edgeright.com"
   },
   {
     "product_type": "Ecommerce",
@@ -41943,7 +41944,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.maszelectronics.com"
+    "domain": "maszelectronics.com"
   },
   {
     "product_type": "Ecommerce",
@@ -41971,7 +41972,7 @@ const merchantData = [
     "categories": [
       "luxury"
     ],
-    "domain": "www.ippolita.com"
+    "domain": "ippolita.com"
   },
   {
     "product_type": "Ecommerce",
@@ -41999,7 +42000,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.roomie.co"
+    "domain": "roomie.co"
   },
   {
     "product_type": "Ecommerce",
@@ -42025,7 +42026,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "m"
+    "domain": "eriness.com"
   },
   {
     "product_type": "Ecommerce",
@@ -42039,7 +42040,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.devialet.com"
+    "domain": "devialet.com"
   },
   {
     "product_type": "Ecommerce",
@@ -42067,7 +42068,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.NEXTGENSPEED.COM"
+    "domain": "NEXTGENSPEED.COM"
   },
   {
     "product_type": "Ecommerce",
@@ -42107,7 +42108,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.zapt.co"
+    "domain": "zapt.co"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -42119,7 +42120,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.glassesusa.com"
+    "domain": "glassesusa.com"
   },
   {
     "product_type": "Ecommerce",
@@ -42145,7 +42146,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.tenthbeauty.com"
+    "domain": "tenthbeauty.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -42159,7 +42160,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.roadrunnersports.com"
+    "domain": "roadrunnersports.com"
   },
   {
     "product_type": "Ecommerce",
@@ -42173,7 +42174,7 @@ const merchantData = [
     "categories": [
       "shoes"
     ],
-    "domain": "www.colehaan.com"
+    "domain": "colehaan.com"
   },
   {
     "product_type": "Ecommerce",
@@ -42187,7 +42188,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.towermade.com"
+    "domain": "towermade.com"
   },
   {
     "product_type": "Ecommerce",
@@ -42201,7 +42202,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.cookpotluck.com"
+    "domain": "cookpotluck.com"
   },
   {
     "product_type": "Ecommerce",
@@ -42213,7 +42214,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "auto",
     "categories": null,
-    "domain": "www.Classicchevy.com"
+    "domain": "Classicchevy.com"
   },
   {
     "product_type": "Ecommerce",
@@ -42227,7 +42228,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.pageplusphonestore.com"
+    "domain": "pageplusphonestore.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -42239,7 +42240,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.lightinthebox.com"
+    "domain": "lightinthebox.com"
   },
   {
     "product_type": "Ecommerce",
@@ -42253,7 +42254,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.thehouseofbundles.com"
+    "domain": "thehouseofbundles.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -42267,7 +42268,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.cdw.com"
+    "domain": "cdw.com"
   },
   {
     "product_type": "Ecommerce",
@@ -42307,7 +42308,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.stevenalan.com"
+    "domain": "stevenalan.com"
   },
   {
     "product_type": "Ecommerce",
@@ -42319,7 +42320,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "auto",
     "categories": null,
-    "domain": "www.EcklersEarlyChevy.com"
+    "domain": "EcklersEarlyChevy.com"
   },
   {
     "product_type": "Ecommerce",
@@ -42333,7 +42334,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.4sleep.com"
+    "domain": "4sleep.com"
   },
   {
     "product_type": "Ecommerce",
@@ -42347,7 +42348,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.sarraf.com"
+    "domain": "sarraf.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -42361,7 +42362,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.lampsplus.com"
+    "domain": "lampsplus.com"
   },
   {
     "product_type": "Ecommerce",
@@ -42375,7 +42376,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.corbeau.com"
+    "domain": "corbeau.com"
   },
   {
     "product_type": "Ecommerce",
@@ -42389,7 +42390,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.truckprousa.com"
+    "domain": "truckprousa.com"
   },
   {
     "product_type": "Ecommerce",
@@ -42403,7 +42404,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.thefitnessoutlet.com"
+    "domain": "thefitnessoutlet.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -42417,7 +42418,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.ustrendy.com"
+    "domain": "ustrendy.com"
   },
   {
     "product_type": "Ecommerce",
@@ -42431,7 +42432,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "/"
+    "domain": "darlingspring.com/"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -42445,7 +42446,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.repairclinic.com"
+    "domain": "repairclinic.com"
   },
   {
     "product_type": "Ecommerce",
@@ -42457,7 +42458,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.541motorsports.com"
+    "domain": "541motorsports.com"
   },
   {
     "product_type": "Ecommerce",
@@ -42471,7 +42472,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.swisswatchexpo.com"
+    "domain": "swisswatchexpo.com"
   },
   {
     "product_type": "Ecommerce",
@@ -42485,7 +42486,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.mociun.com"
+    "domain": "mociun.com"
   },
   {
     "product_type": "Ecommerce",
@@ -42513,7 +42514,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.ruelala.com"
+    "domain": "ruelala.com"
   },
   {
     "product_type": "Ecommerce",
@@ -42527,7 +42528,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.marissacollections.com"
+    "domain": "marissacollections.com"
   },
   {
     "product_type": "Ecommerce",
@@ -42569,7 +42570,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.headwatersbamboo.com"
+    "domain": "headwatersbamboo.com"
   },
   {
     "product_type": "Ecommerce",
@@ -42583,7 +42584,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.steeda.com"
+    "domain": "steeda.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -42592,12 +42593,12 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fwww.coach.com%2F&merchant_ari=Q5Q58IW00GSPH008",
     "icon_url": "https://cdn1.affirm.com/platform/public/promos/assets/Q5Q58IW00GSPH008/logo/logo1x.png",
     "ari": "Q5Q58IW00GSPH008",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "apparel",
     "categories": [
       "apparel"
     ],
-    "domain": "www.coach.com"
+    "domain": "coach.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -42609,7 +42610,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.galls.com"
+    "domain": "galls.com"
   },
   {
     "product_type": "Ecommerce",
@@ -42621,7 +42622,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "auto",
     "categories": null,
-    "domain": "www.crunkyourtrunk.com"
+    "domain": "crunkyourtrunk.com"
   },
   {
     "product_type": "Ecommerce",
@@ -42635,7 +42636,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.steindiamonds.com"
+    "domain": "steindiamonds.com"
   },
   {
     "product_type": "Ecommerce",
@@ -42649,7 +42650,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.SuperShafty.com"
+    "domain": "SuperShafty.com"
   },
   {
     "product_type": "Ecommerce",
@@ -42675,7 +42676,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.danieljewelryinc.com"
+    "domain": "danieljewelryinc.com"
   },
   {
     "product_type": "Ecommerce",
@@ -42703,7 +42704,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.linentablecloth.com"
+    "domain": "linentablecloth.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -42717,7 +42718,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.pegasusautoracing.com"
+    "domain": "pegasusautoracing.com"
   },
   {
     "product_type": "Ecommerce",
@@ -42731,7 +42732,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.mcgeeandco.com"
+    "domain": "mcgeeandco.com"
   },
   {
     "product_type": "Ecommerce",
@@ -42743,7 +42744,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.beatriceforms.com"
+    "domain": "beatriceforms.com"
   },
   {
     "product_type": "Ecommerce",
@@ -42755,7 +42756,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.instagram.com/kixsquare"
+    "domain": "instagram.com/kixsquare"
   },
   {
     "product_type": "Ecommerce",
@@ -42769,7 +42770,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.hptautosport.com"
+    "domain": "hptautosport.com"
   },
   {
     "product_type": "Ecommerce",
@@ -42783,7 +42784,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.lepapierstudio.com"
+    "domain": "lepapierstudio.com"
   },
   {
     "product_type": "Ecommerce",
@@ -42797,7 +42798,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.shop.heavyglare.com"
+    "domain": "shop.heavyglare.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -42811,7 +42812,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.payless.com"
+    "domain": "payless.com"
   },
   {
     "product_type": "Ecommerce",
@@ -42851,7 +42852,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.autorimshop.com"
+    "domain": "autorimshop.com"
   },
   {
     "product_type": "Ecommerce",
@@ -42877,7 +42878,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.srdlv.com"
+    "domain": "srdlv.com"
   },
   {
     "product_type": "Ecommerce",
@@ -42891,7 +42892,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.SofaDreams.com"
+    "domain": "SofaDreams.com"
   },
   {
     "product_type": "Ecommerce",
@@ -42905,7 +42906,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.dieselops.com"
+    "domain": "dieselops.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -42919,7 +42920,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.abt.com"
+    "domain": "abt.com"
   },
   {
     "product_type": "Ecommerce",
@@ -42933,7 +42934,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.go.cityrow.com"
+    "domain": "go.cityrow.com"
   },
   {
     "product_type": "Ecommerce",
@@ -42947,7 +42948,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.sofamania.com"
+    "domain": "sofamania.com"
   },
   {
     "product_type": "Ecommerce",
@@ -42961,7 +42962,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.1800lighting.com"
+    "domain": "1800lighting.com"
   },
   {
     "product_type": "Ecommerce",
@@ -42975,7 +42976,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.dimshome.com"
+    "domain": "dimshome.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -43001,7 +43002,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.artmeup.space"
+    "domain": "artmeup.space"
   },
   {
     "product_type": "Ecommerce",
@@ -43029,7 +43030,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.ziamond.com"
+    "domain": "ziamond.com"
   },
   {
     "product_type": "Ecommerce",
@@ -43043,7 +43044,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.trustperformance.com"
+    "domain": "trustperformance.com"
   },
   {
     "product_type": "Ecommerce",
@@ -43057,7 +43058,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.shophorne.com"
+    "domain": "shophorne.com"
   },
   {
     "product_type": "Ecommerce",
@@ -43083,7 +43084,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "fitness_and_gear",
     "categories": null,
-    "domain": "www.windwardboardshop.com"
+    "domain": "windwardboardshop.com"
   },
   {
     "product_type": "Ecommerce",
@@ -43125,7 +43126,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.appliancepartspros.com"
+    "domain": "appliancepartspros.com"
   },
   {
     "product_type": "Ecommerce",
@@ -43139,7 +43140,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.whiteandwarren.com"
+    "domain": "whiteandwarren.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -43153,7 +43154,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.sportco.com"
+    "domain": "sportco.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -43165,7 +43166,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.blueapron.com"
+    "domain": "blueapron.com"
   },
   {
     "product_type": "Ecommerce",
@@ -43191,7 +43192,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.originalgrain.com"
+    "domain": "originalgrain.com"
   },
   {
     "product_type": "Ecommerce",
@@ -43203,7 +43204,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "simpsonsmeats.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -43229,7 +43230,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.loomasleep.com"
+    "domain": "loomasleep.com"
   },
   {
     "product_type": "Ecommerce",
@@ -43243,7 +43244,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.xenith.com"
+    "domain": "xenith.com"
   },
   {
     "product_type": "Ecommerce",
@@ -43255,7 +43256,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.eterneva.com"
+    "domain": "eterneva.com"
   },
   {
     "product_type": "Ecommerce",
@@ -43269,7 +43270,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.mongolianstore.com"
+    "domain": "mongolianstore.com"
   },
   {
     "product_type": "Ecommerce",
@@ -43298,7 +43299,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.trexbillet.com"
+    "domain": "trexbillet.com"
   },
   {
     "product_type": "Ecommerce",
@@ -43312,7 +43313,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.slateandtell.com"
+    "domain": "slateandtell.com"
   },
   {
     "product_type": "Ecommerce",
@@ -43326,7 +43327,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.shopredone.com"
+    "domain": "shopredone.com"
   },
   {
     "product_type": "Ecommerce",
@@ -43354,7 +43355,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.trucklogic.com"
+    "domain": "trucklogic.com"
   },
   {
     "product_type": "Ecommerce",
@@ -43380,7 +43381,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.oka-b.com"
+    "domain": "oka-b.com"
   },
   {
     "product_type": "Ecommerce",
@@ -43394,7 +43395,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.10secondracing.com"
+    "domain": "10secondracing.com"
   },
   {
     "product_type": "Ecommerce",
@@ -43408,7 +43409,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.targetoptical.com"
+    "domain": "targetoptical.com"
   },
   {
     "product_type": "Ecommerce",
@@ -43422,7 +43423,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.seventhwatches.com"
+    "domain": "seventhwatches.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -43431,12 +43432,12 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fnautilus.atkw.net%2FMM10K&merchant_ari=QOEZHT8UAUYXZ201",
     "icon_url": "https://cdn-assets.affirm.com/vcn_buy/v1/merchants/QOEZHT8UAUYXZ201/logo_20190711215548/logo.png",
     "ari": "QOEZHT8UAUYXZ201",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "fitness_and_gear",
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.bowflex.com"
+    "domain": "bowflex.com"
   },
   {
     "product_type": "Ecommerce",
@@ -43450,7 +43451,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.blastking.com"
+    "domain": "blastking.com"
   },
   {
     "product_type": "Ecommerce",
@@ -43464,7 +43465,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.Anarchybats.com"
+    "domain": "Anarchybats.com"
   },
   {
     "product_type": "Ecommerce",
@@ -43476,7 +43477,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "auto",
     "categories": null,
-    "domain": "www.wheelfire.com"
+    "domain": "wheelfire.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -43491,7 +43492,7 @@ const merchantData = [
       "accessories",
       "apparel"
     ],
-    "domain": "www.spanx.com"
+    "domain": "spanx.com"
   },
   {
     "product_type": "Ecommerce",
@@ -43529,7 +43530,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.patioshoppers.com"
+    "domain": "patioshoppers.com"
   },
   {
     "product_type": "Ecommerce",
@@ -43543,7 +43544,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.wavzs.com"
+    "domain": "wavzs.com"
   },
   {
     "product_type": "Ecommerce",
@@ -43557,7 +43558,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.thisisthelast.com"
+    "domain": "thisisthelast.com"
   },
   {
     "product_type": "Ecommerce",
@@ -43571,7 +43572,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.highseer.com"
+    "domain": "highseer.com"
   },
   {
     "product_type": "Ecommerce",
@@ -43597,7 +43598,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "m"
+    "domain": "libertysafesofsanjose.com"
   },
   {
     "product_type": "Ecommerce",
@@ -43611,7 +43612,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.phones.myafmobile.com"
+    "domain": "phones.myafmobile.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -43623,7 +43624,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.qvc.com"
+    "domain": "qvc.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -43651,7 +43652,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.thewheelbros.com"
+    "domain": "thewheelbros.com"
   },
   {
     "product_type": "Ecommerce",
@@ -43665,7 +43666,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.cleanblend.com"
+    "domain": "cleanblend.com"
   },
   {
     "product_type": "Ecommerce",
@@ -43677,7 +43678,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.HEARINGHELP.COM"
+    "domain": "HEARINGHELP.COM"
   },
   {
     "product_type": "Ecommerce",
@@ -43703,7 +43704,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "ilovelibertine.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -43745,7 +43746,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "m"
+    "domain": "preadored.com"
   },
   {
     "product_type": "Ecommerce",
@@ -43757,7 +43758,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.bluwinx.com"
+    "domain": "bluwinx.com"
   },
   {
     "product_type": "Ecommerce",
@@ -43809,7 +43810,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.adeptautomotive.com"
+    "domain": "adeptautomotive.com"
   },
   {
     "product_type": "Ecommerce",
@@ -43833,7 +43834,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.crawlspace-diy.com"
+    "domain": "crawlspace-diy.com"
   },
   {
     "product_type": "Ecommerce",
@@ -43847,7 +43848,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.everythingpolarisrzr.com"
+    "domain": "everythingpolarisrzr.com"
   },
   {
     "product_type": "Ecommerce",
@@ -43859,7 +43860,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "fitness_and_gear",
     "categories": null,
-    "domain": "www.fyxation.com"
+    "domain": "fyxation.com"
   },
   {
     "product_type": "Ecommerce",
@@ -43873,7 +43874,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.nooksleep.com"
+    "domain": "nooksleep.com"
   },
   {
     "product_type": "Ecommerce",
@@ -43887,7 +43888,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.thomaskinkade.com"
+    "domain": "thomaskinkade.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -43902,7 +43903,7 @@ const merchantData = [
       "apparel",
       "fitness_and_gear"
     ],
-    "domain": "www.shop.nhl.com"
+    "domain": "shop.nhl.com"
   },
   {
     "product_type": "Ecommerce",
@@ -43916,7 +43917,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.miamistar.com"
+    "domain": "miamistar.com"
   },
   {
     "product_type": "Ecommerce",
@@ -43930,7 +43931,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.ffperformance.co"
+    "domain": "ffperformance.co"
   },
   {
     "product_type": "Ecommerce",
@@ -43954,7 +43955,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "fitness_and_gear",
     "categories": null,
-    "domain": "www.on3pskis.com"
+    "domain": "on3pskis.com"
   },
   {
     "product_type": "Ecommerce",
@@ -43968,7 +43969,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.pioneerminisplit.com"
+    "domain": "pioneerminisplit.com"
   },
   {
     "product_type": "Ecommerce",
@@ -43982,7 +43983,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.okioki.com"
+    "domain": "okioki.com"
   },
   {
     "product_type": "Ecommerce",
@@ -44006,7 +44007,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.webyshops.com"
+    "domain": "webyshops.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -44020,7 +44021,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.wbmason.com"
+    "domain": "wbmason.com"
   },
   {
     "product_type": "Ecommerce",
@@ -44057,7 +44058,7 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fclick.linksynergy.com%2Ffs-bin%2Fclick%3Fid%3DbFeuiaEZizw%26offerid%3D600727.10000862%26subid%3D0%26type%3D4&merchant_ari=R1RIWLI6GUTS99UX",
     "icon_url": "http://cdn-assets.affirm.com/vcn_buy/v1/merchants/R1RIWLI6GUTS99UX/logo20191212/logo_offer.png",
     "ari": "R1RIWLI6GUTS99UX",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "electronics",
     "categories": [
       "electronics"
@@ -44088,7 +44089,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.sissyslogcabin.com"
+    "domain": "sissyslogcabin.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -44102,7 +44103,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.untuckit.com"
+    "domain": "untuckit.com"
   },
   {
     "product_type": "Ecommerce",
@@ -44126,7 +44127,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.cookiesbydesign.com"
+    "domain": "cookiesbydesign.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -44140,7 +44141,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.drjays.com"
+    "domain": "drjays.com"
   },
   {
     "product_type": "Ecommerce",
@@ -44152,7 +44153,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.ifilters.com"
+    "domain": "ifilters.com"
   },
   {
     "product_type": "Ecommerce",
@@ -44166,7 +44167,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.thronewatches.com"
+    "domain": "thronewatches.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -44180,7 +44181,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.beautyencounter.com"
+    "domain": "beautyencounter.com"
   },
   {
     "product_type": "Ecommerce",
@@ -44194,7 +44195,7 @@ const merchantData = [
     "categories": [
       "luxury"
     ],
-    "domain": "www.saraweinstock.com"
+    "domain": "saraweinstock.com"
   },
   {
     "product_type": "Ecommerce",
@@ -44208,7 +44209,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.fitnessgearusa.com"
+    "domain": "fitnessgearusa.com"
   },
   {
     "product_type": "Ecommerce",
@@ -44220,7 +44221,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "accessories",
     "categories": null,
-    "domain": "www.iconery.com"
+    "domain": "iconery.com"
   },
   {
     "product_type": "Ecommerce",
@@ -44232,7 +44233,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "earthtosouldesigns.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -44246,7 +44247,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.timbuk2.com"
+    "domain": "timbuk2.com"
   },
   {
     "product_type": "Ecommerce",
@@ -44258,7 +44259,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "fitness_and_gear",
     "categories": null,
-    "domain": "www.bes-ebike.com"
+    "domain": "bes-ebike.com"
   },
   {
     "product_type": "Ecommerce",
@@ -44272,7 +44273,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.shopglade.com"
+    "domain": "shopglade.com"
   },
   {
     "product_type": "Ecommerce",
@@ -44286,7 +44287,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.citizenwatch.com"
+    "domain": "citizenwatch.com"
   },
   {
     "product_type": "Ecommerce",
@@ -44300,7 +44301,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.zorrosounds.com"
+    "domain": "zorrosounds.com"
   },
   {
     "product_type": "Ecommerce",
@@ -44314,7 +44315,7 @@ const merchantData = [
     "categories": [
       "travel_and_events"
     ],
-    "domain": "www.kaabootexas.com"
+    "domain": "kaabootexas.com"
   },
   {
     "product_type": "Ecommerce",
@@ -44354,7 +44355,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.handknotted.com"
+    "domain": "handknotted.com"
   },
   {
     "product_type": "Ecommerce",
@@ -44368,7 +44369,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.argonautcycles.com"
+    "domain": "argonautcycles.com"
   },
   {
     "product_type": "Ecommerce",
@@ -44382,7 +44383,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.dannijo.com"
+    "domain": "dannijo.com"
   },
   {
     "product_type": "Ecommerce",
@@ -44396,7 +44397,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.tuffstuffoverland.com"
+    "domain": "tuffstuffoverland.com"
   },
   {
     "product_type": "Ecommerce",
@@ -44408,7 +44409,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.wogoapparel.com"
+    "domain": "wogoapparel.com"
   },
   {
     "product_type": "Ecommerce",
@@ -44422,7 +44423,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.rachio.com"
+    "domain": "rachio.com"
   },
   {
     "product_type": "Ecommerce",
@@ -44474,7 +44475,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.impactdogcrates.com"
+    "domain": "impactdogcrates.com"
   },
   {
     "product_type": "Ecommerce",
@@ -44488,7 +44489,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.chronostore.com"
+    "domain": "chronostore.com"
   },
   {
     "product_type": "Ecommerce",
@@ -44500,7 +44501,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.studiogears.com"
+    "domain": "studiogears.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -44514,7 +44515,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.fathead.com"
+    "domain": "fathead.com"
   },
   {
     "product_type": "Ecommerce",
@@ -44528,7 +44529,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.ross-simons.com"
+    "domain": "ross-simons.com"
   },
   {
     "product_type": "Ecommerce",
@@ -44568,7 +44569,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.kyboe.com"
+    "domain": "kyboe.com"
   },
   {
     "product_type": "Ecommerce",
@@ -44580,7 +44581,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "t"
+    "domain": "thehealthdare.net"
   },
   {
     "product_type": "Ecommerce",
@@ -44592,7 +44593,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "home_and_furniture",
     "categories": null,
-    "domain": "www.weber.com"
+    "domain": "weber.com"
   },
   {
     "product_type": "Ecommerce",
@@ -44606,7 +44607,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.wilsonamplifiers.com"
+    "domain": "wilsonamplifiers.com"
   },
   {
     "product_type": "Ecommerce",
@@ -44620,7 +44621,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.edelkrone.com"
+    "domain": "edelkrone.com"
   },
   {
     "product_type": "Ecommerce",
@@ -44648,7 +44649,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.mikucare.com"
+    "domain": "mikucare.com"
   },
   {
     "product_type": "Ecommerce",
@@ -44660,7 +44661,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.nina-nguyen.com"
+    "domain": "nina-nguyen.com"
   },
   {
     "product_type": "Ecommerce",
@@ -44674,7 +44675,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.habitatfurnishings.com"
+    "domain": "habitatfurnishings.com"
   },
   {
     "product_type": "Ecommerce",
@@ -44714,7 +44715,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.weightingcomforts.com"
+    "domain": "weightingcomforts.com"
   },
   {
     "product_type": "Ecommerce",
@@ -44726,7 +44727,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.grazielagems.com"
+    "domain": "grazielagems.com"
   },
   {
     "product_type": "Ecommerce",
@@ -44740,7 +44741,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.bearmattress.com"
+    "domain": "bearmattress.com"
   },
   {
     "product_type": "Ecommerce",
@@ -44754,7 +44755,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.wheelhero.com"
+    "domain": "wheelhero.com"
   },
   {
     "product_type": "Ecommerce",
@@ -44766,7 +44767,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.deckofscarlet.com"
+    "domain": "deckofscarlet.com"
   },
   {
     "product_type": "Ecommerce",
@@ -44794,7 +44795,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.randombikeparts.com"
+    "domain": "randombikeparts.com"
   },
   {
     "product_type": "Ecommerce",
@@ -44820,7 +44821,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.Kellysultimatesports.com"
+    "domain": "Kellysultimatesports.com"
   },
   {
     "product_type": "Ecommerce",
@@ -44832,7 +44833,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.HeartRateMonitorsUSA.com"
+    "domain": "HeartRateMonitorsUSA.com"
   },
   {
     "product_type": "Ecommerce",
@@ -44860,7 +44861,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.portal.facebook.com"
+    "domain": "portal.facebook.com"
   },
   {
     "product_type": "Ecommerce",
@@ -44874,7 +44875,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "/"
+    "domain": "razer.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -44888,7 +44889,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.cozycornerpatios.com"
+    "domain": "cozycornerpatios.com"
   },
   {
     "product_type": "Ecommerce",
@@ -44903,7 +44904,7 @@ const merchantData = [
       "accessories",
       "fitness_and_gear"
     ],
-    "domain": "www.maxprofitness.com"
+    "domain": "maxprofitness.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -44917,7 +44918,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.shop4tech.com"
+    "domain": "shop4tech.com"
   },
   {
     "product_type": "Ecommerce",
@@ -44931,7 +44932,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.bulova.com"
+    "domain": "bulova.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -44943,7 +44944,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.ediblearrangements.com"
+    "domain": "ediblearrangements.com"
   },
   {
     "product_type": "Ecommerce",
@@ -44971,7 +44972,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.omegawatches.com"
+    "domain": "omegawatches.com"
   },
   {
     "product_type": "Ecommerce",
@@ -44983,7 +44984,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "m"
+    "domain": "agandmealways.com"
   },
   {
     "product_type": "Ecommerce",
@@ -44997,7 +44998,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.dronefly.com"
+    "domain": "dronefly.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -45009,7 +45010,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.homebrewohio.com"
+    "domain": "homebrewohio.com"
   },
   {
     "product_type": "Ecommerce",
@@ -45021,7 +45022,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.4x4northamerica.com"
+    "domain": "4x4northamerica.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -45035,7 +45036,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.kitchensource.com"
+    "domain": "kitchensource.com"
   },
   {
     "product_type": "Ecommerce",
@@ -45063,7 +45064,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.karmaloop.com"
+    "domain": "karmaloop.com"
   },
   {
     "product_type": "Ecommerce",
@@ -45075,7 +45076,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.Crushendo.com"
+    "domain": "Crushendo.com"
   },
   {
     "product_type": "Ecommerce",
@@ -45089,7 +45090,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.eightsleep.com"
+    "domain": "eightsleep.com"
   },
   {
     "product_type": "Ecommerce",
@@ -45127,7 +45128,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.prodjdirect.com"
+    "domain": "prodjdirect.com"
   },
   {
     "product_type": "Ecommerce",
@@ -45141,7 +45142,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.WWW.SDHQOFFROAD.COM"
+    "domain": "WWW.SDHQOFFROAD.COM"
   },
   {
     "product_type": "Ecommerce",
@@ -45155,7 +45156,7 @@ const merchantData = [
     "categories": [
       "travel_and_events"
     ],
-    "domain": "www.justfly.com"
+    "domain": "justfly.com"
   },
   {
     "product_type": "Ecommerce",
@@ -45181,7 +45182,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "fitness_and_gear",
     "categories": null,
-    "domain": "m"
+    "domain": "albumsurf.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -45195,7 +45196,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.4wd.com"
+    "domain": "4wd.com"
   },
   {
     "product_type": "Ecommerce",
@@ -45210,7 +45211,7 @@ const merchantData = [
       "accessories",
       "auto"
     ],
-    "domain": "www.WWW.SPEEDTECH.COM"
+    "domain": "WWW.SPEEDTECH.COM"
   },
   {
     "product_type": "Ecommerce",
@@ -45224,7 +45225,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.yourmechanic.com"
+    "domain": "yourmechanic.com"
   },
   {
     "product_type": "Ecommerce",
@@ -45236,7 +45237,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.thescarlettdot.com"
+    "domain": "thescarlettdot.com"
   },
   {
     "product_type": "Ecommerce",
@@ -45250,7 +45251,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.hhsales.com"
+    "domain": "hhsales.com"
   },
   {
     "product_type": "Ecommerce",
@@ -45264,7 +45265,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.sleepez.com"
+    "domain": "sleepez.com"
   },
   {
     "product_type": "Ecommerce",
@@ -45278,7 +45279,7 @@ const merchantData = [
     "categories": [
       "luxury"
     ],
-    "domain": "www.rijewelers.com"
+    "domain": "rijewelers.com"
   },
   {
     "product_type": "Ecommerce",
@@ -45292,7 +45293,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.danawaldenbridal.com"
+    "domain": "danawaldenbridal.com"
   },
   {
     "product_type": "Ecommerce",
@@ -45318,7 +45319,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.denimist.com"
+    "domain": "denimist.com"
   },
   {
     "product_type": "Ecommerce",
@@ -45344,7 +45345,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.jefferspet.com"
+    "domain": "jefferspet.com"
   },
   {
     "product_type": "Ecommerce",
@@ -45358,7 +45359,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.vava.com"
+    "domain": "vava.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -45372,7 +45373,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.jtv.com"
+    "domain": "jtv.com"
   },
   {
     "product_type": "Ecommerce",
@@ -45386,7 +45387,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.skystreamx.com"
+    "domain": "skystreamx.com"
   },
   {
     "product_type": "Ecommerce",
@@ -45400,7 +45401,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.luxedecor.com"
+    "domain": "luxedecor.com"
   },
   {
     "product_type": "Ecommerce",
@@ -45412,7 +45413,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.lofta.com"
+    "domain": "lofta.com"
   },
   {
     "product_type": "Ecommerce",
@@ -45426,7 +45427,7 @@ const merchantData = [
     "categories": [
       "travel_and_events"
     ],
-    "domain": "www.karismahotels.com"
+    "domain": "karismahotels.com"
   },
   {
     "product_type": "Ecommerce",
@@ -45440,7 +45441,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.jhmotorsports.com"
+    "domain": "jhmotorsports.com"
   },
   {
     "product_type": "Ecommerce",
@@ -45452,7 +45453,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "accessories",
     "categories": null,
-    "domain": "www.reinsteinross.com"
+    "domain": "reinsteinross.com"
   },
   {
     "product_type": "Ecommerce",
@@ -45466,7 +45467,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.wwe.untouchablesoundstm.com"
+    "domain": "wwe.untouchablesoundstm.com"
   },
   {
     "product_type": "Ecommerce",
@@ -45480,7 +45481,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.theshophouston.com"
+    "domain": "theshophouston.com"
   },
   {
     "product_type": "Ecommerce",
@@ -45506,7 +45507,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.everbrand.us"
+    "domain": "everbrand.us"
   },
   {
     "product_type": "Ecommerce",
@@ -45544,21 +45545,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "/"
-  },
-  {
-    "product_type": "Ecommerce",
-    "image_url": "https://cdn-assets.affirm.com/vcn_buy/v1/merchants/S2E7BH0RO1N8PHAY/hero2020092856/hero1.jpg",
-    "name": "Joe's Jeans",
-    "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fwww.joesjeans.com%2F&merchant_ari=S2E7BH0RO1N8PHAY",
-    "icon_url": "http://cdn-assets.affirm.com/vcn_buy/v1/merchants/S2E7BH0RO1N8PHAY/logo20191009/logo_offer.png",
-    "ari": "S2E7BH0RO1N8PHAY",
-    "zero_apr": false,
-    "primary_category": "apparel",
-    "categories": [
-      "apparel"
-    ],
-    "domain": "www.joesjeans.com"
+    "domain": "medleyhome.com/"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -45572,7 +45559,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.orvis.com"
+    "domain": "orvis.com"
   },
   {
     "product_type": "Ecommerce",
@@ -45586,7 +45573,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.mmlafleur.com"
+    "domain": "mmlafleur.com"
   },
   {
     "product_type": "Ecommerce",
@@ -45598,7 +45585,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "home_and_furniture",
     "categories": null,
-    "domain": "www.sleeponlatex.com"
+    "domain": "sleeponlatex.com"
   },
   {
     "product_type": "Ecommerce",
@@ -45610,7 +45597,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "liberty-safes-of-huntsville.myshopify.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -45622,7 +45609,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.oseamalibu.com"
+    "domain": "oseamalibu.com"
   },
   {
     "product_type": "Ecommerce",
@@ -45636,7 +45623,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.contactsdirect.com"
+    "domain": "contactsdirect.com"
   },
   {
     "product_type": "Ecommerce",
@@ -45650,7 +45637,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.powersportsmax.com"
+    "domain": "powersportsmax.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -45662,7 +45649,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.1sale.com"
+    "domain": "1sale.com"
   },
   {
     "product_type": "Ecommerce",
@@ -45688,7 +45675,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.careerstep.com"
+    "domain": "careerstep.com"
   },
   {
     "product_type": "Ecommerce",
@@ -45702,7 +45689,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.truecooks.com"
+    "domain": "truecooks.com"
   },
   {
     "product_type": "Ecommerce",
@@ -45716,7 +45703,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.foresightsports.com"
+    "domain": "foresightsports.com"
   },
   {
     "product_type": "Ecommerce",
@@ -45730,7 +45717,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.kouroshrugs.com"
+    "domain": "kouroshrugs.com"
   },
   {
     "product_type": "Ecommerce",
@@ -45759,7 +45746,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.whoop.com"
+    "domain": "whoop.com"
   },
   {
     "product_type": "Ecommerce",
@@ -45773,7 +45760,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.gotalkusa.com"
+    "domain": "gotalkusa.com"
   },
   {
     "product_type": "Ecommerce",
@@ -45801,7 +45788,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.wisteria.com"
+    "domain": "wisteria.com"
   },
   {
     "product_type": "Ecommerce",
@@ -45813,7 +45800,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.mimvariocage.com"
+    "domain": "mimvariocage.com"
   },
   {
     "product_type": "Ecommerce",
@@ -45827,7 +45814,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.baghunter.com"
+    "domain": "baghunter.com"
   },
   {
     "product_type": "Ecommerce",
@@ -45865,7 +45852,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.sailrite.com"
+    "domain": "sailrite.com"
   },
   {
     "product_type": "Ecommerce",
@@ -45879,7 +45866,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.juneoven.com"
+    "domain": "juneoven.com"
   },
   {
     "product_type": "Ecommerce",
@@ -45929,7 +45916,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.americanaquariums.com"
+    "domain": "americanaquariums.com"
   },
   {
     "product_type": "Ecommerce",
@@ -45943,7 +45930,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.sevenhugs.com"
+    "domain": "sevenhugs.com"
   },
   {
     "product_type": "Ecommerce",
@@ -45955,7 +45942,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.us.udiscovermusic.com/"
+    "domain": "us.udiscovermusic.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -45983,7 +45970,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.ruffstuffspecialties.com"
+    "domain": "ruffstuffspecialties.com"
   },
   {
     "product_type": "Ecommerce",
@@ -45997,7 +45984,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.serenaandlily.com"
+    "domain": "serenaandlily.com"
   },
   {
     "product_type": "Ecommerce",
@@ -46025,7 +46012,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.rushordertees.com"
+    "domain": "rushordertees.com"
   },
   {
     "product_type": "Ecommerce",
@@ -46053,7 +46040,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.houseofantiquehardware.com"
+    "domain": "houseofantiquehardware.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -46065,7 +46052,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.omahasteaks.com"
+    "domain": "omahasteaks.com"
   },
   {
     "product_type": "Ecommerce",
@@ -46079,7 +46066,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.poolzoom.com"
+    "domain": "poolzoom.com"
   },
   {
     "product_type": "Ecommerce",
@@ -46093,7 +46080,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.tiendaadanjoyeria.com"
+    "domain": "tiendaadanjoyeria.com"
   },
   {
     "product_type": "Ecommerce",
@@ -46121,7 +46108,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.solawoodflowers.com"
+    "domain": "solawoodflowers.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -46135,7 +46122,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.bagborroworsteal.com"
+    "domain": "bagborroworsteal.com"
   },
   {
     "product_type": "Ecommerce",
@@ -46161,7 +46148,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.dudley-stephens.com"
+    "domain": "dudley-stephens.com"
   },
   {
     "product_type": "Ecommerce",
@@ -46175,7 +46162,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.realstreetperformance.com"
+    "domain": "realstreetperformance.com"
   },
   {
     "product_type": "Ecommerce",
@@ -46189,7 +46176,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.babybrezza.com"
+    "domain": "babybrezza.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -46203,7 +46190,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.jackssmallengines.com"
+    "domain": "jackssmallengines.com"
   },
   {
     "product_type": "Ecommerce",
@@ -46217,7 +46204,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.xtremediesel.com"
+    "domain": "xtremediesel.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -46229,7 +46216,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.telescope.com"
+    "domain": "telescope.com"
   },
   {
     "product_type": "Ecommerce",
@@ -46255,7 +46242,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "zeroprince.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -46269,7 +46256,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.MikesBikes.com"
+    "domain": "MikesBikes.com"
   },
   {
     "product_type": "Ecommerce",
@@ -46297,7 +46284,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.timepieceperfection.com"
+    "domain": "timepieceperfection.com"
   },
   {
     "product_type": "Ecommerce",
@@ -46309,7 +46296,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.shop.mirohome.com"
+    "domain": "shop.mirohome.com"
   },
   {
     "product_type": "Ecommerce",
@@ -46323,7 +46310,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.artfinder.com"
+    "domain": "artfinder.com"
   },
   {
     "product_type": "Ecommerce",
@@ -46337,7 +46324,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.longines.com"
+    "domain": "longines.com"
   },
   {
     "product_type": "Ecommerce",
@@ -46351,7 +46338,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.august.com"
+    "domain": "august.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -46365,7 +46352,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.sokoglam.com"
+    "domain": "sokoglam.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -46377,7 +46364,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.americanmusical.com"
+    "domain": "americanmusical.com"
   },
   {
     "product_type": "Ecommerce",
@@ -46389,7 +46376,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.shop.cosm.org"
+    "domain": "shop.cosm.org"
   },
   {
     "product_type": "Ecommerce",
@@ -46401,7 +46388,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "m"
+    "domain": "granitestone.com"
   },
   {
     "product_type": "Ecommerce",
@@ -46413,7 +46400,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.latemodellighting.com"
+    "domain": "latemodellighting.com"
   },
   {
     "product_type": "Ecommerce",
@@ -46425,7 +46412,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.BlindsChalet.com"
+    "domain": "BlindsChalet.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -46439,7 +46426,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.shinesty.com"
+    "domain": "shinesty.com"
   },
   {
     "product_type": "Ecommerce",
@@ -46480,7 +46467,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.elfcosmetics.com"
+    "domain": "elfcosmetics.com"
   },
   {
     "product_type": "Ecommerce",
@@ -46494,7 +46481,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.hypermotive.com"
+    "domain": "hypermotive.com"
   },
   {
     "product_type": "Ecommerce",
@@ -46520,7 +46507,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.sustainablesupply.com"
+    "domain": "sustainablesupply.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -46534,7 +46521,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.reitmans.com"
+    "domain": "reitmans.com"
   },
   {
     "product_type": "Ecommerce",
@@ -46548,7 +46535,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.superpedestrian.com"
+    "domain": "superpedestrian.com"
   },
   {
     "product_type": "Ecommerce",
@@ -46560,7 +46547,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "wow3dprinter.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -46572,7 +46559,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "nannypodshop.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -46608,7 +46595,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.medalsofamerica.com"
+    "domain": "medalsofamerica.com"
   },
   {
     "product_type": "Ecommerce",
@@ -46622,7 +46609,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.carolinarustica.com"
+    "domain": "carolinarustica.com"
   },
   {
     "product_type": "Ecommerce",
@@ -46636,7 +46623,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.mrwheeldeal.com"
+    "domain": "mrwheeldeal.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -46650,7 +46637,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.motosport.com"
+    "domain": "motosport.com"
   },
   {
     "product_type": "Ecommerce",
@@ -46690,7 +46677,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.royalcircus.com"
+    "domain": "royalcircus.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -46702,7 +46689,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.candy.com"
+    "domain": "candy.com"
   },
   {
     "product_type": "Ecommerce",
@@ -46728,7 +46715,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.factorypure.com"
+    "domain": "factorypure.com"
   },
   {
     "product_type": "Ecommerce",
@@ -46756,7 +46743,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.easternperformance.com"
+    "domain": "easternperformance.com"
   },
   {
     "product_type": "Ecommerce",
@@ -46770,7 +46757,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "m"
+    "domain": "kcturbos.com"
   },
   {
     "product_type": "Ecommerce",
@@ -46784,7 +46771,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.alchema.com"
+    "domain": "alchema.com"
   },
   {
     "product_type": "Ecommerce",
@@ -46798,7 +46785,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.hazardsky.com"
+    "domain": "hazardsky.com"
   },
   {
     "product_type": "Ecommerce",
@@ -46810,7 +46797,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.theukulelesite.com"
+    "domain": "theukulelesite.com"
   },
   {
     "product_type": "Ecommerce",
@@ -46836,7 +46823,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "m"
+    "domain": "etvoilapizzaoven.com"
   },
   {
     "product_type": "Ecommerce",
@@ -46864,7 +46851,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.bellamiprofessional.com"
+    "domain": "bellamiprofessional.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -46878,7 +46865,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.us.memebox.com"
+    "domain": "us.memebox.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -46907,7 +46894,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.silverhooks.com"
+    "domain": "silverhooks.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -46921,7 +46908,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.orangeonions.com"
+    "domain": "orangeonions.com"
   },
   {
     "product_type": "Ecommerce",
@@ -46933,7 +46920,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "home_and_furniture",
     "categories": null,
-    "domain": "www.UGallery.com"
+    "domain": "UGallery.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -46947,7 +46934,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.vistaprint.com"
+    "domain": "vistaprint.com"
   },
   {
     "product_type": "Ecommerce",
@@ -46961,7 +46948,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.goodyear.com"
+    "domain": "goodyear.com"
   },
   {
     "product_type": "Ecommerce",
@@ -47001,7 +46988,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.turtlebeach.com"
+    "domain": "turtlebeach.com"
   },
   {
     "product_type": "Ecommerce",
@@ -47013,7 +47000,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.sacramentokoi.com"
+    "domain": "sacramentokoi.com"
   },
   {
     "product_type": "Ecommerce",
@@ -47063,7 +47050,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.igogoldan.com"
+    "domain": "igogoldan.com"
   },
   {
     "product_type": "Ecommerce",
@@ -47089,7 +47076,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.starsound.store"
+    "domain": "starsound.store"
   },
   {
     "product_type": "Ecommerce",
@@ -47131,7 +47118,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.urotuning.com"
+    "domain": "urotuning.com"
   },
   {
     "product_type": "Ecommerce",
@@ -47157,7 +47144,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.jhilburn.com"
+    "domain": "jhilburn.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -47169,7 +47156,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.shindigz.com"
+    "domain": "shindigz.com"
   },
   {
     "product_type": "Ecommerce",
@@ -47183,7 +47170,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.downsouthmotorsports.com"
+    "domain": "downsouthmotorsports.com"
   },
   {
     "product_type": "Ecommerce",
@@ -47197,7 +47184,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.rotimatic.com"
+    "domain": "rotimatic.com"
   },
   {
     "product_type": "Ecommerce",
@@ -47239,7 +47226,7 @@ const merchantData = [
     "categories": [
       "luxury"
     ],
-    "domain": "www.ouibyjeandousset.com"
+    "domain": "ouibyjeandousset.com"
   },
   {
     "product_type": "Ecommerce",
@@ -47251,7 +47238,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.beechmountainresort.com"
+    "domain": "beechmountainresort.com"
   },
   {
     "product_type": "Ecommerce",
@@ -47277,7 +47264,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.deepsentinel.com"
+    "domain": "deepsentinel.com"
   },
   {
     "product_type": "Ecommerce",
@@ -47291,7 +47278,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.annesisteron.com"
+    "domain": "annesisteron.com"
   },
   {
     "product_type": "Ecommerce",
@@ -47303,7 +47290,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.thaliacapos.com"
+    "domain": "thaliacapos.com"
   },
   {
     "product_type": "Ecommerce",
@@ -47315,7 +47302,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "auto",
     "categories": null,
-    "domain": "www.bigcatbikes.com"
+    "domain": "bigcatbikes.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -47329,7 +47316,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.lorealparisusa.com"
+    "domain": "lorealparisusa.com"
   },
   {
     "product_type": "Ecommerce",
@@ -47341,7 +47328,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.phatmoto.com"
+    "domain": "phatmoto.com"
   },
   {
     "product_type": "Ecommerce",
@@ -47355,7 +47342,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.ibuypower.com"
+    "domain": "ibuypower.com"
   },
   {
     "product_type": "Ecommerce",
@@ -47369,7 +47356,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.makr.com"
+    "domain": "makr.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -47383,7 +47370,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "/"
+    "domain": "solsticesunglasses.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -47409,7 +47396,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.esighteyewear.com"
+    "domain": "esighteyewear.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -47423,7 +47410,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.gaffos.com"
+    "domain": "gaffos.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -47437,7 +47424,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.pmctire.com"
+    "domain": "pmctire.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -47451,7 +47438,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.ritzcamera.com"
+    "domain": "ritzcamera.com"
   },
   {
     "product_type": "Ecommerce",
@@ -47463,7 +47450,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.millrightcnc.com"
+    "domain": "millrightcnc.com"
   },
   {
     "product_type": "Ecommerce",
@@ -47475,7 +47462,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.stoffa.co"
+    "domain": "stoffa.co"
   },
   {
     "product_type": "Ecommerce",
@@ -47489,7 +47476,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.pssl.com"
+    "domain": "pssl.com"
   },
   {
     "product_type": "Ecommerce",
@@ -47527,7 +47514,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.lifeway.com"
+    "domain": "lifeway.com"
   },
   {
     "product_type": "Ecommerce",
@@ -47541,7 +47528,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.Thelavishbeautypalace.net"
+    "domain": "Thelavishbeautypalace.net"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -47555,7 +47542,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.crucial.com"
+    "domain": "crucial.com"
   },
   {
     "product_type": "Ecommerce",
@@ -47567,7 +47554,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "home_and_furniture",
     "categories": null,
-    "domain": "www.oldnewhouse.com"
+    "domain": "oldnewhouse.com"
   },
   {
     "product_type": "Ecommerce",
@@ -47581,7 +47568,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.autoaccessoriesgarage.com"
+    "domain": "autoaccessoriesgarage.com"
   },
   {
     "product_type": "Ecommerce",
@@ -47609,7 +47596,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.modcloth.com"
+    "domain": "modcloth.com"
   },
   {
     "product_type": "Ecommerce",
@@ -47623,7 +47610,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.evo.com"
+    "domain": "evo.com"
   },
   {
     "product_type": "Ecommerce",
@@ -47651,7 +47638,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.hamgo.com"
+    "domain": "hamgo.com"
   },
   {
     "product_type": "Ecommerce",
@@ -47663,7 +47650,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "calvinsonline.com/"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -47675,7 +47662,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.brownies.com"
+    "domain": "brownies.com"
   },
   {
     "product_type": "Ecommerce",
@@ -47689,7 +47676,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.precisionwatches.com"
+    "domain": "precisionwatches.com"
   },
   {
     "product_type": "Ecommerce",
@@ -47703,7 +47690,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.vorticwatches.com"
+    "domain": "vorticwatches.com"
   },
   {
     "product_type": "Ecommerce",
@@ -47729,7 +47716,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "beauty",
     "categories": null,
-    "domain": "www.confessionsofarebel.com"
+    "domain": "confessionsofarebel.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -47741,7 +47728,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.cafepress.com"
+    "domain": "cafepress.com"
   },
   {
     "product_type": "Ecommerce",
@@ -47756,7 +47743,7 @@ const merchantData = [
       "beauty",
       "luxury"
     ],
-    "domain": "www.evanalexandergrooming.com"
+    "domain": "evanalexandergrooming.com"
   },
   {
     "product_type": "Ecommerce",
@@ -47782,7 +47769,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.autopartscheaper.com"
+    "domain": "autopartscheaper.com"
   },
   {
     "product_type": "Ecommerce",
@@ -47794,7 +47781,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "nomadgrills.com/"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -47808,7 +47795,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.projectrepat.com"
+    "domain": "projectrepat.com"
   },
   {
     "product_type": "Ecommerce",
@@ -47822,7 +47809,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.aventuron.com"
+    "domain": "aventuron.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -47836,7 +47823,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.venus.com"
+    "domain": "venus.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -47850,7 +47837,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.yandy.com"
+    "domain": "yandy.com"
   },
   {
     "product_type": "Ecommerce",
@@ -47907,7 +47894,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.sebastiancruzcouture.com"
+    "domain": "sebastiancruzcouture.com"
   },
   {
     "product_type": "Ecommerce",
@@ -47921,7 +47908,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.luxuryofwatches.com"
+    "domain": "luxuryofwatches.com"
   },
   {
     "product_type": "Ecommerce",
@@ -47935,7 +47922,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.ntwonline.com"
+    "domain": "ntwonline.com"
   },
   {
     "product_type": "Ecommerce",
@@ -47963,7 +47950,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.POWERSPORTSiD.com"
+    "domain": "POWERSPORTSiD.com"
   },
   {
     "product_type": "Ecommerce",
@@ -47989,7 +47976,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.lifespanfitness.com"
+    "domain": "lifespanfitness.com"
   },
   {
     "product_type": "Ecommerce",
@@ -48003,7 +47990,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.marlofurniture.com"
+    "domain": "marlofurniture.com"
   },
   {
     "product_type": "Ecommerce",
@@ -48017,7 +48004,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.monstermoto.com"
+    "domain": "monstermoto.com"
   },
   {
     "product_type": "Ecommerce",
@@ -48031,7 +48018,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.wyattbikes.com"
+    "domain": "wyattbikes.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -48043,7 +48030,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.theparkcatalog.com"
+    "domain": "theparkcatalog.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -48057,7 +48044,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.us.asos.com"
+    "domain": "us.asos.com"
   },
   {
     "product_type": "Ecommerce",
@@ -48109,7 +48096,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.offroadwarehouse.com"
+    "domain": "offroadwarehouse.com"
   },
   {
     "product_type": "Ecommerce",
@@ -48121,7 +48108,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "m"
+    "domain": "bellissi-furniture.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -48130,12 +48117,12 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=http%3A%2F%2Fwww.jdoqocy.com%2Fclick-8191141-12696030&merchant_ari=TRMH0ND715MMKSQ3",
     "icon_url": "http://cdn-assets.affirm.com/vcn_buy/v1/merchants/TRMH0ND715MMKSQ3/logo20191107/logo_offer.png",
     "ari": "TRMH0ND715MMKSQ3",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "apparel",
     "categories": [
       "apparel"
     ],
-    "domain": "www.ae.com"
+    "domain": "ae.com"
   },
   {
     "product_type": "Ecommerce",
@@ -48149,7 +48136,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.glaminc.com"
+    "domain": "glaminc.com"
   },
   {
     "product_type": "Ecommerce",
@@ -48161,7 +48148,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.iqmassager.com"
+    "domain": "iqmassager.com"
   },
   {
     "product_type": "Ecommerce",
@@ -48175,7 +48162,7 @@ const merchantData = [
     "categories": [
       "travel_and_events"
     ],
-    "domain": "www.efultimatebreak.com"
+    "domain": "efultimatebreak.com"
   },
   {
     "product_type": "Ecommerce",
@@ -48189,7 +48176,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.zizidonohoe.com"
+    "domain": "zizidonohoe.com"
   },
   {
     "product_type": "Ecommerce",
@@ -48205,7 +48192,7 @@ const merchantData = [
       "apparel",
       "shoes"
     ],
-    "domain": "www.dtlr.com"
+    "domain": "dtlr.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -48219,7 +48206,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.monkeysports.com"
+    "domain": "monkeysports.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -48233,7 +48220,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.campingworld.com"
+    "domain": "campingworld.com"
   },
   {
     "product_type": "Ecommerce",
@@ -48247,7 +48234,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.Treadwright.com"
+    "domain": "Treadwright.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -48261,7 +48248,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.outdoorspeakerdepot.com"
+    "domain": "outdoorspeakerdepot.com"
   },
   {
     "product_type": "Ecommerce",
@@ -48275,7 +48262,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.riffraffdiesel.com"
+    "domain": "riffraffdiesel.com"
   },
   {
     "product_type": "Ecommerce",
@@ -48329,7 +48316,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.wholesaleatv.com"
+    "domain": "wholesaleatv.com"
   },
   {
     "product_type": "Ecommerce",
@@ -48381,7 +48368,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.buffalojackson.com"
+    "domain": "buffalojackson.com"
   },
   {
     "product_type": "Ecommerce",
@@ -48405,7 +48392,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.kaplan.com"
+    "domain": "kaplan.com"
   },
   {
     "product_type": "Ecommerce",
@@ -48419,7 +48406,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.powerblock.com"
+    "domain": "powerblock.com"
   },
   {
     "product_type": "Ecommerce",
@@ -48433,7 +48420,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.mlfurs.com"
+    "domain": "mlfurs.com"
   },
   {
     "product_type": "Ecommerce",
@@ -48447,7 +48434,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.thepoolfactory.com"
+    "domain": "thepoolfactory.com"
   },
   {
     "product_type": "Ecommerce",
@@ -48459,7 +48446,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.respshop.com"
+    "domain": "respshop.com"
   },
   {
     "product_type": "Ecommerce",
@@ -48471,7 +48458,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.uspoloassn.com"
+    "domain": "uspoloassn.com"
   },
   {
     "product_type": "Ecommerce",
@@ -48511,7 +48498,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.uswatersystems.com"
+    "domain": "uswatersystems.com"
   },
   {
     "product_type": "Ecommerce",
@@ -48525,7 +48512,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "/"
+    "domain": "technoircandy.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -48563,7 +48550,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.maramachines.com"
+    "domain": "maramachines.com"
   },
   {
     "product_type": "Ecommerce",
@@ -48577,7 +48564,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.mitoredlight.com"
+    "domain": "mitoredlight.com"
   },
   {
     "product_type": "Ecommerce",
@@ -48591,7 +48578,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.humantouch.com"
+    "domain": "humantouch.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -48600,10 +48587,10 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fshop.lego.com&merchant_ari=U2DUALDDF20UIJ7W",
     "icon_url": "https://cdn1.affirm.com/platform/public/promos/assets/U2DUALDDF20UIJ7W/logo/logo1x.png",
     "ari": "U2DUALDDF20UIJ7W",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.shop.lego.com"
+    "domain": "shop.lego.com"
   },
   {
     "product_type": "Ecommerce",
@@ -48615,7 +48602,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.freedomelectricmarine.com"
+    "domain": "freedomelectricmarine.com"
   },
   {
     "product_type": "Ecommerce",
@@ -48629,7 +48616,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.superatv.com"
+    "domain": "superatv.com"
   },
   {
     "product_type": "Ecommerce",
@@ -48653,7 +48640,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "home_and_furniture",
     "categories": null,
-    "domain": "www.smartfurniture.com"
+    "domain": "smartfurniture.com"
   },
   {
     "product_type": "Ecommerce",
@@ -48665,7 +48652,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.gametheorytables.com"
+    "domain": "gametheorytables.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -48679,7 +48666,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.scottevest.com"
+    "domain": "scottevest.com"
   },
   {
     "product_type": "Ecommerce",
@@ -48708,7 +48695,7 @@ const merchantData = [
       "home_and_furniture",
       "luxury"
     ],
-    "domain": "www.modluxliving.com"
+    "domain": "modluxliving.com"
   },
   {
     "product_type": "Ecommerce",
@@ -48722,7 +48709,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.rallysportdirect.com"
+    "domain": "rallysportdirect.com"
   },
   {
     "product_type": "Ecommerce",
@@ -48750,7 +48737,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.DV8Offroad.com"
+    "domain": "DV8Offroad.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -48759,12 +48746,12 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fsweetwater.com&merchant_ari=U6H89I1IC64UZLTG",
     "icon_url": "https://cdn-assets.affirm.com/vcn_buy/v1/merchants/U6H89I1IC64UZLTG/logo_20190712173900/logo.png",
     "ari": "U6H89I1IC64UZLTG",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "electronics",
     "categories": [
       "electronics"
     ],
-    "domain": "www.sweetwater.com"
+    "domain": "sweetwater.com"
   },
   {
     "product_type": "Ecommerce",
@@ -48792,7 +48779,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.tunetimeperformance.com"
+    "domain": "tunetimeperformance.com"
   },
   {
     "product_type": "Ecommerce",
@@ -48820,7 +48807,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.mgemi.com"
+    "domain": "mgemi.com"
   },
   {
     "product_type": "Ecommerce",
@@ -48832,7 +48819,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.nomadnessrentals.com"
+    "domain": "nomadnessrentals.com"
   },
   {
     "product_type": "Ecommerce",
@@ -48846,7 +48833,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.worldwidecyclery.com"
+    "domain": "worldwidecyclery.com"
   },
   {
     "product_type": "Ecommerce",
@@ -48860,7 +48847,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "m"
+    "domain": "grantstoneboot.com"
   },
   {
     "product_type": "Ecommerce",
@@ -48874,7 +48861,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.dimecitycycles.com"
+    "domain": "dimecitycycles.com"
   },
   {
     "product_type": "Ecommerce",
@@ -48886,7 +48873,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "superjewelryco.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -48926,7 +48913,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.parksproject.us"
+    "domain": "parksproject.us"
   },
   {
     "product_type": "Ecommerce",
@@ -48940,7 +48927,7 @@ const merchantData = [
     "categories": [
       "luxury"
     ],
-    "domain": "www.bloomgem.com"
+    "domain": "bloomgem.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -48968,7 +48955,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.lids.com"
+    "domain": "lids.com"
   },
   {
     "product_type": "Ecommerce",
@@ -48996,7 +48983,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.eurway.com"
+    "domain": "eurway.com"
   },
   {
     "product_type": "Ecommerce",
@@ -49010,7 +48997,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.summitsports.com"
+    "domain": "summitsports.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -49024,7 +49011,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.usimprints.com"
+    "domain": "usimprints.com"
   },
   {
     "product_type": "Ecommerce",
@@ -49038,7 +49025,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.nectarsleep.com"
+    "domain": "nectarsleep.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -49052,7 +49039,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.gearhead.com"
+    "domain": "gearhead.com"
   },
   {
     "product_type": "Ecommerce",
@@ -49064,7 +49051,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.theguitarfactory.com"
+    "domain": "theguitarfactory.com"
   },
   {
     "product_type": "Ecommerce",
@@ -49078,7 +49065,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.willowpump.com"
+    "domain": "willowpump.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -49092,7 +49079,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.doitwiser.com"
+    "domain": "doitwiser.com"
   },
   {
     "product_type": "Ecommerce",
@@ -49106,7 +49093,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.fatrubbers.com"
+    "domain": "fatrubbers.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -49118,7 +49105,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.bourbonandboots.com"
+    "domain": "bourbonandboots.com"
   },
   {
     "product_type": "Ecommerce",
@@ -49132,7 +49119,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.macs4u.com"
+    "domain": "macs4u.com"
   },
   {
     "product_type": "Ecommerce",
@@ -49149,7 +49136,7 @@ const merchantData = [
       "luxury",
       "shoes"
     ],
-    "domain": "www.luisaviaroma.com"
+    "domain": "luisaviaroma.com"
   },
   {
     "product_type": "Ecommerce",
@@ -49163,7 +49150,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.morris4x4center.com"
+    "domain": "morris4x4center.com"
   },
   {
     "product_type": "Ecommerce",
@@ -49205,7 +49192,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.AmericanTrucks.com"
+    "domain": "AmericanTrucks.com"
   },
   {
     "product_type": "Ecommerce",
@@ -49219,7 +49206,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.zwift.com"
+    "domain": "zwift.com"
   },
   {
     "product_type": "Ecommerce",
@@ -49233,7 +49220,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.wjdexclusives.com"
+    "domain": "wjdexclusives.com"
   },
   {
     "product_type": "Ecommerce",
@@ -49275,7 +49262,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.homethreads.com"
+    "domain": "homethreads.com"
   },
   {
     "product_type": "Ecommerce",
@@ -49301,7 +49288,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.aerogenicsusa.com"
+    "domain": "aerogenicsusa.com"
   },
   {
     "product_type": "Ecommerce",
@@ -49313,7 +49300,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.frankcleggleatherworks.com"
+    "domain": "frankcleggleatherworks.com"
   },
   {
     "product_type": "Ecommerce",
@@ -49327,7 +49314,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.iottysmarthome.com"
+    "domain": "iottysmarthome.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -49336,7 +49323,7 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fwww.aa.com%2FhomePage.do&merchant_ari=UKDQXOJ8OYV6CDR5",
     "icon_url": "https://cdn-assets.affirm.com/vcn_buy/v1/merchants/UKDQXOJ8OYV6CDR5/logo_20200121/logo.png",
     "ari": "UKDQXOJ8OYV6CDR5",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "travel_and_events",
     "categories": [
       "travel_and_events"
@@ -49355,7 +49342,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.nationalbusinessfurniture.com"
+    "domain": "nationalbusinessfurniture.com"
   },
   {
     "product_type": "Ecommerce",
@@ -49383,7 +49370,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.als.com"
+    "domain": "als.com"
   },
   {
     "product_type": "Ecommerce",
@@ -49397,7 +49384,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.indiquehair.com"
+    "domain": "indiquehair.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -49411,7 +49398,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.hockeyshot.com"
+    "domain": "hockeyshot.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -49425,7 +49412,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.crestline.com"
+    "domain": "crestline.com"
   },
   {
     "product_type": "Ecommerce",
@@ -49453,7 +49440,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.rc4wd.com"
+    "domain": "rc4wd.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -49465,7 +49452,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.babyhaven.com"
+    "domain": "babyhaven.com"
   },
   {
     "product_type": "Ecommerce",
@@ -49493,7 +49480,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.theglamouraddict.com"
+    "domain": "theglamouraddict.com"
   },
   {
     "product_type": "Ecommerce",
@@ -49521,7 +49508,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.northwestbicycle.com"
+    "domain": "northwestbicycle.com"
   },
   {
     "product_type": "Ecommerce",
@@ -49563,7 +49550,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.wakemakers.com"
+    "domain": "wakemakers.com"
   },
   {
     "product_type": "Ecommerce",
@@ -49578,7 +49565,7 @@ const merchantData = [
       "apparel",
       "shoes"
     ],
-    "domain": "www.soleseriouss.com"
+    "domain": "soleseriouss.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -49592,7 +49579,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.avon.com"
+    "domain": "avon.com"
   },
   {
     "product_type": "Ecommerce",
@@ -49606,7 +49593,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.paynesgray.com"
+    "domain": "paynesgray.com"
   },
   {
     "product_type": "Ecommerce",
@@ -49630,7 +49617,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "cocomelouie.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -49644,7 +49631,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.Www.havenlock.com"
+    "domain": "Www.havenlock.com"
   },
   {
     "product_type": "Ecommerce",
@@ -49656,7 +49643,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.badgesdrumshop.com"
+    "domain": "badgesdrumshop.com"
   },
   {
     "product_type": "Ecommerce",
@@ -49668,7 +49655,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.sourcecoldtherapy.com"
+    "domain": "sourcecoldtherapy.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -49708,7 +49695,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.calibamboo.com"
+    "domain": "calibamboo.com"
   },
   {
     "product_type": "Ecommerce",
@@ -49722,7 +49709,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.sparrowmobile.com"
+    "domain": "sparrowmobile.com"
   },
   {
     "product_type": "Ecommerce",
@@ -49750,7 +49737,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.SummitEBikes.com"
+    "domain": "SummitEBikes.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -49762,7 +49749,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.lakeshorelearning.com"
+    "domain": "lakeshorelearning.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -49776,7 +49763,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.overnightprints.com"
+    "domain": "overnightprints.com"
   },
   {
     "product_type": "Ecommerce",
@@ -49790,7 +49777,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.modsy.com"
+    "domain": "modsy.com"
   },
   {
     "product_type": "Ecommerce",
@@ -49804,7 +49791,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.iheartsynergee.com"
+    "domain": "iheartsynergee.com"
   },
   {
     "product_type": "Ecommerce",
@@ -49830,7 +49817,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.deeringbanjos.com"
+    "domain": "deeringbanjos.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -49872,7 +49859,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.ozonebilliards.com"
+    "domain": "ozonebilliards.com"
   },
   {
     "product_type": "Ecommerce",
@@ -49896,7 +49883,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.ellipticastudios.com"
+    "domain": "ellipticastudios.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -49908,7 +49895,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.propertyroom.com"
+    "domain": "propertyroom.com"
   },
   {
     "product_type": "Ecommerce",
@@ -49922,7 +49909,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.campaignliving.com"
+    "domain": "campaignliving.com"
   },
   {
     "product_type": "Ecommerce",
@@ -49988,7 +49975,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.vertagear.com"
+    "domain": "vertagear.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -49997,7 +49984,7 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Ffanatics.ncw6.net%2FVDAQE&merchant_ari=UYK524ASA4AZIJ8Y",
     "icon_url": "https://cdn-assets.affirm.com/vcn_buy/v1/merchants/UYK524ASA4AZIJ8Y/logo_20190711230918/logo2x.png",
     "ari": "UYK524ASA4AZIJ8Y",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "fitness_and_gear",
     "categories": [
       "fitness_and_gear"
@@ -50011,12 +49998,12 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fwww.anrdoezrs.net%2Flinks%2F100011847%2Ftype%2Fdlg%2Fhttps%3A%2F%2Fwww.bedbathandbeyond.com%2F&merchant_ari=UYTBHWRTFDKDW8RK",
     "icon_url": "https://cdn-assets.affirm.com/vcn_buy/v1/merchants/UYTBHWRTFDKDW8RK/logo_20190709151731/logo.png",
     "ari": "UYTBHWRTFDKDW8RK",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "home_and_furniture",
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.bedbathandbeyond.com"
+    "domain": "bedbathandbeyond.com"
   },
   {
     "product_type": "Ecommerce",
@@ -50030,7 +50017,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.pictureline.com"
+    "domain": "pictureline.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -50042,7 +50029,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.gifttree.com"
+    "domain": "gifttree.com"
   },
   {
     "product_type": "Ecommerce",
@@ -50085,7 +50072,7 @@ const merchantData = [
       "accessories",
       "home_and_furniture"
     ],
-    "domain": "www.customfoldingwagons.com"
+    "domain": "customfoldingwagons.com"
   },
   {
     "product_type": "Ecommerce",
@@ -50099,7 +50086,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.dockatot.com"
+    "domain": "dockatot.com"
   },
   {
     "product_type": "Ecommerce",
@@ -50125,7 +50112,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.rugman.com"
+    "domain": "rugman.com"
   },
   {
     "product_type": "Ecommerce",
@@ -50151,7 +50138,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.shopfelixgray.com"
+    "domain": "shopfelixgray.com"
   },
   {
     "product_type": "Ecommerce",
@@ -50165,7 +50152,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.ashford.com"
+    "domain": "ashford.com"
   },
   {
     "product_type": "Ecommerce",
@@ -50191,7 +50178,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.nanit.com"
+    "domain": "nanit.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -50205,7 +50192,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.sylvane.com"
+    "domain": "sylvane.com"
   },
   {
     "product_type": "Ecommerce",
@@ -50219,7 +50206,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.kitchencabinetkings.com"
+    "domain": "kitchencabinetkings.com"
   },
   {
     "product_type": "Ecommerce",
@@ -50247,7 +50234,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.ezicerinks.com"
+    "domain": "ezicerinks.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -50259,7 +50246,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.fatbraintoys.com"
+    "domain": "fatbraintoys.com"
   },
   {
     "product_type": "Ecommerce",
@@ -50274,7 +50261,7 @@ const merchantData = [
       "apparel",
       "luxury"
     ],
-    "domain": "www.khaite.com"
+    "domain": "khaite.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -50286,7 +50273,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.valuepetsupplies.com"
+    "domain": "valuepetsupplies.com"
   },
   {
     "product_type": "Ecommerce",
@@ -50300,7 +50287,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.snowjoe.com"
+    "domain": "snowjoe.com"
   },
   {
     "product_type": "Ecommerce",
@@ -50314,7 +50301,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.architecturaldepot.com"
+    "domain": "architecturaldepot.com"
   },
   {
     "product_type": "Ecommerce",
@@ -50328,7 +50315,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.parachutehome.com"
+    "domain": "parachutehome.com"
   },
   {
     "product_type": "Ecommerce",
@@ -50342,7 +50329,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.superrunnersshop.com"
+    "domain": "superrunnersshop.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -50351,12 +50338,12 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fbhphotovideo.com&merchant_ari=V55AANQP5NJF5NRE",
     "icon_url": "https://cdn-assets.affirm.com/vcn_buy/v1/merchants/V55AANQP5NJF5NRE/logo_20200121/logo.png",
     "ari": "V55AANQP5NJF5NRE",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "electronics",
     "categories": [
       "electronics"
     ],
-    "domain": "www.bhphotovideo.com"
+    "domain": "bhphotovideo.com"
   },
   {
     "product_type": "Ecommerce",
@@ -50382,7 +50369,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.k-vest.com"
+    "domain": "k-vest.com"
   },
   {
     "product_type": "Ecommerce",
@@ -50396,7 +50383,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.rockher.com"
+    "domain": "rockher.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -50410,7 +50397,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.cuisinart.com"
+    "domain": "cuisinart.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -50424,7 +50411,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.beyondtherack.com"
+    "domain": "beyondtherack.com"
   },
   {
     "product_type": "Ecommerce",
@@ -50436,7 +50423,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.sourceortho.net"
+    "domain": "sourceortho.net"
   },
   {
     "product_type": "Ecommerce",
@@ -50448,7 +50435,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.myinnovo.com"
+    "domain": "myinnovo.com"
   },
   {
     "product_type": "Ecommerce",
@@ -50486,7 +50473,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.builddirect.com"
+    "domain": "builddirect.com"
   },
   {
     "product_type": "Ecommerce",
@@ -50526,7 +50513,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.rubberflooringinc.com"
+    "domain": "rubberflooringinc.com"
   },
   {
     "product_type": "Ecommerce",
@@ -50540,7 +50527,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.SportBikeTrackGear.com"
+    "domain": "SportBikeTrackGear.com"
   },
   {
     "product_type": "Ecommerce",
@@ -50554,7 +50541,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.joinfightcamp.com"
+    "domain": "joinfightcamp.com"
   },
   {
     "product_type": "Ecommerce",
@@ -50582,7 +50569,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.performancebike.com"
+    "domain": "performancebike.com"
   },
   {
     "product_type": "Ecommerce",
@@ -50596,7 +50583,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.air-purifiers-america.com"
+    "domain": "air-purifiers-america.com"
   },
   {
     "product_type": "Ecommerce",
@@ -50610,7 +50597,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.awesomeoffroad.com"
+    "domain": "awesomeoffroad.com"
   },
   {
     "product_type": "Ecommerce",
@@ -50624,7 +50611,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.knottytie.com"
+    "domain": "knottytie.com"
   },
   {
     "product_type": "Ecommerce",
@@ -50652,7 +50639,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.rstbrands.com"
+    "domain": "rstbrands.com"
   },
   {
     "product_type": "Ecommerce",
@@ -50664,7 +50651,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.bluchicboutique.com"
+    "domain": "bluchicboutique.com"
   },
   {
     "product_type": "Ecommerce",
@@ -50678,7 +50665,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.fuelmotousa.com"
+    "domain": "fuelmotousa.com"
   },
   {
     "product_type": "Ecommerce",
@@ -50692,7 +50679,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.Www.travisaustincustoms.com"
+    "domain": "Www.travisaustincustoms.com"
   },
   {
     "product_type": "Ecommerce",
@@ -50706,7 +50693,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.flexispot.com"
+    "domain": "flexispot.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -50720,7 +50707,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.northernmarineelectronics.com"
+    "domain": "northernmarineelectronics.com"
   },
   {
     "product_type": "Ecommerce",
@@ -50734,7 +50721,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.firstchoicewheelsandtires.com"
+    "domain": "firstchoicewheelsandtires.com"
   },
   {
     "product_type": "Ecommerce",
@@ -50774,7 +50761,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "electronics",
     "categories": null,
-    "domain": "www.wazer.com"
+    "domain": "wazer.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -50788,7 +50775,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.swell.com"
+    "domain": "swell.com"
   },
   {
     "product_type": "Ecommerce",
@@ -50800,7 +50787,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "auto",
     "categories": null,
-    "domain": "www.us.bddiesel.com"
+    "domain": "us.bddiesel.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -50814,7 +50801,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.buildasign.com"
+    "domain": "buildasign.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -50828,7 +50815,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.bonton.com"
+    "domain": "bonton.com"
   },
   {
     "product_type": "Ecommerce",
@@ -50854,7 +50841,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.vat19.com"
+    "domain": "vat19.com"
   },
   {
     "product_type": "Ecommerce",
@@ -50878,7 +50865,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.teddybaldassarre.com"
+    "domain": "teddybaldassarre.com"
   },
   {
     "product_type": "Ecommerce",
@@ -50892,7 +50879,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.everythingpolarisranger.com"
+    "domain": "everythingpolarisranger.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -50904,7 +50891,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.musiciansfriend.com"
+    "domain": "musiciansfriend.com"
   },
   {
     "product_type": "Ecommerce",
@@ -50944,7 +50931,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.titantrains.net"
+    "domain": "titantrains.net"
   },
   {
     "product_type": "Ecommerce",
@@ -50956,7 +50943,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.vadersolution.com"
+    "domain": "vadersolution.com"
   },
   {
     "product_type": "Ecommerce",
@@ -50970,7 +50957,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.elementwheels.com"
+    "domain": "elementwheels.com"
   },
   {
     "product_type": "Ecommerce",
@@ -50982,7 +50969,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.forgedgamer.com"
+    "domain": "forgedgamer.com"
   },
   {
     "product_type": "Ecommerce",
@@ -50996,7 +50983,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.brighthouseiot.com"
+    "domain": "brighthouseiot.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -51010,7 +50997,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.sturbridgeyankee.com"
+    "domain": "sturbridgeyankee.com"
   },
   {
     "product_type": "Ecommerce",
@@ -51038,7 +51025,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.readylift.com"
+    "domain": "readylift.com"
   },
   {
     "product_type": "Ecommerce",
@@ -51062,7 +51049,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.touchofmodern.com"
+    "domain": "touchofmodern.com"
   },
   {
     "product_type": "Ecommerce",
@@ -51074,7 +51061,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "m"
+    "domain": "balladesports.com"
   },
   {
     "product_type": "Ecommerce",
@@ -51088,7 +51075,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.modalinks.com"
+    "domain": "modalinks.com"
   },
   {
     "product_type": "Ecommerce",
@@ -51102,7 +51089,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.sleepgalleria.com"
+    "domain": "sleepgalleria.com"
   },
   {
     "product_type": "Ecommerce",
@@ -51116,7 +51103,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.ridemotorsportspro.com"
+    "domain": "ridemotorsportspro.com"
   },
   {
     "product_type": "Ecommerce",
@@ -51144,7 +51131,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.extremeturbosystems.com"
+    "domain": "extremeturbosystems.com"
   },
   {
     "product_type": "Ecommerce",
@@ -51170,7 +51157,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.shop.anthemwheels.com"
+    "domain": "shop.anthemwheels.com"
   },
   {
     "product_type": "Ecommerce",
@@ -51196,7 +51183,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.jamieparkjewelry.com"
+    "domain": "jamieparkjewelry.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -51205,7 +51192,7 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=http%3A%2F%2Fwww.kqzyfj.com%2Fclick-8191141-10944316&merchant_ari=VPEANC3D5R6I7DA9",
     "icon_url": "http://cdn-assets.affirm.com/vcn_buy/v1/merchants/VPEANC3D5R6I7DA9/logo20200911/logo_offer.png",
     "ari": "VPEANC3D5R6I7DA9",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "electronics",
     "categories": [
       "electronics",
@@ -51251,7 +51238,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.christopherandbanks.com"
+    "domain": "christopherandbanks.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -51279,7 +51266,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.vonholzhausen.com"
+    "domain": "vonholzhausen.com"
   },
   {
     "product_type": "Ecommerce",
@@ -51293,7 +51280,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.conceptzperformance.com"
+    "domain": "conceptzperformance.com"
   },
   {
     "product_type": "Ecommerce",
@@ -51307,7 +51294,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.qualityfurniturediscounts.com"
+    "domain": "qualityfurniturediscounts.com"
   },
   {
     "product_type": "Ecommerce",
@@ -51321,7 +51308,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.luluandgeorgia.com"
+    "domain": "luluandgeorgia.com"
   },
   {
     "product_type": "Ecommerce",
@@ -51335,7 +51322,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.watchmaxx.com"
+    "domain": "watchmaxx.com"
   },
   {
     "product_type": "Ecommerce",
@@ -51347,7 +51334,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "home_and_furniture",
     "categories": null,
-    "domain": "www.restin.co"
+    "domain": "restin.co"
   },
   {
     "product_type": "Ecommerce",
@@ -51361,7 +51348,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.bedgear.com"
+    "domain": "bedgear.com"
   },
   {
     "product_type": "Ecommerce",
@@ -51375,7 +51362,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.tannergoods.com"
+    "domain": "tannergoods.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -51389,7 +51376,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.paulaschoice.com"
+    "domain": "paulaschoice.com"
   },
   {
     "product_type": "Ecommerce",
@@ -51417,7 +51404,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.noveistudio.com"
+    "domain": "noveistudio.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -51431,7 +51418,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.appliancezone.com"
+    "domain": "appliancezone.com"
   },
   {
     "product_type": "Ecommerce",
@@ -51447,7 +51434,7 @@ const merchantData = [
       "apparel",
       "luxury"
     ],
-    "domain": "www.lozanosjewelry.com"
+    "domain": "lozanosjewelry.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -51468,7 +51455,7 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Ffootlocker.8s4u9r.net%2Fdx27k&merchant_ari=VWFPF1XKI7GC640T",
     "icon_url": "http://cdn-assets.affirm.com/vcn_buy/v1/merchants/VWFPF1XKI7GC640T/logo20191002/logo_offer.png",
     "ari": "VWFPF1XKI7GC640T",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "shoes",
     "categories": [
       "apparel",
@@ -51488,7 +51475,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.casaza.com"
+    "domain": "casaza.com"
   },
   {
     "product_type": "Ecommerce",
@@ -51500,7 +51487,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.happiestbaby.com"
+    "domain": "happiestbaby.com"
   },
   {
     "product_type": "Ecommerce",
@@ -51514,7 +51501,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.shopify.com"
+    "domain": "shopify.com"
   },
   {
     "product_type": "Ecommerce",
@@ -51528,7 +51515,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.viesso.com"
+    "domain": "viesso.com"
   },
   {
     "product_type": "Ecommerce",
@@ -51542,7 +51529,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.automotix.net"
+    "domain": "automotix.net"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -51556,7 +51543,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.footsmart.com"
+    "domain": "footsmart.com"
   },
   {
     "product_type": "Ecommerce",
@@ -51584,7 +51571,7 @@ const merchantData = [
     "categories": [
       "travel_and_events"
     ],
-    "domain": "www.cheapoair.com"
+    "domain": "cheapoair.com"
   },
   {
     "product_type": "Ecommerce",
@@ -51610,7 +51597,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.OJBJewelry.com"
+    "domain": "OJBJewelry.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -51624,7 +51611,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.rockbottomgolf.com"
+    "domain": "rockbottomgolf.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -51633,7 +51620,7 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fbackcountry.pxf.io%2FqL4bq&merchant_ari=VZETBHKXOY298GMU",
     "icon_url": "https://cdn-assets.affirm.com/vcn_buy/v1/merchants/VZETBHKXOY298GMU/logo_20200121/logo.png",
     "ari": "VZETBHKXOY298GMU",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "fitness_and_gear",
     "categories": [
       "fitness_and_gear"
@@ -51652,7 +51639,7 @@ const merchantData = [
     "categories": [
       "shoes"
     ],
-    "domain": "www.keds.com"
+    "domain": "keds.com"
   },
   {
     "product_type": "Ecommerce",
@@ -51664,7 +51651,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.glowing.com"
+    "domain": "glowing.com"
   },
   {
     "product_type": "Ecommerce",
@@ -51676,7 +51663,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "electronics",
     "categories": null,
-    "domain": "www.nobleaudio.com"
+    "domain": "nobleaudio.com"
   },
   {
     "product_type": "Ecommerce",
@@ -51690,7 +51677,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.lagarconne.com"
+    "domain": "lagarconne.com"
   },
   {
     "product_type": "Ecommerce",
@@ -51718,7 +51705,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.rumpl.com"
+    "domain": "rumpl.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -51735,7 +51722,7 @@ const merchantData = [
       "home_and_furniture",
       "shoes"
     ],
-    "domain": "www.boscovs.com"
+    "domain": "boscovs.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -51744,7 +51731,7 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=http%3A%2F%2Fwww.dpbolvw.net%2Fclick-8191141-13840810&merchant_ari=W1I02S2YMW9NVRNV",
     "icon_url": "http://cdn-assets.affirm.com/vcn_buy/v1/merchants/W1I02S2YMW9NVRNV/logo20191107/logo_offer.png",
     "ari": "W1I02S2YMW9NVRNV",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "home_and_furniture",
     "categories": [
       "apparel",
@@ -51767,7 +51754,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.zzperformance.com"
+    "domain": "zzperformance.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -51781,7 +51768,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.pensnmore.com"
+    "domain": "pensnmore.com"
   },
   {
     "product_type": "Ecommerce",
@@ -51823,7 +51810,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.urdusa.com"
+    "domain": "urdusa.com"
   },
   {
     "product_type": "Ecommerce",
@@ -51835,7 +51822,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.aerocaredirect.com"
+    "domain": "aerocaredirect.com"
   },
   {
     "product_type": "Ecommerce",
@@ -51847,7 +51834,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "auto",
     "categories": null,
-    "domain": "www.f-o-a.com"
+    "domain": "f-o-a.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -51861,7 +51848,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.abesofmaine.com"
+    "domain": "abesofmaine.com"
   },
   {
     "product_type": "Ecommerce",
@@ -51887,7 +51874,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.ebags.com"
+    "domain": "ebags.com"
   },
   {
     "product_type": "Ecommerce",
@@ -51901,7 +51888,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.grassbarrier.com"
+    "domain": "grassbarrier.com"
   },
   {
     "product_type": "Ecommerce",
@@ -51927,7 +51914,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.shop.mlb.com"
+    "domain": "shop.mlb.com"
   },
   {
     "product_type": "Ecommerce",
@@ -51939,7 +51926,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "txtur-living.myshopify.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -51979,7 +51966,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.electricbikecompany.com"
+    "domain": "electricbikecompany.com"
   },
   {
     "product_type": "Ecommerce",
@@ -51993,7 +51980,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.kathrynnewyork.com"
+    "domain": "kathrynnewyork.com"
   },
   {
     "product_type": "Ecommerce",
@@ -52007,7 +51994,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.peragon.com"
+    "domain": "peragon.com"
   },
   {
     "product_type": "Ecommerce",
@@ -52019,7 +52006,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "m"
+    "domain": "tricledusa.com"
   },
   {
     "product_type": "Ecommerce",
@@ -52031,7 +52018,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.rggedu.com"
+    "domain": "rggedu.com"
   },
   {
     "product_type": "Ecommerce",
@@ -52045,7 +52032,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.octanemotorsports.com"
+    "domain": "octanemotorsports.com"
   },
   {
     "product_type": "Ecommerce",
@@ -52059,7 +52046,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.shopnonna.com"
+    "domain": "shopnonna.com"
   },
   {
     "product_type": "Ecommerce",
@@ -52073,7 +52060,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.ring.com"
+    "domain": "ring.com"
   },
   {
     "product_type": "Ecommerce",
@@ -52111,7 +52098,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.thecpapshop.com"
+    "domain": "thecpapshop.com"
   },
   {
     "product_type": "Ecommerce",
@@ -52125,7 +52112,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.bumpersuperstore.com"
+    "domain": "bumpersuperstore.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -52139,7 +52126,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.rubbermaid.com"
+    "domain": "rubbermaid.com"
   },
   {
     "product_type": "Ecommerce",
@@ -52151,7 +52138,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.makenmusic.com"
+    "domain": "makenmusic.com"
   },
   {
     "product_type": "Ecommerce",
@@ -52179,7 +52166,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.isingtec.com"
+    "domain": "isingtec.com"
   },
   {
     "product_type": "Ecommerce",
@@ -52193,7 +52180,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.bbq-grillingpit.com"
+    "domain": "bbq-grillingpit.com"
   },
   {
     "product_type": "Ecommerce",
@@ -52219,7 +52206,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.decorplanet.com"
+    "domain": "decorplanet.com"
   },
   {
     "product_type": "Ecommerce",
@@ -52233,7 +52220,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.fasthemis.com"
+    "domain": "fasthemis.com"
   },
   {
     "product_type": "Ecommerce",
@@ -52256,7 +52243,7 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fprf.hn%2Fclick%2Fcamref%3A1100l8Tv4%2Fpubref%3Aaffirm&merchant_ari=WGOJVVIECWM26R1K",
     "icon_url": "https://cdn1.affirm.com/platform/public/promos/assets/WGOJVVIECWM26R1K/logo2020091021/logo1.png",
     "ari": "WGOJVVIECWM26R1K",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "luxury",
     "categories": [
       "accessories",
@@ -52302,7 +52289,7 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fwww.pntra.com%2Ft%2FTUJGRUZISUJGTk5HRUxCRkdFTE5I%3Furl%3Dhttps%253A%252F%252Fwww.nordstromrack.com%252F&merchant_ari=WHM4M3CKY5GUFRHM",
     "icon_url": "http://cdn-assets.affirm.com/vcn_buy/v1/merchants/WHM4M3CKY5GUFRHM/logo20200722/logo_offer.png",
     "ari": "WHM4M3CKY5GUFRHM",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "apparel",
     "categories": [
       "accessories",
@@ -52324,7 +52311,7 @@ const merchantData = [
     "categories": [
       "travel_and_events"
     ],
-    "domain": "www.Suiteness.com"
+    "domain": "Suiteness.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -52338,7 +52325,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.waterfilters.net"
+    "domain": "waterfilters.net"
   },
   {
     "product_type": "Ecommerce",
@@ -52352,7 +52339,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.proaudiostar.com"
+    "domain": "proaudiostar.com"
   },
   {
     "product_type": "Ecommerce",
@@ -52366,7 +52353,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.tovala.com"
+    "domain": "tovala.com"
   },
   {
     "product_type": "Ecommerce",
@@ -52404,7 +52391,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.bicyclewarehouse.com"
+    "domain": "bicyclewarehouse.com"
   },
   {
     "product_type": "Ecommerce",
@@ -52430,7 +52417,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.revdynamics.net"
+    "domain": "revdynamics.net"
   },
   {
     "product_type": "Ecommerce",
@@ -52458,7 +52445,7 @@ const merchantData = [
     "categories": [
       "travel_and_events"
     ],
-    "domain": "www.jetsuitex.com"
+    "domain": "jetsuitex.com"
   },
   {
     "product_type": "Ecommerce",
@@ -52472,7 +52459,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.furniturepick.com"
+    "domain": "furniturepick.com"
   },
   {
     "product_type": "Ecommerce",
@@ -52486,7 +52473,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.hairclub.com"
+    "domain": "hairclub.com"
   },
   {
     "product_type": "Ecommerce",
@@ -52526,7 +52513,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.hammerhead.io"
+    "domain": "hammerhead.io"
   },
   {
     "product_type": "Ecommerce",
@@ -52540,7 +52527,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "m"
+    "domain": "sheepeyrace.com"
   },
   {
     "product_type": "Ecommerce",
@@ -52554,7 +52541,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.jemjem.com"
+    "domain": "jemjem.com"
   },
   {
     "product_type": "Ecommerce",
@@ -52568,7 +52555,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.backstreet-surveillance.com"
+    "domain": "backstreet-surveillance.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -52580,7 +52567,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.chefd.com"
+    "domain": "chefd.com"
   },
   {
     "product_type": "Ecommerce",
@@ -52592,7 +52579,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "andaazjewels.com/"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -52606,7 +52593,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.steinersports.com"
+    "domain": "steinersports.com"
   },
   {
     "product_type": "Ecommerce",
@@ -52620,7 +52607,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.wickerwarehouse.com"
+    "domain": "wickerwarehouse.com"
   },
   {
     "product_type": "Ecommerce",
@@ -52644,7 +52631,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "m"
+    "domain": "teafueleddesign.com"
   },
   {
     "product_type": "Ecommerce",
@@ -52658,7 +52645,7 @@ const merchantData = [
     "categories": [
       "luxury"
     ],
-    "domain": "www.rarecarat.com"
+    "domain": "rarecarat.com"
   },
   {
     "product_type": "Ecommerce",
@@ -52672,7 +52659,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.fully.com"
+    "domain": "fully.com"
   },
   {
     "product_type": "Ecommerce",
@@ -52686,7 +52673,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.rudysdiesel.com"
+    "domain": "rudysdiesel.com"
   },
   {
     "product_type": "Ecommerce",
@@ -52710,7 +52697,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.leftyguitarsonly.com"
+    "domain": "leftyguitarsonly.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -52724,7 +52711,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.pacsun.com"
+    "domain": "pacsun.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -52733,7 +52720,7 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fchampssports.4xc4ep.net%2Fg0MZg&merchant_ari=WRHVTG2UQY7OM50H",
     "icon_url": "https://cdn-assets.affirm.com/vcn_buy/v1/merchants/WRHVTG2UQY7OM50H/logo_20190711215135/logo.png",
     "ari": "WRHVTG2UQY7OM50H",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "apparel",
     "categories": [
       "apparel"
@@ -52766,7 +52753,7 @@ const merchantData = [
     "categories": [
       "luxury"
     ],
-    "domain": "www.tribalhollywood.com"
+    "domain": "tribalhollywood.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -52780,7 +52767,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.delcity.net"
+    "domain": "delcity.net"
   },
   {
     "product_type": "Ecommerce",
@@ -52794,7 +52781,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.6ku.com"
+    "domain": "6ku.com"
   },
   {
     "product_type": "Ecommerce",
@@ -52818,7 +52805,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "apparel",
     "categories": null,
-    "domain": "www.amiri.com"
+    "domain": "amiri.com"
   },
   {
     "product_type": "Ecommerce",
@@ -52832,7 +52819,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.shinola.com"
+    "domain": "shinola.com"
   },
   {
     "product_type": "Ecommerce",
@@ -52858,7 +52845,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.fifteen52.com"
+    "domain": "fifteen52.com"
   },
   {
     "product_type": "Ecommerce",
@@ -52900,7 +52887,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.truegloryhair.com"
+    "domain": "truegloryhair.com"
   },
   {
     "product_type": "Ecommerce",
@@ -52957,7 +52944,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.ritani.com"
+    "domain": "ritani.com"
   },
   {
     "product_type": "Ecommerce",
@@ -52971,7 +52958,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.lightup.com"
+    "domain": "lightup.com"
   },
   {
     "product_type": "Ecommerce",
@@ -52985,7 +52972,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.azaleasf.com"
+    "domain": "azaleasf.com"
   },
   {
     "product_type": "Ecommerce",
@@ -52999,7 +52986,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.skaraudio.com"
+    "domain": "skaraudio.com"
   },
   {
     "product_type": "Ecommerce",
@@ -53013,7 +53000,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.verydrone.com"
+    "domain": "verydrone.com"
   },
   {
     "product_type": "Ecommerce",
@@ -53039,7 +53026,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.superbiiz.com"
+    "domain": "superbiiz.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -53051,7 +53038,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.godiva.com"
+    "domain": "godiva.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -53065,7 +53052,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.francescas.com"
+    "domain": "francescas.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -53079,7 +53066,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.crashplan.com"
+    "domain": "crashplan.com"
   },
   {
     "product_type": "Ecommerce",
@@ -53147,7 +53134,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.famousfootwear.com"
+    "domain": "famousfootwear.com"
   },
   {
     "product_type": "Ecommerce",
@@ -53161,7 +53148,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.manhattanrugs.com"
+    "domain": "manhattanrugs.com"
   },
   {
     "product_type": "Ecommerce",
@@ -53175,7 +53162,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.lmperformance.com"
+    "domain": "lmperformance.com"
   },
   {
     "product_type": "Ecommerce",
@@ -53187,7 +53174,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.gevril.com"
+    "domain": "gevril.com"
   },
   {
     "product_type": "Ecommerce",
@@ -53201,7 +53188,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.solidsignal.com"
+    "domain": "solidsignal.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -53215,7 +53202,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.mackspw.com"
+    "domain": "mackspw.com"
   },
   {
     "product_type": "Ecommerce",
@@ -53230,7 +53217,7 @@ const merchantData = [
       "accessories",
       "luxury"
     ],
-    "domain": "www.persol.com"
+    "domain": "persol.com"
   },
   {
     "product_type": "Ecommerce",
@@ -53244,7 +53231,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.amainhobbies.com"
+    "domain": "amainhobbies.com"
   },
   {
     "product_type": "Ecommerce",
@@ -53258,7 +53245,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.princessbridediamonds.com"
+    "domain": "princessbridediamonds.com"
   },
   {
     "product_type": "Ecommerce",
@@ -53282,7 +53269,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "fitness_and_gear",
     "categories": null,
-    "domain": "www.sparksfitness.net"
+    "domain": "sparksfitness.net"
   },
   {
     "product_type": "Ecommerce",
@@ -53296,7 +53283,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.BrentwoodHome.com"
+    "domain": "BrentwoodHome.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -53310,7 +53297,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.jimmyjazz.com"
+    "domain": "jimmyjazz.com"
   },
   {
     "product_type": "Ecommerce",
@@ -53322,7 +53309,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.nitro-pak.com"
+    "domain": "nitro-pak.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -53336,7 +53323,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.vintagetub.com"
+    "domain": "vintagetub.com"
   },
   {
     "product_type": "Ecommerce",
@@ -53348,7 +53335,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.orangewoodguitars.com"
+    "domain": "orangewoodguitars.com"
   },
   {
     "product_type": "Ecommerce",
@@ -53362,7 +53349,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.tempo.fit"
+    "domain": "tempo.fit"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -53376,7 +53363,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.sneakerhead.com"
+    "domain": "sneakerhead.com"
   },
   {
     "product_type": "Ecommerce",
@@ -53402,7 +53389,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.butterflynetwork.com/"
+    "domain": "butterflynetwork.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -53430,7 +53417,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.focuscamera.com"
+    "domain": "focuscamera.com"
   },
   {
     "product_type": "Ecommerce",
@@ -53444,7 +53431,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.BellElectricBikes.com"
+    "domain": "BellElectricBikes.com"
   },
   {
     "product_type": "Ecommerce",
@@ -53458,7 +53445,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.phongleusa.com"
+    "domain": "phongleusa.com"
   },
   {
     "product_type": "Ecommerce",
@@ -53473,7 +53460,7 @@ const merchantData = [
       "accessories",
       "apparel"
     ],
-    "domain": "www.americangirl.com"
+    "domain": "americangirl.com"
   },
   {
     "product_type": "Ecommerce",
@@ -53487,7 +53474,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.us.astellnkern.com"
+    "domain": "us.astellnkern.com"
   },
   {
     "product_type": "Ecommerce",
@@ -53529,7 +53516,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.UTVSource.com"
+    "domain": "UTVSource.com"
   },
   {
     "product_type": "Ecommerce",
@@ -53576,7 +53563,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.primesettings.com"
+    "domain": "primesettings.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -53588,7 +53575,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.dealyard.com"
+    "domain": "dealyard.com"
   },
   {
     "product_type": "Ecommerce",
@@ -53600,7 +53587,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "m"
+    "domain": "gadgetmates.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -53612,7 +53599,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.minted.com"
+    "domain": "minted.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -53640,7 +53627,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "p"
+    "domain": "resilientsounds.shop"
   },
   {
     "product_type": "Ecommerce",
@@ -53670,7 +53657,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.sleepingorganic.com"
+    "domain": "sleepingorganic.com"
   },
   {
     "product_type": "Ecommerce",
@@ -53696,7 +53683,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.okoahome.com"
+    "domain": "okoahome.com"
   },
   {
     "product_type": "Ecommerce",
@@ -53722,7 +53709,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.ihearmedical.com"
+    "domain": "ihearmedical.com"
   },
   {
     "product_type": "Ecommerce",
@@ -53736,7 +53723,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "/"
+    "domain": "art-of-attack.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -53760,7 +53747,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "apparel",
     "categories": null,
-    "domain": "www.warriorunlimitedapparel.com"
+    "domain": "warriorunlimitedapparel.com"
   },
   {
     "product_type": "Ecommerce",
@@ -53775,7 +53762,7 @@ const merchantData = [
       "accessories",
       "luxury"
     ],
-    "domain": "www.Gurhan.com"
+    "domain": "Gurhan.com"
   },
   {
     "product_type": "Ecommerce",
@@ -53789,7 +53776,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.haloneuro.com"
+    "domain": "haloneuro.com"
   },
   {
     "product_type": "Ecommerce",
@@ -53840,7 +53827,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.arlingtonpower.com"
+    "domain": "arlingtonpower.com"
   },
   {
     "product_type": "Ecommerce",
@@ -53882,7 +53869,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "m"
+    "domain": "yogasleep.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -53896,7 +53883,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.globalsugarart.com"
+    "domain": "globalsugarart.com"
   },
   {
     "product_type": "Ecommerce",
@@ -53922,7 +53909,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.jibbaco.com"
+    "domain": "jibbaco.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -53936,7 +53923,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.paragonsports.com"
+    "domain": "paragonsports.com"
   },
   {
     "product_type": "Ecommerce",
@@ -53948,7 +53935,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.stealthdetoxwater.com"
+    "domain": "stealthdetoxwater.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -53988,7 +53975,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "home_and_furniture",
     "categories": null,
-    "domain": "www.polyandbark.com"
+    "domain": "polyandbark.com"
   },
   {
     "product_type": "Ecommerce",
@@ -54002,7 +53989,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.Getsettledin.com"
+    "domain": "Getsettledin.com"
   },
   {
     "product_type": "Ecommerce",
@@ -54016,7 +54003,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.privacypop.com"
+    "domain": "privacypop.com"
   },
   {
     "product_type": "Ecommerce",
@@ -54030,7 +54017,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.mcgaughystore.com"
+    "domain": "mcgaughystore.com"
   },
   {
     "product_type": "Ecommerce",
@@ -54058,7 +54045,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.freeflysystems.com"
+    "domain": "freeflysystems.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -54111,7 +54098,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.gspawn.com"
+    "domain": "gspawn.com"
   },
   {
     "product_type": "Ecommerce",
@@ -54135,7 +54122,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.creamcitymusic.com"
+    "domain": "creamcitymusic.com"
   },
   {
     "product_type": "Ecommerce",
@@ -54161,7 +54148,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "auto",
     "categories": null,
-    "domain": "www.ecklers.com"
+    "domain": "ecklers.com"
   },
   {
     "product_type": "Ecommerce",
@@ -54175,7 +54162,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.lifestylefurniturehomestore.com"
+    "domain": "lifestylefurniturehomestore.com"
   },
   {
     "product_type": "Ecommerce",
@@ -54189,7 +54176,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.1stopbedrooms.com"
+    "domain": "1stopbedrooms.com"
   },
   {
     "product_type": "Ecommerce",
@@ -54204,7 +54191,7 @@ const merchantData = [
       "accessories",
       "fitness_and_gear"
     ],
-    "domain": "www.gdlkgnz.com"
+    "domain": "gdlkgnz.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -54218,7 +54205,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.ecoswift.com"
+    "domain": "ecoswift.com"
   },
   {
     "product_type": "Ecommerce",
@@ -54232,7 +54219,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.btod.com"
+    "domain": "btod.com"
   },
   {
     "product_type": "Ecommerce",
@@ -54258,7 +54245,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.carrotink.com"
+    "domain": "carrotink.com"
   },
   {
     "product_type": "Ecommerce",
@@ -54272,7 +54259,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.lightyearmusic.com"
+    "domain": "lightyearmusic.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -54286,7 +54273,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.truereligion.com"
+    "domain": "truereligion.com"
   },
   {
     "product_type": "Ecommerce",
@@ -54300,7 +54287,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.fixdapp.com"
+    "domain": "fixdapp.com"
   },
   {
     "product_type": "Ecommerce",
@@ -54315,7 +54302,7 @@ const merchantData = [
       "apparel",
       "shoes"
     ],
-    "domain": "m"
+    "domain": "birdies.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -54327,7 +54314,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.scholastic.com"
+    "domain": "scholastic.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -54341,7 +54328,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.mango.com"
+    "domain": "mango.com"
   },
   {
     "product_type": "Ecommerce",
@@ -54355,7 +54342,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.evasivemotorsports.com"
+    "domain": "evasivemotorsports.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -54369,7 +54356,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.greekgear.com"
+    "domain": "greekgear.com"
   },
   {
     "product_type": "Ecommerce",
@@ -54409,7 +54396,7 @@ const merchantData = [
     "categories": [
       "shoes"
     ],
-    "domain": "www.flightclub.com"
+    "domain": "flightclub.com"
   },
   {
     "product_type": "Ecommerce",
@@ -54421,7 +54408,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.dirtcheep.com"
+    "domain": "dirtcheep.com"
   },
   {
     "product_type": "Ecommerce",
@@ -54435,7 +54422,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.nuriandash.com"
+    "domain": "nuriandash.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -54449,7 +54436,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.mygoods.com"
+    "domain": "mygoods.com"
   },
   {
     "product_type": "Ecommerce",
@@ -54463,7 +54450,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "m"
+    "domain": "xlr8performance.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -54475,7 +54462,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.yesasia.com"
+    "domain": "yesasia.com"
   },
   {
     "product_type": "Ecommerce",
@@ -54487,7 +54474,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "fitness_and_gear",
     "categories": null,
-    "domain": "m"
+    "domain": "23zero.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -54496,7 +54483,7 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fclick.linksynergy.com%2Ffs-bin%2Fclick%3Fid%3DbFeuiaEZizw%26offerid%3D648401.10002983%26subid%3D0%26type%3D4&merchant_ari=XZHCAGKI76P4TZII",
     "icon_url": "http://cdn-assets.affirm.com/vcn_buy/v1/merchants/XZHCAGKI76P4TZII/logo_20190711204807/logo_offer.png",
     "ari": "XZHCAGKI76P4TZII",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "apparel",
     "categories": [
       "accessories",
@@ -54548,7 +54535,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.keurig.com"
+    "domain": "keurig.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -54560,7 +54547,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.papermart.com"
+    "domain": "papermart.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -54574,7 +54561,7 @@ const merchantData = [
     "categories": [
       "travel_and_events"
     ],
-    "domain": "www.rvshare.com"
+    "domain": "rvshare.com"
   },
   {
     "product_type": "Ecommerce",
@@ -54588,7 +54575,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.interiordefine.com"
+    "domain": "interiordefine.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -54600,7 +54587,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.northshorecare.com"
+    "domain": "northshorecare.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -54614,7 +54601,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.footpetals.com"
+    "domain": "footpetals.com"
   },
   {
     "product_type": "Ecommerce",
@@ -54629,7 +54616,7 @@ const merchantData = [
       "accessories",
       "luxury"
     ],
-    "domain": "www.newworlddiamonds.com"
+    "domain": "newworlddiamonds.com"
   },
   {
     "product_type": "Ecommerce",
@@ -54643,7 +54630,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.hayneedle.com"
+    "domain": "hayneedle.com"
   },
   {
     "product_type": "Ecommerce",
@@ -54671,7 +54658,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.society6.com"
+    "domain": "society6.com"
   },
   {
     "product_type": "Ecommerce",
@@ -54685,7 +54672,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.thebuildjournal.com"
+    "domain": "thebuildjournal.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -54715,7 +54702,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.ninjakitchen.com"
+    "domain": "ninjakitchen.com"
   },
   {
     "product_type": "Ecommerce",
@@ -54727,7 +54714,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.catherinemichiels.com"
+    "domain": "catherinemichiels.com"
   },
   {
     "product_type": "Ecommerce",
@@ -54753,7 +54740,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "home_and_furniture",
     "categories": null,
-    "domain": "www.bambibaby.com"
+    "domain": "bambibaby.com"
   },
   {
     "product_type": "Ecommerce",
@@ -54767,7 +54754,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.southbayinternational.com"
+    "domain": "southbayinternational.com"
   },
   {
     "product_type": "Ecommerce",
@@ -54779,7 +54766,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.manchestermusicmill.com"
+    "domain": "manchestermusicmill.com"
   },
   {
     "product_type": "Ecommerce",
@@ -54805,7 +54792,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.databazaar.com"
+    "domain": "databazaar.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -54819,7 +54806,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.case-mate.com"
+    "domain": "case-mate.com"
   },
   {
     "product_type": "Ecommerce",
@@ -54855,7 +54842,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.michaelkellyguitars.com"
+    "domain": "michaelkellyguitars.com"
   },
   {
     "product_type": "Ecommerce",
@@ -54869,7 +54856,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.shop.skydio.com"
+    "domain": "shop.skydio.com"
   },
   {
     "product_type": "Ecommerce",
@@ -54881,7 +54868,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "accessories",
     "categories": null,
-    "domain": "www.idjewelry.com"
+    "domain": "idjewelry.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -54895,7 +54882,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.phastekperformance.com"
+    "domain": "phastekperformance.com"
   },
   {
     "product_type": "Ecommerce",
@@ -54909,7 +54896,7 @@ const merchantData = [
     "categories": [
       "travel_and_events"
     ],
-    "domain": "www.cheapflightsfares.com"
+    "domain": "cheapflightsfares.com"
   },
   {
     "product_type": "Ecommerce",
@@ -54937,7 +54924,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "m"
+    "domain": "rondobike.com"
   },
   {
     "product_type": "Ecommerce",
@@ -54977,7 +54964,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.moscot.com"
+    "domain": "moscot.com"
   },
   {
     "product_type": "Ecommerce",
@@ -54991,7 +54978,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.themrsbox.com"
+    "domain": "themrsbox.com"
   },
   {
     "product_type": "Ecommerce",
@@ -55003,7 +54990,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.oregonvalleyfarm.com"
+    "domain": "oregonvalleyfarm.com"
   },
   {
     "product_type": "Ecommerce",
@@ -55015,7 +55002,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "m"
+    "domain": "canfieldbikes.com"
   },
   {
     "product_type": "Ecommerce",
@@ -55029,7 +55016,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "m"
+    "domain": "flystyleairsports.com"
   },
   {
     "product_type": "Ecommerce",
@@ -55043,7 +55030,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.bigchill.com"
+    "domain": "bigchill.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -55057,7 +55044,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.bhfo.com"
+    "domain": "bhfo.com"
   },
   {
     "product_type": "Ecommerce",
@@ -55069,7 +55056,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "home_and_furniture",
     "categories": null,
-    "domain": "www.newton.rest"
+    "domain": "newton.rest"
   },
   {
     "product_type": "Ecommerce",
@@ -55083,7 +55070,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.bensoleimani.com"
+    "domain": "bensoleimani.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -55097,7 +55084,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.discountdance.com"
+    "domain": "discountdance.com"
   },
   {
     "product_type": "Ecommerce",
@@ -55112,7 +55099,7 @@ const merchantData = [
       "accessories",
       "luxury"
     ],
-    "domain": "www.jewelryatwork.com"
+    "domain": "jewelryatwork.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -55126,7 +55113,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.landsend.com"
+    "domain": "landsend.com"
   },
   {
     "product_type": "Ecommerce",
@@ -55138,7 +55125,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.rpsfabrication.com"
+    "domain": "rpsfabrication.com"
   },
   {
     "product_type": "Ecommerce",
@@ -55152,7 +55139,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.realtruck.com"
+    "domain": "realtruck.com"
   },
   {
     "product_type": "Ecommerce",
@@ -55220,7 +55207,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.shop.krogeriwireless.com"
+    "domain": "shop.krogeriwireless.com"
   },
   {
     "product_type": "Ecommerce",
@@ -55234,7 +55221,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.giservicecenter.com"
+    "domain": "giservicecenter.com"
   },
   {
     "product_type": "Ecommerce",
@@ -55262,7 +55249,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.threadless.com"
+    "domain": "threadless.com"
   },
   {
     "product_type": "Ecommerce",
@@ -55276,7 +55263,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.addictivedesertdesigns.com"
+    "domain": "addictivedesertdesigns.com"
   },
   {
     "product_type": "Ecommerce",
@@ -55304,7 +55291,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.shop.guess.com"
+    "domain": "shop.guess.com"
   },
   {
     "product_type": "Ecommerce",
@@ -55318,7 +55305,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.Www.treadmarks.store"
+    "domain": "Www.treadmarks.store"
   },
   {
     "product_type": "Ecommerce",
@@ -55344,7 +55331,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.mikadousa.com"
+    "domain": "mikadousa.com"
   },
   {
     "product_type": "Ecommerce",
@@ -55356,7 +55343,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.embarkvet.com"
+    "domain": "embarkvet.com"
   },
   {
     "product_type": "Ecommerce",
@@ -55370,7 +55357,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.irockersup.com"
+    "domain": "irockersup.com"
   },
   {
     "product_type": "Ecommerce",
@@ -55384,7 +55371,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.josbank.com"
+    "domain": "josbank.com"
   },
   {
     "product_type": "Ecommerce",
@@ -55398,7 +55385,7 @@ const merchantData = [
     "categories": [
       "luxury"
     ],
-    "domain": "www.thepearlsource.com"
+    "domain": "thepearlsource.com"
   },
   {
     "product_type": "Ecommerce",
@@ -55412,7 +55399,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.bellsofsteel.us"
+    "domain": "bellsofsteel.us"
   },
   {
     "product_type": "Ecommerce",
@@ -55426,7 +55413,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.gogrit.us"
+    "domain": "gogrit.us"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -55440,7 +55427,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.onecall.com"
+    "domain": "onecall.com"
   },
   {
     "product_type": "Ecommerce",
@@ -55454,7 +55441,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.keh.com"
+    "domain": "keh.com"
   },
   {
     "product_type": "Ecommerce",
@@ -55468,7 +55455,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.glenandloch.com"
+    "domain": "glenandloch.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -55477,12 +55464,12 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fwww.summitracing.com%2F&merchant_ari=YHVZP0QCIWOH3KF3",
     "icon_url": "https://cdn1.affirm.com/platform/public/promos/assets/YHVZP0QCIWOH3KF3/logo/logo1x.png",
     "ari": "YHVZP0QCIWOH3KF3",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "auto",
     "categories": [
       "auto"
     ],
-    "domain": "www.summitracing.com"
+    "domain": "summitracing.com"
   },
   {
     "product_type": "Ecommerce",
@@ -55496,7 +55483,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.cjponyparts.com"
+    "domain": "cjponyparts.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -55508,7 +55495,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.constructiveplaythings.com"
+    "domain": "constructiveplaythings.com"
   },
   {
     "product_type": "Ecommerce",
@@ -55522,7 +55509,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.northridge4x4.com"
+    "domain": "northridge4x4.com"
   },
   {
     "product_type": "Ecommerce",
@@ -55574,7 +55561,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.everythingfurniture.com"
+    "domain": "everythingfurniture.com"
   },
   {
     "product_type": "Ecommerce",
@@ -55603,7 +55590,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.OutcastGarage.com"
+    "domain": "OutcastGarage.com"
   },
   {
     "product_type": "Ecommerce",
@@ -55645,7 +55632,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.shop.panasonic.com"
+    "domain": "shop.panasonic.com"
   },
   {
     "product_type": "Ecommerce",
@@ -55659,7 +55646,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.swingdesign.com"
+    "domain": "swingdesign.com"
   },
   {
     "product_type": "Ecommerce",
@@ -55673,7 +55660,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.store.haworth.com"
+    "domain": "store.haworth.com"
   },
   {
     "product_type": "Ecommerce",
@@ -55699,7 +55686,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.rockfordcollection.com"
+    "domain": "rockfordcollection.com"
   },
   {
     "product_type": "Ecommerce",
@@ -55711,7 +55698,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "auto",
     "categories": null,
-    "domain": "www.dbcustomz.com"
+    "domain": "dbcustomz.com"
   },
   {
     "product_type": "Ecommerce",
@@ -55725,7 +55712,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "m"
+    "domain": "luufbeds.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -55751,7 +55738,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.naturalwellbeing.com"
+    "domain": "naturalwellbeing.com"
   },
   {
     "product_type": "Ecommerce",
@@ -55763,7 +55750,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.zaimmotorsports.com"
+    "domain": "zaimmotorsports.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -55777,7 +55764,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.vivaterra.com"
+    "domain": "vivaterra.com"
   },
   {
     "product_type": "Ecommerce",
@@ -55803,7 +55790,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.x-ph.com"
+    "domain": "x-ph.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -55817,7 +55804,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.lovesac.com"
+    "domain": "lovesac.com"
   },
   {
     "product_type": "Ecommerce",
@@ -55831,7 +55818,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.EVOPOWERSPORTS.COM"
+    "domain": "EVOPOWERSPORTS.COM"
   },
   {
     "product_type": "Ecommerce",
@@ -55843,7 +55830,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "accessories",
     "categories": null,
-    "domain": "www.mrkate.com"
+    "domain": "mrkate.com"
   },
   {
     "product_type": "Ecommerce",
@@ -55869,7 +55856,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.efcollection.com"
+    "domain": "efcollection.com"
   },
   {
     "product_type": "Ecommerce",
@@ -55883,7 +55870,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.thehvacgenius.com"
+    "domain": "thehvacgenius.com"
   },
   {
     "product_type": "Ecommerce",
@@ -55909,7 +55896,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.ibeat.com"
+    "domain": "ibeat.com"
   },
   {
     "product_type": "Ecommerce",
@@ -55921,7 +55908,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.plottergeeks.com"
+    "domain": "plottergeeks.com"
   },
   {
     "product_type": "Ecommerce",
@@ -55935,7 +55922,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.q9powersportsusa.com"
+    "domain": "q9powersportsusa.com"
   },
   {
     "product_type": "Ecommerce",
@@ -55947,7 +55934,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.chucklevins.com"
+    "domain": "chucklevins.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -55975,7 +55962,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.romphim.com"
+    "domain": "romphim.com"
   },
   {
     "product_type": "Ecommerce",
@@ -55989,7 +55976,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.lightingnewyork.com"
+    "domain": "lightingnewyork.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -56015,7 +56002,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.deepdiscount.com"
+    "domain": "deepdiscount.com"
   },
   {
     "product_type": "Ecommerce",
@@ -56029,7 +56016,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.moissaniteco.com"
+    "domain": "moissaniteco.com"
   },
   {
     "product_type": "Ecommerce",
@@ -56055,7 +56042,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.flightvelocity.com"
+    "domain": "flightvelocity.com"
   },
   {
     "product_type": "Ecommerce",
@@ -56069,7 +56056,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "m"
+    "domain": "arbrheights.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -56081,7 +56068,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.thegrommet.com"
+    "domain": "thegrommet.com"
   },
   {
     "product_type": "Ecommerce",
@@ -56095,7 +56082,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.theproscloset.com"
+    "domain": "theproscloset.com"
   },
   {
     "product_type": "Ecommerce",
@@ -56109,7 +56096,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.balsamhill.com"
+    "domain": "balsamhill.com"
   },
   {
     "product_type": "Ecommerce",
@@ -56165,7 +56152,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.coastal.com"
+    "domain": "coastal.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -56179,7 +56166,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.toms.com"
+    "domain": "toms.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -56191,7 +56178,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.hallmark.com"
+    "domain": "hallmark.com"
   },
   {
     "product_type": "Ecommerce",
@@ -56205,7 +56192,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.medicalbreakthrough.org"
+    "domain": "medicalbreakthrough.org"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -56219,7 +56206,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.justfab.com"
+    "domain": "justfab.com"
   },
   {
     "product_type": "Ecommerce",
@@ -56247,7 +56234,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.overlandgearguy.com"
+    "domain": "overlandgearguy.com"
   },
   {
     "product_type": "Ecommerce",
@@ -56261,7 +56248,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "/"
+    "domain": "performancecorvettes.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -56275,7 +56262,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.guitarsonmain.com"
+    "domain": "guitarsonmain.com"
   },
   {
     "product_type": "Ecommerce",
@@ -56289,7 +56276,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.uberdoors.com"
+    "domain": "uberdoors.com"
   },
   {
     "product_type": "Ecommerce",
@@ -56327,7 +56314,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "electronics",
     "categories": null,
-    "domain": "www.allenscamera.com"
+    "domain": "allenscamera.com"
   },
   {
     "product_type": "Ecommerce",
@@ -56341,7 +56328,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "m"
+    "domain": "palletbeds.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -56355,7 +56342,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.batteriesplus.com"
+    "domain": "batteriesplus.com"
   },
   {
     "product_type": "Ecommerce",
@@ -56369,7 +56356,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.authenteak.com"
+    "domain": "authenteak.com"
   },
   {
     "product_type": "Ecommerce",
@@ -56393,7 +56380,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.everbluetraining.com"
+    "domain": "everbluetraining.com"
   },
   {
     "product_type": "Ecommerce",
@@ -56407,7 +56394,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.SafeandVaultStore.com"
+    "domain": "SafeandVaultStore.com"
   },
   {
     "product_type": "Ecommerce",
@@ -56421,7 +56408,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.zinus.com"
+    "domain": "zinus.com"
   },
   {
     "product_type": "Ecommerce",
@@ -56435,7 +56422,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.getqardio.com"
+    "domain": "getqardio.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -56449,7 +56436,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.sunfrogshirts.com"
+    "domain": "sunfrogshirts.com"
   },
   {
     "product_type": "Ecommerce",
@@ -56461,7 +56448,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "home_and_furniture",
     "categories": null,
-    "domain": "www.highfashionhome.com"
+    "domain": "highfashionhome.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -56475,7 +56462,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.claires.com"
+    "domain": "claires.com"
   },
   {
     "product_type": "Ecommerce",
@@ -56502,7 +56489,7 @@ const merchantData = [
       "apparel",
       "luxury"
     ],
-    "domain": "www.fredsegal.com"
+    "domain": "fredsegal.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -56516,7 +56503,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.dailylook.com"
+    "domain": "dailylook.com"
   },
   {
     "product_type": "Ecommerce",
@@ -56530,7 +56517,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.64audio.com"
+    "domain": "64audio.com"
   },
   {
     "product_type": "Ecommerce",
@@ -56556,7 +56543,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.casualseance.com"
+    "domain": "casualseance.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -56565,13 +56552,13 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fwww.pntrs.com%2Ft%2FTUJGRU1GSEJGTk5HRUxCRkhMRUxM&merchant_ari=Z1PLNNYOKWYESJIP",
     "icon_url": "https://cdn-assets.affirm.com/vcn_buy/v1/merchants/Z1PLNNYOKWYESJIP/logo_20190712180842/logo.png",
     "ari": "Z1PLNNYOKWYESJIP",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "home_and_furniture",
     "categories": [
       "fitness_and_gear",
       "home_and_furniture"
     ],
-    "domain": "www.tractorsupply.com"
+    "domain": "tractorsupply.com"
   },
   {
     "product_type": "Ecommerce",
@@ -56583,7 +56570,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "m"
+    "domain": "motostealz.com"
   },
   {
     "product_type": "Ecommerce",
@@ -56609,7 +56596,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.bodykits.com"
+    "domain": "bodykits.com"
   },
   {
     "product_type": "Ecommerce",
@@ -56635,7 +56622,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.snapcorrect.com"
+    "domain": "snapcorrect.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -56649,7 +56636,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.shutterfly.com"
+    "domain": "shutterfly.com"
   },
   {
     "product_type": "Ecommerce",
@@ -56663,7 +56650,7 @@ const merchantData = [
     "categories": [
       "shoes"
     ],
-    "domain": "www.stadiumgoods.com"
+    "domain": "stadiumgoods.com"
   },
   {
     "product_type": "Ecommerce",
@@ -56711,7 +56698,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.store.creekstonefarms.com"
+    "domain": "store.creekstonefarms.com"
   },
   {
     "product_type": "Ecommerce",
@@ -56725,7 +56712,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.tequipment.net"
+    "domain": "tequipment.net"
   },
   {
     "product_type": "Ecommerce",
@@ -56767,7 +56754,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.telesales.philips.com"
+    "domain": "telesales.philips.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -56795,7 +56782,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.hellowynd.com"
+    "domain": "hellowynd.com"
   },
   {
     "product_type": "Ecommerce",
@@ -56819,7 +56806,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "auto",
     "categories": null,
-    "domain": "www.suncoastdiesel.com"
+    "domain": "suncoastdiesel.com"
   },
   {
     "product_type": "Ecommerce",
@@ -56833,7 +56820,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.homebrewing.org"
+    "domain": "homebrewing.org"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -56842,12 +56829,12 @@ const merchantData = [
     "merchant_url": "https://www.affirm.com/apps/affiliate/v1/generate-url?merchant_fallback_url=https%3A%2F%2Fwww.livingspaces.com&merchant_ari=Z751AGKS3VI4PPK4",
     "icon_url": "https://cdn-assets.affirm.com/vcn_buy/v1/merchants/Z751AGKS3VI4PPK4/logo_20190712132909/logo.png",
     "ari": "Z751AGKS3VI4PPK4",
-    "zero_apr": true,
+    "zero_apr": false,
     "primary_category": "home_and_furniture",
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.livingspaces.com"
+    "domain": "livingspaces.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -56861,7 +56848,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.rue21.com"
+    "domain": "rue21.com"
   },
   {
     "product_type": "Ecommerce",
@@ -56875,7 +56862,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.gallerychandeliers.com"
+    "domain": "gallerychandeliers.com"
   },
   {
     "product_type": "Ecommerce",
@@ -56915,7 +56902,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.cubiczirconia.com"
+    "domain": "cubiczirconia.com"
   },
   {
     "product_type": "Ecommerce",
@@ -56983,7 +56970,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.cascadianwater.com"
+    "domain": "cascadianwater.com"
   },
   {
     "product_type": "Ecommerce",
@@ -56997,7 +56984,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.Norakogan.com"
+    "domain": "Norakogan.com"
   },
   {
     "product_type": "Ecommerce",
@@ -57023,7 +57010,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.cnc-motorsports.com"
+    "domain": "cnc-motorsports.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -57037,7 +57024,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.tupperware.com"
+    "domain": "tupperware.com"
   },
   {
     "product_type": "Ecommerce",
@@ -57051,7 +57038,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.gardner-white.com"
+    "domain": "gardner-white.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -57065,7 +57052,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.esalon.com"
+    "domain": "esalon.com"
   },
   {
     "product_type": "Ecommerce",
@@ -57091,7 +57078,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.islesurfandsup.com"
+    "domain": "islesurfandsup.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -57105,7 +57092,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.novica.com"
+    "domain": "novica.com"
   },
   {
     "product_type": "Ecommerce",
@@ -57131,7 +57118,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.sleepfrankly.com"
+    "domain": "sleepfrankly.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -57145,7 +57132,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.shopladder.com"
+    "domain": "shopladder.com"
   },
   {
     "product_type": "Ecommerce",
@@ -57159,7 +57146,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "o"
+    "domain": "naadam.co"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -57173,7 +57160,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.sewelldirect.com"
+    "domain": "sewelldirect.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -57187,7 +57174,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.usa.loccitane.com"
+    "domain": "usa.loccitane.com"
   },
   {
     "product_type": "Ecommerce",
@@ -57211,7 +57198,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "apparel",
     "categories": null,
-    "domain": "www.clothesmentorcolumbus.com"
+    "domain": "clothesmentorcolumbus.com"
   },
   {
     "product_type": "Ecommerce",
@@ -57225,7 +57212,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.GatorCovers.com"
+    "domain": "GatorCovers.com"
   },
   {
     "product_type": "Ecommerce",
@@ -57239,7 +57226,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.pbkids.com"
+    "domain": "pbkids.com"
   },
   {
     "product_type": "Ecommerce",
@@ -57251,7 +57238,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "/"
+    "domain": "floodedjewelers.com/"
   },
   {
     "product_type": "Ecommerce",
@@ -57265,7 +57252,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.myblanquil.com"
+    "domain": "myblanquil.com"
   },
   {
     "product_type": "Ecommerce",
@@ -57319,7 +57306,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.lafayette148ny.com"
+    "domain": "lafayette148ny.com"
   },
   {
     "product_type": "Ecommerce",
@@ -57331,7 +57318,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.discounttronics.com"
+    "domain": "discounttronics.com"
   },
   {
     "product_type": "Ecommerce",
@@ -57359,7 +57346,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.cindergrill.com"
+    "domain": "cindergrill.com"
   },
   {
     "product_type": "Ecommerce",
@@ -57399,7 +57386,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.nambe.com"
+    "domain": "nambe.com"
   },
   {
     "product_type": "Ecommerce",
@@ -57411,7 +57398,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "home_and_furniture",
     "categories": null,
-    "domain": "www.RaleysFurniture.com"
+    "domain": "RaleysFurniture.com"
   },
   {
     "product_type": "Ecommerce",
@@ -57423,7 +57410,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "o"
+    "domain": "candidhome.co"
   },
   {
     "product_type": "Ecommerce",
@@ -57449,7 +57436,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.rosieassoulin.com"
+    "domain": "rosieassoulin.com"
   },
   {
     "product_type": "Ecommerce",
@@ -57463,7 +57450,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.phones.gosmartmobile.com"
+    "domain": "phones.gosmartmobile.com"
   },
   {
     "product_type": "Ecommerce",
@@ -57489,7 +57476,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.babybuddhaproducts.com"
+    "domain": "babybuddhaproducts.com"
   },
   {
     "product_type": "Ecommerce",
@@ -57501,7 +57488,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.rainbowguitars.com"
+    "domain": "rainbowguitars.com"
   },
   {
     "product_type": "Ecommerce",
@@ -57515,7 +57502,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.modernica.net"
+    "domain": "modernica.net"
   },
   {
     "product_type": "Ecommerce",
@@ -57529,7 +57516,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.pauhanasurfco.com"
+    "domain": "pauhanasurfco.com"
   },
   {
     "product_type": "Ecommerce",
@@ -57541,7 +57528,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "apparel",
     "categories": null,
-    "domain": "www.swakdesigns.com"
+    "domain": "swakdesigns.com"
   },
   {
     "product_type": "Ecommerce",
@@ -57556,7 +57543,7 @@ const merchantData = [
       "apparel",
       "shoes"
     ],
-    "domain": "www.nisolo.com"
+    "domain": "nisolo.com"
   },
   {
     "product_type": "Ecommerce",
@@ -57570,7 +57557,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.globalgolf.com"
+    "domain": "globalgolf.com"
   },
   {
     "product_type": "Ecommerce",
@@ -57584,7 +57571,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.kmmco.com"
+    "domain": "kmmco.com"
   },
   {
     "product_type": "Ecommerce",
@@ -57596,7 +57583,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.topresume.com"
+    "domain": "topresume.com"
   },
   {
     "product_type": "Ecommerce",
@@ -57610,7 +57597,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.maxweiner.com"
+    "domain": "maxweiner.com"
   },
   {
     "product_type": "Ecommerce",
@@ -57624,7 +57611,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.keetsa.com"
+    "domain": "keetsa.com"
   },
   {
     "product_type": "Ecommerce",
@@ -57674,7 +57661,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.coastaloffroad.com"
+    "domain": "coastaloffroad.com"
   },
   {
     "product_type": "Ecommerce",
@@ -57686,7 +57673,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.awesomemowerparts.com"
+    "domain": "awesomemowerparts.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -57700,7 +57687,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.tipsyelves.com"
+    "domain": "tipsyelves.com"
   },
   {
     "product_type": "Ecommerce",
@@ -57714,7 +57701,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.oneclicktires.com"
+    "domain": "oneclicktires.com"
   },
   {
     "product_type": "Ecommerce",
@@ -57740,7 +57727,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.dwr.com"
+    "domain": "dwr.com"
   },
   {
     "product_type": "Ecommerce",
@@ -57754,7 +57741,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "m"
+    "domain": "ssbc-usa.com"
   },
   {
     "product_type": "Ecommerce",
@@ -57782,7 +57769,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.bedslide.com"
+    "domain": "bedslide.com"
   },
   {
     "product_type": "Ecommerce",
@@ -57794,7 +57781,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": "home_and_furniture",
     "categories": null,
-    "domain": "www.westave.com"
+    "domain": "westave.com"
   },
   {
     "product_type": "Ecommerce",
@@ -57808,7 +57795,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.txpowersports.com"
+    "domain": "txpowersports.com"
   },
   {
     "product_type": "Ecommerce",
@@ -57822,7 +57809,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.viciousoffroad.com"
+    "domain": "viciousoffroad.com"
   },
   {
     "product_type": "Ecommerce",
@@ -57848,7 +57835,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.shop.southernmobilityonline.com"
+    "domain": "shop.southernmobilityonline.com"
   },
   {
     "product_type": "Ecommerce",
@@ -57862,7 +57849,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.eSaleRugs.com"
+    "domain": "eSaleRugs.com"
   },
   {
     "product_type": "Ecommerce",
@@ -57876,7 +57863,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.demesy.com"
+    "domain": "demesy.com"
   },
   {
     "product_type": "Ecommerce",
@@ -57904,7 +57891,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.buy.gazelle.com"
+    "domain": "buy.gazelle.com"
   },
   {
     "product_type": "Ecommerce",
@@ -57930,7 +57917,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.kranse.com"
+    "domain": "kranse.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -57944,7 +57931,7 @@ const merchantData = [
     "categories": [
       "accessories"
     ],
-    "domain": "www.spreadshirt.com"
+    "domain": "spreadshirt.com"
   },
   {
     "product_type": "Ecommerce",
@@ -57960,7 +57947,7 @@ const merchantData = [
       "apparel",
       "luxury"
     ],
-    "domain": "www.davidsbridal.com"
+    "domain": "davidsbridal.com"
   },
   {
     "product_type": "Ecommerce",
@@ -57986,7 +57973,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.trinaturk.com"
+    "domain": "trinaturk.com"
   },
   {
     "product_type": "Ecommerce",
@@ -57998,7 +57985,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.cadex-cycling.com"
+    "domain": "cadex-cycling.com"
   },
   {
     "product_type": "Ecommerce",
@@ -58024,7 +58011,7 @@ const merchantData = [
     "categories": [
       "electronics"
     ],
-    "domain": "www.nixplay.com"
+    "domain": "nixplay.com"
   },
   {
     "product_type": "Ecommerce",
@@ -58038,7 +58025,7 @@ const merchantData = [
     "categories": [
       "travel_and_events"
     ],
-    "domain": "www.beethewellness.com"
+    "domain": "beethewellness.com"
   },
   {
     "product_type": "Ecommerce",
@@ -58052,7 +58039,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "www.thmotorsports.com"
+    "domain": "thmotorsports.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -58064,7 +58051,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.scientificsonline.com"
+    "domain": "scientificsonline.com"
   },
   {
     "product_type": "Ecommerce",
@@ -58078,7 +58065,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "m"
+    "domain": "alen.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -58092,7 +58079,7 @@ const merchantData = [
     "categories": [
       "fitness_and_gear"
     ],
-    "domain": "www.trademarkinnovations.com"
+    "domain": "trademarkinnovations.com"
   },
   {
     "product_type": "Ecommerce",
@@ -58107,7 +58094,7 @@ const merchantData = [
       "accessories",
       "luxury"
     ],
-    "domain": "www.jomashop.com"
+    "domain": "jomashop.com"
   },
   {
     "product_type": "Ecommerce",
@@ -58121,7 +58108,7 @@ const merchantData = [
     "categories": [
       "auto"
     ],
-    "domain": "/"
+    "domain": "coiloverdepot.com/"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -58133,7 +58120,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.spencersonline.com"
+    "domain": "spencersonline.com"
   },
   {
     "product_type": "Ecommerce",
@@ -58145,7 +58132,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "m"
+    "domain": "tireswheelsdirect.com"
   },
   {
     "product_type": "Ecommerce",
@@ -58159,7 +58146,7 @@ const merchantData = [
     "categories": [
       "apparel"
     ],
-    "domain": "www.laneboots.com"
+    "domain": "laneboots.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -58173,7 +58160,7 @@ const merchantData = [
     "categories": [
       "beauty"
     ],
-    "domain": "www.healthydirections.com"
+    "domain": "healthydirections.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -58185,7 +58172,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "www.bn.com"
+    "domain": "bn.com"
   },
   {
     "product_type": "Affirm Anywhere",
@@ -58199,7 +58186,7 @@ const merchantData = [
     "categories": [
       "home_and_furniture"
     ],
-    "domain": "www.instawares.com"
+    "domain": "instawares.com"
   },
   {
     "product_type": "Ecommerce",
@@ -58211,7 +58198,7 @@ const merchantData = [
     "zero_apr": false,
     "primary_category": null,
     "categories": null,
-    "domain": "m"
+    "domain": "dksuits.com"
   },
   {
     "product_type": "Ecommerce",
@@ -58225,6 +58212,6 @@ const merchantData = [
     "categories": null,
     "domain": "www.kapesjewelry.com"
   }
-];
+]
 
 export default merchantData;
