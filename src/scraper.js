@@ -61,7 +61,7 @@ for (merchant of data) {
     console.log(`Processed ${processedCount} merchants:\t${merchant.ari}\t${merchant.name}\t\t\t${standardizedMerchantDomain}`);
 
     if (processedCount % 100 === 0) {
-        console.log(merchantJSONWithDomain);
+        console.log({ merchantJSONWithDomain });
     }
 
     processedCount += 1;
@@ -69,5 +69,5 @@ for (merchant of data) {
 
 console.log('-------- Processing Complete! --------');
 
-console.log(merchantJSONWithDomain);
+console.log({ merchantJSONWithDomain });
 
