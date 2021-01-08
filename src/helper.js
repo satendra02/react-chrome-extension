@@ -67,3 +67,23 @@ export const highlightAffirmMerchantsInGoogleSearch = () => {
       }
     }
 };
+
+export const isAffirmMerchant = () => {
+  const url = document.location.host;
+  for (let merchant of merchantData) {
+    if (url === merchant.domain){
+      return true;
+    }
+  }
+  return false;
+};
+
+export const AffirmMerchantMetaData = () => {
+  const url = document.location.host;
+  for (let merchant of merchantData) {
+    if (url.toLowerCase() === merchant.domain.toLowerCase()){
+      return merchant;
+    }
+  }
+  return {};
+};

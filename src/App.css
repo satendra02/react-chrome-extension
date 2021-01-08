@@ -26,3 +26,39 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.merchant-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.merchant-logo{
+  height: 48px;
+  width: 48px;
+}
+
+.merchant-card-row {
+  height: 24px;
+  font-family: 'Calibre',sans-serif;
+}
+
+.merchant-card-image {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: calc(100% - 72px);
+  height: 208px;
+  position: relative;
+}
+
+.merchant-card-holder {
+  border: 6px;
+  box-sizing: border-box;
+  box-shadow: 0 1px 3px 0 rgba(6,8,9,.16);
+}
+
+.merchant-card-name {
+  font-weight: 500;
+  font-family: 'Calibre',sans-serif;
+}
