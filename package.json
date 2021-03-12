@@ -106,7 +106,7 @@
     "node-sass": "^4.14.1",
     "npm-watch": "^0.6.0",
     "postcss-loader": "^3.0.0",
-    "react-dev-utils": "^10.2.1",
+    "react-dev-utils": "^11.0.4",
     "sass-loader": "^10.0.3",
     "style-loader": "^1.2.1",
     "sw-precache-webpack-plugin": "^1.0.0",
