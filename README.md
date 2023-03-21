@@ -22,7 +22,7 @@ The boilerplate is to quickly create a chrome extension using ReactJs, The motiv
 - Isolated extension CSS using Iframe
 
 ## Installation
->Make sure you have latest **NodeJs** version installed
+>Make sure you have **NodeJs(>=16)** version installed
 
 Clone repo
 
