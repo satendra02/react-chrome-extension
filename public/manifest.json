@@ -2,20 +2,22 @@
   "short_name": "My Extension",
   "name": "My Extension",
   "version": "1.1",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "background": {
-    "scripts": ["app/background.js"]
+    "service_worker": "app/background.js"
   },
-  "browser_action": {},
-  "content_scripts" : [
+  "action": {},
+  "content_scripts": [
     {
-      "matches": [ "<all_urls>" ],
+      "matches": ["<all_urls>"],
       "css": ["/css/root.css"],
       "js": ["/static/js/content.js"]
     }
   ],
-  "web_accessible_resources":[
-    "/static/css/content.css", "/static/media/*"
-  ],
-  "content_security_policy": "script-src 'self' 'sha256-GgRxrVOKNdB4LrRsVPDSbzvfdV4UqglmviH9GoBJ5jk='; object-src 'self'"
+  "web_accessible_resources": [
+    {
+      "resources": ["/static/css/content.css", "/static/media/*"],
+      "matches": ["<all_urls>"]
+    }
+  ]
 }
