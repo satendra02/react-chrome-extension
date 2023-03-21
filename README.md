@@ -3,7 +3,7 @@ A chrome extension boilerplate project with ReactJs using inject page strategy.
 
 Stop worrying about the configurational challenges to set up the chrome extension, just start writing your components as usual. Read [detailed blog](https://medium.com/@satendra02/create-chrome-extension-with-reactjs-using-inject-page-strategy-137650de1f39)
 
->This project is sponsered By [Recast Studio](https://recast.studio)
+>This project is sponsored By [Recast Studio](https://recast.studio)
 
 
 The boilerplate is to quickly create a chrome extension using ReactJs, The motivation behind creating a boilerplate was:
