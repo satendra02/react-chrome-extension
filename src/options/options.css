@@ -1,0 +1,85 @@
+@import '../styles/app.css';
+
+body {
+  margin: 0;
+  padding: 2rem 1.5rem;
+  background-color: #f6f7f9;
+  color: #213547;
+  font-family:
+    system-ui,
+    -apple-system,
+    'Segoe UI',
+    Roboto,
+    sans-serif;
+}
+
+.options {
+  max-width: 42rem;
+  margin: 0 auto;
+}
+
+.options-heading {
+  margin: 0 0 0.25rem;
+  font-size: 1.5rem;
+}
+
+.options-subheading {
+  margin: 0 0 0.75rem;
+  font-size: 1rem;
+}
+
+.options-note {
+  margin: 0 0 1.5rem;
+  color: #56606b;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.options-note code {
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+  background-color: rgb(0 0 0 / 7%);
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.85em;
+}
+
+.options-field {
+  margin: 0 0 1.25rem;
+  padding: 1rem;
+  border: 1px solid #dfe3e8;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.options-field legend,
+.options-label {
+  padding: 0 0.4rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.options-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  padding: 0;
+}
+
+.options-radio {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-right: 1.25rem;
+  font-size: 0.9rem;
+}
+
+.options-field input[type='range'] {
+  width: 100%;
+}
+
+.options-preview-frame {
+  max-width: 100%;
+  overflow: hidden;
+  border: 1px solid #dfe3e8;
+  border-radius: 8px;
+  background-color: #fff;
+}

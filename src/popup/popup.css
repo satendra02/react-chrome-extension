@@ -1,0 +1,11 @@
+body {
+  width: 320px;
+  margin: 0;
+  background-color: #fff;
+  font-family:
+    system-ui,
+    -apple-system,
+    'Segoe UI',
+    Roboto,
+    sans-serif;
+}

@@ -1,0 +1,73 @@
+/*
+ * Styles for the shared <App /> component.
+ *
+ * Loaded three different ways on purpose:
+ *   - the sidebar imports it with `?inline` and injects it into its iframe
+ *   - the popup and options pages import it normally
+ *
+ * It must therefore never assume it owns the document, and never style bare
+ * `body` / `html` selectors. Surface-level styles belong next to the surface.
+ */
+
+.app {
+  font-family:
+    system-ui,
+    -apple-system,
+    'Segoe UI',
+    Roboto,
+    sans-serif;
+  color: #213547;
+  text-align: center;
+}
+
+.app-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1.5rem 1rem;
+  background-color: #282c34;
+  color: #fff;
+}
+
+.app-logo {
+  width: 72px;
+  height: 72px;
+  animation: app-logo-spin 20s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .app-logo {
+    animation: none;
+  }
+}
+
+.app-title {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.app-intro {
+  margin: 0;
+  padding: 1rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.app-intro code {
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+  background-color: rgb(0 0 0 / 7%);
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.85em;
+}
+
+@keyframes app-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
