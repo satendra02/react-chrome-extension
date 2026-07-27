@@ -65,11 +65,15 @@ Go to `chrome://extensions` and switch on **Developer mode**.
 
 <img src="https://cdn-images-1.medium.com/max/1600/1*OaygCwLSwLakyTqCADbmDw.png" />
 
-Click **Load unpacked** and select the `dist` folder. Then open any website and click the extension icon — the injected sidebar toggles.
+Click **Load unpacked** and select the **`dist` folder**, not the project root. Then open any website and click the extension icon — the injected sidebar toggles.
 
 <img src="https://cdn-images-1.medium.com/max/1600/1*bXJYfvrcHDWKwUZCrPI-8w.png" />
 
+> **Coming from the webpack version of this boilerplate?** The build output moved from `build/` to `dist/`, and the manifest is now generated at build time rather than committed at `public/manifest.json`. Selecting the project root gives you *"Manifest file is missing or unreadable"* — there is no manifest there to find.
+
 > Content scripts are only injected on navigation. Tabs that were already open when you installed or reloaded the extension need a refresh before the toolbar button will do anything there.
+
+`npm run dev` and `npm run build` both write to `dist/`, but they are not interchangeable: only the `npm run dev` output is wired for hot reload. If you loaded a production build, stop and re-run `npm run dev`, then hit the reload icon on the extension card.
 
 ## Project structure
 
