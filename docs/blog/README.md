@@ -1,6 +1,8 @@
 # Blog drafts
 
-Unpublished drafts, kept here so the writing about the boilerplate lives alongside the boilerplate. Nothing in this directory is part of the extension or the build — you can safely delete it in a fork.
+Source for the writing about the boilerplate, kept alongside the boilerplate itself. Nothing in this directory is part of the extension or the build — you can safely delete it in a fork.
+
+The follow-up post is published: **[Eight years later: rebuilding the React Chrome extension boilerplate](https://medium.com/@satendrarai/eight-years-later-rebuilding-the-react-chrome-extension-boilerplate-fe6463ed8d99)**.
 
 | File | What it is |
 | --- | --- |
@@ -25,4 +27,4 @@ The header is a 1200×630 HTML page rendered at 2× with headless Chrome. Both c
 
 The original post is [Create chrome extension with ReactJs using inject page strategy](https://itnext.io/create-chrome-extension-with-reactjs-using-inject-page-strategy-137650de1f39) (ITNEXT, July 2018). It is still linked from the top-level README as background on the inject-page strategy; its build steps are superseded by the follow-up.
 
-Both drafts contain a `NEW_POST_URL` placeholder to fill in once the follow-up is published.
+The banner in `2018-post-update-banner.md` still needs adding to the original article by hand — Medium has no API for editing an existing post.
