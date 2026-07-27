@@ -1,0 +1,19 @@
+/*
+ * Styles that live *inside* the sidebar's iframe.
+ *
+ * This is where a `body` rule is safe to write: the iframe is a separate
+ * document, so nothing here can reach the page the extension is injected into.
+ * That isolation is the whole point of the inject-page strategy.
+ */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  font-family:
+    system-ui,
+    -apple-system,
+    'Segoe UI',
+    Roboto,
+    sans-serif;
+}

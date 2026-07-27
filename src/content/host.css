@@ -1,0 +1,44 @@
+/*
+ * The only stylesheet this extension injects into the page it is visiting.
+ *
+ * Every rule is scoped to #my-extension-root. The previous version of this
+ * boilerplate shipped a bare `body { margin: 0; padding: 0; font-family: ... }`
+ * rule here, which silently restyled every site the user visited. Nothing in
+ * this file may select an element the extension does not own.
+ */
+
+#my-extension-root {
+  position: fixed;
+  top: 0;
+  width: var(--rce-width, 400px);
+  max-width: 100vw;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgb(0 0 0 / 62%);
+  /* Above everything the host page is likely to stack. */
+  z-index: 2147483647;
+}
+
+#my-extension-root[data-side='right'] {
+  right: 0;
+}
+
+#my-extension-root[data-side='left'] {
+  left: 0;
+}
+
+#my-extension-root[hidden] {
+  display: none;
+}
+
+#my-extension-root iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  /* Stop a dark-mode host page from tinting the iframe's form controls. */
+  color-scheme: light;
+}
