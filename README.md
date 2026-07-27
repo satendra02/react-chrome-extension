@@ -2,7 +2,9 @@
 
 A Chrome extension boilerplate built with **React 19, TypeScript and Vite**, using the inject-page strategy.
 
-Stop worrying about the configuration challenges of setting up a Chrome extension — just start writing components. Read the [detailed blog post](https://medium.com/@satendra02/create-chrome-extension-with-reactjs-using-inject-page-strategy-137650de1f39) for the background on the approach.
+Stop worrying about the configuration challenges of setting up a Chrome extension — just start writing components.
+
+📖 **[Eight years later: rebuilding the React Chrome extension boilerplate](https://medium.com/@satendrarai/eight-years-later-rebuilding-the-react-chrome-extension-boilerplate-fe6463ed8d99)** — how the current Vite + MV3 + React 19 setup works, and what changed from the original. The [2018 post](https://itnext.io/create-chrome-extension-with-reactjs-using-inject-page-strategy-137650de1f39) is still the best explanation of *why* the inject-page strategy is worth using, but its build steps no longer apply.
 
 > This project is sponsored by [Recast Studio](https://recast.studio)
 

@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html, body {
+    width: 1200px;
+    height: 630px;
+    overflow: hidden;
+  }
+
+  body {
+    background: #0a0d14;
+    font-family: -apple-system, 'SF Pro Display', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .canvas {
+    position: relative;
+    width: 1200px;
+    height: 630px;
+    display: flex;
+  }
+
+  /* warm-up glow behind the 2026 side */
+  .canvas::after {
+    content: '';
+    position: absolute;
+    right: -140px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 720px;
+    height: 720px;
+    background: radial-gradient(circle, rgba(100,108,255,0.20) 0%, rgba(65,209,255,0.07) 42%, transparent 68%);
+    pointer-events: none;
+  }
+
+  .panel {
+    position: relative;
+    width: 600px;
+    height: 630px;
+    padding: 96px 54px 0;
+    display: flex;
+    flex-direction: column;
+    /* top-aligned, not centred: the two code blocks have different line
+       counts, and centring each panel independently pushed the taller
+       one up and knocked every shared baseline out of alignment */
+    justify-content: flex-start;
+    z-index: 1;
+  }
+
+  .then { background: linear-gradient(180deg, #0c1018 0%, #0a0d14 100%); }
+  .now  { background: linear-gradient(180deg, #0d1120 0%, #0a0e18 100%); }
+
+  .year {
+    font-size: 104px;
+    font-weight: 700;
+    letter-spacing: -0.045em;
+    line-height: 1;
+  }
+  .then .year { color: #3f4a5a; }
+  .now .year {
+    background: linear-gradient(100deg, #41d1ff 0%, #8b7cff 52%, #bd34fe 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .caption {
+    margin-top: 18px;
+    margin-bottom: 42px;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: -0.008em;
+    /* both captions must land on exactly two lines so the code
+       blocks below them stay aligned across the divider */
+    max-width: 492px;
+    min-height: 57px;
+  }
+  .then .caption { color: #5d6b7d; }
+  .now .caption { color: #b9c6da; }
+
+  /* code is texture, not reading material */
+  .code {
+    font-family: 'SF Mono', Menlo, ui-monospace, monospace;
+    font-size: 14px;
+    line-height: 1.72;
+    white-space: pre;
+    letter-spacing: -0.01em;
+  }
+  .then .code { color: #39424f; }
+  .now .code { color: #4a5a72; }
+
+  .then .code .live { color: #57657a; }
+  .strike {
+    color: #d0424f;
+    text-decoration: line-through;
+    text-decoration-thickness: 1.5px;
+  }
+
+  .now .code .kw  { color: #8b7cff; }
+  .now .code .fn  { color: #41d1ff; }
+  .now .code .str { color: #6f8ba8; }
+  .now .code .key { color: #93a6c0; }
+
+  .file {
+    font-family: 'SF Mono', Menlo, ui-monospace, monospace;
+    font-size: 12.5px;
+    letter-spacing: 0.02em;
+    margin-bottom: 14px;
+  }
+  .then .file { color: #333c48; }
+  .now .file { color: #55698a; }
+
+  /* divider + transition badge */
+  .divider {
+    position: absolute;
+    left: 600px;
+    top: 0;
+    width: 1px;
+    height: 630px;
+    background: linear-gradient(180deg, transparent 0%, rgba(255,255,255,0.10) 22%, rgba(255,255,255,0.10) 78%, transparent 100%);
+    z-index: 2;
+  }
+
+  .badge {
+    position: absolute;
+    left: 600px;
+    top: 315px;
+    transform: translate(-50%, -50%);
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    background: #0a0d14;
+    border: 1px solid rgba(255,255,255,0.13);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+    box-shadow: 0 0 0 12px #0a0d14, 0 12px 40px rgba(0,0,0,0.55);
+  }
+  .badge svg { display: block; }
+</style>
+</head>
+<body>
+  <div class="canvas">
+
+    <div class="panel then">
+      <div class="year">2018</div>
+      <div class="caption">Eject. Hand-edit the webpack config.<br>Strip the hash so the manifest can name it.</div>
+      <div>
+        <div class="file">config/webpack.config.prod.js</div>
+        <div class="code">output: {
+  path: paths.appBuild,
+  filename: <span class="live">'static/js/[name].js'</span>,
+  chunkFilename: 'static/js/[name]<span class="strike">.[chunkhash:8]</span>.chunk.js',
+  publicPath: publicPath,
+},</div>
+      </div>
+    </div>
+
+    <div class="panel now">
+      <div class="year">2026</div>
+      <div class="caption">Point it at source.<br>The manifest writes itself — hashes and all.</div>
+      <div>
+        <div class="file">manifest.config.ts</div>
+        <div class="code"><span class="kw">export default</span> <span class="fn">defineManifest</span>({
+  <span class="key">manifest_version</span>: 3,
+  <span class="key">version</span>: pkg.version,
+  <span class="key">background</span>: {
+    <span class="key">service_worker</span>: <span class="str">'src/background/index.ts'</span>,
+    <span class="key">type</span>: <span class="str">'module'</span>,
+  },
+})</div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+    <div class="badge">
+      <svg width="30" height="30" viewBox="0 0 24 24" fill="none">
+        <path d="M4 12h15M13 6l6 6-6 6" stroke="#8b7cff" stroke-width="1.9"
+              stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+
+  </div>
+</body>
+</html>
